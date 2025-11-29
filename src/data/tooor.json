@@ -1,0 +1,20 @@
+{
+  "id": 789,
+  "title": "tooor 個展「夢の中の夢」",
+  "date": "2011-03-15",
+  "author": "No Name",
+  "content": "<strong>tooor</strong>\n絵画を中心に福岡で活動。\n2009年　5月に第一回目の個展をGallary Kuwashiにて行う。\n\n\n今回のテーマ　「　夢の中の夢　」\nいろんな夢の世界をおいてます。\n不思議やわくわくetc...どうぞ楽しんでいってください！",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "tooor 絵画を中心に福岡で活動。 2009年　5月に第一回目の個展をGallary Kuwashiにて行う。   今回のテーマ　「　夢の中の夢　」 いろんな夢の世界をおいてます。 不思議やわくわくetc...どうぞ楽しんでいってください！..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": 947,
+  "title": "音と平面　　諸岡光男／田熊沙織",
+  "date": "2014-01-07",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

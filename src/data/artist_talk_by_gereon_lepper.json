@@ -1,0 +1,29 @@
+{
+  "id": 429,
+  "title": "Artist Talk by Gereon Lepper",
+  "date": "2006-10-05",
+  "author": "No Name",
+  "content": "<strong>Gereon Lepper</strong>\n1956年生まれ。彫刻家。デュッセルドルフを拠点にドイツおよびフランスで活動。\n1998年シドニービエンナーレに参加。大型の機械を作成し、重力とそれに反する力との拮抗状態を現出させる作品群で知られる。\n<a href=\"http://www.gereon-lepper.de/\" target=\"_blank\">http://www.gereon-lepper.de/</a>\n<font class=\"text11\">\n[support] art space tetra\n[event coordinator] Mizuki Endo\n</font><br />",
+  "categories": [
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "Gereon Lepper 1956年生まれ。彫刻家。デュッセルドルフを拠点にドイツおよびフランスで活動。 1998年シドニービエンナーレに参加。大型の機械を作成し、重力とそれに反する力との拮抗状態を現出させる作品群で知られる。 http://www.gereon-lepper.de/  [support] art space tetra [event coordinator] Mizuki En..."
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1278,
+  "title": "PhotoHeads 写真展",
+  "date": "2022-03-12",
+  "author": "No Name",
+  "content": "<img src =\"/upload/photoheads/image-1764441610428.jpg\" alt=\"チラシ裏\" width=“400\" >\nPhotoHeads 写真展\n\nPhotoHeads   4回目の写真展を開催します。\nテーマは\"Make It Better\"\nそれぞれの感性で光を捉え描きだした生のプリント。\n是非ご覧頂き、それぞれの”Make It Better”を\n感じて頂けたら幸いに思います。\n3月12日(土)夕方よりオープニングpartyを\n開催します。DJによるKIND groovyな音楽と共に\n写真展をお楽しみください。",
+  "categories": [
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 34,
+      "label": "genre",
+      "basename": "genre",
+      "parentId": 0,
+      "path": [
+        "genre"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": " PhotoHeads 写真展  PhotoHeads   4回目の写真展を開催します。 テーマは\"Make It Better\" それぞれの感性で光を捉え描きだした生のプリント。 是非ご覧頂き、それぞれの”Make It Better”を 感じて頂けたら幸いに思います。 3月12日(土)夕方よりオープニングpartyを 開催します。DJによるKIND groovyな音楽と共に 写真展をお楽しみく..."
+}

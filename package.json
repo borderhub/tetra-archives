@@ -1,0 +1,42 @@
+{
+  "name": "tetra-archives",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "deploy": "npm run export && gh-pages -d out",
+    "convert": "tsx convert.ts"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.1",
+    "html-react-parser": "^5.2.10",
+    "marked": "^17.0.1",
+    "next": "16.0.5",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.9.6",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^4.1.17",
+    "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.22",
+    "baseline-browser-mapping": "^2.8.32",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.5",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "typescript": "^5"
+  }
+}

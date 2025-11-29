@@ -1,0 +1,29 @@
+{
+  "id": 362,
+  "title": "project for actual art 001<br />安部 貴住 個展",
+  "date": "2004-04-03",
+  "author": "No Name",
+  "content": "福岡を拠点に雑誌の発行や音楽イベント・展覧会などを企画してきた rhythm がプロデュースする「project for actual art」シリーズ・第一弾。この企画は、福岡のアーティストをシリーズで紹介する展覧会。今回は光・音を使った作品を制作するアーティスト・安部貴住を紹介。\n\n<font class=\"text11\">\n[curator] Mizuki Endo (rhythm)\n[director] Keiji Tanaka (rhythm)\n[DM design] Takaaki Yano (rhythm)\n\nrhythm <a href=\"http://www.mhtyhr.com/\">http://www.mhtyhr.com/</a>\n</font>",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "福岡を拠点に雑誌の発行や音楽イベント・展覧会などを企画してきた rhythm がプロデュースする「project for actual art」シリーズ・第一弾。この企画は、福岡のアーティストをシリーズで紹介する展覧会。今回は光・音を使った作品を制作するアーティスト・安部貴住を紹介。   [curator] Mizuki Endo (rhythm) [director] Keiji Tanaka ..."
+}

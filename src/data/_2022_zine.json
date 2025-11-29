@@ -1,0 +1,59 @@
+{
+  "id": 1314,
+  "title": "エスドロ　夢の漫画展 2022 ゆめまんがZINE新刊発売記念",
+  "date": "2022-10-20",
+  "author": "No Name",
+  "content": "ESDRO\n漫画家/デザイナー。\n1986年生まれ。福岡在住。\n第24回アックスマンガ新人賞南伸坊個人賞受賞。\n『HIDDEN CHAMPION』連載。『アックス』不定期掲載。\n\n\nESDROこと江島健郎。\n夢の漫画を10年間描き続けている。\n夢を忠実に再現した漫画によって、読者は不思議な世界を追体験んすることができる。\nそのなかでも「ゆめまんがZINE」シリーズは印象的な夢をまとめたもの。\nライフワークの「ゆめまんが」新刊発売を記念して個展を開催します。\n\n<img src =\"/upload/_2022_zine/A4ura_esdrmnomangaten.png\" alt=\"チラシ裏\" width=“400\" >\n\nZINE（vol.1-5）\nリソグラフ・シルクスクリーン作品\n未発表作品グッズなど\n\n（門司へ巡回）\n会期 ： 2022年11月12日（土）~27日（日） ※土日祝のみ営業\n時間 ： 12:00~17:00\n場所 ： Gallery Garland 北九州市門司区清滝4-4-6",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    },
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "ESDRO 漫画家/デザイナー。 1986年生まれ。福岡在住。 第24回アックスマンガ新人賞南伸坊個人賞受賞。 『HIDDEN CHAMPION』連載。『アックス』不定期掲載。   ESDROこと江島健郎。 夢の漫画を10年間描き続けている。 夢を忠実に再現した漫画によって、読者は不思議な世界を追体験んすることができる。 そのなかでも「ゆめまんがZINE」シリーズは印象的な夢をまとめたもの。 ライ..."
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1157,
+  "title": "FUKUOKA ART BOOK MARKET",
+  "date": "2018-04-14",
+  "author": "No Name",
+  "content": "ーあなたが今まで知らなかった才能と彼らのZINEを楽しんでもらいたい。 \nFUKUOKA ART BOOK MARKETを開催します。\n福岡を中心に県内外のアーティストの福岡未発表のZINEや作品集を展示販売。\n国内外のアートブックを扱うオンラインブックショップ『flotsam books』も出店します。\nぜひ実際に手にとってみてください。\n\n初日4/14(土)はOpening Partyを開催します。\n正午からDJによる選曲、ドリンクの販売、\n夕方6時からはflotsam booksの小林さんをお迎えしてのトークを開催致します。\nぜひご来場ください。\n\nPop up shop & Talk show -\nflotsam books\n\nCast -\nlee\nRYOHEI SASAKI\nWOK22\nKY NEET\nSTANG\nsoruto\nnyke\nTAISHI NISHIHIRO\n濱田 晋\nKABEKUI\nBrinac\nGLD\nGNECK\nSCOTCH\nAyao Tazaki\nVOYAGE KIDS\nrsk420\nkojiro hara×sysu\nHBK!\naso shing\n\nOpening party LIVE & DJ -\nlee \nARCAS\nGLUE\nJAPAN\nP.CO\nNANA & Cam\nmrkm_JPN\n\n【 flotsam books 】\n■Pop up shop：4/14(土)〜4/20(金) 12:00 - 21:00 \n■Opening Talk：4/14(土) 18:00〜（4/14のみ Fee ¥1,000）\n=========\nflotsam booksはリアルな店舗を持たず、みんなの心の中にある本屋になるために、\nヴァーチャル空間に存在するオンラインブックショップです。\n誠意と真心と笑顔を頼りに、FF外から失礼しない、\n気取らないをモットーに生活必需品は扱わない普通の本屋です。\n<a href=\"http://www.flotsambooks.com/\">http://www.flotsambooks.com/</a>\n\n下記はZINE参加者の一例です。\n\n福岡を中心に県外の方も参加します。\n福岡在住の方にはおなじみのアーティストの新作や未発表作品、\n県外からの初めましてのアーティスト、みんな知ってるあの人の別名義など、\nきっとアナタがまだ知らない才能に出会える場です。\n\n\nWOK22\n=========\n福岡在住のグラフィックアーティスト、ペインター。\nライブペイントをしたのをきっかけに活動をはじめ、\n最近では雲や蛸の足のモチーフを好んで描いており、台湾、韓国、タイ、\nマニラ等海外での展示、壁画制作も積極的に行う。\ncollaborate works : ROXY / ZIMA / Hennessy / STUSSY / \nBeats by Dr.dre / HAKATA doll etc…\n<a href=\"https://www.wok22.com\">https://www.wok22.com</a>\n\n濱田晋(はまだ しん)\n=========\n写真家。広告・雑誌・webで活動中。継続的にZINEの制作を行なう他、\n不定期に映像作品制作や展示を行なう。\n過去作に「それから andthen」「顔の見えない広場にて」「Practice of thinking 思考の練習」\n「STAY CASH / PROP ON ( <a href=\"https://youtu.be/GC7rog4Nnnc\">https://youtu.be/GC7rog4Nnnc</a> )」\n\nBurinac\n=========\n日常の中で惹かれるもの、感じることを写真に収め続けている。\n自身の視点を通じた冊子、PRIVATE. magazine 不定期発行中。\n\nKABEKUI\n=========\n東京を中心に生息。\n平面と立体の間で活動する二次元半生物。\n進退化を繰り返し日々日々繁殖中。\n\nどこにでもいるし、どこにもいない。\n\n<a href=\"http://www.dokodakadoor.tokyo\">http://www.dokodakadoor.tokyo</a>\n\nAyao Tazaki \n=========\nイラストレーション、アニメーションをベースとしたMV等の映像制作、\nライブ、イベントでの映像演出、グラフィックデザイン等を手掛ける。",
+  "categories": [
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    },
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "ーあなたが今まで知らなかった才能と彼らのZINEを楽しんでもらいたい。  FUKUOKA ART BOOK MARKETを開催します。 福岡を中心に県内外のアーティストの福岡未発表のZINEや作品集を展示販売。 国内外のアートブックを扱うオンラインブックショップ『flotsam books』も出店します。 ぜひ実際に手にとってみてください。  初日4/14(土)はOpening Partyを開催し..."
+}

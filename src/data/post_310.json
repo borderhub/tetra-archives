@@ -1,0 +1,40 @@
+{
+  "id": 1366,
+  "title": "『どこかのだれか』(写真展示×演劇＋ライブペイント)",
+  "date": "2023-12-01",
+  "author": "No Name",
+  "content": "【演者・スタッフ】\n脚本・演出 : 风月\n写真 : あだな\nCAST : やわらあさ\nPAINTER : 金子 このみ\n演出助手 : 内田 龍太郎\nスタッフ : 髙橋 輝多\n\n【予約フォーム】\n<a href=\"https://www.quartet-online.net/ticket/dokodare10\" target=\"_blank\">https://www.quartet-online.net/ticket/dokodare10</a>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 49,
+      "label": "07_演劇イベント",
+      "basename": "theater",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "theater"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "【演者・スタッフ】 脚本・演出 : 风月 写真 : あだな CAST : やわらあさ PAINTER : 金子 このみ 演出助手 : 内田 龍太郎 スタッフ : 髙橋 輝多  【予約フォーム】 https://www.quartet-online.net/ticket/dokodare10..."
+}

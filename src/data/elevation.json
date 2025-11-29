@@ -1,0 +1,29 @@
+{
+  "id": 392,
+  "title": "elevation",
+  "date": "2005-06-18",
+  "author": "No Name",
+  "content": "<font class=\"text11\">\n[organiser] Greg Sullivan (Escalator Audio)\n</font>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": " [organiser] Greg Sullivan (Escalator Audio) ..."
+}

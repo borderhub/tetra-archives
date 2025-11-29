@@ -1,0 +1,29 @@
+{
+  "id": 510,
+  "title": "three blokes ～ 三匹が吹く！（3）",
+  "date": "2008-06-05",
+  "author": "No Name",
+  "content": "サクソフォーンだけの演奏会シリーズ第3回。\n\n\n\n演奏順…\n1st set : 松永　→　城戸\n2nd set : 主税　→　松永\n3rd set : 城戸　→　主税",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "サクソフォーンだけの演奏会シリーズ第3回。    演奏順… 1st set : 松永　→　城戸 2nd set : 主税　→　松永 3rd set : 城戸　→　主税..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": 410,
+  "title": "Babu 個展 (one against 4)",
+  "date": "2006-01-29",
+  "author": "No Name",
+  "content": "ライブイベント「one against 4」で描き上げた作品を展示。",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "ライブイベント「one against 4」で描き上げた作品を展示。..."
+}

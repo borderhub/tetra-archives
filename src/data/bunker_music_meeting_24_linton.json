@@ -1,0 +1,29 @@
+{
+  "id": 779,
+  "title": "BUNKER MUSIC MEETING #24 “Linton Kwesi Johnson”",
+  "date": "2010-12-03",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": 1336,
+  "title": "PhotoHeads写真展vol.5　「FLOW」",
+  "date": "2023-05-12",
+  "author": "No Name",
+  "content": "All seem to be part of the FLOW Get into the FLOW\n\n\n\n@photo_heads\n\n@taisyophoto @katsuki_1984 @sibatasen\n\n+++ a special guest +++\n\n@uchamixx @makoto_ishii_kawa\n\n\n\nenjoy\n\n\n\n\n<img src =\"/upload/photoheadsvol5flow/EPH_202301.jpg\" width=“400\" >",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    },
+    {
+      "id": 34,
+      "label": "genre",
+      "basename": "genre",
+      "parentId": 0,
+      "path": [
+        "genre"
+      ]
+    }
+  ],
+  "excerpt": "All seem to be part of the FLOW Get into the FLOW    @photo_heads  @taisyophoto @katsuki_1984 @sibatasen  +++ a special guest +++  @uchamixx @makoto_ishii_kawa    enjoy     ..."
+}

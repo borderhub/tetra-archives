@@ -1,0 +1,29 @@
+{
+  "id": 783,
+  "title": "OPEN STUDIO / TAKASUMI ABE",
+  "date": "2010-12-23",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

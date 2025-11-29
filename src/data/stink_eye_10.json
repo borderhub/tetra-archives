@@ -1,0 +1,29 @@
+{
+  "id": 400,
+  "title": "stink eye #10",
+  "date": "2005-10-14",
+  "author": "No Name",
+  "content": "film discussion event.",
+  "categories": [
+    {
+      "id": 30,
+      "label": "04_上映イベント",
+      "basename": "film_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "film_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "film discussion event...."
+}

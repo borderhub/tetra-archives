@@ -1,0 +1,20 @@
+{
+  "id": 747,
+  "title": "Horacio Pollard",
+  "date": "2010-08-07",
+  "author": "No Name",
+  "content": "<strong>Horacio Pollard</strong>（イギリス）\n<a href=\"http://www.myspace.com/horaciopollard\">myspace</a>\n<a href=\"http://www.neighmusic.co.uk\">www.neighmusic.co.uk</a>\n<a href=\"http://www.icenivillagestudio.co.uk\">www.icenivillagestudio.co.uk</a>\n\n<strong>Morooka Mitsuo</strong> （福岡）\n<a href=\"http://www.myspace.com/morookamitsuo\">myspace</a>\n\n<strong>shayne bowden</strong>（福岡／オーストラリア）\n<a href=\"http://www.deterra8.com\">http://www.deterra8.com</a>\n<a href=\"http://inshayneinthemembraneous.blogspot.com/\">http://inshayneinthemembraneous.blogspot.com/</a>\n\n<strong>daenn </strong>（福岡）\n<a href=\"http://www.myspace.com/daenn\">myspace</a>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "Horacio Pollard（イギリス） myspace www.neighmusic.co.uk www.icenivillagestudio.co.uk  Morooka Mitsuo （福岡） myspace  shayne bowden（福岡／オーストラリア） http://www.deterra8.com http://inshayneinthemembraneous.blogspot..."
+}

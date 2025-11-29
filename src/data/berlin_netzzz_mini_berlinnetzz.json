@@ -1,0 +1,49 @@
+{
+  "id": 1460,
+  "title": " Berlin Netzzz! MINI  BerlinNetzzz! / art space tetra  present",
+  "date": "2025-10-25",
+  "author": "No Name",
+  "content": "ベルリンネッツ再び。\nアートと音楽、実験の2daysセッション\n\n2025年4月に福岡のart space tetraで開催したアートフェス「ベルリンネッツ！」が再来！\n2日間にわたり、ベルリンから来日中のWER DAによる展示を中心に、地元アーティストやベルリン在住経験者によるライブパフォーマンス、誰でも参加歓迎のジャムセッション、スーパーアナログ写真機「Photoautomat」、フードなど、多彩なプログラムを展開。\n＜展示＞\n会場2Fにて展示・インスタレーション by\nWER DA（Werner Kernebeck、David Braithwaite）\n同時期にtetra 1Fでは、鈴木淳さんの個展(13:00-20:00)が開催されています。ぜひ併せてご覧ください。\n＜パフォーマンスプログラム＞\n10月25日土曜日\n13:00 展示オープン\n17:00 フード、Photoautomat スタート\n19:00 WERDA + Kurihara\n20:00 tetra improvisation unit\n21:00 Yutaka Sakamoto\n10月26日日曜日\n10:30 オープン\n11:00 capture late morning live(朝活ライブ)\n        中村勇治、Kurihara\n13:00-15:00 ジャムセッション\n15:00 フード、Photoautomat スタート\n16:00 KIRIN\n18:00 Navigant\n19:00 SHOXXX’s Live Animation Theater\n20:00 半荘制作〜HangChang PROD〜\n時間未定 WER DA\n10月25日土曜日\n13:00 展示オープン\n17:00 フード、Photoautomat スタート\n19:00 WERDA + Kurihara\nベルリンからの２匹の生奇物（いきもの）による小劇＋実験音\n20:00 tetra improvisation unit\n即興演奏ユニット\n21:00 Yutaka Sakamoto\nサウンドスケープ\n10月26日日曜日\n10:30 オープン\n11:00 capture late morning live(朝活ライブ)\n        中村勇治 bass clarinet, soprano saxophone\n        Kurihara 実験音楽\n13:00-15:00 ジャムセッション\n15:00 フード、Photoautomat スタート\n16:00 KIRIN\n奄美民謡\n18:00 Navigant\nアンビエントエレクトロニカ\n19:00 SHOXXX’s Live Animation Theater\nThe アナログ 2.5D ミニシアター!!\n20:00 半荘制作〜HangChang PROD〜\nマシンエレクトロ\n時間未定 WER DA 小劇パフォーマンス",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "ベルリンネッツ再び。 アートと音楽、実験の2daysセッション  2025年4月に福岡のart space tetraで開催したアートフェス「ベルリンネッツ！」が再来！ 2日間にわたり、ベルリンから来日中のWER DAによる展示を中心に、地元アーティストやベルリン在住経験者によるライブパフォーマンス、誰でも参加歓迎のジャムセッション、スーパーアナログ写真機「Photoautomat」、フードなど、..."
+}

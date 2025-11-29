@@ -1,0 +1,29 @@
+{
+  "id": 1430,
+  "title": "capture next vol.3",
+  "date": "2025-05-18",
+  "author": "No Name",
+  "content": "▼出演\nendsnotnear\n建築写真\n中村勇治\n\n▼capture next：capture主宰の中村勇治が、次に(next)繋げていくという視点で始めた企画。今回は実験音楽、電子音楽、即興音楽などをテーマに福岡でユニークな活動を続けている3組が出演します。\n\n▼問い合わせ：art space tetra / capture works and music (中村勇治) 070-5400-1965 / capture@nakamurayuji.com\n\n▼プロフィール：\n・endsnotnear\n1983年3月生まれ。\n2009年頃にMPC2000XLを購入し初めて曲を作り始める。HIPHOPを背景にelectronicaや、post rock、abstract HIPHOP的な音を生成。その後即興演奏にのめり込み、現在はambientやドローン等を取り入れた音楽を表現している。\n\n・建築写真\n2019年福岡市で結成、メンバーを増減させながらリハーサルをやりつつもリハーサルの再現ではない、でも即興でもない、そんな生演奏を主体として福岡市で活動　カセットテープやルーパー、トイキーボードなどを駆使し情景音楽を目指す　2025年はメンバーをふたりに絞り込みちゃんとした楽器を使い童心ではなく地方の中学生男子心象風景を描くことに集中挑戦中、そして楽曲誕生を目標に日々活動中　言わば、実験結果を聴衆リアクションに求める理科的実験活動音楽隊\n\n・中村勇治(bass clarinet,soprano saxophone)\nart space tetra運営メンバー/管楽器奏者/オーガナイザー、即興表現がキーワードでの演奏活動はジャンルという概念を超えてユニークで枠にとらわれない。過去の共演者は音楽家はもちろんダンサー、美術家、書道家、朗読パフォーマー、ストリッパーと多岐に渡り新たな表現の場を創出している。\n<a href=\"https://capture.nakamurayuji.com/\"target=\"_blank\">https://capture.nakamurayuji.com/</a>",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "▼出演 endsnotnear 建築写真 中村勇治  ▼capture next：capture主宰の中村勇治が、次に(next)繋げていくという視点で始めた企画。今回は実験音楽、電子音楽、即興音楽などをテーマに福岡でユニークな活動を続けている3組が出演します。  ▼問い合わせ：art space tetra / capture works and music (中村勇治) 070-5400-19..."
+}

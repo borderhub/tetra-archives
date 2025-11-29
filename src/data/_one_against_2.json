@@ -1,0 +1,29 @@
+{
+  "id": 382,
+  "title": "安部 貴住 個展<br />（one against 2）",
+  "date": "2005-01-22",
+  "author": "No Name",
+  "content": "ライブイベント「one against 2」で制作した作品を展示。",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "ライブイベント「one against 2」で制作した作品を展示。..."
+}

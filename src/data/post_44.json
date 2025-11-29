@@ -1,0 +1,20 @@
+{
+  "id": 529,
+  "title": "ロイック・ストラーニの上映＆誕生日晩餐会",
+  "date": "2008-09-13",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 30,
+      "label": "04_上映イベント",
+      "basename": "film_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "film_event"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

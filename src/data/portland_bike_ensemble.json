@@ -1,0 +1,20 @@
+{
+  "id": 440,
+  "title": "Portland Bike Ensemble",
+  "date": "2006-12-02",
+  "author": "No Name",
+  "content": "自転車だけを使った世にも珍しい即興演奏集団Portland Bike Ensembleがアメリカより来福。最近先発隊が西通り周辺をお騒がせしております。ガラガラ、キーキー、そして息を呑むほど美しいその演奏。当日はご来場いただいた方々の自転車を使用するそうです。ポートランド時代はメンバーで、現在福岡に在住する小説家、ヴォイスパフォーマーDavid Moscovitchも登場。",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "自転車だけを使った世にも珍しい即興演奏集団Portland Bike Ensembleがアメリカより来福。最近先発隊が西通り周辺をお騒がせしております。ガラガラ、キーキー、そして息を呑むほど美しいその演奏。当日はご来場いただいた方々の自転車を使用するそうです。ポートランド時代はメンバーで、現在福岡に在住する小説家、ヴォイスパフォーマーDavid Moscovitchも登場。..."
+}

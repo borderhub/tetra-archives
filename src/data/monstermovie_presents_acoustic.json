@@ -1,0 +1,20 @@
+{
+  "id": 495,
+  "title": "Mostermovie acoustic hour 2008",
+  "date": "2008-03-01",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

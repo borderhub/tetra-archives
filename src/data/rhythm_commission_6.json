@@ -1,0 +1,29 @@
+{
+  "id": 412,
+  "title": "rhythm commission 6",
+  "date": "2006-02-11",
+  "author": "No Name",
+  "content": "ミラノを代表する即興／サウンド・アートのレーベル「Fringes Recordings」を主宰し、自らもインプロウ゛ァイザーとして活動しているジュゼッペ・イエラシ。\n\nサウンド・アーティストとしてPS1やDe Appel、シカゴ現代美術館などで作品を発表し、ミュージシャンとしてジム・オルークやケウ゛ィン・ドラムらと共作音源をリリースしているトマス・アンカースミット。今回で６回目を数えるrhythm commissionでは即興音楽とサウンド・アートを自由に横断する二人のアーティスト／ミュージシャンをとりあげます。\n\n<strong>Fringes Recordings</strong>  <a href=\"http://www.fringesrecordings.com/\">http://www.fringesrecordings.com/</a>\n\n\n<font class=\"text11\">\n[director] Mizuki Endo (rhythm)\n[DM design] Takaaki Yano (rhythm)\n[organiser] rhythm<a href=\"http:www.mhtyhr.com \">http:www.mhtyhr.com</a>\n</font>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "ミラノを代表する即興／サウンド・アートのレーベル「Fringes Recordings」を主宰し、自らもインプロウ゛ァイザーとして活動しているジュゼッペ・イエラシ。  サウンド・アーティストとしてPS1やDe Appel、シカゴ現代美術館などで作品を発表し、ミュージシャンとしてジム・オルークやケウ゛ィン・ドラムらと共作音源をリリースしているトマス・アンカースミット。今回で６回目を数えるrhythm..."
+}

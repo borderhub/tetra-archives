@@ -1,0 +1,39 @@
+{
+  "id": 1373,
+  "title": "河田全休ふるさと狂言ツアー✖︎かんじぇ",
+  "date": "2024-02-11",
+  "author": "No Name",
+  "content": "<img src =\"/upload/post_312/kyougenn 裏.jpg\" width=“400\" >\n\n○場所\nartspacetetra\n〒812-0028 福岡県福岡市博多区須崎町２−１５\n○出演\n河田全休\n由谷鈍行\nかんじぇ(三味線)\n○チケット\n■一般\n前売：¥1,800／当日：¥2,000\n■学生（25歳まで）\n前売：¥1,000／当日：¥1,200\n■小中学生\n前売：¥500／当日：¥600\n○申込方法\n以下googleフォームからお願いします。\n<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf1558nQY1sWwBmMXVsnVfh1cvqcsstUNdqjrTQ-dg3gZrjyw/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSf1558nQY1sWwBmMXVsnVfh1cvqcsstUNdqjrTQ-dg3gZrjyw/viewform</a>",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 49,
+      "label": "07_演劇イベント",
+      "basename": "theater",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "theater"
+      ]
+    },
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    }
+  ],
+  "excerpt": "  ○場所 artspacetetra 〒812-0028 福岡県福岡市博多区須崎町２−１５ ○出演 河田全休 由谷鈍行 かんじぇ(三味線) ○チケット ■一般 前売：¥1,800／当日：¥2,000 ■学生（25歳まで） 前売：¥1,000／当日：¥1,200 ■小中学生 前売：¥500／当日：¥600 ○申込方法 以下googleフォームからお願いします。 https://docs.googl..."
+}

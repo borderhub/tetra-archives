@@ -1,0 +1,30 @@
+{
+  "id": 1393,
+  "title": " 点点刺繍絵展「philosophie」",
+  "date": "2024-10-23",
+  "author": "No Name",
+  "content": "作家：点点 (TenTen)\n■内容\nオリジナル刺繍絵の展示、販売、ワークショップ",
+  "categories": [
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "作家：点点 (TenTen) ■内容 オリジナル刺繍絵の展示、販売、ワークショップ..."
+}

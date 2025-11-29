@@ -1,0 +1,20 @@
+{
+  "id": 1047,
+  "title": "団地論",
+  "date": "2016-01-17",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

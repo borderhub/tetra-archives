@@ -1,0 +1,20 @@
+{
+  "id": 515,
+  "title": "Rafael Toral",
+  "date": "2008-06-20",
+  "author": "No Name",
+  "content": "<strong>Rafael Toral</strong>  <a href=\"http://www.rafaeltoral.net/\">http://www.rafaeltoral.net/</a>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "Rafael Toral  http://www.rafaeltoral.net/..."
+}

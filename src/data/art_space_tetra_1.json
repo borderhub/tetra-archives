@@ -1,0 +1,28 @@
+{
+  "id": 1273,
+  "title": "art space tetra 感染対策チェックリスト",
+  "date": "2021-12-01",
+  "author": "No Name",
+  "content": "福岡市の催物の開催制限に伴い、11月25日以降のイベントに関してのチェックリストを掲示しております。\n<img src =\"http://www.as-tetra.info/upload/2021/0001.jpg\" alt=\"チラシ裏\" width=“400\" \n<img src =\"/upload/art_space_tetra_1/7A1B9972-36D2-44CC-99C2-524B3D3FBE8B-thumb.jpg\" alt=\"チラシ裏\" width=“400\" >\n<img src =\"/upload/art_space_tetra_1/9ACC4DF6-2DC3-426C-8BE5-B5C01DA72260-thumb.jpg\" alt=\"チラシ裏\" width=“400\" >\n<img src =\"/upload/art_space_tetra_1/61AE80EF-0340-4CD4-8015-B1E5CF347CB2.jpg\" alt=\"チラシ裏\" width=“400\" >\n<img src =\"/upload/art_space_tetra_1/474CCE40-E2AF-42E3-A0D7-5C445E1B8478.jpg\" alt=\"チラシ裏\" width=“400\" >\n<img src =\"/upload/art_space_tetra_1/D7E01617-9CB3-4FF7-84FB-646644C2EF97.jpg\" alt=\"チラシ裏\" width=“400\" >",
+  "categories": [
+    {
+      "id": 34,
+      "label": "genre",
+      "basename": "genre",
+      "parentId": 0,
+      "path": [
+        "genre"
+      ]
+    },
+    {
+      "id": 36,
+      "label": "事務情報",
+      "basename": "info",
+      "parentId": 0,
+      "path": [
+        "info"
+      ]
+    }
+  ],
+  "excerpt": "福岡市の催物の開催制限に伴い、11月25日以降のイベントに関してのチェックリストを掲示しております。     ..."
+}

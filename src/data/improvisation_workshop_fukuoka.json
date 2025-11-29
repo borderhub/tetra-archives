@@ -1,0 +1,20 @@
+{
+  "id": 501,
+  "title": "IMPROVISATION WORKSHOP FUKUOKA",
+  "date": "2008-03-26",
+  "author": "No Name",
+  "content": "音楽・身体表現・美術・詩・映像・パフォーマンス・その他あらゆる表現行為\nノージャンル！ノーテクニック！ノーボーダー！\n参加者募集！ 見学歓迎！",
+  "categories": [
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    }
+  ],
+  "excerpt": "音楽・身体表現・美術・詩・映像・パフォーマンス・その他あらゆる表現行為 ノージャンル！ノーテクニック！ノーボーダー！ 参加者募集！ 見学歓迎！..."
+}

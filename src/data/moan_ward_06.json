@@ -1,0 +1,29 @@
+{
+  "id": 404,
+  "title": "moan ward 06",
+  "date": "2005-12-10",
+  "author": "No Name",
+  "content": "隔月開催される実験音楽イベント。\n今回は東京より中村としまるをゲストに迎えた。\n\n<strong>kmmo</strong>(Digital MTR, TV, Mobile Phone, Electric Guitar...)\n<strong>Shayne Bowden</strong>（Effecter, Tape Recorder, Mic...)\n<strong>電子卓上音楽団</strong> (Analogue synthesizer, sequencer, filter, CDJ...)\n<strong>坂口壱彦</strong> (Self-made Electric Devices...)\n<strong>中村としまる</strong> (no-input mixing board)  <a href=\"http://www.japanimprov.com/\">http://www.japanimprov.com/</a>\n\n\n<font class=\"text11\">\n[organiser] rhythm, deterra, attic associates\n[director] Keiji Tanaka (rhythm), Shayne Bowden (deterra)\n[art director] Shunsuke Onaka (attic associates), Tomoaki Hashimoto (attic associates)\n[PA] Greg Sullivan (Escalator Audio)\n</font>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "隔月開催される実験音楽イベント。 今回は東京より中村としまるをゲストに迎えた。  kmmo(Digital MTR, TV, Mobile Phone, Electric Guitar...) Shayne Bowden（Effecter, Tape Recorder, Mic...) 電子卓上音楽団 (Analogue synthesizer, sequencer, filter, CDJ......"
+}

@@ -1,0 +1,29 @@
+{
+  "id": 470,
+  "title": "寝苦しい夏の夜に寝室で奏でられる音楽",
+  "date": "2007-07-28",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

@@ -1,0 +1,20 @@
+{
+  "id": 1225,
+  "title": "専門学校九州ビジュアルアーツ写真学科50期　選抜写真展",
+  "date": "2020-02-29",
+  "author": "No Name",
+  "content": "<img alt=\"senbatsu02.jpg\" src=\"/upload/50_1/senbatsu02.jpg\" width=\"840\" height=\"566\" />\n\n写真学科50期生PhotoExhibition2020展より\n選抜された7名の写真展です。\n7人が写した世界と記録した跡を展示致します。",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "  写真学科50期生PhotoExhibition2020展より 選抜された7名の写真展です。 7人が写した世界と記録した跡を展示致します。..."
+}

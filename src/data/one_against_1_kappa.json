@@ -1,0 +1,29 @@
+{
+  "id": 366,
+  "title": "one against 1 <br>- 鈴木淳 / KAPPA",
+  "date": "2004-06-12",
+  "author": "No Name",
+  "content": "2004年6月12日を最初に、art space tetraで開催されるイベントシリーズ。基本的なコンセプトはアーティストとミュージシャンがartspace tetraの一階フロアで、同じ空間で、同時に現れるということ。限られた時間内で、音楽演奏と作品制作がライブで観客の前で発生する。その後、完成した作品はtetra内で展示される。このシリーズの目的は芸術作品と音楽演奏のアクチュアルな制作／遂行を公表することにある。アーティストとミュージシャンはセッティングやサウンドチェックを観客の前で行う。彼らはコラボレーションをするか、あるいはお互いに無視し合うかもしれない。スペースは開かれており、その用途があらかじめ確定されることはない。そこで観客は作品の物理的完成をみることになる。\n\n<strong>Atsushi Suzuki  </strong><a href=\"http://homepage.mac.com/atsushi33/Menu1.html\">http://homepage.mac.com/atsushi33/Menu1.html</a>\n<strong>KAPPA</strong>  <a href=\"http://www.kappa.nu/\">http://www.kappa.nu/</a>\n\n\n<font class=\"text11\">\n[director] Shayne Bowden (deterra)\n[DM design] attic associates\n</font>",
+  "categories": [
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "2004年6月12日を最初に、art space tetraで開催されるイベントシリーズ。基本的なコンセプトはアーティストとミュージシャンがartspace tetraの一階フロアで、同じ空間で、同時に現れるということ。限られた時間内で、音楽演奏と作品制作がライブで観客の前で発生する。その後、完成した作品はtetra内で展示される。このシリーズの目的は芸術作品と音楽演奏のアクチュアルな制作／遂行を..."
+}

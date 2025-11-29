@@ -1,0 +1,20 @@
+{
+  "id": 1421,
+  "title": "福岡ビジュアルアーツ・アカデミー 第55期写真学科 選拔展",
+  "date": "2025-02-24",
+  "author": "No Name",
+  "content": "PhotoExhibition2025より、選抜された7名の写真展です。\n心の内にひしめく、写真への深い想いを個々の視点で据え、\n一つとして同じものはない作品を展示しています。",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "PhotoExhibition2025より、選抜された7名の写真展です。 心の内にひしめく、写真への深い想いを個々の視点で据え、 一つとして同じものはない作品を展示しています。..."
+}

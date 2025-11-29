@@ -1,0 +1,29 @@
+{
+  "id": 649,
+  "title": "<img class=\"title_img\" src=\"http://www.as-tetra.info/upload/2009/matsukuma.gif\" alt=\"ちいさなヴィオラ音楽会\" titke=\"ちいさなヴィオラ音楽会\" /><span class=\"none\">CHIISANA VIOLA ONGAKU-KAI</span> ",
+  "date": "2009-07-19",
+  "author": "No Name",
+  "content": "<strong>松隈 聡子</strong>（ヴィオラ奏者）\n 2008年ロッテルダム音楽院器楽科卒業。\n故松村英夫氏にヴァイオリンを師事。18歳でヴィオラに転向後、内田博、平石謙二、ヴラディミール・メンデルスゾーンの各氏にヴィオラを師事。今井信子氏のマスタークラス受講。第47回北九州芸術祭にて奨励賞受賞。\n響ホール室内合奏団団員。",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "松隈 聡子（ヴィオラ奏者）  2008年ロッテルダム音楽院器楽科卒業。 故松村英夫氏にヴァイオリンを師事。18歳でヴィオラに転向後、内田博、平石謙二、ヴラディミール・メンデルスゾーンの各氏にヴィオラを師事。今井信子氏のマスタークラス受講。第47回北九州芸術祭にて奨励賞受賞。 響ホール室内合奏団団員。..."
+}

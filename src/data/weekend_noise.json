@@ -1,0 +1,20 @@
+{
+  "id": 1116,
+  "title": "WEEKEND NOISE",
+  "date": "2017-04-15",
+  "author": "No Name",
+  "content": "4月14日から16日まで開催される \"JMT SYNTH GOLD EXHIBITION\" の関連ライブイベント。福岡で暗躍するノイズ成分多めの音楽家を迎えて、JMT Synth を実際に使用した演奏も行います。\n\n出演\nオオクボ-T\nshayne bowden\n屠殺器\n\n<img alt=\"ohkubot.jpg\" src=\"/upload/weekend_noise/ohkubot.jpg\" width=\"288\" height=\"288\" />　<img alt=\"tosatsuki.jpg\" src=\"/upload/weekend_noise/tosatsuki.jpg\" width=\"288\" height=\"288\" />　<img alt=\"bowden.jpg\" src=\"/upload/weekend_noise/bowden.jpg\" width=\"288\" height=\"288\" />",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "4月14日から16日まで開催される \"JMT SYNTH GOLD EXHIBITION\" の関連ライブイベント。福岡で暗躍するノイズ成分多めの音楽家を迎えて、JMT Synth を実際に使用した演奏も行います。  出演 オオクボ-T shayne bowden 屠殺器  　　..."
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1285,
+  "title": "esse = to be ミニ公演-yuyu dance performance -",
+  "date": "2022-04-01",
+  "author": "No Name",
+  "content": "<img src =\"/upload/yuyu/yuyuさん-thumb.jpg\" alt=\"チラシ裏\" width=“400\" >\nyuyu\nダンサー/振付師\n生々しい動きやフォーメーション組み替え空間を使った振付を行う。\n体温が伝わるダンス。\n\n\n主催\n@monami0321\n@yuyutaodoru\n\n◆本公演\nesse = to be\n2022/05/21・22\nMONAMI 主催公演 \"esse = to be\"\n\n5月21日 (土) 15:00\n5月21日 (土) 18:30\n\n5月22日(日) 15:00\n5月22日(日) 18:30\n\n会場：ぽんプラザホール\n住所: 〒812-0038福岡市博多区祇園町８番３号\nチケット：⼀般 3,500円 24歳以下2,500円 （当日は各500円増）\n※24歳以下は当日要年齢確認\n\n出演者\nゲストダンサー\nkaya / SAKi / Mai / 彩香 / 清華 \nU23枠\nYURIA / 百花 / はるの/ ARISA\n舞香/ MANAKA / ichika\nキッズキャスト\n林 桜心 児童劇団PotPokke（アクティブハカタ）",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    },
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": " yuyu ダンサー/振付師 生々しい動きやフォーメーション組み替え空間を使った振付を行う。 体温が伝わるダンス。   主催 @monami0321 @yuyutaodoru  ◆本公演 esse = to be 2022/05/21・22 MONAMI 主催公演 \"esse = to be\"  5月21日 (土) 15:00 5月21日 (土) 18:30  5月22日(日) 15:00 5月2..."
+}

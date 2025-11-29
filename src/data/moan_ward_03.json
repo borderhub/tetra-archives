@@ -1,0 +1,29 @@
+{
+  "id": 385,
+  "title": "moan ward 03",
+  "date": "2005-04-08",
+  "author": "No Name",
+  "content": "art space tetraを拠点に実験的でユニークな空間のなか隔月開催されるmwの第三弾。今回は大友良英やMerzbowとも共演歴があるノルウェーの作曲家・演奏家Jazzkammerの二人を迎え、福岡の音楽家とともに狂演を繰り広げる。各演奏家が使う様々な演奏手法と空間演出もこのイベントの魅力。\n\n<strong>Jazzkammer </strong> <a href=\"http://jazzkammer.com/\">http://jazzkammer.com/</a>\n<strong>Mr.natural</strong>  <a href=\"http://www.glkweb.com/\">http://www.glkweb.com/</a>\n\n<font class=\"text11\">\n[organiser] rhythm, deterra, attic associates\n[director] Keiji Tanaka (rhythm), Shayne Bowden (deterra)\n[art director] Shunsuke Onaka (attic associates), Tomoaki Hashimoto (attic associates)\n[PA] Greg Sullivan (Escalator Audio)\n</font>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "art space tetraを拠点に実験的でユニークな空間のなか隔月開催されるmwの第三弾。今回は大友良英やMerzbowとも共演歴があるノルウェーの作曲家・演奏家Jazzkammerの二人を迎え、福岡の音楽家とともに狂演を繰り広げる。各演奏家が使う様々な演奏手法と空間演出もこのイベントの魅力。  Jazzkammer  http://jazzkammer.com/ Mr.natural  ht..."
+}

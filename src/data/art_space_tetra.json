@@ -1,0 +1,29 @@
+{
+  "id": 363,
+  "title": "art space tetra オープニング・パーティー",
+  "date": "2004-04-03",
+  "author": "No Name",
+  "content": "art space tetra のグランド・オープニング・パーティ。\n100名を超える皆様にご来場頂きました。\nご来場頂きましたみなさま、ご協力頂きました各メディアの皆様、本当にありがとうございました。これからもご指導ご鞭撻のほど、 よろしくお願いします。（art space tetra）",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    }
+  ],
+  "excerpt": "art space tetra のグランド・オープニング・パーティ。 100名を超える皆様にご来場頂きました。 ご来場頂きましたみなさま、ご協力頂きました各メディアの皆様、本当にありがとうございました。これからもご指導ご鞭撻のほど、 よろしくお願いします。（art space tetra）..."
+}

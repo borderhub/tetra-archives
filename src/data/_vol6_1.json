@@ -1,0 +1,29 @@
+{
+  "id": 722,
+  "title": "トクディーヌ女史のオカルティック☆ナイト vol.6<br />〜するか、しないか、人類滅亡説！〜",
+  "date": "2010-01-29",
+  "author": "No Name",
+  "content": "滅亡する。しない。いろんな説がありますが、\n人類が滅ぶとしたら一体どのように滅ぶのかを考えてみましょう！",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    }
+  ],
+  "excerpt": "滅亡する。しない。いろんな説がありますが、 人類が滅ぶとしたら一体どのように滅ぶのかを考えてみましょう！..."
+}

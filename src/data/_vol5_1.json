@@ -1,0 +1,29 @@
+{
+  "id": 712,
+  "title": "トクディーヌ女史のオカルティック☆ナイト vol.5",
+  "date": "2009-11-27",
+  "author": "No Name",
+  "content": "今回は、みんな大好きUMA（未確認動物）をテーマに、いるかいないかよくわからない動物や身近な妖怪についてのお話です！\nお気軽に生物のなぞについて考えましょう。",
+  "categories": [
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "今回は、みんな大好きUMA（未確認動物）をテーマに、いるかいないかよくわからない動物や身近な妖怪についてのお話です！ お気軽に生物のなぞについて考えましょう。..."
+}

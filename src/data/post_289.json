@@ -1,0 +1,40 @@
+{
+  "id": 1296,
+  "title": "即興の午後",
+  "date": "2022-04-23",
+  "author": "No Name",
+  "content": "Rule 稽古概要\n3:00PM エントリー＆会場整え\n↓\n3:15PM 参加者によるじゃんけんで本日の組み合わせ決め\n↓\n3:30PM 20分ずつ即興稽古。お互いをみる\n↓\n5:00PM 稽古終了後感想を言い合う（ドリンク提供）\n\n\n主催：OddRooming\nおどり（舞踏）と即興のクリエイティブユニット。東京、ニューヨークなどで活動し、現在はF市セントラルにてマイナーな表現活動と経済の共存をモットーに森の生活を試みる。\n<a href=\"https://oddrooming.com\">https://oddrooming.com</a>\n\n※稽古は換気のために入り口を少し開けて行います。\n※体調の悪い方はご遠慮ください。",
+  "categories": [
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    }
+  ],
+  "excerpt": "Rule 稽古概要 3:00PM エントリー＆会場整え ↓ 3:15PM 参加者によるじゃんけんで本日の組み合わせ決め ↓ 3:30PM 20分ずつ即興稽古。お互いをみる ↓ 5:00PM 稽古終了後感想を言い合う（ドリンク提供）   主催：OddRooming おどり（舞踏）と即興のクリエイティブユニット。東京、ニューヨークなどで活動し、現在はF市セントラルにてマイナーな表現活動と経済の共存をモ..."
+}

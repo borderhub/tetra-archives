@@ -1,0 +1,49 @@
+{
+  "id": 1458,
+  "title": "art space tetra アーティスト イン レジデンス 第４弾  　/　WER DA（Werner Kernebeck、David Braithwaite）",
+  "date": "2025-10-22",
+  "author": "No Name",
+  "content": "<img src =\"/upload/art_space_tetra_wer_dawerner_k/2.jpg\" width=“400\" >\n<img src =\"/upload/art_space_tetra_wer_dawerner_k/3.jpg\" width=“400\" >\nWER DA は、ベルリンを拠点に活動する Werner Kernebeck（ヴェアナー・ケルネベック） とDavid Braithwaite（デイヴィッド・ブレイスウェイト）によるアーティストデュオ。名はドイツ語で「誰がそこ に？」を意味し、存在や自然とのつながりを問う姿勢を示す。2014年、ヴェアナーのインスタレーション《Home》に登場した「冬のクリーチャー」から活動を開始。 自分たちのルーツを探りながら衣装を制作 し、クリーチャーとしてのパフォーマンスを行ってきた。ヨーロッパ各地の仮装文化や先史的風習に着 想を得て作品を発展。自然素材と現代の人工物を組み合わせ、 本能的な感覚と遊び心をもって精霊的 存在を創造している。2018年以降はジンやテキストにも活動を広げ、人類や社会の現在を省察してい る。二人はまた、プロジェクト・スペース「NEON KUNST」を運営し、CZENTRIFUGA や GOGO TRASH な ど複数のコレクティブに参加、共同性と実験性に基づいた活動を展開している。日本各地や福岡で見つけた素材を組み合わせてインスタレーションを制作し、10月25日・26日のイベントでは、完成した作品を舞台にパフォーマンスも行います。\n\nhttps://werdada.wordpress.com/　 　https://neonkunst.home.blog/　　https://gogotrashberlin.wordpress.com/archiv/",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "  WER DA は、ベルリンを拠点に活動する Werner Kernebeck（ヴェアナー・ケルネベック） とDavid Braithwaite（デイヴィッド・ブレイスウェイト）によるアーティストデュオ。名はドイツ語で「誰がそこ に？」を意味し、存在や自然とのつながりを問う姿勢を示す。2014年、ヴェアナーのインスタレーション《Home》に登場した「冬のクリーチャー」から活動を開始。 自分たちの..."
+}

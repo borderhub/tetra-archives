@@ -1,0 +1,20 @@
+{
+  "id": 1456,
+  "title": "Overlap",
+  "date": "2025-10-16",
+  "author": "No Name",
+  "content": "九州産業大学芸術学部 芸術表現学科 絵画専攻・国本ゼミ 4年生企画によるグループ展\n\nweb: www.as-tetra.info\ninsta: www.instagram.com/artspacetetra\n九芸絵画 insta: www.instagram.com/kyugei.painting\n企画：九州産業大学芸術学部 芸術表現学科 絵画専攻・国本ゼミ 4年",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "九州産業大学芸術学部 芸術表現学科 絵画専攻・国本ゼミ 4年生企画によるグループ展  web: www.as-tetra.info insta: www.instagram.com/artspacetetra 九芸絵画 insta: www.instagram.com/kyugei.painting 企画：九州産業大学芸術学部 芸術表現学科 絵画専攻・国本ゼミ 4年..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": 380,
+  "title": "moan ward 01",
+  "date": "2004-12-19",
+  "author": "No Name",
+  "content": "moan wardは、２ヶ月に一度開催されるライブイベント。ノイズ、即興、実験音楽周辺の音楽家または演奏者を紹介しています。福岡という生産と消費が悪い意味で釣り合わされた場所で、そのような音楽、音楽家、演奏者、または音楽家にあらずとも音楽を作る意志を持つものたちがどのように生み出され、外部との関係性を見いだすのか（出せるのか）。「音楽」と音楽とはいえない「音」とが交錯するこのイベントは、新しい何かを生み出すきっかけとして機能していくはずです。\n\nrhythm(田中）\n\n<font class=\"text11\">\n[organiser] rhythm, deterra, attic associates\n[director] Keiji Tanaka (rhythm), Shayne Bowden (deterra)\n[art director] Shunsuke Onaka (attic associatess), Tomoaki Hashimoto (attic associates)\n[PA] Greg Sullivan (Escalator Audio)\n</font>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "moan wardは、２ヶ月に一度開催されるライブイベント。ノイズ、即興、実験音楽周辺の音楽家または演奏者を紹介しています。福岡という生産と消費が悪い意味で釣り合わされた場所で、そのような音楽、音楽家、演奏者、または音楽家にあらずとも音楽を作る意志を持つものたちがどのように生み出され、外部との関係性を見いだすのか（出せるのか）。「音楽」と音楽とはいえない「音」とが交錯するこのイベントは、新しい何か..."
+}

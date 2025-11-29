@@ -1,0 +1,20 @@
+{
+  "id": 865,
+  "title": "現代思想入門",
+  "date": "2012-09-04",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

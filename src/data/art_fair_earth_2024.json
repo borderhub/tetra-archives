@@ -1,0 +1,39 @@
+{
+  "id": 1408,
+  "title": "ART FAIR EARTH 2024関連企画 調原作　アイスランド　オンライン現地レポート",
+  "date": "2024-09-16",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 48,
+      "label": "90_配信イベント",
+      "basename": "broadcast",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "broadcast"
+      ]
+    },
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

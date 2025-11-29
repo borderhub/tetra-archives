@@ -1,0 +1,20 @@
+{
+  "id": 1412,
+  "title": "歌の帆 Duo ライブ (三枝彩子 / 谷本仰)",
+  "date": "2024-11-24",
+  "author": "No Name",
+  "content": "出演：三枝彩子（モンゴル民謡ほか歌）、谷本仰（ヴァイオリン）\n\n予約・問い合わせ：\ntel 070-5400-1965 , e-mail <a href=\"https://www.nakamurayuji.com/contact\" target=\"_blank\">capture@nakamurayuji.com</a> (担当：アートスペース・テトラ：中村)",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "出演：三枝彩子（モンゴル民謡ほか歌）、谷本仰（ヴァイオリン）  予約・問い合わせ： tel 070-5400-1965 , e-mail capture@nakamurayuji.com (担当：アートスペース・テトラ：中村)..."
+}

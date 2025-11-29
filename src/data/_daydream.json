@@ -1,0 +1,20 @@
+{
+  "id": 704,
+  "title": "友池理絵 個展「歌い手の夢／DAYDREAM」",
+  "date": "2009-10-27",
+  "author": "No Name",
+  "content": "<strong>友池理絵</strong>\n1974年　福岡県古賀市生まれ\n1998年　九州産業大学芸術学部美術学科卒業\n現在　古賀市在住",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "友池理絵 1974年　福岡県古賀市生まれ 1998年　九州産業大学芸術学部美術学科卒業 現在　古賀市在住..."
+}

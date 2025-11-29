@@ -1,0 +1,29 @@
+{
+  "id": 1405,
+  "title": "(無題)",
+  "date": "2024-09-02",
+  "author": "No Name",
+  "content": "李丽、長野光宏、Chris Romeroの三名による「ソーシャル・メディア（SNS)」に関する絵画、映像作品の展覧会。\nペインティング、ミクストメディア、ビデオ作品を展示。",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "李丽、長野光宏、Chris Romeroの三名による「ソーシャル・メディア（SNS)」に関する絵画、映像作品の展覧会。 ペインティング、ミクストメディア、ビデオ作品を展示。..."
+}

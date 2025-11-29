@@ -1,0 +1,29 @@
+{
+  "id": 419,
+  "title": "moan ward 07",
+  "date": "2006-07-12",
+  "author": "No Name",
+  "content": "畠山地平は今春、Godspeed、Low、Keith Fullerton Whitmanなど、先端的なアーティストのリリースを手がけるアメリカのKrankyレコードからソロ・アルバム『ミニマ・モラリア』を発表。このタイトルはドイツの批評家テオドール・Ｗ・アドルノの著書から名づけられている。ギター、ヴィブラフォンなどのアコースティックな楽音と電子音が組み合わされたポジティブで暖かなサウンドは、日常のささやかな経験や感覚、風景を想起させる。また、optopeとしての活動の他、即興、電子音楽をテーマにしたイベント「Kuala Mute Geek」を主催している。\n \nその他、ビートを積み上げながらアザー・ワールドを現出させるherakuG、「ノイズ＝雑音」が間違った翻訳だったと気づかされる研ぎ澄まされた音響の斜陽、声を奇怪な電子音に変調させる福岡在住の小説家David Moscovich、そして、「おかしさに彩られた悲しみ」のロックン・ローラー竹野恭章が4組が登場。\n \n福岡のライブシーンでおなじみの面々が大音響の使えないオルタナティブ・スペースでこれまでとは一味違った側面を見せてくれることでしょう。山笠の喧騒のひけた非日常的なVoidで7度目の呻き。\n \n<strong>畠山地平</strong>　<a href=\"http://www.chihei.org/ch_mw.html\" target=\"_blank\">http://www.chihei.org/ch_mw.html</a>\n \n<font class=\"text11\">\n[organiser] deterra\n[director] Shayne Bowden (deterra), Akihiro Mishima (art space tetra)\n</font>",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "畠山地平は今春、Godspeed、Low、Keith Fullerton Whitmanなど、先端的なアーティストのリリースを手がけるアメリカのKrankyレコードからソロ・アルバム『ミニマ・モラリア』を発表。このタイトルはドイツの批評家テオドール・Ｗ・アドルノの著書から名づけられている。ギター、ヴィブラフォンなどのアコースティックな楽音と電子音が組み合わされたポジティブで暖かなサウンドは、日常の..."
+}

@@ -1,0 +1,20 @@
+{
+  "id": 928,
+  "title": "AGAINST 2013 : Noise40s",
+  "date": "2013-09-14",
+  "author": "No Name",
+  "content": "ベテラン福岡ノイズユニットMAGGIE GUIAAAAA、大牟田の電子卓上音楽団、城戸英章とシェーン・ボーデンが参加してローカルのノイズアタック！",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "ベテラン福岡ノイズユニットMAGGIE GUIAAAAA、大牟田の電子卓上音楽団、城戸英章とシェーン・ボーデンが参加してローカルのノイズアタック！..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": 388,
+  "title": "project for actual art 003 <br>- 遠山 裕崇 個展",
+  "date": "2005-05-14",
+  "author": "No Name",
+  "content": "福岡の若手アーティストを紹介していく、rhythm企画のシリーズ。\n今回は、昨年 art space tetraと*IAF SHOPで２カ所同時に初個展を行った遠山裕崇が個展を行った。\n\n<font class=\"text11\">\n[curator] Mizuki Endo (rhythm)\n[director] Keiji Tanaka (rhythm)\n[DM design] Takaaki Yano (rhythm)\n\nrhythm <a href=\"http://www.mhtyhr.com/\">http://www.mhtyhr.com/</a>\n\n</font>",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "福岡の若手アーティストを紹介していく、rhythm企画のシリーズ。 今回は、昨年 art space tetraと*IAF SHOPで２カ所同時に初個展を行った遠山裕崇が個展を行った。   [curator] Mizuki Endo (rhythm) [director] Keiji Tanaka (rhythm) [DM design] Takaaki Yano (rhythm)  rhythm..."
+}

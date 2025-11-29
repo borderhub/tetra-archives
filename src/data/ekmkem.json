@@ -1,0 +1,29 @@
+{
+  "id": 561,
+  "title": "EKMKEM",
+  "date": "2008-12-16",
+  "author": "No Name",
+  "content": "江上計太 × 宮川敬一 × 遠藤水城",
+  "categories": [
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "江上計太 × 宮川敬一 × 遠藤水城..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": 757,
+  "title": "スナック はちこ",
+  "date": "2010-08-06",
+  "author": "No Name",
+  "content": "明朗会計。\n安心しておくつろぎ頂けます。",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 37,
+      "label": "06_その他のイベント",
+      "basename": "others",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "others"
+      ]
+    }
+  ],
+  "excerpt": "明朗会計。 安心しておくつろぎ頂けます。..."
+}

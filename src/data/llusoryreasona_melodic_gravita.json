@@ -1,0 +1,29 @@
+{
+  "id": 402,
+  "title": "llusoryReason <br>「a melodic gravitation between Light and Darkness」",
+  "date": "2005-11-15",
+  "author": "No Name",
+  "content": "<font class =\"text11\">\n[curator]  Greg Sullivan\n\n</font>",
+  "categories": [
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": " [curator]  Greg Sullivan  ..."
+}

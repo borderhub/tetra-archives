@@ -1,0 +1,39 @@
+{
+  "id": 1454,
+  "title": "Art Fair Earth 2025",
+  "date": "2025-09-27",
+  "author": "No Name",
+  "content": "2022年より毎年9月下旬にイベントを開催してきたArt Fair Earthですが、今年は年間を通して様々な活動を行ってきました。メキシコでのリサーチやワークショップ、台湾やドイツのアーティストとのコラボレーション、さらに11月にはウズベキスタンでのアーティストインレジデンスも予定しています。\n\nまた、9月上旬には横浜のArt Center NEWで開催された「NEW PLATFORM -Alternative ASIA-」にも参加しました。\n\n今年はこうした年間プロジェクトの活動報告と、代表の鈴木淳による展示をメインとしたイベントとして開催します。",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 28,
+      "label": "03_アートイベント",
+      "basename": "art_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "art_event"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "01_展覧会",
+      "basename": "exhibition",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "exhibition"
+      ]
+    }
+  ],
+  "excerpt": "2022年より毎年9月下旬にイベントを開催してきたArt Fair Earthですが、今年は年間を通して様々な活動を行ってきました。メキシコでのリサーチやワークショップ、台湾やドイツのアーティストとのコラボレーション、さらに11月にはウズベキスタンでのアーティストインレジデンスも予定しています。  また、9月上旬には横浜のArt Center NEWで開催された「NEW PLATFORM -Alt..."
+}

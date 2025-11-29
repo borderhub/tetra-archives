@@ -1,0 +1,29 @@
+{
+  "id": 1419,
+  "title": "Spectrum",
+  "date": "2025-02-22",
+  "author": "No Name",
+  "content": "- 出演\nVenta Protesix\nm2m\nhospi\n\n- プロフィール\nVenta Protesix\nVenta Protesix は、2008年から活動している Italo Belladonna のソロプロジェクトである。\nイタリアの実験音楽界において最も物議を醸す人物の一人と常に見なされており、10年以上にわたり、極限のコンピュータ音楽の領域で活動している。ヨーロッパやアジア各地でパフォーマンスを行い、デジタル・ハーシュノイズによる強烈なインパクトを持つライブセットを通じて、聴衆に一貫したサイコアコースティックな不快感を与え続けている。<a href=\"https://www.instagram.com/italobelladonna/\"target=\"_blank\">@italobelladonna</a>\n\nm2m\n2025年結成。プログラマー・メディアアーティストmgsとピアニスト・トラックメイカーレイラによるデュオ。\nInstagram <a href=\"https://www.instagram.com/laylamorpho/\" target=\"_blank\">@laylamorpho</a>\n<a href=\"https://mgs.nyc\" target=\"_blank\">https://mgs.nyc</a>\n\nhospi\n電子音楽家。\n大分県中津市在住。\nテクノDJ (Baka Dojo)を経て、シンセサイザーを中心としたライブ活動を開始。\n米蔵跡にスタジオを持ち、レコーディングなどを行なっている。\n自身のフレグランスブランド\"WAKIGA\"を各会場にて無料で提供中。\n\n\n\n問い合わせ：art space tetra / capture works and music (中村勇治) 070-5400-1965 / <a href=\"https://www.nakamurayuji.com/contact\" target=\"_blank\">capture@nakamurayuji.com</a>",
+  "categories": [
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    }
+  ],
+  "excerpt": "- 出演 Venta Protesix m2m hospi  - プロフィール Venta Protesix Venta Protesix は、2008年から活動している Italo Belladonna のソロプロジェクトである。 イタリアの実験音楽界において最も物議を醸す人物の一人と常に見なされており、10年以上にわたり、極限のコンピュータ音楽の領域で活動している。ヨーロッパやアジア各地でパフ..."
+}

@@ -1,0 +1,29 @@
+{
+  "id": 557,
+  "title": "CONTRE - ATTAQUE #6",
+  "date": "2008-12-13",
+  "author": "No Name",
+  "content": "",
+  "categories": [
+    {
+      "id": 23,
+      "label": "02_音楽イベント",
+      "basename": "music_event",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "music_event"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "..."
+}

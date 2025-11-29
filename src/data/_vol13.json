@@ -1,0 +1,29 @@
+{
+  "id": 780,
+  "title": "トシマシネマ vol.13",
+  "date": "2011-01-21",
+  "author": "No Name",
+  "content": "今まで監督をした映画は２作しかないにもかかわらず、根強い人気を誇る長谷川和彦についてお話したいと思います。",
+  "categories": [
+    {
+      "id": 26,
+      "label": "05_ワークショップ等",
+      "basename": "workshop_lecture",
+      "parentId": 34,
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "テトラ企画",
+      "basename": "tetra",
+      "parentId": 0,
+      "path": [
+        "tetra"
+      ]
+    }
+  ],
+  "excerpt": "今まで監督をした映画は２作しかないにもかかわらず、根強い人気を誇る長谷川和彦についてお話したいと思います。..."
+}
