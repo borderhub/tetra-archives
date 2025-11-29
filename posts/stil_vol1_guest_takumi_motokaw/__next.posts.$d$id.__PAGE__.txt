@@ -1,0 +1,44 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T91f,今回から新しく始まるe-musik　坂本豊　主催
+Contemporary Live Performanceイベント
+
+Stil　(シュティール)
+スタイルを意味するドイツ語で、流儀、様式、形などを意味する。
+その人独自のスタイルを持った個性豊かなアーティストを、国内外、ジャンル、性別、有名無名問わず、ゲストに招き、今まで聴いたことの無い新しいスタイルを体感してもらうイベント。
+その日その場でしか観られないアーティスト同士の即興による生のセッションも見どころ。
+
+第一回目ゲストが元川匠さん
+ベルリンをベースに活躍する、パーカッショニスト、キーボーディ スト、作曲家。
+音の魔術師が織りなすシンプルさと複雑性の中で繰 り広げられる数々の表現は忘れる事の出来ないエクスペリエン ス。 シャクルトン、ストライク・パーカッション、ニック・ノバ ク、Jepe、マティルダ・エイブラハム、サミン・ソン、404と共同 制作を共にし、映像作品やマルチメディア作品への音楽の制作も行 う。 
+
+Spotify: https://open.spotify.com/artist/123DooexL21xGkCmBKqYjn 
+SoundCloud: https://soundcloud.com/takmo
+Bandcamp: https://takumimotokawa.bandcamp.com/
+WEB https://takumimotokawa.com/
+
+今回はもう1人スペシャルなゲストとして、テトラで出会ったダンサーのyuyuさん。僕と2人で即興でセッションします。そして何度もオファーし続けてやっと念願叶ったlseさん、独自の進化を続けるmultipleさんと福岡のアンビエントを代表するお二人です。
+今回は共同主催という形で、art space tetraさんとIAF shop＊さんにお手伝いしていただきIAF shopで開催することになりました。
+よろしくお願いします。
+
+Live
+Takumi Motokawa from Berlin
+https://instagram.com/takumi.motokawa?igshid=YmMyMTA2M2Y=
+
+little side effect
+https://instagram.com/littlesideeffect?igshid=YmMyMTA2M2Y=
+
+multiple 
+https://instagram.com/24pee?igshid=YmMyMTA2M2Y=
+
+Yutaka Sakamoto + yuyu
+https://instagram.com/yukatashb?igshid=YmMyMTA2M2Y=
+yuyu
+https://instagram.com/yuyutaodoru?igshid=YmMyMTA2M2Y=
+
+presented by e-musik
+supported by art space tetra,IAF shop0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2023","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2023"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}],["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"Stil vol.1  Guest :Takumi Motokawa　Contemporary Live Performances"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2023-02-19"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

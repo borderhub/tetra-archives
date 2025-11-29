@@ -1,0 +1,41 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tccb,韓国、ソウルのから異色のブルースシンガー、ハ・ホンジン（하헌진）氏が福岡に初上陸！
+
+2010年より、ソウルを中心に活躍するブルース・ミュージシャン。デルタ・ブルースをベースに、ギター一本で自らの日々の暮らしの実直な想いや感情を言葉に紡ぎ出す。演奏の合間に入る、ハホンジン氏の飾らないユーモラスなトーク（日本語も堪能）も魅力。シックなサウンドに、スモーキーな声で歌われる韓国発デルタ・ブルースの夜。どうぞご堪能ください。
+
+ー ハ・ホンジン（하 헌진） 略歴 ー
+
+2010年よりブルース・シンガーとして活動を開始。2011年にEP『犬』と『去年の夏』を発表。同年、ドラム、キム・ガンジと共にブルース・デュオ「キム・ガンジ x ハ・ホンジン」を結成し、2018年にはカンド・アルバム『世界に望みがない』を発表。デュオ解散後は、ハーモニカ、ベースの、ドラムの4人組バンドを結成。近年は韓国の音楽番組やメディアにも頻繁に登場し、さらなる活躍の場を広げている。
+
+Youtube :   https://www.youtube.com/user/hfndi
+Instagram: https://www.instagram.com/haheonjin/?hl=ko
+
+한국 서울의 블루스 가수 하헌진씨가 후쿠오카에 상륙!
+2010년부터 서울을 중심으로 활약하는 블루스 뮤지션. 델타 블루스를 기반으로 기타 하나로 자신의 일상생활의 솔직한 마음과 감정을 가사로 엮어낸다. 연주 사이에 들어가는 하헌진씨의 꾸밈없는 유머(일본어도 능숙)도 매력적입니다. 세련된 사운드에 스모키한 목소리로 노래하는 한국의 델타 블루스의 밤. 꼭 즐겨주세요.
+
+오버 하 헌진씨 약력
+
+2010년부 블루스 싱어로 활동을 시작. 2011년 EP '개'와 '지난여름'을 발표했다. 같은 해, 드럼, 김간지와 함께 블루스 듀오 '김간지 x 하헌진'을 결성하고 2018년에는 라이브러리집 앨범 '세상에 바라는게 없네' 를 발표했다. 듀오해산 후, 하모니카, 기반 드럼의 4인조 밴드를 결성. 최근에는 한국의 음악 프로그램과 미디어에 자주 등장하고 새로운 활동의 장을 넓히고 있다.
+
+
+
+
+
+＊14日（火）前夜祭「ハ・ホンジンのブルース酒場」開催！
+
+14日夜、前夜祭として「ハホンジンのブルース酒場」をテトラにて開催します。ハ・ホンジン氏が一夜かぎりのブルース酒場店長に！手作りチジミと酒、店長がセレクトした韓国インディミュージックが流れる夜。お待ちしています。（＊この日は公演はありません）
+
+日時：14日（火）
+時間：18時オープン〜終電まで
+
+
+* 14일(화) 전야제 「하 헌진의 블루스 술집」개최!
+14일에는 전야제로 ‘하헌진 블루스 술집’을 테트라에서 개최. 하헌진씨가 하룻밤 동안 한국 블루스 술집 점장! 수제 부침개와 술, 점장이 직접 엄선한 한국 인디 음악이 흐르는 밤. 기다려집니다. (*이날 공연은 없습니다)
+
+일시 : 14일(화)
+시간 : 18시 오픈 ~ 막차까지0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2020","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2020"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}],["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"「ハ・ホンジン (하 헌진) 福岡公演 2020 -水曜どうでしょう-」"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2020-01-15"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

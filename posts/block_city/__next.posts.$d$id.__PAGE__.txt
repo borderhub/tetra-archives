@@ -1,0 +1,36 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tc34,建築資材やゴミ箱から観葉植物に黒焦げた自動車まで。
+
+2019年、香港民主化デモの抗議者たちは膨大な数の路上障害物を残した。
+
+その障害物は、都市の路上に存在するありとあらゆるものを用いて構成されており、街の動脈を遮断し、敵対する者を拒むそれらは、目抜き通りから裏路地、そして大学内まで及んだ。設置された全ての障害物は香港警察や何者かの手によって瞬く間に強制撤去されるが、抗議者たちは何度でも作り続けた。
+
+それらの行動は単にストライキや武装警察の進入を防ぐためだけでなく、高度な資本主義によって過密に圧縮された街を一旦破壊し、自らの手で再構築することで都市空間を取り戻す試みにも見えた。そして、何よりその都市の住民によって作りあげられる”作者不明の作品”、そしてそれらに込められた強い意思に魅了された私は、再現不可能な作品郡が消え去る前に、夢中でフィルムに焼き付けた。
+
+
+児玉浩宜 / Hironori Kodama
+
+1983年兵庫県生まれ。テレビ朝日報道番組ディレクター、のちにNHK日本放送協会に入局。報道カメラマンそしてニュース番組やドキュメンタリーを制作。退局後、フリーランスカメラマンとして活動。2019年、香港デモ発生時から10ヶ月間渡航を繰り返し、現地で撮影。2020年、香港デモ写真集「NEW CITY」を出版。
+
+
+
+児玉浩宜寫真展「BLOCK CITY」
+
+從建築材料和垃圾桶到樹葉植物上燒焦的汽車。 2019年，香港民主示威遊行中的示威者留下了許多街頭障礙。障礙物是由城市街道上的一切所構成的。從主要街道到後巷到大學，不一而足，他們折斷了城市的動脈並阻拒敵方。
+
+所設置的障礙物全都被香港警察和不知名人士迅速地強行清除，但示威者仍不斷地反複製造障礙。這些行動不僅是為了罷工和防止武裝警察的進入，而更是要摧毀這座被先進資本主義壓迫下的城市，並用自己的雙手來重建，試圖重新獲得空間。
+
+最重要的是，我更著迷於這座城市裏居民們所創造的，那些被視為“作者不明的作品”，以及當中包含的強烈意圖和含義。在這些不能再現的作品消失之前，我全神貫注地希望將每個畫面刻印在膠上。
+
+児玉浩宜
+1983年生於兵庫縣。朝日電視新聞節目總監，後來加入NHK日本廣播公司。新聞攝影師以及新聞節目和紀錄片的製作人。離職後，擔任自由攝影師。自2019年香港示威以來，在當地拍攝了10個月。2020年，出版了香港示威照片集“ NEW CITY”。
+
+当日は、写真集「NEW CITY」、ZINEの販売も行います。
+また、児玉氏が東京・高円寺で営むフィルムカメラ専門店「カンフーカメラ」より、フィルムカメラの出張販売あり！
+
+カンフー・カメラ：https://voidlens.thebase.in/0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2020","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2020"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"児玉浩宜写真展「BLOCK CITY」 "}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2020-12-04"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

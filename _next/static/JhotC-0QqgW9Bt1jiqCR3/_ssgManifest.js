@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Farchive\u002F[category]\u002Fyear\u002F[year]\u002Fpage\u002F[page]","\u002Fposts\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

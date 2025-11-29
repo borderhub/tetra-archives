@@ -1,0 +1,24 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T52c, (Berlin, Germany)
+
+Turntablist Joke Lanz creates autonomous sound-cells that melt into a language free of any function. He combines ritual reductionism with anarchistic playfulness, atmospheric soundscapes with cut-up noise and physicalness with unpredictability: Massive scratches, walls of sound, grooves, loops, noises and voice modulations!
+
+He collaborated with: Shelley Hirsch, Christian Marclay, Olaf Rupp, Ken Vandermark, Lasse Marhaug, Jorge Sanchez-Chiong, Strotter Inst, Christian Weber, Charlotte Hug, Audrey Chen, Ute Wassermann, Peter Kowald, DJ Olive, Sophie Agnel, dieb13, eRikM, Martin Tétreault, Christian Wolfarth, Jonas Kocher, Mat Pogo, Kazuhisa Uchihashi, Vienna Radio Symphony Orchestra, just to name a few.
+
+Best known for his international acclaimed Noise project 'Sudden Infant', Joke Lanz is presenting his work since 25 years all over the world. Born in Switzerland and currently operating out of Berlin, Joke Lanz is one of the most prolific and profound artists working in the border zones where performance and body art meet Improvisation and Noise.
+
+www.suddeninfant.com
+
+https://www.youtube.com/watch?v=zTYc4t1pWjU
+https://www.youtube.com/watch?v=MH6cx3ZgJ-A
+https://www.youtube.com/watch?v=XN6TS7Lxunc
+https://www.youtube.com/watch?v=0hE-lhbyyTw
+
+
+主催：deterra
+http://www.deterra8.com0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2017","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2017"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"JOKE LANZ"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2017-06-17"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":["2013年9月に Sudden Infant 名義でテトラに来てもらって以来、約3年半ぶりの Joke Lanz のライブです。前回は圧倒的なヴォイス・パフォーマンスでしたが、今回はターンテーブルを使った演奏を見せてくれるようです。\n\n対バンは DJ Speedfarmer、トミさん、蝉の岡崎さんを加えた蹂躙、とこちらも豪華です。ぜひ、ご来場ください！\n\n",["$","strong","1",{"children":"JOKE LANZ"}],"$4"]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

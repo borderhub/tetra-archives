@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tb5b,空族『バンコクナイツ』の公開を受け、バンコクナイツへの道を辿る上映会を開催します。
+今回の上映会では、空族の相澤虎之助監督作品『花物語バビロン』（1997）、『バビロン２ -THE OZAWA-』（2012）のバビロンシリーズを２作品併せて上映します。
+また6月10日(土)は、『花物語バビロン』の撮影を担当し、出演もしている行友太郎氏をお招きしトークセッション を開催します。空族の前作にひき続き『バンコクナイツ』パンフレットにも「この手で築く地上の楽園」を寄稿し、空族作品に影響を与え、"チョッケツ"してきた行友氏から『花物語バビロン』撮影当時の話や、空族映画とは何なのか？について語って頂きます。聞き手は『バビロン２』に楽曲提供をした大杉聖児(バンコクナイツFUKUOKA)と、今年3月に「アナキズム入門」を出版した森元斎(思想家)。
+福岡初上映！貴重な機会をお見逃しなく。
+
+
+バビロンシリーズとは：
+東南アジアをバックパッカーとして放浪した相澤監督の経験をもとに
+アジアを支配する裏経済「武器」「麻薬」「売春」の存在を
+浮き彫りにするシリーズとして撮影された。
+「花物語バビロン」は「麻薬」、「バビロン２ -THE OZAWA-」は「武器」を
+それぞれ中心に捕らえ製作されている。
+
+『花物語バビロン』
+ドキュメンタリーな映像の断片と圧倒的な情報量が織りなすグルーヴ。
+バックパッカーの辿り着く天国と地獄。
+バンコクナイツで幾度となく問われる楽園の正体は？
+既に今作からその探索と渇望の萌芽を感じ取る事ができる。
+（1997年 / 8mm -> digital / 46分）
+スタッフ
+監督・脚本　相澤虎之助 / 撮影　相澤虎之助　行友太郎 / 
+編集　相澤虎之助　池原由起子 / 音楽　前瀬宗佑　佐々木力也
+キャスト　
+柳田祐記 / 安田豊久 / 行友太郎　ほか
+
+
+『バビロン２ -THE OZAWA-』
+「歴史はそれを許さない」
+ベトナム戦争を軸に欧米列強の思惑と弾薬が入り乱れた土地。
+その記憶との四次元的交感がやがて革命の扉を叩く銃声を轟かす。
+「国道20号線」～「サウダーヂ」と並行して記録された空族作品の最重要ターニングポイントとも言える作品である。
+（2012年 / 8mm -> digital / 45分）
+スタッフ
+監督・脚本：相澤虎之助
+撮影：相澤虎之助・富田克也・河上健太郎
+編集：相澤虎之助
+音声・音楽監修：山崎巌
+タイトルイメージ提供：長谷川学（風の前の塵・AKS-47, Pencil and colored pencil on paper)
+キャスト
+富田克也 / 伊藤仁 / 鷹野毅 ほか0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2017","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2017"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","30",{"children":["$","$L2",null,{"href":"/?category=film_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"04_上映イベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"空族・相澤虎之助監督作品『花物語バビロン』『バビロン2 -THE OZAWA-』上映会"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2017-06-10"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

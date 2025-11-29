@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tb65,＜以下、Aaron Dilloway の個展（10/12 - 20）を開催する東京墨田区のギャラリー "haus" の紹介文より＞
+
+2000年代のアンダーグラウンド音楽シーンに広く影響を与えたインダストリアル・ノイズバンド、wolf eyes の第二のメンバーとして 1998年から 2005年まで活動し、その後はソロとして米国ミシガンに留まらず、現在のモダンノイズシーンを牽引する存在として活躍する Aaron Dilloway。
+
+この度、haus では彼が 1993年から運営し、今年20周年を迎えています自身のレーベル、Hanson Records のマテリアルをアーカイブすることでこれまでの活動軌跡を包括、現在のノイズ・エクスペリメンタルミュージックの一翼の動向を提示します。
+
+wolf eyes 在籍時からギター、ヴォイスフィードバックと共に彼の音楽の大きなエレメントとなってきましたテープマニュピレーションは、その後のソロ活動で更に顕在化し、8トラックテープをメインにオープンリール、テープエコーやカセットテープなど、あらゆるテープマシンを駆使して構築され、それはコンピューターが台頭する以前の現代音楽のコンポジションを想起させながらもより現代性を帯びた、ラフでダーティーなノイズサウンドへと昇華させています。
+
+そこから感じられる様々な音楽的背景は、ノイズシーンだけに留まらない彼の音楽家としての成功の大きな要因と言えるものです。
+
+今回の初来日は彼が熱望していたものでこの度ようやく実現。膨大な量のフライヤーやオリジナルアートワーク、カセットやレコード、CDなどのリリース群の展示、その他にミシガンノイズの本当の姿を目撃できる初出のレアビデオ上映や8トラックカセットの再生など、視覚と聴覚のすべてを刺激する展示となります。
+
+今回の来日を期に、2012年に自身のキャリアを総括する2枚組 LP としてリリースされ高い評価を得ています「Modern Jester」後、初となる LP を Rockatansky Records からリリース、haus 及び各ツアーライブ会場にて先行販売します。
+
+東京から福岡まで行われる来日ツアーでは遂に、現行ノイズパフォーマンスを集約すると言える、特筆に値するライブパフォーマンスを目にすることができるでしょう。
+
+http://hansonrecords.bigcartel.com/hanson-records-digital-catalog
+http://hansonrecords.bigcartel.com
+http://www.discogs.com/artist/Aaron+Dilloway
+http://en.wikipedia.org/wiki/Aaron_Dilloway
+http://www.meditations.jp/index.php?
+main_page=index&artists_id=4265&typefilter=artist
+http://en.wikipedia.org/wiki/Wolf_Eyes0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2013","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2013"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"AARON DILLOWAY"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2013-10-18"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

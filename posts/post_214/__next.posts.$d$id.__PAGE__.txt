@@ -1,0 +1,39 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tde0,『東亞大笨蛋～東アジア大マヌケ～作戦　福岡編！』
+
+
+東京、高円寺の商店街でリサイクルショップ「素人の乱」を経営しつつ、独自の場所づくりを展開している松本哉氏。最近は本業に日々勤しんでいるのだろう、と思いきや…
+
+なんと、ここ数年のあいだに東アジア圏（中国、台湾、韓国、香港、果てはマレーシアまで）に足繁く通い、謎の文化圏との交流を深めているという！
+
+最近アジアで面白い動きが生まれつつある、と謎の嗅覚を頼りに各国を歩き回り続け、幾多のアジア式酒交流を経て出会ったのは、どこの国であっても世の流れなんかに惑わされず、政府の言うこともテキトーに聞き流しつつ、金もうけよりも面白いコト追求せずにはいられない「マヌケ」な奴らと、彼ら／彼女らが自力で作る独自の文化圏（音楽や芸術、店やイベント、コミュニティ）だった。さらに、このマヌケな人びとは国や文化は違えども「自分たちの場所をつくる」という共通の習性があり、今、お互いが国境を越えて活発に行き来しているのだという。
+
+北京のアンダーグラウンド音楽界隈、香港下町のアナーキー集団、台北で自分たちの「社區（＝まち）」を作ろうと動き始めたコーヒーショップから、果ては台南のヒッピー村まで。テレビ、マスメディア、インターネットには流れてこない東アジアで現在進行中の自力の場所づくりと文化圏について知り、さらに交流していくための作戦会議&交流会。こればかりは現場を歩いて見聞きした本人から話を聞くしかない！
+
+今回は、今年9月に東京で計画している、これまでの東アジア交流圏が一堂に会する謎の大パーティー計画についても紹介する予定。これは東アジアの面白い活動をしている奴らと一気に仲良くなるチャンスかもしれない。
+
+そして、福岡は実は日本におけるアジア交流圏の重要スポット。福岡に住む自分たちが、一番近い隣の国の街、釜山のやつらとの面白い交流圏を作れるにはどうすればいいか、も含めてアイデアをみんなで出し合う予定。
+
+＜当日のイベント内容＞
+
+リュウ君の手品ショー
+極秘講演「近年の東アジア大バカ結託の動きはこれだ！」
+作戦会議
+東アジアマヌケ大宴会(居酒屋か暖かければ路上へ移動）
+
+さらに！
+
+実はこの企画、その週の土曜日からイベントごとプサンへと移動し、3月12－13日に、実際にプサン人たちと交流するという超有言実行型企画！このイベントの後にみんなでプサン行きのフェリー券を購入するしかない‼︎
+
+福岡とプサンのどんな交流がこの期間中に生まれるのか！？こればかりは足を運んで、自分の目と耳で確かめるしかない！！！
+
+
+
+ゲスト： 松本哉　（素人の乱５号店、店長）、  リュウ・ヨンジン （福岡大学非常勤講師・マジシャン）、 後藤宏基（大学生・マヌケ見習い） 、モリテツヤ （汽水空港店主）
+
+司会： 江上賢一郎（マヌケスポット探検・写真家　※最近の想い・黒のアナーキーな屋台をつくりたい）0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2016","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2016"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","26",{"children":["$","$L2",null,{"href":"/?category=workshop_lecture","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"05_ワークショップ等"}]}],["$","li","37",{"children":["$","$L2",null,{"href":"/?category=others","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"06_その他のイベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"『東亞大笨蛋～東アジア大マヌケ～作戦　福岡編！』"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2016-03-10"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tc23,都市は「プロ」が一方的につくるものじゃない。 カネもコネもノウハウも乏しい「素人」であっても、 不動産価値や歴史価値が中途半端な空間＝「都市の〈隙間〉」から「まちをつくる」ことができる。
+
+ドイツ・ライプツィヒのコミュニティスペース「日本の家」の共同創設者である大谷悠さんが、著書『都市の〈隙間〉からまちをつくろう』を出版します。
+
+90年代の衰退から突如ブームタウンとなった旧東独の都市ライプツィヒのダイナミックな変化を振り返る1章、 空き家・空き地で起こった住民活動の現場をたくさんの図版とともに紹介する2章、 大谷さんたちの活動である「日本の家」のアクターひとりひとりのネットワークに迫る3章、 そして都市計画だけでなく社会学、哲学を参照しながら、都市の〈隙間〉から見えてくる都市の未来を論じた終章。 ライプツィヒの空き家・空き地で生き生きとパワフルに活動する人びとの視点から これからの都市を論じた本となっています。
+
+今回はtetraメンバー江上賢一郎が聞き手として、都市の〈隙間〉の可能性とこれからの都市について語り合います。
+
+
+
+
+大谷 悠
+1984年東京生まれ。2010年単身渡独、2011年ライプツィヒの空き家にて仲間とともにNPO「日本の家」を立ち上げ、以来日独で数々のまちづくり・アートプロジェクトに携わる。2019年東京大学新領域創成科学研究科博士後期課程修了、博士(環境学)。同年秋から尾道に在住、「迷宮堂」共同代表として空き家を住みながら改修し、国籍も文化も世代も超えた人々の関わり合いの場にしようと活動中。2020年から尾道市立大学非常勤講師。ポスト高度成長とグローバリゼーションの時代に、人々が都市で楽しく豊かに暮らす方法を、欧州と日本で研究・実践している。　
+
+主な著書・論文・作品:
+『CREATIVE LOCAL-エリアリノベーション海外編』(共著、学芸出版社、2017)「都市の〈間〉論-1990年以降のライプツィヒ東西インナーシティを事例に」(博士論文、東京大学、2019)、映像作品『40㎡のフリースペース-ライプツィヒ「日本の家」2015-2017』(2018)
+
+　
+江上 賢一郎
+1980年福岡県生まれ。早稲田大学、ロンドン大学ゴールドスミス校 文化人類学修士課程修了。留学中よりアートとアクティビズム、オルタナティブな自立空間のリサーチを開始。現在は美術館勤務、大学非常勤講師と並行して、art space tetraの共同運営、アジア圏を中心としたオルタナティブスペースのリサーチとネットワーク作りを継続中。
+
+　
+※当日は検温、消毒、座席の距離など、コロナ対策に十分配慮したうえで実施いたします。0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2020","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2020"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","37",{"children":["$","$L2",null,{"href":"/?category=others","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"06_その他のイベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"『都市の〈隙間〉からまちをつくろう！』出版記念イベント　ゲスト：大谷 悠（まちづくり活動家・研究者）"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2020-11-03"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

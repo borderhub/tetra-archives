@@ -1,0 +1,33 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tbac,資本主義経済の価値とは異なる視座を人類学、マルクス主義から拾うのは、昔から語られていますが、この際、もう一度、あるいははじめて入門するのに、ターナーの論文がヒントを与えてくれたら、いいな、と思っています。
+読書会では、英語文献をド頭から丁寧に読んでいきます。あーでもこーでもない、と喧々諤々の議論をしつつ、価値について、探ってみませんか？
+第四回は、おそらく最後！　ようやく残すところあとわずかになりました！　続きのMARX'S APPROACH TO VALUE AS ‘PRAXIS THEORY’ VS ‘PRACTICE THEORY’から読みます。マルクスを丁寧に分析した前節でしたが、この節から結論に至るまで果たしてどうなるのか？！
+（森元斎/哲学）
+
+価値とは一体何だろう？
+価値＝お金とは本当なのだろうか？
+人間の労働はすべてお金で計算することができるのだろうか？
+そもそも、お金だけが、人間社会における諸活動の価値を測定する唯一の指標であると
+考えることに無理がないだろうか？
+この研究会を通じて、私たちの生活/現実を規定していると信じられている資本主義経済
+の諸概念そのものを批判的に問い直し、人類学のフィールドから人間の行為と価値の多
+種多様なあり方を参照していくことで、これまで資本主義社会の中で覆い隠されてきた
+人間の諸価値を再び現在の私たちの生活の中に反映させ、新たな社会的生産/再生産の
+領域を組織化するための理論的視座を探りたいと考えています。
+シリーズ初回は「マルクスと人類学」をテーマに、Terrence Turnerの「Marxian Value
+Theory, an anthropological perspective」を読んでいく予定です。
+Terence Turnerは、アメリカのマルクス主義人類学者であり、ブラジルの先住民族社会
+カヤポ族のフィールドワークとマルクスの価値理論を通じて、国家や市場なき社会におけ
+る価値の生産を、人間労働とそれが生み出す成果の表象との関係として、唯物論と
+記号論を横断するアプローチで分析しています。
+社会的な富とは、誰が生産し、何によって表象され、そして誰が享受しているのか。
+マルクスの価値理論を再考することで、この価値を巡る生産関係と、価値の表象•流通•
+消費のプロセスを構造的に捉え、表象の下に覆い隠されてしまった、人間の諸行為/労働
+へと肉薄し、それらが最終的にどのような社会の全体性を支えているのかという動的な
+価値生産のプロセスを見ていくための弁証法的視点を一緒に身につけていきたいと思います。
+（江上賢一郎/文化人類学）0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2013","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2013"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","26",{"children":["$","$L2",null,{"href":"/?category=workshop_lecture","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"05_ワークショップ等"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"須崎読書会「第四回マルクスと人類学」Trrence Turner ‘Marxian Value Theory, an anthropological perspective’を読む"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2013-03-14"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

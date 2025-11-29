@@ -1,0 +1,41 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:T85f,荒瀬哲也 インスタレーション
+JUST NOW / JUST THEN − TETSUYA ARASE | EXHIBITION
+
+2022年9月10日|土| − 9月19日|月・祝|
+17:00-20:00 会期中無休・入場無料
+
+
+リアルタイムで撮影された会場内の映像を遅延させ、鑑賞者を取り囲むように投影。 映像、実像と影、「過去」と「いま」が移ろい、重なり合う。「ついさっき」の同じ映像を見つめ、同じ体験をしている自己と対面する。 
+
+技術協力:諸岡光男
+機材協力:art space tetra
+
+■略歴
+1981年 福岡県生まれ 
+2004-05年 Bildende Kunst, University of Applied Sciences and Arts in Hannover 交換留学 (ドイツ) 
+2006年 広島市立大学大学院 芸術学研究科 博士前期課程修了
+
+■Selected Exhibitions
+2022年 「画廊からの発言 新世代への視点2022」ギャラリー58(東京) 
+2022年 「Square［30×30cmの正方形展］」ギャラリー58(東京) 
+2021年 “Tracking” ギャラリー58(東京)／アートスペース・テトラ(福岡) 
+2020/15/12年 Solo Exhibition ギャラリーとわーる(福岡 ) 
+2017年 “Scramble” ギャラリー58(東京)／ギャラリーとわーる(福岡) 
+2015/13/12/10/09年 Solo Exhibition ギャラリー58(東京) 
+2011年 「福岡インディペンデント映画祭2011」福岡アジア美術館(福岡) 
+2011年 「WATAGATA Arts Festival 2011／釜山go-between福岡」福岡アジア美術館(福岡) 
+2011年 「first decade」共同アトリエ・３号倉庫(福岡)  
+2011年 “Endless guinea pigs” 共同アトリエ・３号倉庫(福岡) 
+2010年 「有田現代アートガーデンプレイス2010／ARITA-mobile～場所を紐解く方法論として～」炎の博記念堂(佐賀) 
+2008年 「広島アートプロジェクト2008“汽水域”／旧中２特別企画“−ilha grande−/愛”」旧日本銀行広島支店(広島) 
+2005年 「GEISHA」Stiftung Horizonte, Kunst & Kultur im Tschechischen Pavillon(ハノーファー)
+など
+
+■参考画像
+《Just Now / Invisible / Inaudible / Reverberation》ヴィデオ・インスタレーション 2022年0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2022","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2022"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","28",{"children":["$","$L2",null,{"href":"/?category=art_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"03_アートイベント"}]}],["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"荒瀬哲也 インスタレーション JUST NOW / JUST THEN − TETSUYA ARASE | EXHIBITION"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2022-09-10"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

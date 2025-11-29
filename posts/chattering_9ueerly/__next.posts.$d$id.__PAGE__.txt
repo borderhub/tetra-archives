@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tb74,ゲスト：古怒田望人／いりや & 小宮りさ麻吏奈
+協賛：なごみ貿易株式会社
+参加費: 2,000円（２階入口で徴収）＋ワンドリンク（１階奥でオーダー）
+問い合わせ：逆卷しとね（vortexsitone@gmail.com）
+
+形式：
+バトル・ロワイヤル方式。ゲストによる1時間のお喋りの後、10分ごとに参加者がひとりずつ増えていく。新規「おしゃべりすと」は、直前のおしゃべりから単語をひとつ拾って、お喋りを引き継ぐ。
+
+参加方法：
+以下のフォームから予約してください。20名に達したところで締め切ります。
+https://forms.gle/2AbwpZYvjB9vbw9aA
+
+ゲスト紹介：
+
+古怒田望人/いりや(こぬた・あさひ/いりや)
+1992年生まれ。ジェンダークィア。大阪大学大学院人間科学研究科博士後期課程修了。博士(人間科学)。現在、工学院大学等非常勤講師。専門は、哲学、 クィア理論、トランスジェンダー研究。単著に『クィア・レヴィナス』（青土社、2025年）。共著に『フェミニスト現象学入門 ——経験から「普通」を問い直す』(ナカニシヤ出版、2020年)、『フェミニスト現象学——経験が響きあう場所へ』(同、2023年)。主な論文に「ベルサーニをトランスする——ベルサーニのクィア理論におけるトランスリーディングの可能性」(『Gender & Sexuality』第19号)など。
+
+小宮りさ麻吏奈(こみや・りさ・まりな)
+1992 年アトランタ出身。アーティスト / アーター。自身の身体を起点とし、 クィア的視座から浮かび上がる新たな時間論への関心から「新しい生殖・繁殖の方法を模索する」ことをテーマにパフォーマンスや映像、場所の運営などメディアにとらわれず活動している。漫画『線場のひと』(上下巻)。近年の主なプロジェクトに1年間花屋を経営する「小宮花店」、オルタナティブスペース「野方の空白」の運営。共同プロジェクトに制度における同性婚不可と建築法の問題を重ね合わせ、再建築不可の土地に庭をつくるプロジェクト 「繁殖する庭」の運営、映画制作を鈴木千尋とともに行う。また、クエスチョニングを続けるためのクィア・フェミニズムアートプラットフォーム 「FAQ?」をアーティストの谷川果菜絵 (MES) と共に運営。近年の主な個展に「Invasive Ale」 (Studio Voltaire、ロンドン、2024)、「機械化する種ep.01」 (タリオンギャラリー、東京、2024)、「繁殖する庭」(繁殖する庭プロジェク小名義,TOH,東京)、グループ展に「REBORN ART FESTIVAL 2019」(宮城県)、「陸路(スピルオーバー#1」 (BUG、東京、2024)、など。0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2025","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2025"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","28",{"children":["$","$L2",null,{"href":"/?category=art_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"03_アートイベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"Chat(ter)ing 9ueerly——クィアはおしゃべり"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2025-08-31"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

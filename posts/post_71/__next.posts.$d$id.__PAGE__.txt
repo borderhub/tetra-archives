@@ -1,0 +1,72 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+4:I[6502,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"Image"]
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+5:T14c5,
+1968年、名古屋生まれ。
+幼少時は、バルトークを尊敬する早熟の作曲少年。戸島美喜夫（ex.グループ音楽）の助言で、音大ではなく、京都大学理学部に進学。現代音楽、民族音楽、即興、パフォーマンス等々の影響を受けながら従来の方法に囚われない作曲活動、コンサート活動を行う。5人編成のバンド、プーフーがオーディションでグランプリを獲得し、92年CDデビューするも、その後、子どもと創作することへの関心から、British Councilの招聘でイギリスのヨークに滞在（94～95年）。イギリス各地で子どもたちとのワークショップやコンサートを行う。帰国後、ガムラン作品「踊れ！ベートーヴェン」を作曲し、本家インドネシアツアーを行う。96年には、JCC ART AWARDSの現代音楽部門最優秀賞を受賞。このころから、国内でのワークショップの活動を精力的に行うようになる。
+
+以下、近年の主な活動
+
+山手線のほぼ全駅に渡る鍵盤ハーモニカの路上演奏（『路上日記』）、
+教護院でのコンサート、
+尺八、箏、ちくわ、鍵盤ハーモニカのための『ごんべえさん』、
+箏の教則本、
+パリでの展覧会「どないやねん！現代日本の創造力」、
+お年寄りとの共同作曲プロジェクト、
+電子オルガンのための『ＦとＩはささいなことでけんかした』、
+ガムラン曲『せみ』、
+箏曲『りす』、
+しょうぎ（将棋）作曲、
+タコとタヌキー島袋野村芸術研究基金、
+ピアノ曲『ＤＶがなくなる日のためのインテルメッツォ』、
+ロンドンでの展覧会「Facts of life」、
+ピアノ協奏曲『だるまさん作曲中』、
+高嶺格らとの共同制作、
+箏の７重奏『５２×５１』、
+野村幸弘との映像作品「学校の音楽」、「体育館の音楽」、「屋上の音楽」、「城址公園の音楽」、「武家屋敷の音楽」、
+クラリネット、箏、パーカッション、マリンバ、コントラバスのための『自閉症者の即興音楽』、
+マリンバと三味線のための『小さな平和活動』、
+17弦デュオのための『つみき』、
+水口碧水ホールでの作曲作品個展「音楽ノ未来・野村誠の世界」、
+フロニンヘンでの作曲作品個展、
+山口情報芸術センターでの「しょうぎ交響曲の誕生」、
+一週間で，オペラを作るの「ホエールトーン（全音階＋1音）・オペラ」、
+リールでの現代美術展「Akimahen」、
+ジプシーの家族とアコーディオン即興セッション、
+プロの音楽家のためのワークショップ＆レクチャー、
+養護学校でのワークショップ、
+コミュニティグループのためのワークショ ップ、
+エイブルアート・オンステージの実行委員、
+マルガサリとの共同作業、
+ガムラン楽舞劇『桃太郎』、
+鍵盤ハーモニカ５重奏『あたまがトンビ』、
+ワークショップ「火の音楽会」（手作り線香花火、火打石のオーケストラ、キャンプファイヤーをマイクで増幅、キャンプファイヤーの音を聴診器で聞く、火の四重奏、火とピアノの共演）、
+アコーディオンソロのための『たんぽぽ組曲』、
+タイ、インドネシアでのインプロピクニック（標高７００ｍの山頂で連日繰り広げた即興セッション）、
+小学生とオルガン曲を作曲するワークショップ、
+音楽療法士の石村真紀とピアノデュオフリー即興２時間ライブ、
+鍵ハモ・ミュージカル『でみこの一生』、
+組曲『オルガンスープ』（この楽譜を簡易印刷し、その後演奏した人に渡していく。また、希望者は、簡易印刷した楽譜が実費で入手できる）、
+鍵盤ハーモニカオーケストラ「Pブロッ」、
+絵を音楽にするワークショップ。
+アリクイが鍵盤ハーモニカを演奏する映像作品『ズーラシアの音楽』、
+アコーディオンとピアノのための『ウマとの音楽』、
+ＮＨＫ教育テレビの新番組「あいのて」、
+鶴見幸代とアコーディオンの小品集『ブログ音楽』、
+仕掛けあいプロジェクト「あーだ・こーだ・けーだ（ＡＣＤ）」、
+山下残演出「動物の演劇」の音楽、演劇交響曲第一番『十年音泉』（３時間半）
+等々
+
+
+本年福岡では、福岡市美術館「コレクション/コネクション」展における「ピアノのための２１の小品」の発表の他、北九州での鍵盤ハーモニカワークショップの開催、福岡アジア美術館「第4回福岡アジア美術トリエンナーレ2009」オープニングにて、高取中学校吹奏楽部と「福岡トリエンナーレ」を初演した。10月31日には、冷泉町の銭湯「大春湯」にて、＜お湯の音楽会＞の開催が予定されている。
+
+
+野村誠のページ　http://www7a.biglobe.ne.jp/~nomu104/
+野村誠の作曲日記　http://d.hatena.ne.jp/makotonomura/0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2009","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2009"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"野村誠　～　鍵ハモソロと秘蔵音源"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2009-10-30"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":[["$","em","0",{"children":"マニュアルも、方法論も、常識も、セオリーも何もない。ただ、自然にやっていて、起こった音楽。「場」があり、「時間」があり、そこで起こる「出来事」があった証としての作曲。"}],"\n\n\n八面六臂の活躍を続ける作曲家、野村誠。公表された録音作品が少ないため、その場に居合わせることができなかった人には知られていない（聞かれていない）、その多岐にわたる活動の一端に触れてみる本人秘蔵のレア音源の試聴と鍵盤ハーモニカのソロライブ。\n\n＜お湯の音楽会＞の前夜祭に、どうぞ。\n\n",["$","$L4","2",{"src":"/upload/post_71/nomura.jpg","alt":"nomura.jpg","width":260,"height":195,"className":"my-8 max-w-full h-auto border border-black ","style":{"width":"260px","height":"auto"}}],"\n\n",["$","strong","4",{"children":"野村誠"}],"$5"]}],"$L6"]}]]}],["$L7"],"$L8"]}],"loading":null,"isPartial":false}
+6:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+7:["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

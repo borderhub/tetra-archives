@@ -1,0 +1,41 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tefa,私は日本に住むアメリカ人の画家です。電子技術者としての専門的な経験は、私の仕事の視覚的な比喩に深く影響を与えました。東京藝術大学東京藝術大学（2004-2005）でMFA研究の正式な研修を受け、木谷浩二教授に油絵を学びました。 10代の頃、私は陶芸家の下で見習いをしましたが、故郷のニューヨーク州ロチェスターにあるナザレス大学でスタジオアートの理学士号を取得しながら絵画に移行しました（1998年卒業）。 2000年から2004年まで日本の京都に住んでいる間、私は日本のアーティストの美学と哲学を紹介され、それが私の作曲と主題を導き続けています。 2005年から2007年までイタリアのガエータで、2017年から2019年までイタリアのナポリで働いていた経験も、私のパレットとテーマに影響を与えます。 
+
+Mercantile Mechanism #20 (Yanagawa 柳川市), 133 cm X 100 cm
+
+ « 私はお互いの、そして私たちの環境との目に見えないつながりに驚嘆しています。 »
+
+レベッカ・ホワイトは、1977ニューヨーク州ロチェスター生まれ, 2004東京藝術大学院で油絵を学ぶ、日本を拠点に活動する経験豊富なアーティストであり、その絵画は、米国とイタリアだけでなく、全国的に展示されています。彼女は、それぞれの作品を、彼女が見たり想像したりした、相互作用する社会的、経済的、機械的システムを描いた「詩的なイラスト」であると説明しています。さらに、ホワイトは、電子技術者としての彼女の専門的な経験を、彼女の作品の視覚的な比喩に影響を与えていると述べています。
+
+Rebecca J. White 
+レベッカ・ホワイト画家
+https://paintingsbyrebecca.com/
+ 
+
+1977 ニューヨーク州ロチェスター生まれ
+1993-1996 ニューヨーク州ロチェスターのArturo DeVitalis氏の下で陶芸見習い修業
+1998 ロチェスターのナザレス大学でスタジオアートの理学士号を取得
+1998 ニューヨーク州ロチェスターのハンガーフォードギャラリーでの陶芸と絵画の個展
+2000 ニューヨーク州コーネル大学院でFALcon（外国語アジア言語集中）を修了
+2000-2004 京都と大阪で英語講師
+2004 京都の丸善ギャラリーで油絵の個展
+2004 東京藝術大学院で絹谷幸二氏に油絵を学ぶ
+2004東京の成田ギャラリーでの油絵のグループ展
+2005 四日市のプラッツ近鉄ギャラリーでの油絵のグループ展
+2005 東京のアンファンギャラリーでの油絵のグループ展
+2005-2013 イタリアのガエータと米国のバージニアにある米海軍で電子技術者およびインストラクターとして従軍
+2010 イタリア、ガエータのアーティストスタジオでの油彩とアクリル画の個展
+2013 すべての執筆と、すべての図解を自分自身で描いた芸術愛好家のための"Spoken English for Artists"と いう教科書を出版
+2013-2015 Spoken English for Artistsは、東京の女子美術大学の授業で使用されました
+2016 ペンシルベニアのフィラデルフィアのドレクセル大学で教育およびカリキュラムデザインの博士号を取得
+2019 イタリア、ナポリのカポディチーノホールでのアクリル画の個展
+2021 福岡市のArtas Galleryでのアクリル画の個展
+2021東京都のGallery Art Pointでグループ展
+2021 アルカスSASEBOでグループ展
+2022 25 博物館島瀬美術でのアクリル画の個展
+2022 20福岡市のアート スペース テトラでのアクリル画の個展0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2022","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2022"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"レベッカ・ホワイト個展「オートメーションズ」"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2022-07-20"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

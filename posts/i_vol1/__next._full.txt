@@ -1,0 +1,48 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[3241,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+4:I[91924,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+6:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"ViewportBoundary"]
+b:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"MetadataBoundary"]
+d:I[91040,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+:HL["/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","style"]
+:HL["/tetra_archives/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"JhotC-0QqgW9Bt1jiqCR3","c":["","posts","i_vol1"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","i_vol1","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":[["$","nav",null,{"className":"bg-gray-800 p-4 text-white","children":["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"art space tetra archives"}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+f:Te2f,即興セッション企画　>そっ…時代
+（副題：できるだけそっとしておいてください、の「そっ」ではなくそっ興の「そっ」） vol.1
+
+ゴルゴサーティーン（13）の第134巻「大いなる黄昏日和、悪の慕情の巻」の163ページの2段目右のコマで、デューク東郷が「ソッ…」と呟いているシーンが存在する。
+
+漫画マニアでもついついこの見落としがちな一コマをわたしが初めて見た時、そのストーリー内での前後のコマとの整合性と裏腹に、さいとうたかおが「フッ…」というセリフをてっきり間違えて書き込んだだけではないか、とはなはだ疑念を抱きつつも、そのセリフに翻弄され続けていた、悩める男のロマン…そう、実のところ、わたしはデューク東郷ですら「ソッ…」として欲しい時間があるのかもしれないと心の片隅で思っていたに違いなかったから…
+
+が、後日、ある雑誌でプロインタビュアーの吉田豪によるさいとうたかおへのインタビューの中で、担当編集者の単なる文字ミスだったという事を知った。おかげで、その二文字に密かに託されていたわたしの男のロマンは覆った。嗚呼、女には決して分かるまい、人間知らずに生きていた方が良い事もある、何事もそっ興、飲酒運転は危ない、子供にはワンパクに育って欲しい、石の上でも桃栗三年、正直は馬鹿者を見る、果報は寝て待てない、信じるものは救われるまで信じ続ける、等々、頭の中で溢れ出てくる混沌としたフレーズが…
+
+というところで、目が覚めた…27日木曜、よろしくね！
+
+* * * * * * * * * *
+
+この「そっ…時代」（副題：できるだけそっとしておいてください、の『そっ』ではなくそっ興の『そっ』）では音楽、パフォーマンス（ダンス、即興演劇、
+ライヴペインティング等々なんでもあり）のジャンルで来て頂いた方々から、
+任意にそれぞれ二名のデュオまたは三名のトリオによって 10分または15分の
+時間を共有する場を作って頂きたいと考えているのであります。
+発表というハードルより少し下がる大学の軽音楽部の部室さながらのまったりしつつ、ちょいと真面目な実験の場をゆるゆると御提供したいというのがこの企画。
+演るほうも観るほうも楽しみつつ、色々と考えたりできれば香ばC限りであります。
+皆様、どーかよろしくおねがいいたしまする！
+主催及び文責　三年待ツ飽きら
+
+注意事項！！
+1.基本的に当方ではスペース以外、音響、映像等の機材に関しては準備致しません。自分で御準備下さい。
+2.また近隣が民家ですので大音量の楽器等の使用も場合によってはお断りする場合があります。
+3.準備体操、器材セッティング準備等の配慮は行いません。参加する各々の自己責任でお願い致します。
+4.主宰者の判断によってマナーの悪い方、常識の範囲外の行動を取られる方は出入り禁止にすることがあります。
+ご了承下さい。
+
+三年待ツ飽きら　プロフィール
+
+1967年生　とうとうここ数年愛用してたI-MACが固まってしてぶっ壊れました…正直パソコンなんてもう買いたくありません。どーしよ…5:["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2012","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2012"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","26",{"children":["$","$L2",null,{"href":"/?category=workshop_lecture","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"05_ワークショップ等"}]}],["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$Le",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"即興セッション企画　<<出ai系>>そっ…時代i vol.1"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2012-09-27"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$f"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"art space tetra archives"}],["$","meta","1",{"name":"description","content":"art space tetraの活動記録"}]]
+8:null

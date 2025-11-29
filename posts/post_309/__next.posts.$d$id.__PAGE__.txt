@@ -1,0 +1,34 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+4:I[6502,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"Image"]
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+5:Te37,
+
+出演：ピエール・ベルテ　中島吏英
+■12月21日(Thu)
+鏡田屋敷（福岡県うきは市吉井町若宮113-1）
+２，５００円　※１８歳以下1,000円、小学生以下無料
+１６：００開始 （３０分前開場）
+
+■12月22日(Fri)
+黒田征太郎アトリエ2F（北九州市門司区西海岸1丁目4-27）
+スペシャルゲスト　坂田 明（サックス）
+３，５００円　※１８歳以下1,500円、小学生以下無料
+１９：００開始 （３０分前開場） 
+
+■12月26日 (Tue)
+art space tetra（福岡県福岡市博多区須崎町2-15）
+２，０００円＋1d order　※１８歳以下半額、小学生以下無料
+２０：００開始（３０分前開場）
+
+ブリキ缶、笛、機関車ダンパー、陶器の器、コンプレッサーのトップベル、ピンポンボール、乾燥したリュウゼツランの葉、スポンジ、鋼線、枝、紙、ビニール袋、銀紙、ピンクの手袋、ピアノ、風船、バケツ、羽根、水、切れ端、小石、鉢、ギター、金属の管、桐の花の種、貝、竹の棒、丸太、骨、石、、
+中島吏英とピエール・ベルテは、音の影が踊るよう、さまざまな方法で物を振動させてきました。目に見えない空気のボリュームは常に姿形を変容させながら空間を移動し、私たちの最も奥深くにある秘密の場所に入り込みます。魂に少しでも近づく方法、それは音を聞くことなのです。
+場合によっては色々な方法で音が鳴り響くように促してあげてください。例えば叩く、撫でる、振る、打つ、擦る、ひっかく、爪を立てる、茹でる、ぽんと叩く、ガタガタさせる、揺らす、投げる、動かす、磁化させる、挟む、料理する、つまむ、刺激を与える、モーターで動かす、しならせる、吹く、爪弾く、温める、流してみる、凍らせる、落とす、滴らせる、つなげる、巻く、混ぜる、延ばす、歌う…
+ピエール・ベルテ(Pierre Berthet)：１９５８年生まれ、ベルギー、リエージュ在住。ブリュッセル王立音楽院にてG.E.Octors、André Van Belleにパーカッションを、リエージュ王立音楽院にてFrederic Rzewskiに作曲、Garrett Listに即興音楽、Henri Pousseurに音楽理論を学ぶ。鉄、プラスティック、水、モーター、掃除機などを使用し、作曲、音の彫刻、インスタレーションを制作する。音楽フェスティバル、アートギャラリー、屋外におけるイベントなどさまざまな場所で展示やパフォーマンスなどを30年以上行ってきた。過去にFrederic Le Junterと共演し、Arnold Dreyblattのバンドではパーカッションを担当。作曲家Tom Johnsonの「ガリレオ」の奏者としても知られ、ヨーロッパの多くの国で演奏する。
+中島吏英（りえ）：ロンドン在住。東京藝術大学で芸術学を学んだ後渡英、チェルシーカレッジオブアーツ、スレード美術学校で彫刻を学ぶ。日用品とキネティックな仕掛けを組み合わせて音を作り、インスタレーションやパフォーマンスとして空間を成立させる作品で知られる。2012年ごろよりにヨーロッパ、日本、アメリカなど多くの場所で発表する。コラボレーターの中にはDavid Toop、Pierre Berthet、山本景子、ミキ・ユイ、David Cunningham、坂田明、池田謙、中島治子等がいる。0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2023","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2023"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","28",{"children":["$","$L2",null,{"href":"/?category=art_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"03_アートイベント"}]}],["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}],["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"デッド プランツ＆リビング オブジェクツ"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2023-12-21"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":[["$","$L4","0",{"src":"/upload/post_309/IMG_8293.jpeg","alt":"","width":800,"height":600,"className":"my-8 max-w-full h-auto border border-black ","style":{"width":"800px","height":"auto"}}],"\n\n",["$","$L4","2",{"src":"/upload/post_309/IMG_8294.jpeg","alt":"","width":800,"height":600,"className":"my-8 max-w-full h-auto border border-black ","style":{"width":"800px","height":"auto"}}],"$5"]}],"$L6"]}]]}],["$L7"],"$L8"]}],"loading":null,"isPartial":false}
+6:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+7:["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

@@ -1,0 +1,116 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[3241,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+4:I[91924,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+6:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"ViewportBoundary"]
+b:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"MetadataBoundary"]
+d:I[91040,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+:HL["/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","style"]
+:HL["/tetra_archives/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"JhotC-0QqgW9Bt1jiqCR3","c":["","posts","timeline"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","timeline","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":[["$","nav",null,{"className":"bg-gray-800 p-4 text-white","children":["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"art space tetra archives"}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+f:Tecc,ー2019/1/30.am0:50
+
+今回の企画はTORU HARADAからの展示問い合わせから始まった。
+
+
+「テトラをお借りしたいんですが空いているスケジュールを教えてください。」
+
+
+そして何度かDMでのやり取りをして彼からこう提案された 。
+
+
+「作品構成やキュレーション的な動きは自分がやりますのでNKEを誘って一緒に是非やりませんか？」
+
+
+彼の他にもテトラで展示希望の作家やイベンターがいて、4月以降までスケジュールに余裕は無かった。
+
+ただ2/9日から2/15日だけの1週間だけなら空いている。 
+
+「準備する余裕も時間も無い。
+無茶なスケジュールですね。」と答えた。
+
+その返事が
+
+「旗をあげましょう」と冗談のような言い回しで彼は企画の趣旨を伝えてきた。
+制作と準備を今日から10日でこなし1日の搬入と設営でテトラでの展示をスタートする。
+
+
+stupidな思いつき。
+
+
+他のメンバーに相談すると
+
+「ストリートの作家はいつも勢いがあるからね、面白いよ」との事。
+勢いで何かを始めるのは僕らの数少ない取り柄だと思う。
+
+
+自分は展示を企画する時、来てくれたお客さんがどのようにストーリーを感じて表現のエネルギーを持ち帰ってくれるかを考える。
+
+
+10日しか準備する時間が無いなら、余裕の無いその一瞬に立ち合いたい。
+無茶が故に2人のスタイルが光る気がする。
+
+
+展示が始まったらどんなストーリーが待ち受けているだろう。楽しみでしょうがない。
+
+
+展示のタイトルは
+
+
+【TIMELINE】
+
+
+「SNSにおいて自分や他人の投稿を時間順に表示したもの。TL。」
+
+
+毎日の生活に制作が紐づいているアーティスト2人。
+
+彼らの10日間の時間をどのようにパッケージングしてテトラで見せる事ができるのか。
+
+期待して欲しい。
+
+2019年1月30日at tetra.
+村上（wazuhia/art space tetra）
+
+
+
+
+
+■closing party：2/15(土)start 19:00〜
+■closing Party Fee：¥1,000
+■at art space tetra
+
+▫︎LIVE-
+lee
+tuyoshi
+lulu
+and more... .
+最終日2/15(土)はclosing partyを開催します。
+19時からBEATMAKERのLIVEやバイオリニストの演奏等。
+作家に縁のあるを音楽家やアーティストを迎えて開催致します。
+ぜひご来場ください。
+
+
+
+
+▫︎NKE:profile
+2004年ぐらいからgraffitiをしている。
+高校中退により美術の専門的な教育は受けていない。
+アブストラクトな色の破片を使用したステッカーやカリグラフィを取り入れたタグが得意。
+住んでいる街や、訪れた街の景色をより良くしようとしている。
+
+
+▫︎Tøru Harada:profile
+
+原田 とおる（ 透 ）
+
+大学彫刻科卒業後２００４年から中国に渡り建設会社でランドスケープのデザイナー、ディスプレイデザインなどの経験経てフリーランスとして独立。
+自身のバックグラウンドを反映し、地域にある様々な資源や技術をリサーチし作品を制作。
+壁画制作や商用施設でのウィンドウディスプレイ、美術館でのインスタレーションなど幅広く活動し大胆な発想で創作される制作過程は、素材や方法に捉われず自由で独創的。
+その地域でのプロジェクト、空間、環境を通しての制作/展示は、自身のメディア、フォーマット、そして資源を用いて その土地での可能性、および限界、いかにその接点を繋ぎながらその相互作用について疑問を投げかけます。5:["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2020","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2020"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","28",{"children":["$","$L2",null,{"href":"/?category=art_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"03_アートイベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$Le",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"TIMELINE"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2020-02-09"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$f"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"art space tetra archives"}],["$","meta","1",{"name":"description","content":"art space tetraの活動記録"}]]
+8:null

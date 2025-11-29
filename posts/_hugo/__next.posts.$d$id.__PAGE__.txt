@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+7:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+4:T10df,この度、フランスとクロアチアを行き来しながら活動する若手サウンドアーティスト、Hugo氏がリサーチ・レジデンシーのため来日し、九州を訪問されることになりました。 九州の音楽・アートシーンに強い関心を持つHugo氏との交流を深める機会として、以下のワークショップとプレゼンテーションを開催いたします。
+また、今回は、九州大学 芸術工学研究院 准教授の城さん、芸術工学部音響設計の後藤さん、テクニカルスタッフの堀さんにも協力頂き、ワークショップやトークを一緒に進めて行けたらと思ってます。
+
+1. ワークショップ「苔を使った電池を作るワークショップ」
+Hugo氏と一緒に、身近な自然素材である「苔」が持つ光合成を利用して電池を作るワークショップです。苔電池作りのプロセスを体験しながら、自然エネルギーや身近な素材を使った実験的な制作を探求します。サイエンスやDIY、サウンドアート、実験的なものづくりに興味のある方、新しい表現に触れたい方、どなたでもご参加いただけます。
+日時: 2025年4月29日(火) 18:00 - 20:00
+※進行状況により、多少延長する可能性があります。
+内容: 苔を使った電池を作るワークショップ
+対象: 一般（どなたでもご参加いただけます）
+定員: 10名（予約制）
+参加費: ¥1,500 (材料費込み)
+予約方法: https://forms.gle/jxYiRXqM39L6KgSR6
+
+2. プレゼンテーション「Hugo氏 作品紹介＆トークセッション」
+Hugo氏がこれまでに手掛けてきたサウンドアート作品や、現在日本で行っているリサーチについてご紹介いただきます。後半はトークセッション形式で、参加者の皆さまからの質問も交えながら、Hugo氏の活動や考えを深掘りします。
+日時: 2025年4月30日(水) 18:00 - 20:00
+内容:
+Hugo氏による作品プレゼンテーション（約45分、逐次翻訳付き）
+トークセッション（約45分、逐次翻訳付き）
+対象: 一般（どなたでもご参加いただけます）
+参加費: ¥1,000 (1ドリンクオーダー含む)
+
+映像記録について: 当日の様子は撮影し、後日 art space tetraのYouTubeチャンネル にて配信予定です。
+
+Hugo氏について:
+フランス出身の若手サウンドアーティスト。音を通じて環境や空間との関係性を探る作品を制作。現在、日本の文化や芸術についてリサーチを行うため、3ヶ月間のレジデンスプログラムで来日中。
+
+web:
+https://linktr.ee/hvsvh
+
+
+九州のアーティスト、ミュージシャン、文化関係者の皆さま、そしてアートや音楽に関心のある多くの皆さまにとって、国際的なアーティストと直接交流できる貴重な機会です。 皆さまのご参加を心よりお待ちしております。
+
+作家のコメント:
+私は、親密なひとときに内省をもたらす、夢のような繊細な空間を創造する。絵画を通して見え、音楽を通して聞こえるこれらの空間は、共通の語彙（調性、調和、共鳴、振動、構成）で構成されている。知覚（聴覚と視覚）の曖昧さと相互作用を通して、私は想像力の出発点となるテクスチャーと表面を造形する。絵画、音楽、パフォーマンス、インスタレーションを通して、私は密閉主義と、見えるようにしたい、見せたい、見てもらいたい、聴いてもらいたいという願望との間の緊張を作り出そうとしている。
+見てもらいたい、聴いてもらいたい。
+私は、人間-機械-環境という関係的な視点から音楽にアプローチできるツールや楽器をデザインしている。そのデザインにおいて、私はデータフローを利用することで予測不可能な次元を統合し、「生命」、真にデジタルな自律性を再現することを好む。
+会場: art space tetra 〒812-0028 福岡県福岡市博多区須崎町２−１５
+お問い合わせ: e-mail info@as-tetra.info0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2025","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2025"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","26",{"children":["$","$L2",null,{"href":"/?category=workshop_lecture","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"05_ワークショップ等"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"フランスの若手サウンドアーティスト Hugo氏 来日記念イベント開催！"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2025-04-29"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],["$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

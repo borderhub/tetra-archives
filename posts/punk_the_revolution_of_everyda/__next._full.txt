@@ -1,0 +1,61 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[3241,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+4:I[91924,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+6:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"ViewportBoundary"]
+b:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"MetadataBoundary"]
+d:I[91040,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+:HL["/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","style"]
+:HL["/tetra_archives/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"JhotC-0QqgW9Bt1jiqCR3","c":["","posts","punk_the_revolution_of_everyda"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","punk_the_revolution_of_everyda","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":[["$","nav",null,{"className":"bg-gray-800 p-4 text-white","children":["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"art space tetra archives"}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+f:Te2d,
+ゲスト：川上幸之介(倉敷芸術工科大学）
+聞き手：江上賢一郎（アート・アクティビズム研究）
+※入場無料（ドネーション）
+
+■展示予定目録（会場、機材の関係により実際の展示は以下の一部となります）
+
+【カール・クラウス】  
+・カール・クラウス《永遠の平和のために》1932、シングルチャンネルビデオ、4’ 39”
+
+【アルフレッド・ジャリ】  ・ジャン=クリストフ・アヴェルティ《ユビュ王》1964、シングルチャンネルビデオ、1’ 37"00
+【ダダ】
+ ・トリスタン・ツァラ編《DADA 3》1918  ・フーゴ・バル《Karawane》1916  ・ジョン・ハートフィールド《Never Again!》1932、420mm x 594mm
+
+【レトリスム】  
+・イジドール・イズー《涎と永遠についての概論》1951、シングルチャンネルビデオ、2’ 00"00  ・フランソワ・デュフレーン《叫びのリズム》、レコード、8’ 10”、1975
+
+【シチュアシオニスト・インターナショナル】  
+・ギー・ドゥボール《スペクタクルの社会》1973、シングルチャンネルビデオ、1'27"42
+ ・原作 : アンドレ・バートランド、英訳 : キング・モブ《International Times, February 16‒29, 1968. Situationist poster cover》
+
+【ブラック・マスク & アップ・アゲインスト・ザ・ウォール・マザーファッカー】  
+・ブラック・マスク・グループ《Black Mask Issue 1-10》1966-1968
+ ・UAW/MF《We Propose a Cultural Exchange》1967、シングルチャンネルビデオ、11'45"  ・UAW/MF《UAW/MF Leaflets & Articles》1968
+
+【キング・モブ】  ・ティム・クラーク、クリス・グレイ、ドナルド・ニコルソンスミス、チャールズ・ラドクリフ   《The Revolution of Modern and the Modern》1967
+ ・キング・モブ《Art of Revolution 1967 - English Section the Situationist International》1967  ・キング・モブ《King Mob Echo 1-6》1968-1970
+ ・キング・モブ《The Black Hand Gang》21 x 34 cm 1968  ・マルコム・マクラーレン《Ghosts of Oxford Street》1991、シングルチャンネルビデオ、13'22"
+
+【クラス】
+ ・アレクサンダー・エイ《There Is No Authority But Yourself》2006、シングルチャンネルビデオ、64'00"  ・Crass《Crass Zine》1977-1984
+ ・Crass《Crass Album LPs》1977-1984
+
+【ライオット・ガール】
+ ・ケリー・コーチ《Don't Need You: the Herstory of Riot Girl》2006、シングルチャンネルビデオ、39'10"  ・リサ・ダームス《The Riot Grrrl Collection》2013
+
+【クィアコア】
+ ・ヨニー・レイザー《Queercore: How To Punk A Revolution》2017、シングルチャンネルビデオ、83'00"  ・G. B. ジョーンズ 、ブルース・ラブルース「J.D.s」1985 - 1991
+
+【アフロ・パンク】
+  ・ジェームズ・スプーナー《アフロ・パンク》2003、シングルチャンネルビデオ、01'00"03
+
+【インドネシアン・パンク】
+ ・Noisey - Music by VICE《Punk Rock vs Sharia Law - Music World - Episode 5》2014、シングルチャンネルビデオ、20'49"、    (Producer/Host Milène-Larsson, Director/Camera-Grant Armour, Fixer/Co-Host-Kartika Jahja)5:["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2021","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2021"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$Le",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"PUNK! The Revolution of Everyday Life Fukuoka"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2021-12-03"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":["Punk! The Revolution of Everyday Life展\n\n「自覚が生み出すものが真に本質的な行動だと合点できる領域があるとすれば、それは日常生活においてである。そこでは、物事は勝ち目の少ない賭けに委ねられ、我々はいつものようにそれに身を任せるしかないということを、過ぎゆく一瞬一瞬が、繰り返し教えてくれるからだ。」 ラウル・ヴァネーゲム \n\n　パンクは一般的に騒がしい音楽に派手なビジュアル、暴れる観客といったイメージを持たれていることが殆どですが、この系譜を辿るとみえてくるのが「相互扶助」「積極的自由」「自主管理」などの、他者および自己への倫理といった原理の通底です。現代アートとロックから派生したパンクは、音楽活動のみならず、独自の倫理的実践を通して社会に影響を与え、多様性といった人間性の回復をもたらしてきました。本展では、そうしたパンクがこれまで様々な社会問題に取り組んできた実践と批評性を捉えることで、現代アートとの親和性、さらには両者の相乗性について検討します。そして、現代の日常生活に対してパンクがどのように音楽を通じて自律空間を形成しているのか、さらには、それが、どのような意味をもっているのかも改めて振り返ります。\n\n　作家でジャーナリストであったカール・クラウスを起点とし、フランスの劇作家、アルフレッド・ジャリ、現代アートの初動としてのDADA、そこから派生したレトリスム、シチュアシオニスト・インターナショナル、キング・モブ、 ブラックマスク &アップ・アゲインスト・ザ・ウォール・マザーファッカーといった急進的な前衛芸術運動を紹介します。同時にセックス・ピストルズ以降に彼らと同じ軌道を描いたパンク・ロッカーたち、クラス、ライオット・ガール、クィアコア、アフロパンク、インドネシアン・パンクを参照していきます。\n\n　また展覧会Zineの寄稿者として、経済学者の小倉利丸、美術評論家の杉田敦、昨年惜しくも急逝したアナキストで人類学者のデヴィッド・グレーバーが参加しています。\n\n　本展は紙面・映像資料によって構成されており、2021年6月に岡山県倉敷市で倉敷芸術科学大学 川上幸之介研究室により企画・開催され、その後、東京、長崎、福岡、大阪、京都での開催となっています。\n\n\n\n\n\n【キュレーション】川上幸之介（倉敷芸術科学大学）\n【協力】art space tetra\n\n",["$","strong","1",{"children":"【PUNK！展トーク】\n12月4日（土）18:00-20:00"}],"$f"]}],"$L10"]}]]}]
+10:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"art space tetra archives"}],["$","meta","1",{"name":"description","content":"art space tetraの活動記録"}]]
+8:null

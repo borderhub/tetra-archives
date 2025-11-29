@@ -1,0 +1,24 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tb80,＜DMより転載＞
+rhythmでは、フィリピンよりジェイソン・オリベリア、ジョナサン・オラゾという２名の若手アーティストを招待し、アーティスト滞在制作型の展覧会を開催します。
+
+ジェイソン・オリベリアはフィリピン大学美術コースを経て、マニラに設立されたアート・スペース「Big Sky Mind」に参加。今年から始まったアテネオ・アート・アワードで大賞をとるなど期待の若手美術作家です。
+
+ジョナサン・オラゾもフィリピン大学美術コースを卒業後、盛んな活動を展開し、1994年にはその年にフィリピン国内で最も優れた作品を発表したアーティストが選ばれる「13人のアーティスト」賞を受賞しています。
+
+彼らに共通するのは、「美術」というものの根源をしっかりと見据え、身近でありふれた素材を用いて作品を発表している点です。我々が知っている多くのアジアのアーティストは「アジアらしさ」や、その国あるいはその地域の特殊性を意識的に強調しています。私たちrhythmはそういった多文化主義的な潮流、つまり個々の文化の独自性を積極的に前景化する傾向に沿っていないアーティストを招待しました。私たちが考えたいのはむしろもっと根源的な疑問、「アートとは何か（どうあるべきか）」という問いです。この点において彼らは極めて真摯であり、本源的な「アート」の再考を私たちに促すはずです。
+
+私たちは彼らを実際に福岡に招待します。このことは単に彼らの作品および展覧会のみが重要ではないと判断したからです。彼らの話を聞き、コミュニケーションをとることの意義を私たちは強調したいと思います。彼らが何を感じているのか、あるいは彼らにとって「アート」とは何なのか。こういった問いと答えの往復のなかに重要なものが含まれていると私たちは感じています。つまり結果としての作品および展示よりも、彼らが福岡にいて作品を制作するというそのプロセスを共有することが、このプロジェクトの目的になります。そもそも国際理解、国際交流というのは、その国の文化を知識として知ることよりも、実際に人と会うという経験の方が遥かに重要なはずであり、それは美術というフィールドにおいても変わることはありません。
+
+皆様方につきましては、ぜひ会場に足を運び、彼らの作品を鑑賞し、同時に彼らの生の声に耳を傾けて頂くことを私共は切に期待しております。
+
+
+
+[curator] Mizuki Endo (rhythm)
+[DM design] Takaaki Yano (rhythm)
+0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2004","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2004"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}],["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"Jayson Oleveria & Jonathan Olazo"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2004-11-03"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

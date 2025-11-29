@@ -1,0 +1,118 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+4:Ta98,福岡では馴染みの薄いスイスのジュネーブのアート事情を昨年9月に私、調と川口さんで訪問した際の多見さんのアトリエやギャラリーの様子の映像踏まえ、現地で作家活動されてる多見さん、トマさんのこれまでの活動を紹介しながら、どういった仕組みや環境で活動されているかをディスカション等交えながらトークします。
+
+市野 多見 ichino tami 
+1978年、福岡県柳川市生まれ。スイス、ジュネープ在住、活動中。1998年、盛岡市向中野学園（現スコレ高等学校）卒業後、フランスに渡り、リヨン国立美術学校Enbal(ÉcolenationaledesBeaux-ArtsdeLyon)(1998-2000).ニスのヴィラアソンVillaArson（2000-2001）、その後スイスに渡り、ジュネープ美術学校、Esba(EcolesupérieurdesBeaux-ArtsdeGenève)、現Head(Hauteécoled'artetdedesigndeGenève)(2001-2005)を卒業。ヨーロッパでの活動は、絵画、ドローイングの研究、そしてそれらが物体や自然の世界と持つ事ができる関係について特徴づけている。自分を取り巻くものを注意深く観察する事から始まり、絵画やドローイング、さらにはキャンバスから出てきたかのように構築された立体に統合すること。それらを特別な緊張感、何か不穏で奇妙な物により時間が中断されているかのような空間に置いている。作品は主にスイス、ヨーロッパで発表されている
+
+www.tamiichino.net
+
+Thomas Maisonnasseトマ メゾンナス
+1976年フランス、グルノブルで生まれ、現在ジュネーブに在住、活動中。フランス、リヨンのクロドベルナル大学リヨン1（1996-1998）で生物学／地質学の研究を行ったのち、リヨンのEnbal（EcolenationaledesBeaux-ArtsdeLyon）（1998-2000）、ニースのヴィラアソンVillaArson（2000-2001）で芸術を学ぶ。2004年にスイスに渡り、ジュネープの美術学校、旧Esba,Ecolesuperieuredesbeaux-artsdeGenève/現Head,HauteEcolesupérieurdesbeaux-artsetdedesigndeGenèveを卒業。
+作品は影が中心的な部分を占めており、その象徴的な側面よりも影に付随する物質性に視点が向けられている。インスタレション、ビデオ、写真、建築に統合された壁画を通して影を追跡。現在、彼が手掛けるシリーズ「太陽の下で見ることができるすべてのもの」の白黒画像では写真の分野で研究を続けている。作品はスイス、フランス、日本で発表されている
+
+www.thomasmaisonnasse.net
+
+
+5:Te43,
+
+ポートフォリオ
+http://www.tamiichino.net/essai/TI-portofolio_20250711-01_web.pdf
+https://thomasmaisonnasse.net/images/thomas_maisonnasse-TCQSVSLS-20220717-01.pdf
+
+パブリックアート、イベント　例　
+（スイス、ジュネーブのアートシーンということで街や社会に関わったプロジェクトの紹介）
+
+Archipel、 エクスペリメンタルミュージック、サウンドアートフェスティバル2023、ジュネーブ
+楽器と絵画のモビールインスタレーション　Tambours flottants/ 浮遊する太鼓
+https://www.youtube.com/watch?v=iCWekoD-W4o&list=PLbb46rbeNhni8uSQuPYhIc44Av_mK-42Q
+
+ホスピタルアート、Thomas　Maisonnasse 、Tami Ichino　リノベーションプロジェクト
+Comme à la maison/ お家のように、2022年
+ボー州大学病院救急センター、ローザンヌ
+https://rapportsannuels.chuv.ch/activite/2021/6-construire-lhopital-de-demain/batiment/173/
+
+社会福祉と現代アート
+Art truck 007、2024
+Renfile, プラン　レ　ワット
+企画　Destination27, Fmac
+https://www.fmac-geneve.ch/projets/art-truck
+https://www.youtube.com/watch?v=0YSzV2seO20
+
+視覚障害のある子供達とのワークショップ
+Lien tactile-触る繋がり, 2023
+FMAC ジュネーブ市現代美術基金とのコラボレーション、ジュネーブ
+https://www.fmac-geneve.ch/actualites/lien-tactile
+
+音楽祭ポスター
+オーブミュージカル 2021、ジュネーブ
+https://lesaubes.ch/programme-2021/
+ジュネーブ市現代美術基金　Fmac/　Fonds Municipal d’art contemporain de Genève
+ジュネーブインデペンデントアートスペースの歴史展　Flux, 2024
+https://www.fmac-geneve.ch/expositions/flux
+
+プランパレ広場のネオンインスタレーション Neon parallax, Fmac
+https://evenements.geneve.ch/neons/
+https://www.youtube.com/watch?v=cGFDyefb-o8
+
+国際アートフェア,　ビエンナーレ
+アートジュネーブ
+https://www.artgeneve.ch/en/home/
+アートバーゼル
+https://www.artbasel.com
+インタレピッドビエンナーレオブジュネーブアートスペース
+https://bigbiennale.ch 
+
+Gowen ギャラリー
+Making the Landscape展、２０２４年
+http://www.gowencontemporary.com/exhibitions/making-the-landscape/
+
+日本とスイスの連携の可能性
+
+過去に携わったスイスと日本の連携展覧会　例　
+
+日本スイス国交樹立１５０周年
+スイス・ヴィジュアル｜スイス現代写真、映像芸術の現在と過去、瑞雲庵、２０１４年、企画/天野雅景、　京都
+https://www.n-foundation.or.jp/exhibitions/2014-swiss-visual#exhibition-artist
+
+
+市野多見-　トマ　メゾンナス　二人展
+Rentrée à la maison―里帰り, 旧綿貫家、2022年, 　企画/暮らし継ぐ会、柳川
+https://www.kurashitsugu.com
+https://yokavanmou.com/report/武家屋敷で絵画＆写真展/
+
+ジュネーブ市の芸術関連施設 
+
+アトリエ
+https://usinekugler.ch
+https://levelodrome.org
+https://espacepicto.ch
+など
+
+ギャラリー、美術館, アートセンター
+https://quartierdesbains.ch
+https://www.avv.ch
+
+インデペンデントアートスペース
+https://www.instagram.com/milkshake_agency/
+https://aduplex.ch
+https://www.espacelabo.net
+https://www.cave12.org
+など
+
+イントレピッドビエンナーレ　オブ　ジュネーブアートスペース
+https://bigbiennale.ch 
+
+アーティストインレジデンス
+The Embassy of Foreign Artists
+https://www.eofa.ch/en/
+
+Head/Haut école d’art et de design de Genève ジュネーブ美術・デザイン学校
+https://www.hesge.ch/head/0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2025","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2025"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","37",{"children":["$","$L2",null,{"href":"/?category=others","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"06_その他のイベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"市野 多見 & トマ メゾンナス「ジュネーブのアート事情」"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2025-07-26"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":["$4",["$","strong","1",{"children":"ジュネーブのアート事情 資料"}],"$5"]}],"$L6"]}]]}],["$L7"],"$L8"]}],"loading":null,"isPartial":false}
+6:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+7:["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

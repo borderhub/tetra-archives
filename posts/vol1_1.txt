@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[3241,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+4:I[91924,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+6:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"ViewportBoundary"]
+b:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"MetadataBoundary"]
+d:I[91040,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+:HL["/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","style"]
+:HL["/tetra_archives/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"JhotC-0QqgW9Bt1jiqCR3","c":["","posts","vol1_1"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","vol1_1","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":[["$","nav",null,{"className":"bg-gray-800 p-4 text-white","children":["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"art space tetra archives"}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+f:Te70,「僕の人生にとって一番即興だったのは機動隊に石投げたりしてたってことかなぁ…音楽の即興？あれは仕事だからなー…その手の即興は全部Y野A子に任せてる」from 坂木龍一
+（…というのはウソです…そんな事一言も言ってません）
+
+
+* * * * * * * * * *
+
+5月の「即狂時代」が「魅!!男の即狂時代」としてリニューアルして再登場！！
+
+即興というものは狂気を孕んだ男達のロマンであります。即興命！！
+
+目の前に敵が立ちはだかり、その敵を倒すために幾多の修行をし、倒せど倒せどそれ以上強い敵が現れ、それを即興の技で次々と倒していく男…そして気が付くとその男の即興の生き様を見た美女が即興で脇に立ち尽くし、夕日は即興で沈み、そして男と女は即興で愛し合うのであった…って、何の話？
+
+と、そんなことはさておき、真面目に即興などというものに頭を突っ込んでしまうと、人間が産まれてくる瞬間そのものすら即興で生まれてきて、人生を全うしてしていくのであります。
+
+とりあえす、この「魅!!男の即狂時代」では音楽、パフォーマンス（ダンス、即興演劇、ライヴペインティング、紙芝居、影絵、腹話術、指人形、糸電話、メデアアート、等々なんでもあり）のジャンルで来て頂いた方々から、私こと三年待ツの指名や皆のリクエストで、それぞれ二名のデュオまたは三名のトリオによって 10分または15分の真剣勝負の時間を共有する場を作って頂きたいと考えているのであるナリ。
+
+発表というハードルより少し下がるけれど真面目な実験の場を提供したいというのがこの企画。
+演るほうも観るほうも楽しみつつ、色々と考えたりできれば嬉しい限りであります。
+
+皆様、どーかよろしくおねがいいたしまする！
+
+主催及び文責　三年待ツ飽きら
+
+
+■ちなみに「男の即狂」ですが、女性の方の参加もお待ちしていますよ…やっぱり男だけではロマンが生まれません。いや男だけのロマンがあることも世の中にあるのは重々分かっていますが、そのことに関してはとりあえず主宰者は遠慮しておきます。
+
+注意事項！！
+当方ではスペース以外、音響、映像等の機材に関しては準備致しません。自分で御準備下さい。
+また近隣が民家ですので大音量の楽器等の使用も場合によってはお断りする場合があります。
+準備体操、器材セッティング準備等の配慮は行いません。参加する各々の自己責任でお願い致します。
+主宰者の判断によってマナーの悪い方、常識の範囲外の行動を取られる方は出入り禁止にすることがあります。
+ご了承下さい。
+
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+三年待ツ飽きら　プロフィール
+
+1967年福岡生　自由業兼マルチアーチスト志望
+名前の由来は、地元の図書館で図書カードを忘れ、図書館受付のおばさんに本名を名乗ったところ、「三年待つさんですね？」と呼ばれ、もう一度本名を名乗ると「そうですよね…三年も待てませんよねぇ…」と独りボケ突っ込みをされた経験から。
+著書に「卓九州派宣言 !!　九州派を越えて」を卓球普及倶楽部新書から五年後に出版準備中（あくまでも準備）5:["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2010","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2010"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}],["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$Le",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"即興セッション企画　&lt;&lt;出ai系&gt;&gt;魅!!男の即狂時代　vol.1"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2010-06-21"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$f"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"art space tetra archives"}],["$","meta","1",{"name":"description","content":"art space tetraの活動記録"}]]
+8:null

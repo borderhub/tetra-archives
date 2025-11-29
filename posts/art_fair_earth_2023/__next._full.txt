@@ -1,0 +1,128 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[3241,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+4:I[91924,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+6:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"ViewportBoundary"]
+b:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"MetadataBoundary"]
+d:I[91040,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+:HL["/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","style"]
+:HL["/tetra_archives/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"JhotC-0QqgW9Bt1jiqCR3","c":["","posts","art_fair_earth_2023"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","art_fair_earth_2023","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":[["$","nav",null,{"className":"bg-gray-800 p-4 text-white","children":["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"art space tetra archives"}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+f:T15c1,本企画は、現代美術家の鈴木淳と、art space tetraの合同プロジェクトで、9月に福岡で開催される「Art Fair Asia Fukuoka 2023」の時期に合わせて行う超低予算のアートフェアです。
+「ART FAIR EARTH」は、鈴木淳が商標登録を取得しており、2024年を目標として、全世界同時イベントを展開したいと考えております。今回はそのプレイベント的立ち位置となり、これをきっかけに定期的なミーティングやイベントを重ね、展開していきたいと考えています。
+
+本企画の会場は日本のart space tetraとなり、各国を担当するコーディネーターがオルタナティヴな活動をするアーティストや、場所などを紹介し、一時的なアートセンターの機能を持たせます。
+
+会場となるart space tetraは、約20名で運営されているアーティストランのオルタナティヴスペースで、約20年もの間、国内外のアーティストと関わり展覧会やイベントを開催してきました。
+会場となるart space tetraでは、本企画のプロデューサーである鈴木淳のインスタレーションも展開し、会期中は、各国の会場とオンラインで繋ぎ、トークや、パフォーマンス、音楽ライブなどを全世界同時視聴のオンラインイベントを開催予定です。
+
+この活動をきっかけに、オンラインを通じて各国とのつながり、今後のアーティストネットワークとして機能していくことを願っています。
+
+
+■総合プロデューサー
+　Atsushi Suzuki  鈴木 淳（アーティスト）
+
+■会場 コーディネーター/担当（計10か国）
+　Japan 日本：城野 敬志　Takashi Jono　
+　Korea 韓国／Vietnamベトナム：小栗栖 まり子 Mariko Ogurisu  
+　China 中国：原田 とおる　Toru Harada 　
+　Myanmar ミャンマー／Uzbekistanウズベキスタン　大塚 麻里子 Mariko Ohtsuka
+　Palestine パレスチナ：菅 梓 Azusa Suga
+　Colombia コロンビア：Takaaki KJ 
+　Germany ドイツ：坂本 豊 Yutaka Sakamoto 
+　Madagascar マダガスカル：江端 希之  Mareyuki Evata 
+
+◾️テクニカルアドバイザー
+　Mitsuo Moromka 諸岡 光男
+◼️鈴木淳プロフィール
+［受賞歴］
+Fukuoka Wall Art 賞 2022　優秀賞　
+第２４回（２０１５年度）英展 大賞（田川市美術館）
+第３４回（２０１１年度）キャノン写真新世紀 佳作（東京都写真美術館）
+
+［パブリックコレクション］
+福岡市美術館、北九州市立美術館、熊本市現代美術館
+
+［個展］
+2022年
+Innocent Play or Play lnnocent 無邪気なアソビ或いは、トボケる／イソップ旧福岡店・福岡
+ART FAIR EARTH／art space tetra・福岡
+2016年
+どんたくおいしおばあちゃん／ギャラリーおいし・福岡
+2012年
+第１０回 ２１世紀の作家－福岡：なにもない、ということもない／福岡市美術館
+
+［グループ展］
+2023年
+休日のプラットフォーム「休養と回復」
+BankART KAIKO・横浜
+2022年
+新しい境界を越える。／Art House88（仮称）・福岡
+2021年
+セレクション展２０２１ーそこからみえるもの－／EUREKA・福岡
+糸島芸農２０１２続身体尺度／第２レジデンスハウス、稲葉山・糸島（福岡）
+VACUUM 空色(からいろ)の部屋／Operation Table・北九州
+2020年
+発生の場／佐賀大学美術館・佐賀
+釜山：視線と観点 （Busan:：Point of View）／F1963・釜山（韓国）
+Kyushu New Art／博多阪急・福岡
+ちくごアートファーム計画２０２０旅と恋愛／恋木神社・筑後（福岡）
+WATAGATA Arts Network海の記憶１０年／福岡アジア美術館
+2019年
+とはすかたり－文学部の肖像－／九州大学椎木講堂ギャラリー・福岡
+アートフェア３３３１／3331 Arts Chiyoda・東京
+とはすかたり－学舎の肖像－／九州大学箱崎キャンパス旧工学部本館・福岡
+
+■参加会場・作家・管理者 等（コーディネーター名の５０音順）
+江端 希之  Mareyuki Ebata
+□Madagascar　
+・場所：doany Andriantsivongo  and othersドゥアニ・アンジアンチブング　ほか
+
+小栗栖まり子　OGURISU MARIKO
+□Korea
+피어 컨템포러리 pier contemporary／이승연 Lee Seung Yun
+헬시아뜰리에ALMOND(Healthy atelier ALMOND)／이설아イ・ソラ(SINZIA) 
+공간 까치집 (Artspace Kkachizip)／유소영(You Soyoung) 
+
+□Vietnam
+갤러리 퐁당 (Gallery PONGDANG)／運営者: 김정현(Kim Junghyun), 레냣탄(Le Nhat Thanh) 
+
+大塚 麻里子 Mariko Ohtsuka
+□ウズベキスタン
+Ольга Керимова　(Olga Kerimova オリガ・ケリモワ）
+Григорьянц Анна（Anna Grigoryans アンナ・グリゴリヤンツ）
+
+□ミャンマー
+The Room
+
+坂本 豊　Yutaka Sakamoto
+□Germany
+・場所名　SHOXXXBOXXX
+アーティスト名：shoxxx
+
+城野 敬志　Takashi Jono
+□日本
+art space tetra
+鈴木 淳　Atsushi Suzuki
+
+菅 梓　AZUSA SUGA
+□Palestine
+مسرح الحرية　The Freedom Theatre
+أحمد طوباسي/Ahmed Tobasi
+
+Takaaki KJ
+□Colombia
+Dark Bean Coffee
+Nodo 51　150 minutos en calle（Nood 51  150 minutes on the street）
+原田とおる　T Ø R U　H A R A D A
+□China
+北京：C5CNM
+杭州：MARTIN GOYA BUSINESS /马丁·戈雅生意（犁鼻器 V33N0）
+北京：XOTH & DIP5:["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2023","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2023"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","30",{"children":["$","$L2",null,{"href":"/?category=film_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"04_上映イベント"}]}],["$","li","28",{"children":["$","$L2",null,{"href":"/?category=art_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"03_アートイベント"}]}],["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}],["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}],["$","li","34",{"children":["$","$L2",null,{"href":"/?category=genre","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"genre"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$Le",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"ART FAIR EARTH 2023"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2023-09-22"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$f"}],"$L10"]}]]}]
+10:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"art space tetra archives"}],["$","meta","1",{"name":"description","content":"art space tetraの活動記録"}]]
+8:null

@@ -1,0 +1,64 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[3241,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+4:I[91924,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+6:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"ViewportBoundary"]
+b:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"MetadataBoundary"]
+d:I[91040,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+:HL["/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","style"]
+:HL["/tetra_archives/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"JhotC-0QqgW9Bt1jiqCR3","c":["","posts","post_313"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","post_313","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":[["$","nav",null,{"className":"bg-gray-800 p-4 text-white","children":["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"art space tetra archives"}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+f:T1130,絵画と流木による造形を中心としたインスタレーション展示
+
+クロージングパーティー　
+5/5(日) 18時開場　19時開演
+参加費¥1,000(1drink代込,軽食付)
+アーティストトーク&弾き語りライブ
+
+ゲストギタリスト　さいたかすむ(大阪)
+
+喫茶BAR  箱崎  ノビシロ珈琲　出張営業
+作品をイメージしたオリジナル珈琲とカクテルの提供(各別途料金)
+
+以下作家コメント
+
+命という海、血脈の波に乗って私達は何処へ漂着し、何を食べ、何を宿し、何を生み、何として死に、何の糧となるのか。
+
+「美しいあの花の木の下にはイキモノの死骸が埋まっている。美しいあの人の皮膚の下には、醜い私と同じように臓物が詰まっている。そんなことにも気付けない人が多すぎて嫌になる。人々の怨恨も愛も信仰も、目に見えないけれど確かに今この世に存在している。流れゆく血液のように一瞬たりとも同じ成分にはならない。故に私には世の中は赤色に見えて仕方がないのだ。」
+
+絵を描き始めて10年の節目となりました。
+時には誰かを憎んだり、自分を卑下したり、踠き苦しみながら続けてきたように感じます。少しずつ、許してもいいと思えるようになったのは大人になったからでしょうか。周りの人に恵まれたからでしょうか。おそろしいことです。
+私の表現したい事象は、いつからかキャンバスの外へと拡張していました。媒体がなんであれ、造ることやそれに付随する全てが、毎朝神棚に祈るような儀式的ルーティーンとなりました。私は画家という範疇には収まらず、"表現者"でありたいです。
+私の持ち得る全ての力を使って、さらにこの10年の道すがら出会ってきたたくさんの人の力もお借りして、今回の展示は作り上げます。
+例えるなら、鑑賞者の皆様を呑み込んでしまう怪物の腹の中のような、いつしか畏怖の対象となり得るような空間を作りたい。そんな人間になりたい。と考えております。それぞれの人生の因果、命を包括するように。
+
+Installation exhibition featuring paintings and driftwood sculptures
+
+Closing party
+5/5(Sun.) Doors open at 18:00, Concert begins at 19:00
+Admission ¥1,000 (including 1drink and light meal)
+Artist talk & live performance
+
+Guest guitarist Sumu Saitaka (Osaka)
+
+Coffee Bar Hakozaki Nobishiro Coffee Business
+Original coffee and cocktails inspired by the artworks will be served (extra charge for each)
+
+Artist's Comment
+
+Where do we drift to on the waves of the ocean of life and the veins of blood, what do we eat, what do we carry, what do we give birth to, what do we die for, what is our sustenance?
+
+Under the tree of that beautiful flower is buried the carcass of an ikimono.Under the skin of that beautiful person, there are organs stuck just like ugly me.I hate that so many people are unable to even notice such things.People's resentment, love, and faith are invisible to the eye, but they certainly exist in this world today.Like flowing blood, not even for a moment are the same ingredients.That is why the world looks so red to me."
+
+It has been 10 years since I started painting.
+Sometimes I feel as if I have been hating someone, despising myself, and continuing to wriggle and suffer.Is it because I have grown up that I have gradually come to be able to forgive?Is it because I have been blessed with the people around me?It is a frightening thing.
+The events I wanted to express had somehow extended beyond the canvas.Whatever the medium, creating and everything that goes along with it has become a ritualistic routine, like praying to the altar every morning.I want to be an "expressive person" and not just a painter.
+This exhibition will be created with all the power I have, and with the help of many people I have met along the way over the past 10 years.
+I want to create a space that can someday become an object of awe, like the belly of a monster that swallows up all viewers, to use an analogy.I want to become such a person.I believe that this is the way to go.I want to encompass the cause and effect of each life, each life.5:["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2024","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2024"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","27",{"children":["$","$L2",null,{"href":"/?category=exhibition","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"01_展覧会"}]}],["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","34",{"children":["$","$L2",null,{"href":"/?category=genre","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"genre"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$Le",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"鳴島充人　福岡初個展 「幽かな遺恨には一房の余花を。」"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2024-04-27"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$f"}],"$L10"]}]]}]
+10:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"art space tetra archives"}],["$","meta","1",{"name":"description","content":"art space tetraの活動記録"}]]
+8:null

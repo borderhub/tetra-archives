@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tb52,■話し手：大谷悠 (登記社団ライプツィヒ「日本の家」共同代表、ライプツィヒ大学博士課程在籍中）
+■聞き手：江上賢一郎
+
+ドイツはライプツィヒで、市民参加/ボトムアップ型の都市コミュニティ作りのリサーチと実践を行っている「日本の家（ http://djh-leipzig.de/ja ）」共同代表の大谷悠さんを迎えて、地方都市で新たな公共空間や住民運動を創りだす様々な事例やアイデアのお話を聞く会です。
+
+
+　『人口約50万人、旧東ドイツの都市ライプツィヒは、共産党政権時代から産業の斜陽化と人口減少がすすみ、89年の「ベルリンの壁」崩壊後には10年間で10万人減という激しい衰退を経験しました。しかし2000年代にはり、衰退しきった地域で新たな住民運動が興ります。それは行政主導の公共事業でも、資本家による不動産投資や新規ビジネスでもない、そこに住む人々が自分たちの生活のために始めた、ボトムアップによる地域再生の活動でした。
+　人口減少により出現した空き家や空き地を用いて、都市農園、セルフリノベーション型の共同住宅、ラディカルな子どもの遊び場、芸術家のたまり場、自立型の福祉事業などがあちこちで生まれ、それらが互いにネットワークすることでライプツィヒという都市は新たなキャラクターを得て生き返りつつあります。この運動の背後には、共産党政権と対峙し、民主化運動を成功に導いたライプツィヒ市民たちの「この街は我々のものであり、我々がつくる！」という信念があるのです。
+　原発問題、地方都市の衰退、広がり続ける格差など混迷を極める日本社会ですが、絶望的な状況から立ち直った都市ライプツィヒから様々なアイディアや勇気を得られるはずです。ぜひお立ち寄りくださいませ。』
+
+
+
+
+【大谷悠】
+1984年生まれ、東京都杉並区出身。ライプツィヒ大学博士課程。2010年千葉大学 工学研究科建築・都市科学専攻 修士課程（岡部明子研究室）卒業。同年5月渡独。ラオジッツ産炭地域の地域再生公社IBA Fürst-Pückler-Landにて、褐炭露天掘り跡地の再生計画と住民参加型芸術祭「Paradies 2」のオーガナイズに関わる。2011年5月にライプツィヒにて空き家再生文化プロジェクト「日本の家」を立ち上げ、2012年2月より同登記社団共同代表。2012年9月よりライプツィヒ大学博士課程所属。日欧の市民のボトムアップによる地域再生と都市コモンズをテーマに研究中。
+日本の家HP: http://djh-leipzig.de/ja0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2014","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2014"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","26",{"children":["$","$L2",null,{"href":"/?category=workshop_lecture","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"05_ワークショップ等"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"「この街は我らがつくる！ ～ドイツの地方都市ライプツィヒにみる市民運動と地域再生～」"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2014-03-07"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

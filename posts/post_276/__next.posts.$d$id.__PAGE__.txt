@@ -1,0 +1,36 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tbea,【内容】
+哲学者、森元斎さんの新著「もう革命しかないもんね 」の刊行を記念して山下陽光さんとの対談を行います。
+
+もう革命しかないもんね　※晶文社のページより
+DIY=平和な工作活動!?
+からだを動かしながら考えよう。
+革命の最前線は＜日常＞にあり。
+里山に移住した哲学者・アナキストによる実践的ゆるゆる「生活の哲学」入門講座。
+「さて、どうしようか。
+お金はあっても生きていけるが、なくても生きていける。
+どこへ行っても、その人が必要とされ、その人の能力が
+発揮されるであろう場所は、ある」
+福岡のとある里山地域に移住した著者は、どのように「生活」を哲学=行為していったのだろうか。
+拠点づくり/食料の確保/活動資金の得方/料理/日常のずらし方/お金の秘密/子育てと教育etc…
+日常に根差した哲学を実践的、かつ等身大のことばで語る、革命日誌。
+
+前編：対談（オンラインURL: https://youtu.be/lJ01c0pXrLg）
+後編：会場限定トーク
+
+【出演者】
+● 森元斎（もり・もとなお）：1983年生まれ。東京都出身。長崎在住。専攻は、哲学・思想史。学位は博士(人間科学)(大阪大学、2015年)。中央大学文学部哲学科卒業、大阪大学大学院人間科学研究科修了。日本学術振興会特別研究員、パリ第十大学研究員などを経て、現在、長崎大学教員。ホワイトヘッド哲学を中心とした現代思想や、アナキズムに関する思想の研究を行っている。著書に『アナキズム入門』(筑摩書房、2017)、『具体性の哲学』(以文社、2015)、『国道3号線』(共和国、2020 年)など。共訳書に、G・ハーマン『思弁的実在論入門』(人文書院、2020)、H・フラスベック+C・ラパヴィツァス『ギリシャ デフォルト宣言』(河出書房新社、2015) がある。
+
+● 山下陽光 (やました・ひかる）
+ハンドメイドファッションブランド「途中でやめる」主宰。1977年長崎県生まれ。18歳で上京、18年間東京で過ごし、2013年に長崎県大村市に転居、2017年より福岡市在住。「バイトやめる学校」を日本全国各地で開催中。最先端の過去をガン見する「新しい骨董」のメンバー。著書に『バイトやめる学校』（タバブックス）がある。
+
+【コロナ対策によるオンライン配信&来場事前予約制】
+現在のコロナ状況を考えみて、オンラインでの配信を軸にしていますが、若干名の来場希望も受付けます。ただし人数制限がありますので、来場希望の場合は事前申し込みをお願いいたします。
+
+【問い合わせ&来場予約】：art space tetra 連絡フォーム
+http://www.as-tetra.info/cgi-bin/mailform/contact.html0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2021","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2021"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","25",{"children":["$","$L2",null,{"href":"/?category=tetra","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"テトラ企画"}]}],["$","li","48",{"children":["$","$L2",null,{"href":"/?category=broadcast","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"90_配信イベント"}]}],["$","li","37",{"children":["$","$L2",null,{"href":"/?category=others","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"06_その他のイベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"森元斎『もう革命しかないもんね』刊行記念対談：森元斎 & 山下陽光"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2021-08-26"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

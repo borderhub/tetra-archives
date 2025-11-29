@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[3241,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+4:I[91924,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+6:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"ViewportBoundary"]
+b:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"MetadataBoundary"]
+d:I[91040,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"default"]
+:HL["/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","style"]
+:HL["/tetra_archives/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"JhotC-0QqgW9Bt1jiqCR3","c":["","posts","_act_1987"],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","_act_1987","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/tetra_archives/_next/static/chunks/1d20065aaf35a02f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":[["$","nav",null,{"className":"bg-gray-800 p-4 text-white","children":["$","$L2",null,{"href":"/","className":"text-xl font-bold","children":"art space tetra archives"}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+f:T126d,
+1993/2008．VIDEO．75分．
+制作：園田佐登志
+
+1．ワールド スタンダード〔参考上映〕
+日時：不明（86年頃 ）
+場所：フジテレビ［ノルディカ・ライヴジャック］
+出演：鈴木惣一朗（ギター）．大内美貴子（ボーカル）．小池 光子．松岡あきよ．篠田 昌已（アルト・サックス ）
+Rec：佐竹美智子
+
+2．篠田昌已・インタビュー
+日時：1987年9月3日
+場所：国立葡萄園・篠田自室
+インタビュアー：不明.
+撮影：中尾 勘二
+
+3．東京チンドン長谷川宣伝社・楽隊
+日時：1987年5月22日
+場所：下北沢北口  パチンコ・ミナミ会館前
+出演：長谷川正夫（アルト・サックス）．高田千代子（シンバル）．長谷川八千代（ケース＝ネア ）．高田 光子（ゴロス＝大太鼓）
+　　　大川さん（旗持ち）．篠田 昌已（テナー・サックス）．大熊　亘（クラリネット）
+撮影：園田佐登志
+
+4．篠田・中尾・大熊 ～ 楽団 （プレ‐シノダ・ユニット）
+日時：1987年6月24日
+場所：キッド・アイラック・ホール（京王線・明大前）～「硬質の旋班」より
+出演：篠田 昌已（バリトン・サックス）．中尾 勘二（ドラムス）．大熊　亘（クラリネット）
+撮影：園田佐登志
+
+5．向井千恵インタビュー
+日時：1994年2月6日
+場所：高円寺 キナコ
+インタビュー／撮影：園田佐登志
+
+6．Ｃｈｅ・ＳＨＩＺＵ／シェシズ
+日時：1987年月5月2日
+場所：キッド・アイラック・ホール
+出演：向井 千恵（胡弓）．西村 卓也（ベース）．久下 恵生（ドラムス）．篠田 昌已（アルト・サックス）
+　　　向島ゆり子（ビアノ , アコーディオン）
+撮影：園田佐登志＋樋口 泰人
+
+7．マヘル・シャラル・ハシュ・バズ
+日時：1987年月6月1日
+場所：キッド・アイラック・ホール
+出演：工藤 冬里（ギター , ピア ノ , オルガン）．中崎 博生（ユーフォニウム）三谷 雅史（ベース）
+　　　篠田 昌已（アルト・サックス , フルート）．中尾 勘二（ドラムス）．西村 卓也（ギター）
+撮影： 園田佐登志
+
+8．チューリップ・ウォーター・パレード
+日時：1987年4月29日
+場所：代々木体育館前広場「フジ・夢工場」ラジオニッポン・ステージ～代々木
+公園
+出演：井口真吾（ディレクション）．ＶＯＬＣＡＮＯ（プロデュース,パレード）
+　　　青空歌劇団～ロリー・クロマルトン（歌,ダンス,パレード ）
+　　　篠田昌已 (アルト・サックス,ソプラニーノ）．梅津和時（アルト・サックス ）．少年マルタ（パレード）
+　　　品川区立城南中学校ブラスバンド部ＯＢ他
+撮影： 園田佐登志
+
+9．ピヂン・コンボ
+日時：１９８８年５月３日
+場所：マンダラ２（吉祥寺）
+出演：トム・コラ（チェロ）．ロリー（ボーカル,バス・マリンバ,グロッケン）
+　　　大熊　亘（ピアノ）．木村真哉（ドラムス）．篠田昌已（テナー・サックス）
+　　　西村卓也（ベース）
+撮影：園田佐登志
+
+10．ＪＡＧＡＴＡＲＡ
+日時‥1987年11月8日　
+場所‥横浜国大野外ステージ
+出演‥江戸アケミ（ボーカル）．ＮＡＢＥ ＣＨＡＮＧ（ベース）．ＥＢＢＹ（ギター）．ＯＴＯ（ギター）．中村貞祐（ドラムス）
+　　　ヤヒロトモヒロ（パーカッション）．篠田昌已（テナー・サックス）．吉田哲治（トランペット）．ＹＵＫＡＲＩＮＧ（コーラス）
+　　　ＳＡＳＵＧＡ ＭＩＮＡＭＩ（コーラス）
+撮影：中尾勘二
+
+11．Ａ‐ｍｕｓｉｋ／ア・ムジーク
+日時：1988年12月16日
+場所：東大駒場・北寮前広場＜Ｎｏｉｓｅ ＩＮ Ｘ－ｅｓ＞ 天皇Ｘディ下の噪音
+出演：竹田賢一（大正琴）．千野秀一（キーボード）．篠田昌已（アルト・サックス）．小山哲人（ベース）
+※テープ・ドロップあり
+撮影：園田佐登志
+
+12．西村卓也8ｍｍフィルム
+日時：1987年冬頃
+場所：国立葡萄園　篠田宅周辺
+出演：篠田．猫．友人．西村
+
+※ 篠田＋西村／通称より「オレンジ フロム ジャバ」をサウンド・トラックとして挿入。
+≪ビルの谷間デュオ≫
+日時：1987年9月12日　前橋・街頭
+演奏：篠田昌已（アルト・サックス）．西村卓也（ベース）5:["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2008","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2008"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","30",{"children":["$","$L2",null,{"href":"/?category=film_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"04_上映イベント"}]}],["$","li","23",{"children":["$","$L2",null,{"href":"/?category=music_event","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"02_音楽イベント"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$Le",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"≪篠田昌已 act 1987≫"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2008-08-25"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":["サックス奏者 篠田昌已 （1958～1992）は、生活向上委員会，パンゴ，JAGATARA，コンポステラ 等のバンドで活躍すると共に、チンドンの魅力を新しい世代に伝える「東京チンドン」（puff up）などで知られています。彼が生きていれば今年で50歳。ということで, 親交のあった園田佐登志氏が1993年に制作した≪篠田昌已 act 1987≫の上映会を開催します。東京チンドン長谷川宣伝社・楽隊，シェシズ，Maher Shalal Hash Baz，ピヂン・コンボ，JAGATARA，A-Musikなどの演奏にパレード，インタビュー，8ミリフィルムが折り込まれ、28歳当時の彼のプレイのみならず人となりにも触れることができる貴重な映像です。加えて今上映会では、生前、篠田もメンバーの一員であったマヘル・シャラル・ハシュ・バズの工藤冬里氏が同行し、Ω（a.k.a. 大谷直樹、trumpet）、城戸英章(alto sax)、kappa(noise)らとライヴ行います。また、篠田関連の各種映像も同時上映の予定です。\n\n",["$","strong","1",{"children":"≪篠田昌已 act 1987≫"}],"$f"]}],"$L10"]}]]}]
+10:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"art space tetra archives"}],["$","meta","1",{"name":"description","content":"art space tetraの活動記録"}]]
+8:null

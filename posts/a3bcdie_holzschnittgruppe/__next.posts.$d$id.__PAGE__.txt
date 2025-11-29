@@ -1,0 +1,63 @@
+1:"$Sreact.fragment"
+2:I[67608,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],""]
+3:I[72609,["/tetra_archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js"],"default"]
+5:I[16261,["/tetra_archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra_archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+4:Tac9,「A3BC＋Die Holzschnitt-Gruppeの木版画ワークショップ」
+
+学校で一度は習う木版画。むかしから世界中で、ひとびとの思いや願い、そして真実を分かりやすく伝えるメディアとして、日常生活の中で息づいてきました。デジタル時代の今日、木版画の素朴さや、表現の多様さが生み出す力強さが見直されはじめています。
+
+インドの版木染めに代表される、布に刷る木版画は、これまで日本ではあまり試みられていませんでしたが、東南アジアのDIY文化の中で再発見され、日本でも制作されるようになってきました。
+
+Tシャツやバナーに刷る事によって、部屋の中を飛び出し、多くの人にその表現を伝えることができます。
+
+このワークショップでは、東京・新宿のインフォショップIRREGULAR RHYTHMASYLUMを拠点とする木版画コレクティヴA3BCのメンバーと、ドイツ・ケルンの自律センターの木版画グループのメンバーが、皆さんの制作をサポートします。
+
+木版画で彩られた50年～60年代のサークル誌の重要な結節点であった福岡で、わたしたちの思いや願い、そして真実を伝える木版画を作ってみましょう！
+
+
+
+
+
+持参するもの :
+
+① 版画を刷れる布
+
+Tシャツ、エコバック、端切れなど、なんでもOKです。
+
+＊油性の黒インクで刷ります。生地の色が濃いと絵が見えにくくなります。
+
+＊タオルなど起毛が多いものは適しません。
+
+
+
+② 下絵
+
+版画にしたい自作の絵、Tシャツにしたい写真、コピーライトフリーなデザインなど、好きな下絵を用意してください。もちろん当日、その場で描いてもOKです。
+
+
+
+③ その他
+
+・汚れてもいい服装またはエプロン
+
+・軍手かビニール手袋（摺るときに手が汚れないようにするためです）
+
+・古新聞紙（1日分程度）
+
+・ビニール袋（刷ったTシャツを持ち帰るために必要です。※完全に乾燥するまで、約1週間かかります。その後は使用したり、Tシャツの場合は洗濯が出来ます）
+
+
+
+A3BC WEBサイト : http://a3bc.hanga.org/
+
+ワークショップについてのお問い合わせ メール : info@ira.tokyo (成田)
+
+
+【関連イベント】
+「創造と抵抗のスペース Europe - Tokyo - Fukuoka」
+トーク　成田圭祐(IRREGULAR RHYTHM ASYLUM / 遊動社)
+4/2 (土)　18:00〜20:00 (開場 17:30)　
+会場 : 福岡市文学館 (福岡市中央区天神1-15-30)
+詳細 : http://she-says-distro.blogspot.jp/2016/03/europe-tokyo-fukuoka_9.html0:{"buildId":"JhotC-0QqgW9Bt1jiqCR3","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2016","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2016"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","26",{"children":["$","$L2",null,{"href":"/?category=workshop_lecture","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"05_ワークショップ等"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"「A3BC＋Die Holzschnitt-Gruppeの木版画ワークショップ」"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2016-04-03"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":"$4"}],["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]]}]]}],[["$","script","script-0",{"src":"/tetra_archives/_next/static/chunks/d4e46167e03e2dbc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null
