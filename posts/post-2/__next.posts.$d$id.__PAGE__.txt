@@ -1,10 +1,9 @@
 1:"$Sreact.fragment"
 2:I[67608,["/tetra-archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra-archives/_next/static/chunks/4eac02e47a92b8a5.js"],""]
 3:I[72609,["/tetra-archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra-archives/_next/static/chunks/4eac02e47a92b8a5.js"],"default"]
-4:I[6502,["/tetra-archives/_next/static/chunks/a04eb37ded674e7a.js","/tetra-archives/_next/static/chunks/4eac02e47a92b8a5.js"],"Image"]
-10:I[16261,["/tetra-archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra-archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
-11:"$Sreact.suspense"
-5:T1319,
+f:I[16261,["/tetra-archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra-archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
+10:"$Sreact.suspense"
+4:T1319,
 		
 	
 	
@@ -70,7 +69,7 @@
 	
 		三嶋
 		そうですかそれは初耳だな。いや、今なんでこんな話をしているかっていうと、今回また大賀アパート※でしたっけ…できるってことがありますね。僕らは、ちょっと愚痴っぽくなるんですけが、何らかの金銭的な余裕があるわけでない中でやっていて、それって、一番最初の話ですけど、最初江上さんから、できるだけチープな素材でやるっていう話がありましたよね。それはこだわってやっていたんじゃなくて、しょうがなくやっていたんですか？
-		7:Tdd3,
+		6:Tdd3,
 	
 	
 		江上
@@ -119,7 +118,7 @@
 	
 		三嶋
 		テトラにもちょっと前に北海道にプラハ※っていう共同の制作場所をもっているアーティストのネットワークがあってそこに関わる人が来ていました。当時もあういう感じだったんですか？
-		9:Tefb,
+		8:Tefb,
 	
 	
 		江上
@@ -179,13 +178,13 @@
 	
 
 
-0:{"buildId":"Z4gFi8T9EDnUZ8Alg5ElD","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2009","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2009"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","38",{"children":["$","$L2",null,{"href":"/?category=cat38","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"記事トップ"}]}],["$","li","40",{"children":["$","$L2",null,{"href":"/?category=cat40","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"インタビュー"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"江上計太の生き抜き方"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2009-01-07"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":["\n\t\n\t\t2008年12月6日　江上計太＋三嶋昭洋",["$","br","1",{}],"（テープおこし：小山冴子）\n\t\n\t\n\t\t三嶋\n\t\t この展覧会は今月の21日まであります。展覧会と名乗っているんですが、作品を見てもらうだけじゃなくて、つくっているところも一緒に見てもらおうということで、今こういう状態（作品の制作途中で、材料が所狭しと散らかり、座るのにも困る状態）です。今日はその期間中の最初のイベントとして「アーティストトーク」と称して江上さんにお話を伺おうと思います。",["$","br","3",{}],"\n\t\t\t\t\t\t",["$","br","5",{}],"\n\t\t\t\t江上さんはご自身の経歴というか、IAFを始められたときから現在にいたるまでを、今までさんざん色んなところで話をされていて、また、文章も書かれたりされていますし、そこはなんか、いいのかなと思っています。で、今日は江上さんの作品が何かっていうことよりも、江上さんが約30年くらいやってこられたその状況論といいますか、どういう状況の中でやってきたかという話を聞きたいと思います。",["$","br","7",{}],"\n\t\t\t\t",["$","br","9",{}],"\n\t\t\t\t",["$","$L4","11",{"src":"/upload/post-2/egamiishima1.jpg","alt":"egamiishima1.jpg","width":400,"height":225,"className":"my-8 max-w-full h-auto border border-black ","style":{"width":"400px","height":"auto"}}],"ご存知かと思いますが、11月30日まで（ギャラリー・）アートリエで、『九州でアートすることはなにか』っていうような、正確なタイトルはあれですけど、そのような展覧会※があっていました。最終日近くにトークがあったようで、残念ながら私はいけなかったのですが、その展覧会タイトルから興味をもっていました。東京にいって、まあそれなりの名声を得て、お金をもらって、それでアートで食っていくっていうある種のライフコースがあるとして、そうではない、地方でなんらかの形で表現活動をやっていくっていうことに対して、面白い発言があったりしたのかなっておもっていましたが、聞き伝わるところによると、そうではなかったようですが…。で、そういうタイトルを掲げ展覧会をやる若い人がいて、逆に江上さんはそれを地でいってきたと。大学を卒業されて福岡に戻ってきて、で、ずっと福岡に住まわれて作家活動をされてこられたっていう。そこをこう対比してみるっていうか、若い人たちがこれから江上さんの年齢になるにはまだ20～30年くらいあるとおもうんですけど、どういう風に生きていったらいいかっていうか。そういうリアルに為になる話が聞けたらなと。今回ちょっとお話を聞きたいとおもいます。 ",["$","br","13",{}],"\n\t\t\t\t",["$","blockquote","15",{"children":["\n\t\t\t\t※「飛び出せ！！Made in 九州 〜九州でアートするということ〜」（ギャラリー・アートリエ、福岡市博多区）",["$","br","1",{}],"2008年10月11日（土）〜11月30日（日）"]}],"\n\t\t\n\t\n\t\n\t\t江上\n\t\tなんか、話が堅いですね（笑）敬語はやめましょうよ。\n\t\n\t\n\t\t三嶋\n\t\tすいません（笑）。私は江上さんがIAFというお店をされていて、土曜日になると必ずいらっしゃって、そこに行くといろいろな話が聞けるというのがあって、本当は、個人的にいろんな話を聞いていて、あぁもう聞くことねーなっていうのがあるんですが（笑）。がんばってやってみます。最初に今回の展覧会の経緯を少しお話しておくと、実は去年の終わりに江上さんがある方から依頼を受けられて作品をつくることになりました。で、その作品をつくるのに、テトラを作品の制作場所としてお貸ししたんです。そのときに僕ら制作場所の賃料として、いくらかお金をいただいて。実はそれを元手に今回の展覧会を企画しました。それが具体的にいうと10万円くらい※お渡しして、それを制作費に、1ヶ月の展覧会をしますという形なんです。まずお聞きしたいのが、江上さんも今年57歳になられて、今年もNINAI展とか、ヴァルトでもされていましたけど、そのときに実際展覧会をするときってお金かかるんですけど、そのお金ってどういう風にされているんですか？",["$","br","17",{}],"\n\t\t",["$","blockquote","19",{"children":"※実際は５万円。"}],"$5","$L6","$7","$L8","$9","$La","\n","$Lb","\n","$Lc"]}],"$Ld"]}]]}],["$Le"],"$Lf"]}],"loading":null,"isPartial":false}
-6:["$","blockquote","21",{"children":"※旧大賀APスタジオ"}]
-8:["$","blockquote","23",{"children":"※「PRAHA Project」北海道を拠点に、アートの実験と環境づくりを実践する計画（集団）"}]
-a:["$","p","25",{"className":"my-4 leading-relaxed ","children":["$","strong",null,{"children":"江上計太の生き抜き方（1/3）"}]}]
-b:["$","p","27",{"className":"my-4 leading-relaxed ","children":"江上計太の生き抜き方（2/3）"}]
-c:["$","p","29",{"className":"my-4 leading-relaxed ","children":"江上計太の生き抜き方（3/3）"}]
-d:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
-e:["$","script","script-0",{"src":"/tetra-archives/_next/static/chunks/4eac02e47a92b8a5.js","async":true}]
-f:["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]
-12:null
+0:{"buildId":"E8nCu9VapszmXBClReHjZ","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen bg-white text-black font-serif","children":[["$","aside",null,{"className":"w-64 p-8 border-r border-black flex-shrink-0 sticky top-0 h-screen overflow-y-auto","children":[["$","h1",null,{"className":"text-3xl font-black mb-10 tracking-wider","children":"ARCHIVE"}],["$","section",null,{"className":"mb-8 text-sm","children":[["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2","children":"YEAR"}],["$","$L2",null,{"href":"/?year=2009","className":"text-xl font-bold text-gray-600 hover:text-black transition-colors duration-200 block mb-4 underline-offset-4","children":"2009"}],["$","p",null,{"className":"font-bold uppercase tracking-widest mb-2 mt-4","children":"CATEGORIES"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","38",{"children":["$","$L2",null,{"href":"/?category=cat38","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"記事トップ"}]}],["$","li","40",{"children":["$","$L2",null,{"href":"/?category=cat40","className":"inline-block text-black hover:text-gray-600 transition-colors duration-200 text-sm","children":"インタビュー"}]}]]}]]}],["$","hr",null,{"className":"border-black my-8"}],["$","$L3",null,{}]]}],["$","article",null,{"className":"flex-grow p-8 max-w-4xl","children":[["$","header",null,{"className":"mb-10 border-b-8 border-gray-600 pb-4","children":[["$","h1",null,{"className":"text-5xl font-black mb-4 leading-tight","children":"江上計太の生き抜き方"}],["$","div",null,{"className":"text-sm flex justify-between text-gray-600 font-mono","children":[["$","span",null,{"children":"No Name"}],["$","span",null,{"children":"2009-01-07"}]]}]]}],["$","div",null,{"className":"text-lg leading-relaxed font-serif","children":["\n\t\n\t\t2008年12月6日　江上計太＋三嶋昭洋",["$","br","1",{}],"（テープおこし：小山冴子）\n\t\n\t\n\t\t三嶋\n\t\t この展覧会は今月の21日まであります。展覧会と名乗っているんですが、作品を見てもらうだけじゃなくて、つくっているところも一緒に見てもらおうということで、今こういう状態（作品の制作途中で、材料が所狭しと散らかり、座るのにも困る状態）です。今日はその期間中の最初のイベントとして「アーティストトーク」と称して江上さんにお話を伺おうと思います。",["$","br","3",{}],"\n\t\t\t\t\t\t",["$","br","5",{}],"\n\t\t\t\t江上さんはご自身の経歴というか、IAFを始められたときから現在にいたるまでを、今までさんざん色んなところで話をされていて、また、文章も書かれたりされていますし、そこはなんか、いいのかなと思っています。で、今日は江上さんの作品が何かっていうことよりも、江上さんが約30年くらいやってこられたその状況論といいますか、どういう状況の中でやってきたかという話を聞きたいと思います。",["$","br","7",{}],"\n\t\t\t\t",["$","br","9",{}],"\n\t\t\t\t",["$","img","11",{"src":"/tetra-archives//upload/post-2/egamiishima1.jpg","alt":"egamiishima1.jpg","width":"400","height":"225","className":"my-8 max-w-full h-auto border border-black ","loading":"lazy"}],"ご存知かと思いますが、11月30日まで（ギャラリー・）アートリエで、『九州でアートすることはなにか』っていうような、正確なタイトルはあれですけど、そのような展覧会※があっていました。最終日近くにトークがあったようで、残念ながら私はいけなかったのですが、その展覧会タイトルから興味をもっていました。東京にいって、まあそれなりの名声を得て、お金をもらって、それでアートで食っていくっていうある種のライフコースがあるとして、そうではない、地方でなんらかの形で表現活動をやっていくっていうことに対して、面白い発言があったりしたのかなっておもっていましたが、聞き伝わるところによると、そうではなかったようですが…。で、そういうタイトルを掲げ展覧会をやる若い人がいて、逆に江上さんはそれを地でいってきたと。大学を卒業されて福岡に戻ってきて、で、ずっと福岡に住まわれて作家活動をされてこられたっていう。そこをこう対比してみるっていうか、若い人たちがこれから江上さんの年齢になるにはまだ20～30年くらいあるとおもうんですけど、どういう風に生きていったらいいかっていうか。そういうリアルに為になる話が聞けたらなと。今回ちょっとお話を聞きたいとおもいます。 ",["$","br","13",{}],"\n\t\t\t\t",["$","blockquote","15",{"children":["\n\t\t\t\t※「飛び出せ！！Made in 九州 〜九州でアートするということ〜」（ギャラリー・アートリエ、福岡市博多区）",["$","br","1",{}],"2008年10月11日（土）〜11月30日（日）"]}],"\n\t\t\n\t\n\t\n\t\t江上\n\t\tなんか、話が堅いですね（笑）敬語はやめましょうよ。\n\t\n\t\n\t\t三嶋\n\t\tすいません（笑）。私は江上さんがIAFというお店をされていて、土曜日になると必ずいらっしゃって、そこに行くといろいろな話が聞けるというのがあって、本当は、個人的にいろんな話を聞いていて、あぁもう聞くことねーなっていうのがあるんですが（笑）。がんばってやってみます。最初に今回の展覧会の経緯を少しお話しておくと、実は去年の終わりに江上さんがある方から依頼を受けられて作品をつくることになりました。で、その作品をつくるのに、テトラを作品の制作場所としてお貸ししたんです。そのときに僕ら制作場所の賃料として、いくらかお金をいただいて。実はそれを元手に今回の展覧会を企画しました。それが具体的にいうと10万円くらい※お渡しして、それを制作費に、1ヶ月の展覧会をしますという形なんです。まずお聞きしたいのが、江上さんも今年57歳になられて、今年もNINAI展とか、ヴァルトでもされていましたけど、そのときに実際展覧会をするときってお金かかるんですけど、そのお金ってどういう風にされているんですか？",["$","br","17",{}],"\n\t\t",["$","blockquote","19",{"children":"※実際は５万円。"}],"$4","$L5","$6","$L7","$8","$L9","\n","$La","\n","$Lb"]}],"$Lc"]}]]}],["$Ld"],"$Le"]}],"loading":null,"isPartial":false}
+5:["$","blockquote","21",{"children":"※旧大賀APスタジオ"}]
+7:["$","blockquote","23",{"children":"※「PRAHA Project」北海道を拠点に、アートの実験と環境づくりを実践する計画（集団）"}]
+9:["$","p","25",{"className":"my-4 leading-relaxed ","children":["$","strong",null,{"children":"江上計太の生き抜き方（1/3）"}]}]
+a:["$","p","27",{"className":"my-4 leading-relaxed ","children":"江上計太の生き抜き方（2/3）"}]
+b:["$","p","29",{"className":"my-4 leading-relaxed ","children":"江上計太の生き抜き方（3/3）"}]
+c:["$","div",null,{"className":"mt-16 pt-8 border-t border-black","children":["$","$L2",null,{"href":"/","className":"text-black font-bold text-lg hover:text-gray-600 transition-colors duration-200 inline-flex items-center","children":"← ARCHIVE TOP"}]}]
+d:["$","script","script-0",{"src":"/tetra-archives/_next/static/chunks/4eac02e47a92b8a5.js","async":true}]
+e:["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]
+11:null
