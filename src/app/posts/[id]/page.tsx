@@ -32,14 +32,15 @@ function getPostById(id: string) {
     .replace(/\r/g, "\n")
     .replace(/<dm[^>]*>(.*?)<\/dm[^>]*>/gi, '※$1')
     .replace(/<転載[^>]*>(.*?)<\/転載[^>]*>/gi, '※$1')
-    .replace(/<\s*\/?\s*(?!p|div|strong|b|i|em|br|ul|ol|li|a[href]|img[src|alt])[a-zA-Z0-9-]+[^>]*>/gi, '');
+    .replace(/<\s*\/?\s*(?!p|div|strong|b|i|em|br|ul|ol|li|a[href]|img[src|alt]|details|summary)[a-zA-Z0-9-]+[^>]*>/gi, '');
 
   // HTMLエンティティのアンエスケープ
   const contentProcessed = content
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'");
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, " "); // non-breaking space を通常スペースに
 
   return {
     title: raw.title as string,
