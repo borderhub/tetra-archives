@@ -418,6 +418,14 @@ async function main() {
         .map(catId => getCategoryInfo(catId, categoryDataMap))
         .filter((info): info is CategoryInfo => info !== null); 
 
+    // ★ 永続的なエラー回避のためのタグ除去処理を追加 ★
+    // 1. <DMより転載> のような、a-z, 0-9, / 以外で始まる無効なタグを除去
+    //    (注: これにより <日本語タグ> や <!!!> など、非標準タグを大雑把に除去できます)
+    cleanText = cleanText.replace(/<\s*([^a-z0-9/])(?:.*?)?>/gi, ''); 
+    // 2. 廃止された <font> タグと閉じタグ </font> を両方除去
+    cleanText = cleanText.replace(/<font\b[^>]*>/gi, '').replace(/<\/font>/gi, '');
+    // 3. すべての要素から style="..." 属性を削除 (前々回の問題対策)
+    cleanText = cleanText.replace(/ style=['"].*?['"]/gi, '');
 
     const post = {
       id: entryId,

@@ -3,7 +3,7 @@
   "title": "お問い合わせ",
   "date": "2025-03-02",
   "author": "No Name",
-  "content": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSe0Va6YjIgey6ruCV9sfosXn3qG9JV-If_87pzGOMNIpX9mJw/viewform?embedded=true\" width=\"640\" height=\"1085\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\" style=\"max-width:100%;\">読み込んでいます…</iframe>",
+  "content": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSe0Va6YjIgey6ruCV9sfosXn3qG9JV-If_87pzGOMNIpX9mJw/viewform?embedded=true\" width=\"640\" height=\"1085\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">読み込んでいます…</iframe>",
   "categories": [
     {
       "id": 36,

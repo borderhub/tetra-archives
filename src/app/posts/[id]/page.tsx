@@ -30,7 +30,12 @@ function getPostById(id: string) {
   let content = raw.content as string;
 
   // 1. 改行コードを正規化 (★ 修正: 不要な <p> 置換を削除し、純粋な正規化に戻す)
-  content = content.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  content = content
+            .replace(/\r\n/g, "\n")
+            .replace(/\r/g, "\n")
+            .replace(/<dm[^>]*>(.*?)<\/dm[^>]*>/gi, '※$1')
+            .replace(/<転載[^>]*>(.*?)<\/転載[^>]*>/gi, '※$1')
+            .replace(/<\s*\/?\s*(?!p|div|strong|b|i|em|br|ul|ol|li|a[href]|img[src|alt])[a-zA-Z0-9-]+[^>]*>/gi, ''); // 変なタグだけ削除
 
   // 2. HTMLエンティティのアンエスケープ
   const contentProcessed = content
@@ -94,7 +99,7 @@ const replace = (node: DOMNode) => {
 
   // <img> タグの置換
   if (elem.name === 'img') {
-    const src = elem.attribs.src || '';
+    const src = elem.attribs.src ? `/tetra-archives/${elem.attribs.src}` : '';
     const alt = elem.attribs.alt || '';
     // ★ デザイン変更: 強いボーダーとゆったりとしたマージン
     const classNames = `my-8 max-w-full h-auto border border-black ${elem.attribs.class || ''}`;
@@ -111,7 +116,7 @@ const replace = (node: DOMNode) => {
     if (src.startsWith("/upload/")) {
       return (
         <Image
-          src={src} // ★ 修正: 相対パス調整を削除
+          src={src}
           alt={alt}
           width={w} 
           height={h}
@@ -136,8 +141,6 @@ const replace = (node: DOMNode) => {
   if (elem.name === 'a') {
     const href = elem.attribs.href || '';
     const isExternal = href.startsWith("http");
-
-    // ★ デザイン変更: 赤を強調
     const baseClass = "text-gray-600 hover:text-black hover:bg-gray-200 transition-colors duration-200"; 
     const externalClass = "font-medium inline-flex items-center gap-1";
 
@@ -160,7 +163,6 @@ const replace = (node: DOMNode) => {
 
   // <div> タグの置換
   if (elem.name === 'div') {
-      // ★ デザイン変更: 左の赤線で強調
       return <div className={`my-6 border-l-4 border-gray-600 pl-4 ${elem.attribs.class || ''}`}>{children}</div>; 
   }
 
