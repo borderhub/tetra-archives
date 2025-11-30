@@ -5,10 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import parse, { DOMNode, domToReact, Element } from 'html-react-parser';
 import React, { Fragment } from 'react';
-import MobileHeader from '@/components/MobileHeader';
-import Sidebar from '@/components/Sidebar';
-import PostSidebarNavigation from '@/components/PostSidebarNavigation';
-import Footer from '@/components/Footer';
+import PdfDownloadButton from '@/components/PdfDownloadButton';
 
 type CategoryBaseInfo = {
   id: number;
@@ -38,9 +35,11 @@ const VOID_ELEMENTS = [
 
 export default function PostPageClient({
   post,
+  postId,
   allPosts
 }: {
   post: Post;
+  postId: string;
   allPosts: PostData[];
 }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -75,11 +74,6 @@ export default function PostPageClient({
 
   const uniqueYears = Array.from(new Set(allPosts.map(p => p.year)))
     .sort((a, b) => b.localeCompare(a));
-
-  const getYearCount = (targetYear: string) => {
-    return allPosts.filter(p => p.year === targetYear).length;
-  };
-
 
   // HTML変換関数
   const replace = (node: DOMNode) => {
@@ -153,7 +147,7 @@ export default function PostPageClient({
     if (elem.name === 'a') {
       const href = elem.attribs.href || '';
       const isExternal = href.startsWith("http");
-      const baseClass = "text-gray-600 hover:text-gray-700 underline transition-colors duration-200";
+      const baseClass = "text-red-600 hover:text-red-700 underline transition-colors duration-200";
       const externalClass = "inline-flex items-center gap-1";
 
       return (
@@ -175,7 +169,7 @@ export default function PostPageClient({
 
     // <div> タグ
     if (elem.name === 'div') {
-      return <div className={`my-6 p-4 bg-gray-50 border-l-4 border-gray-600 rounded ${elem.attribs.class || ''}`}>{children}</div>;
+      return <div className={`my-6 p-4 bg-gray-50 border-l-4 border-red-600 rounded ${elem.attribs.class || ''}`}>{children}</div>;
     }
 
     // <br> タグ
@@ -187,8 +181,8 @@ export default function PostPageClient({
     }
     if (elem.name === 'summary') {
       return (
-        <summary className={`cursor-pointer font-bold text-lg list-none flex items-center gap-2 hover:text-gray-600 transition-colors ${elem.attribs.class || ''}`}>
-          <span className="text-gray-600">▼</span> {children}
+        <summary className={`cursor-pointer font-bold text-lg list-none flex items-center gap-2 hover:text-red-600 transition-colors ${elem.attribs.class || ''}`}>
+          <span className="text-red-600">▼</span> {children}
         </summary>
       );
     }
@@ -207,44 +201,124 @@ export default function PostPageClient({
     return null;
   };
 
+  // サイドバーコンテンツ
+  const SidebarContent = () => (
+    <>
+      <section className="mb-8 pb-6 border-b border-gray-200">
+        <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">Year</h2>
+        <Link
+          href={`/archive/all/year/${year}/page/1`}
+          className="block px-3 py-2 rounded-lg bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
+          onClick={() => isMobile && setSidebarOpen(false)}
+        >
+          {year}
+        </Link>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">Categories</h2>
+        <ul className="space-y-2">
+          {post.categories.map(cat => (
+            <li key={cat.id}>
+              <Link
+                href={`/archive/${cat.basename}/year/${year}/page/1`}
+                className="block px-3 py-2 rounded-lg hover:bg-gray-100 text-gray-700 transition-colors"
+                onClick={() => isMobile && setSidebarOpen(false)}
+              >
+                {cat.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
+        <PdfDownloadButton />
+      </section>
+    </>
+  );
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* ヘッダー（モバイル用） */}
-      <MobileHeader 
-        year={year}
-        sidebarOpen={sidebarOpen}
-        onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
-      />
+      <header className="lg:hidden sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div className="flex items-center justify-between px-4 py-4">
+          <Link href={`/archive/all/year/${year}/page/1`} className="text-2xl font-black tracking-wider">
+            ARCHIVE
+          </Link>
+          <button
+            onClick={() => setSidebarOpen(!sidebarOpen)}
+            className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            aria-label="Toggle menu"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {sidebarOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
+      </header>
 
       <div className="flex">
-        {/* サイドバー */}
-        <Sidebar
-          title="ARCHIVE"
-          titleLink={`/archive/all/year/${year}/page/1`}
-          mobileTitle="INFO"
-          isMobile={isMobile}
-          isOpen={sidebarOpen}
-          onClose={() => setSidebarOpen(false)}
-        >
-          <PostSidebarNavigation
-            year={year}
-            categories={post.categories}
-            isMobile={isMobile}
-            onLinkClick={() => setSidebarOpen(false)}
-          />
-        </Sidebar>
+        {/* サイドバー（デスクトップ） */}
+        <aside className="hidden lg:block w-80 bg-white border-r border-gray-200 sticky top-0 h-screen overflow-y-auto shadow-lg">
+          <div className="p-8">
+            <h1 className="text-3xl font-black mb-10 tracking-wider">
+              <Link href={`/archive/all/year/${year}/page/1`} className="hover:text-red-600 transition-colors">
+                ARCHIVE
+              </Link>
+            </h1>
+            <SidebarContent />
+          </div>
+        </aside>
+
+        {/* サイドバー（モバイル - オーバーレイ） */}
+        {isMobile && (
+          <>
+            <div
+              className={`fixed inset-0 bg-black transition-opacity duration-300 z-40 lg:hidden ${
+                sidebarOpen ? 'opacity-50' : 'opacity-0 pointer-events-none'
+              }`}
+              onClick={() => setSidebarOpen(false)}
+            />
+            <aside
+              className={`fixed top-0 left-0 h-full w-80 bg-white shadow-2xl transform transition-transform duration-300 z-50 lg:hidden overflow-y-auto ${
+                sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+              }`}
+            >
+              <div className="p-6">
+                <div className="flex items-center justify-between mb-8">
+                  <h2 className="text-2xl font-black tracking-wider">INFO</h2>
+                  <button
+                    onClick={() => setSidebarOpen(false)}
+                    className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                    aria-label="Close menu"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <SidebarContent />
+              </div>
+            </aside>
+          </>
+        )}
 
         {/* メインコンテンツ */}
         <main className="flex-1 p-4 lg:p-8 max-w-5xl mx-auto w-full">
           <article className="bg-white rounded-lg shadow-md overflow-hidden">
             {/* ヘッダー */}
-            <header className="p-8 lg:p-12 border-b-4 border-gray-600 bg-gradient-to-r from-gray-50 to-white">
+            <header className="p-8 lg:p-12 border-b-4 border-red-600 bg-gradient-to-r from-gray-50 to-white">
               <div className="mb-4 flex flex-wrap gap-2">
                 {post.categories.map(cat => (
                   <Link
                     key={cat.id}
                     href={`/archive/${cat.basename}/year/${year}/page/1`}
-                    className="inline-block px-3 py-1 text-xs font-medium bg-gray-100 text-gray-700 rounded-full hover:bg-gray-600 hover:text-white transition-colors"
+                    className="inline-block px-3 py-1 text-xs font-medium bg-red-100 text-red-700 rounded-full hover:bg-red-600 hover:text-white transition-colors"
                   >
                     {cat.label}
                   </Link>
@@ -278,7 +352,7 @@ export default function PostPageClient({
             <footer className="p-8 border-t border-gray-200 bg-gray-50">
               <Link
                 href={`/archive/all/year/${year}/page/1`}
-                className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-700 font-bold transition-colors"
+                className="inline-flex items-center gap-2 text-red-600 hover:text-red-700 font-bold transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -291,14 +365,63 @@ export default function PostPageClient({
       </div>
 
       {/* フッター */}
-      <Footer
-        categories={uniqueCategories}
-        years={uniqueYears}
-        allPostsCount={allPosts.length}
-        currentYear={year}
-        currentCategory="all"
-        getYearCount={getYearCount}
-      />
+      <footer className="bg-gray-900 text-white mt-16">
+        <div className="max-w-6xl mx-auto px-4 py-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* カテゴリー一覧 */}
+            <div>
+              <h3 className="text-lg font-bold mb-4 text-red-400">Categories</h3>
+              <ul className="space-y-2 text-sm">
+                {uniqueCategories.slice(0, 8).map(cat => (
+                  <li key={cat.id}>
+                    <Link
+                      href={`/archive/${cat.basename}/year/${year}/page/1`}
+                      className="hover:text-red-400 transition-colors"
+                    >
+                      {cat.label} ({cat.count})
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* 年別アーカイブ */}
+            <div>
+              <h3 className="text-lg font-bold mb-4 text-red-400">Archives by Year</h3>
+              <ul className="space-y-2 text-sm">
+                {uniqueYears.map(y => (
+                  <li key={y}>
+                    <Link
+                      href={`/archive/all/year/${y}/page/1`}
+                      className="hover:text-red-400 transition-colors"
+                    >
+                      {y} ({allPosts.filter(p => p.year === y).length} entries)
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* サイト情報 */}
+            <div>
+              <h3 className="text-lg font-bold mb-4 text-red-400">Archive</h3>
+              <p className="text-sm text-gray-400 mb-4">
+                タイムライン形式で過去の記事を閲覧できます。カテゴリーや年別でフィルタリングが可能です。
+              </p>
+              <Link
+                href={`/archive/all/year/${year}/page/1`}
+                className="inline-block px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-sm font-medium"
+              >
+                View All Posts
+              </Link>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-500">
+            <p>© 2025 Archive. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

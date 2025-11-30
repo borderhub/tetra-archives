@@ -3,11 +3,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import MobileHeader from '@/components/MobileHeader';
-import Sidebar from '@/components/Sidebar';
-import SidebarNavigation from '@/components/SidebarNavigation';
-import Footer from '@/components/Footer';
-import Pagination from '@/components/Pagination';
 
 const POSTS_PER_PAGE = 10;
 const MAX_PAGES_DISPLAY = 10;
@@ -98,50 +93,153 @@ export default function ArchivePageClient({
     ? 'ALL'
     : uniqueCategories.find(c => c.basename === category)?.label || category.toUpperCase();
 
-  // ヘルパー関数
-  const getCategoryCountForYear = (categoryBasename: string, targetYear: string) => {
-    return allPosts.filter(p => 
-      p.year === targetYear && p.categories.some(c => c.basename === categoryBasename)
-    ).length;
-  };
+  // ナビゲーションコンポーネント
+  const NavigationContent = () => (
+    <>
+      <section className="mb-8 pb-6 border-b border-gray-200">
+        <h2 className={`text-xs font-bold uppercase mb-4 tracking-wider ${category !== 'all' ? 'text-gray-600' : 'text-gray-600'}`}>
+          Category
+        </h2>
+        <ul className="space-y-2">
+          <li>
+            <Link 
+              href={`/archive/all/year/${year}/page/1`} 
+              className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
+                category === 'all' 
+                  ? 'bg-gray-600 text-white font-semibold' 
+                  : 'hover:bg-gray-100 text-gray-700'
+              }`}
+              onClick={() => isMobile && setSidebarOpen(false)}
+            >
+              <span className="flex justify-between items-center">
+                <span>All Categories</span>
+                <span className="text-xs opacity-70">({allPosts.filter(p => p.year === year).length})</span>
+              </span>
+            </Link>
+          </li>
+          {uniqueCategories.map(cat => (
+            <li key={cat.id}>
+              <Link
+                href={`/archive/${cat.basename}/year/${year}/page/1`}
+                className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
+                  category === cat.basename 
+                    ? 'bg-gray-600 text-white font-semibold' 
+                    : 'hover:bg-gray-100 text-gray-700'
+                }`}
+                onClick={() => isMobile && setSidebarOpen(false)}
+              >
+                <span className="flex justify-between items-center">
+                  <span>{cat.label}</span>
+                  <span className="text-xs opacity-70">
+                    ({allPosts.filter(p => p.year === year && p.categories.some(c => c.basename === cat.basename)).length})
+                  </span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
-  const getYearCount = (targetYear: string) => {
-    return allPosts.filter(p => p.year === targetYear).length;
-  };
-
-  const allPostsInYearCount = allPosts.filter(p => p.year === year).length;
+      <section>
+        <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">
+          Year
+        </h2>
+        <ul className="space-y-2">
+          {uniqueYears.map(y => (
+            <li key={y}>
+              <Link
+                href={`/archive/${category}/year/${y}/page/1`}
+                className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
+                  y === year 
+                    ? 'bg-gray-600 text-white font-semibold' 
+                    : 'hover:bg-gray-100 text-gray-700'
+                }`}
+                onClick={() => isMobile && setSidebarOpen(false)}
+              >
+                <span className="flex justify-between items-center">
+                  <span>{y}</span>
+                  <span className="text-xs opacity-70">({allPosts.filter(p => p.year === y).length})</span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
+  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* ヘッダー（モバイル用） */}
-      <MobileHeader 
-        year={year}
-        sidebarOpen={sidebarOpen}
-        onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
-      />
+      <header className="lg:hidden sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div className="flex items-center justify-between px-4 py-4">
+          <Link href={`/archive/all/year/${year}/page/1`} className="text-2xl font-black tracking-wider">
+            ARCHIVE
+          </Link>
+          <button
+            onClick={() => setSidebarOpen(!sidebarOpen)}
+            className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            aria-label="Toggle menu"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {sidebarOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
+      </header>
 
       <div className="flex">
-        {/* サイドバー */}
-        <Sidebar
-          title="ARCHIVE"
-          titleLink={`/archive/all/year/${year}/page/1`}
-          mobileTitle="MENU"
-          isMobile={isMobile}
-          isOpen={sidebarOpen}
-          onClose={() => setSidebarOpen(false)}
-        >
-          <SidebarNavigation
-            categories={uniqueCategories}
-            years={uniqueYears}
-            currentCategory={category}
-            currentYear={year}
-            isMobile={isMobile}
-            onLinkClick={() => setSidebarOpen(false)}
-            getCategoryCountForYear={getCategoryCountForYear}
-            getYearCount={getYearCount}
-            allPostsInYearCount={allPostsInYearCount}
-          />
-        </Sidebar>
+        {/* サイドバー（デスクトップ） */}
+        <aside className="hidden lg:block w-80 bg-white border-r border-gray-200 sticky top-0 h-screen overflow-y-auto shadow-lg">
+          <div className="p-8">
+            <h1 className="text-3xl font-black mb-10 tracking-wider">
+              <Link href={`/archive/all/year/${year}/page/1`} className="hover:text-gray-600 transition-colors">
+                ARCHIVE
+              </Link>
+            </h1>
+            <NavigationContent />
+          </div>
+        </aside>
+
+        {/* サイドバー（モバイル - オーバーレイ） */}
+        {isMobile && (
+          <>
+            {/* オーバーレイ背景 */}
+            <div
+              className={`fixed inset-0 bg-black transition-opacity duration-300 z-40 lg:hidden ${
+                sidebarOpen ? 'opacity-50' : 'opacity-0 pointer-events-none'
+              }`}
+              onClick={() => setSidebarOpen(false)}
+            />
+            
+            {/* サイドバーパネル */}
+            <aside
+              className={`fixed top-0 left-0 h-full w-80 bg-white shadow-2xl transform transition-transform duration-300 z-50 lg:hidden overflow-y-auto ${
+                sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+              }`}
+            >
+              <div className="p-6">
+                <div className="flex items-center justify-between mb-8">
+                  <h2 className="text-2xl font-black tracking-wider">MENU</h2>
+                  <button
+                    onClick={() => setSidebarOpen(false)}
+                    className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                    aria-label="Close menu"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <NavigationContent />
+              </div>
+            </aside>
+          </>
+        )}
 
         {/* メインコンテンツ */}
         <main className="flex-1 p-4 lg:p-8 max-w-6xl mx-auto w-full">
@@ -221,24 +319,112 @@ export default function ArchivePageClient({
           </div>
 
           {/* ページネーション */}
-          <Pagination
-            currentPage={currentPage}
-            totalPages={totalPages}
-            maxDisplay={MAX_PAGES_DISPLAY}
-            baseUrl={`/archive/${category}/year/${year}/page`}
-          />
+          {totalPages > 1 && (
+            <nav className="mt-12 bg-white rounded-lg shadow-md p-6">
+              <div className="text-sm text-gray-600 text-center mb-4">
+                Page {currentPage} of {totalPages}
+              </div>
+              <div className="flex flex-wrap justify-center gap-2">
+                {currentPage > 1 && (
+                  <Link 
+                    href={`/archive/${category}/year/${year}/page/${currentPage - 1}`} 
+                    className="px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-600 hover:text-white hover:border-gray-600 transition-all duration-200 font-medium"
+                  >
+                    ← Prev
+                  </Link>
+                )}
+                
+                {Array.from({ length: Math.min(MAX_PAGES_DISPLAY, totalPages) }, (_, i) => i + 1).map(n => (
+                  <Link
+                    key={n}
+                    href={`/archive/${category}/year/${year}/page/${n}`}
+                    className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+                      n === currentPage 
+                        ? 'bg-gray-600 text-white shadow-md' 
+                        : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-100'
+                    }`}
+                  >
+                    {n}
+                  </Link>
+                ))}
+                
+                {currentPage < totalPages && (
+                  <Link 
+                    href={`/archive/${category}/year/${year}/page/${currentPage + 1}`} 
+                    className="px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-600 hover:text-white hover:border-gray-600 transition-all duration-200 font-medium"
+                  >
+                    Next →
+                  </Link>
+                )}
+              </div>
+            </nav>
+          )}
         </main>
       </div>
 
       {/* フッター */}
-      <Footer
-        categories={uniqueCategories}
-        years={uniqueYears}
-        allPostsCount={allPosts.length}
-        currentYear={year}
-        currentCategory={category}
-        getYearCount={getYearCount}
-      />
+      <footer className="bg-gray-800 text-white mt-16">
+        <div className="max-w-6xl mx-auto px-4 py-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* カテゴリー一覧 */}
+            <div>
+              <h3 className="text-lg font-bold mb-4 text-gray-400">Categories</h3>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <Link href={`/archive/all/year/${year}/page/1`} className="hover:text-gray-400 transition-colors">
+                    All Categories ({allPosts.length})
+                  </Link>
+                </li>
+                {uniqueCategories.slice(0, 8).map(cat => (
+                  <li key={cat.id}>
+                    <Link 
+                      href={`/archive/${cat.basename}/year/${year}/page/1`} 
+                      className="hover:text-gray-400 transition-colors"
+                    >
+                      {cat.label} ({cat.count})
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* 年別アーカイブ */}
+            <div>
+              <h3 className="text-lg font-bold mb-4 text-gray-400">Archives by Year</h3>
+              <ul className="space-y-2 text-sm">
+                {uniqueYears.map(y => (
+                  <li key={y}>
+                    <Link 
+                      href={`/archive/${category}/year/${y}/page/1`} 
+                      className="hover:text-gray-400 transition-colors"
+                    >
+                      {y} ({allPosts.filter(p => p.year === y).length} entries)
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* サイト情報 */}
+            <div>
+              <h3 className="text-lg font-bold mb-4 text-gray-400">Archive</h3>
+              <p className="text-sm text-gray-400 mb-4">
+                タイムライン形式で過去の記事を閲覧できます。カテゴリーや年別でフィルタリングが可能です。
+              </p>
+              <Link 
+                href="/archive/all/year/2025/page/1" 
+                className="inline-block px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
+              >
+                View All Posts
+              </Link>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-500">
+            <p>© 2025 Archive. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
