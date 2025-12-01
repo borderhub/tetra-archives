@@ -39,11 +39,15 @@ interface CrawlerItem {
 function getNormalizedKey(title: string): string {
     if (!title) return "";
     
-    // 1. まず、タイトル全体の前後空白と改行を除去
     let key = title.trim();
+    
+    // 1. 【修正ポイント】日本語と英数字が結合している箇所に空白を挿入
+    key = key.replace(/([a-zA-Z0-9])([一-龠ぁ-ゔァ-ヴ])/g, '$1 $2');
+    key = key.replace(/([一-龠ぁ-ゔァ-ヴ])([a-zA-Z0-9])/g, '$1 $2');
+    key = key.replace(/\s+/g, ' ').trim(); // 空白を再整形
 
     // 2. 【最重要修正】先頭から、最初の主要な区切り文字群（空白、#、-、(、[など）が現れる直前までを抽出
-    // 正規表現: ^(.*?)(?:[\s\u3000#\-—(（\[「『:\uff1a・])|$)
+    // 正規表現: ^(.*?)(?:[\s\u3000#\-—(（\[「『:\uff1a・]|$)/
     const match = key.match(/^(.*?)(?:[\s\u3000#\-\—(（\[「『:\uff1a・\r\n]|$)/);
     if (match && match[1]) {
         key = match[1].trim();
@@ -570,7 +574,7 @@ async function main() {
       .map((id) => getCategoryInfo(id, categoryDataMap))
       .filter((v): v is CategoryInfo => v !== null);
 
-    // ==================== サムネイル取得ロジック（修正済み） ====================
+    // ==================== サムネイル取得ロジック ====================
     let thumbnailPath = '';
     let thumbUrl: string | null = null;
     

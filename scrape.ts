@@ -8,6 +8,8 @@ interface ScrapedItem {
   title: string;
   imageUrl: string;
   pageUrl: string;
+  // 比較用のキーを保持
+  normalizedKey: string; 
 }
 
 // ================== 設定 ==================
@@ -20,15 +22,67 @@ let thumbnailMapping: ScrapedItem[] = [];
 let processedUrls = new Set<string>();
 let visitedPages = 0;
 
-// タイトルの正規化
-function normalizeTitle(title: string | null | undefined): string {
-  if (!title) return "";
-  return title
-    .replace(/\r\n/g, "\n")
-    .replace(/\r/g, "\n")
-    .replace(/\s+/g, " ")
-    .trim();
+/**
+ * タイトル文字列を比較のために整形する（先頭のキーワードブロックのみを抽出）
+ * @param title 比較対象のタイトル文字列
+ * @returns 比較用のキー文字列
+ */
+function getNormalizedKeyForComparison(title: string): string {
+    if (!title) return "";
+    
+    // 1. 全角/半角の空白、タブ、改行をすべて除去
+    let key = title.replace(/[\s\u3000]/g, ''); 
+    
+    // 2. 特殊記号や括弧、句読点などを除去
+    key = key.replace(/[()（）【】\[\]「」『』,。．！？!?':;・、\-/～_#]/g, '');
+
+    // 3. 文字をすべて小文字に変換
+    key = key.toLowerCase();
+    
+    // 4. 最後に英数字と日本語の文字以外を全て除去し、純粋なキーワードにする
+    key = key.replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/g, '');
+
+    return key;
 }
+
+/**
+ * 生のタイトル文字列をクリーンアップし、比較用のキーも生成する
+ * @param rawTitle 生のタイトル文字列
+ * @returns クリーンアップされたタイトル文字列
+ */
+function cleanupAndGenerateKey(rawTitle: string | null | undefined): { cleanTitle: string; key: string } {
+    if (!rawTitle) return { cleanTitle: "", key: "" };
+
+    let cleanTitle = rawTitle
+        .replace(/\r\n/g, "\n")
+        .replace(/\r/g, "\n")
+        .replace(/\s+/g, " ")
+        .trim();
+        
+    // --- パターン１対策: タイトル重複の検出と除去 ---
+    // タイトルが自身の後半部分を繰り返している場合を検出（例: 'ABCABC' -> 'ABC'）
+    const len = cleanTitle.length;
+    if (len > 4 && len % 2 === 0) {
+        const halfLen = len / 2;
+        const firstHalf = cleanTitle.substring(0, halfLen);
+        const secondHalf = cleanTitle.substring(halfLen);
+        if (firstHalf === secondHalf) {
+            cleanTitle = firstHalf.trim();
+        }
+    }
+    
+    // --- パターン２対策: 日本語/英数字結合の分離 ---
+    // 日本語文字と英数字・記号の間に空白を入れる
+    cleanTitle = cleanTitle.replace(/([a-zA-Z0-9])([一-龠ぁ-ゔァ-ヴ])/g, '$1 $2');
+    cleanTitle = cleanTitle.replace(/([一-龠ぁ-ゔァ-ヴ])([a-zA-Z0-9])/g, '$1 $2');
+    cleanTitle = cleanTitle.replace(/\s+/g, ' ').trim(); // 再度空白を整形
+
+    // 最終的な比較キーを生成
+    const comparisonKey = getNormalizedKeyForComparison(cleanTitle);
+
+    return { cleanTitle, key: comparisonKey };
+}
+
 
 /**
  * 2004年から現在の年までの年別アーカイブURLを生成し、キューに追加する
@@ -55,7 +109,6 @@ function generateArchiveUrls(crawler: Crawler) {
 
 // 画像URLから必要な部分のみを抽出するヘルパー関数
 function extractCleanImageUrl(fullUrl: string): string | null {
-  // 例: http://www.as-tetra.info/image.php/1414.jpg?width=168&height=800&image=http://www.as-tetra.info/upload/2025/IMG_2909-thumb.jpeg
   // URLパラメータ 'image=' の後にある、アップロードディレクトリのURLを抽出
   const match = fullUrl.match(/&image=(http:\/\/.*?\/upload\/.*?\/.*?\.(?:jpe?g|png|gif))/i);
   
@@ -85,22 +138,14 @@ async function main() {
         return;
       }
 
-      // 既に処理済みのURLはスキップ（★ 1. 動作安定のため visitedPages > 0 のチェックを削除 ★）
-      // ただし、今回は年別アーカイブページしかクロールしないため、このチェックは主に重複防止に役立ちます
-      /*
-      if (processedUrls.has(url)) { 
-        done();
-        return;
-      }
-      */
       processedUrls.add(url);
-      console.log(processedUrls)
       visitedPages++;
       console.log(`[${visitedPages}] Processing: ${url}`);
 
       try {
         const $ = cheerio.load(res.body);
         
+        // 1つ目の記事ブロックはしばしば特殊なコンテンツ（年別アーカイブの概要など）なので除外
         const articleBlocks = $(".main > .block_box:not(:first-child)");
         
         if (articleBlocks.length > 0) {
@@ -113,7 +158,9 @@ async function main() {
             const titleLink = block.find('h1 a');
             const rawTitle = titleLink.text();
             const articleRelativeUrl = titleLink.attr('href');
-            const normalizedTitle = normalizeTitle(rawTitle);
+            
+            // --- 修正されたタイトル処理 ---
+            const { cleanTitle: normalizedTitle, key: comparisonKey } = cleanupAndGenerateKey(rawTitle);
 
             // 2. 画像URLの抽出
             const imageElement = block.find('a img');
@@ -131,23 +178,18 @@ async function main() {
 
               if (cleanImageUrl) {
                 thumbnailMapping.push({
-                  title: normalizedTitle,
+                  title: normalizedTitle, // 元のタイトルに近い、クリーンアップ済みのタイトルを保持
                   imageUrl: cleanImageUrl,
-                  pageUrl: absoluteArticleUrl
+                  pageUrl: absoluteArticleUrl,
+                  normalizedKey: comparisonKey // 重複除去とconvert.tsとの比較に使うキーを保持
                 });
 
-                console.log(`  ✓ Title: ${normalizedTitle.substring(0, 40)}...`);
+                console.log(`  ✓ Title: ${normalizedTitle.substring(0, 40)}... (Key: ${comparisonKey.substring(0, 20)}...)`);
               }
             }
           });
         }
         
-        // 年別アーカイブページからのリンクは、年別アーカイブページか個別記事ページのみ。
-        // 個別記事に潜る必要がない（インデックスページで必要な情報を取得しきっている）ため、
-        // 今回は再帰的なキューイングの処理は入れません。
-        // もし年別ページが他の年別ページ（例：/archives/2023/）へのリンクを含んでいたとしても、
-        // それらは generateArchiveUrls() ですでにキューイング/処理済みになっているため、重複クロールは発生しません。
-
       } catch (parseError: any) {
         console.error(`Parse error for ${url}:`, parseError.message);
       }
@@ -167,11 +209,16 @@ async function main() {
     console.log(`取得サムネイル数: ${thumbnailMapping.length}`);
     console.log("========================================\n");
 
-    // 重複を削除 (Mapを使用してタイトルを一意にする)
+    // 【修正点】重複を削除: normalizedKey (比較キー) が同じアイテムを重複と見なす
     const uniqueMapping = Array.from(
-      new Map(thumbnailMapping.map((item) => [item.title, item])).values()
-    );
-
+      new Map(thumbnailMapping.map((item) => [item.normalizedKey, item])).values()
+    ).map(item => ({
+        // 最終的な出力JSONから normalizedKey は除外
+        title: item.title,
+        imageUrl: item.imageUrl,
+        pageUrl: item.pageUrl
+    }));
+    
     await fs.writeJson(OUTPUT_JSON, uniqueMapping, { spaces: 2 });
     console.log(`結果を ${OUTPUT_JSON} に保存しました（${uniqueMapping.length}件）`);
   });
