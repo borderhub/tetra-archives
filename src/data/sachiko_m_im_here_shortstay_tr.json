@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "=Wintertime=　 ..空白の一時間     Sachiko M I'm Here -shortstay-  traveling exhibition Ver.4=Wintertime=@art space tetraにむけて        Wintertime、サマータイムの逆で、時計を戻す、一時間。  昔、一回だけ経験したことがある。  秋の終わりのある夜に、時計を一時間、戻す。   ..."

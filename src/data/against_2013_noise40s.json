@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "ベテラン福岡ノイズユニットMAGGIE GUIAAAAA、大牟田の電子卓上音楽団、城戸英章とシェーン・ボーデンが参加してローカルのノイズアタック！..."

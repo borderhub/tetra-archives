@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "「Pecha cucha link up project 1 Guide for Artist」では、韓国のアート、舞踊分野で活動する若手アーティストたちが一日限りのゲリラ展示を行います。 また、同日18時からは「Pecha cucha link up project 1 Guide for Artist」と題し、それぞれのアーティストが自身の作品や活動について発表します。 「Pecha cuch..."

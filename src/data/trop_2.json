@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "ウッドベースと声の響き  ふちがみとふなと　http://www.asahi-net.or.jp/~cp3j-fcgm/ 渕上純子(ヴォーカル、小物担当)と船戸博史(ウッドベース、コーラス担当)の二人からなるバンド。主に京都を中心に活動。 それぞれ別々にアフリカを旅行中に旅先で出逢った渕上と船戸が、帰国後京都で再会し、1991年、京都の知り合いの酒場で頼まれて歌い始めたのが、そもそもの始まり。ウッ..."

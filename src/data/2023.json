@@ -11,39 +11,28 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "サックス奏者の山内桂と、ギター奏者の山崎昭典によるユニット「サガイン」。 ２０１８年に山崎昭典が加入後、国内ツアーや台湾ツアー等を重ね、各地で評価されている。 今年度初となるサガインのLIVEツアーの福岡公演。 大分と京都の遠距離ユニットとなるため、生演奏を聴くことができる機会もそう多くありません。 art space tetraでは、福岡で活動をする美術家の八尋eito恵によるインスタレーション..."

@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "おちょこ(voice) 河合拓始(鍵盤ハーモニカ他) 直江実樹(ラジオ) 中村勇治(reeds) moyanmn(電子音楽) (50音順)  ------------------------------------- 指先をゆっくり近づけて そっと触れるみたいに 長い繊細な触覚で 未知の相手を確かめるみたいに 生まれ落ちたばかりの 見知らぬ世界をみつめる新生児みたいに  あなたの音に 出会ってみた..."

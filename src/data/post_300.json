@@ -11,20 +11,14 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "『令和五年春　受注会』 ====================  ◎東京会場/イイダ傘店アトリエ 3.3（金）- 3.13（月） ※3/6(月).7(火)お休み 11:00-17:00 東京都武蔵野市境2-8-17    ◎京都会場/恵文社一乗寺店　ギャラリーアンフェール 3.21（火祝）- 3.27（月） 11:00-19:00（最終日16時まで） 京都府京都市左京区一乗寺払殿町10  htt..."

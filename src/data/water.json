@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "【写真展のお知らせ/Photo Exhibition 】  写真展『WATER / あふれる水のなかへ』を開催します。  かねてより定期的に通い、撮影を続けてきた街、香港。 6月以降からは毎月訪れ、特殊で複雑なこの街で、明るい未来を求めようとする「普通の若者たち」の姿を追いかけました。  香港で何が起きているのか。知らないからこそ、彼らの姿を見て、何かを感じて欲しいと願っています。   ..."

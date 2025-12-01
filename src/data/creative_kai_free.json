@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "CREATIVE［KAI］とは、宣伝会議の教育講座、「アートディレクター養成講座（ARTS）  福岡教室」で出会った、九州各県の若手デザイナー・アートディレクター、デザインを学んでいる学生が集い、情報交換をしながらデザインの向上を図り、日々の仕事とは違う形で表現をしていくデザインユニットです。今回選んだテーマは「自由・FREE」。 「自由・FREE」というテーマで作ってもよし、自由に作ってもよし。..."

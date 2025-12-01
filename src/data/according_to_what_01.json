@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "(P) TOSHIMA YOSHIHIRO  本シリーズは、現実を記録した写真を見、そこに写し出されている対象について、既成の概念に捕われないよう思考し、別様な認識の仕方を模索する場として企画された。シリーズ名である「ACCORDING TO WHAT」は、ジャスパー・ジョーンズの作品タイトルであり、そのオマージュとして書かれた美術批評家・詩人の岡田隆彦の同題の詩から名付けられた。その詩の最終行に..."

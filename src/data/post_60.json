@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "松隈 聡子（ヴィオラ奏者）  2008年ロッテルダム音楽院器楽科卒業。 故松村英夫氏にヴァイオリンを師事。18歳でヴィオラに転向後、内田博、平石謙二、ヴラディミール・メンデルスゾーンの各氏にヴィオラを師事。今井信子氏のマスタークラス受講。第47回北九州芸術祭にて奨励賞受賞。 響ホール室内合奏団団員。..."

@@ -11,29 +11,21 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "ーあなたが今まで知らなかった才能と彼らのZINEを楽しんでもらいたい。  FUKUOKA ART BOOK MARKETを開催します。 福岡を中心に県内外のアーティストの福岡未発表のZINEや作品集を展示販売。 国内外のアートブックを扱うオンラインブックショップ『flotsam books』も出店します。 ぜひ実際に手にとってみてください。  初日4/14(土)はOpening Partyを開催し..."

@@ -11,20 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": " トゥバ共和国に伝わる伝統的な唄法『ホーメイ』を習ってみませんか? 講師に日本トゥバホーメイ協会主催の大会で2度の連続受賞の快挙を成し遂げた山川冬樹氏をお招きし ワークショップという形で、自分の喉から倍音の出し方を初歩からマスター出来るチャンスです!! またワークショップ終了後、講師によるミニライヴ(ゲスト有り、かも??)もあります。 是非ともこの機会をお見逃しなく。  『ホーメイ』って? ロシア..."

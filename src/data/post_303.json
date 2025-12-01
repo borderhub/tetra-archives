@@ -11,58 +11,42 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "あの、アフリ神主がテトラにやってくる？！  マダガスカルの土着信仰や伝統医療を専門とする文化人類学者であり、門司港のとある神社の神主でもある『アフリ神主』こと江端希之氏。  マダガスカルってどんなところ？マダガスカルのシャーマンって？ アフリ神主とマダガスカル鍋を囲みながら、未知なる世界を覗いてみましょう。    江端希之 アフリカと日本の「異界」を行き来する、旅する「アフリ神主」。 日本人唯一の..."

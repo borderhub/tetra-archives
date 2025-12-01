@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： 緒方祐香(秋風リリー）(dance) 中村勇治(bass clarinet,soprano saxophone) *50音順  朝活ライブcapture late morning live・第5回目です。 今回お招きするのは、緒方祐香(秋風リリー）さん、その活動領域は、九州ロッカーズ、金粉ショー、神楽、などなどと多岐にわたります。主催・中村勇治との即興パフォーマンスを中心にお届けします。会..."

@@ -11,39 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "ベルリンネッツ再び。 アートと音楽、実験の2daysセッション  2025年4月に福岡のart space tetraで開催したアートフェス「ベルリンネッツ！」が再来！ 2日間にわたり、ベルリンから来日中のWER DAによる展示を中心に、地元アーティストやベルリン在住経験者によるライブパフォーマンス、誰でも参加歓迎のジャムセッション、スーパーアナログ写真機「Photoautomat」、フードなど、..."

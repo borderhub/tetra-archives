@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "今回のurbanpotlatchでは、イギリスで長年に渡って国会議事堂の前にテントを張り、アフガニスタン、イラク戦争を始めとする英米の対テロ戦争 に反対の声を上続けてきた平和運動家ブライアン・ホウ氏の活動を追った早川由美子監督のドキュメンタリー「ブライアンと仲間たち　パーラメント・スクエア ＳＷ１」を上映します。   自らの叫び/声（J.ホロゥエイ）を直接外に向かって発する時に、人々は「政治」とい..."

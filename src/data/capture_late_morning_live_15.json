@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： 倉地久美夫(vocal,guitar) 中村勇治(soprano saxophone, bass clarinet)  朝活ライブcapture late morning live・15回目は昨年末にも出演いただいた倉地久美夫さんに再度出演いただきます。個性豊かな楽曲と歌と声とギターで独特な世界を切り開いてこられました。 倉地さんの弾き語りをお楽しみください。年末なので何か+αがあるかも、..."

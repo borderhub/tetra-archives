@@ -11,10 +11,7 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     }
   ],
   "excerpt": "[ゲスト] 中村友紀（映像作家）x 小田マサノリ（イルコモンズ） ＊あのとんでもない男もいっしょに来福する可能性あり..."

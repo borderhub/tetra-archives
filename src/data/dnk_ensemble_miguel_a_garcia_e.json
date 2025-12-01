@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "オランダから DNK ENSEMBLE. スペインはバスク地方出身のアーティスト MIGUEL A. GARCÍA と同じくバスク出身の ELENA AITZKOA を迎えてのライブ・イベント。  福岡からは中村勇治 (soprano sax, bass clarinet) と松岡涼子 (dance) のデュオ。そしてシェーン・ボーデン (electronics) とマット・リチェルソン (gui..."

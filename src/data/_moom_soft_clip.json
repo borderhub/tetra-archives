@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "一楽儀光 ドラム、パーカッション、エレクトロニクス。山口在住。I.S.Oや想い出波止場、ファンタスマゴリア、西日本、アシッド・マザー・テンプルなど数多くのバンドで活躍。最近は韓国人のサックスプレーヤーKang Tae Hwanとの共演も話題となっている。  moom瑠 北九州市在住。シンセサイザーとラップトップを使い、日常から紡がれた不思議な物語を謳う、ひとりユニット。  soft clip イベ..."

@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Reading the MAP  地図を読む その場所へ行くために地図を読む けれど、そもそもその地図はどこにあるのか 気付くと、地図を探す旅に出るための地図を さがしている  https://www.facebook.com/ReadinghteMAP/..."

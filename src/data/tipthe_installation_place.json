@@ -11,30 +11,21 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "vol.1『言葉の救済』 言葉の救済をテーマにした、 インスタレーションと音楽ライブ  音楽:ほたか 作家:石田聖也   T.I.Pとは、【今】を設置するをコンセプトに2020年に活動開始。..."

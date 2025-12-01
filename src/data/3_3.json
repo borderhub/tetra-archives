@@ -11,20 +11,14 @@
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "【内容】 九州はなぜ「こう」なのか？西南戦争、水俣病闘争、筑豊の炭鉱とサークル村、門司の米騒動。近代化がもたらす矛盾と抑圧に立ち上がった九州の人びとの声と思想を、鹿児島から門司港までを結ぶ国道３号線に沿って掘り起こしていく書籍「国道3号線　抵抗の民衆史」。著者の森元斎さんを、古巣art space tetraに迎え、（オンライン）出版記念トークを開催します。対談相手は、福岡在住でリメイクブランド「..."

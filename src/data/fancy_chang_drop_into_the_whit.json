@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "福岡県大牟田市出身のfancy changは、接客をこよなく愛する女性です。20年近く多くの人にお酒と会話を提供する日々を過ごす反面、写真の中の描画対象者と無言の対話を繰り返し、ひとり創作を続けています。  1,000人を超える女性を描き、細い線画と広い余白、唇や爪など象徴的なパーツを染める赤色、衣服や花飾りを彩るファンシーカラーといった現在の作風が生まれていきました。  fancy changの..."

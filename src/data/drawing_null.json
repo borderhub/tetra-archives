@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "久々に \"アンビエント系\" の音楽イベントを企画してみました。各々が超個性的な音・パフォーマンスを生み出す人たち揃い。リラックスして楽しめる夜になると思います。ご来場お待ちしております！  silent null 大阪在住の井手陽介（bass）と福岡在住の越出健治（guitar）によるアンビエント／ドローン／インプロなインストユニット。３月に大阪の environment 0g [zero-gau..."

@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "「Portraits:of you, for you; for me」は、抽象画と具象画の作品による一連のポートレートシリーズです。抽象画にはベトナムの漆を絵の具として使っており、私のぼんやりとかすんだ記憶を呼び起こし、私の祖母を深く思い起こす色で描写しています。そしてもうひとつは、はかなく遠くへ旅立った祖母を描いた水彩画のポートレートです。  Camilla Lundquist  Born in..."

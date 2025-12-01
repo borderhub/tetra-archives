@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Lerin / Hystad : Lerin / Hystad は、Simon Torssell Lerin と Bettina Hvidevold Hystad のスウェーデン人とノルウェー人によるデュオで、2010 年に結成されました。彼らの音楽はフィールド・レコーディングにアンビエント、エレクトロニカ、ポストロック、ドローンを合わせたもので、Clouds Hill, Animals や Ex..."

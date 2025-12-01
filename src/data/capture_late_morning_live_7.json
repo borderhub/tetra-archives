@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： 谷本史童(尺八) https://sidoshauhachi.jimdofree.com 中村勇治(soprano saxophone) https://capture.nakamurayuji.com  *50音順  朝活ライブcapture late morning live・第7回目は、尺八の谷本史童さんをお招きしました。 新年最初だから尺八奏者をという思いもありましたが、それよりも..."

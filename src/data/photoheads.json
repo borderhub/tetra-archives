@@ -11,39 +11,28 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": " PhotoHeads 写真展  PhotoHeads   4回目の写真展を開催します。 テーマは\"Make It Better\" それぞれの感性で光を捉え描きだした生のプリント。 是非ご覧頂き、それぞれの”Make It Better”を 感じて頂けたら幸いに思います。 3月12日(土)夕方よりオープニングpartyを 開催します。DJによるKIND groovyな音楽と共に 写真展をお楽しみく..."

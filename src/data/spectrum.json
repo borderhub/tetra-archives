@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "- 出演 Venta Protesix m2m hospi  - プロフィール Venta Protesix Venta Protesix は、2008年から活動している Italo Belladonna のソロプロジェクトである。 イタリアの実験音楽界において最も物議を醸す人物の一人と常に見なされており、10年以上にわたり、極限のコンピュータ音楽の領域で活動している。ヨーロッパやアジア各地でパフ..."

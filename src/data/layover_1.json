@@ -11,39 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "コロンビア在住作家の写真、映像作品を中心とするLayover展を開催いたします。Layover（léiòuvər/レイオーバー）とは北米の長距離バスなどで、ターミナルで乗客が一旦バスの外に出て過ごすことが義務付けられる長時間の停留を意味します。今回art space tetraでは、SARS-CoV-2パンデミック以降日常に浸透する出発点から目的地に直に移動できないLayover的ともいえる現..."

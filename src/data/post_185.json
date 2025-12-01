@@ -11,49 +11,35 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "アートスペース・テトラは、福岡市の中心部でありながら枯れた情緒を残す博多区須崎町に2004年4月、オープンいたしました。今年で10年が経ちます。 メンバーの入れ替わりを経ながらも、写真家や美術家、音楽家、ライターやフリーター、哲学者などによる共同経営という形で運営され、利用者、来場者の方々との交流の中で、常に何かを発見できる場所として変化を続けています。  現状いつも開いているわけではなく、イベン..."

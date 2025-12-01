@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "▼出演 谷本仰(バイオリン、他) AVAN(ベース) ミドリトモヒデ(サックス)   ▼問い合わせ art space tetra / capture works and music (Yuji Nakamura) 070-5400-1965 / capture@nakamurayuji.com..."

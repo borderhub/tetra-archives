@@ -11,79 +11,56 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "会場 / Venue @artspacetetra 福岡市博多区須崎町 2-15   入場無料 +1 drink order イベント時は投げ銭をぜひ！  ◇ More info  https://sxbx.net/bzzz (Link in bio)        Concept 1989年の壁崩壊後、ベルリンは世界中のアーティストが集まる創造の街となった。彼らは所有者不明の建物を改装し、住居や..."

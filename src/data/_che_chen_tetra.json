@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Che CHEN Che ChenはNew YorkのBrooklynやStonybrookで活動しているグラフィック＆サウンドアーティストである。Cheは弦楽器、管楽器、リード楽器、パー カッション、オープンリール、オシレーターなど楽器あるいは楽器以外の様々な物をも用い、あらゆる知覚現象から世界中の伝統音楽までを探求し続けている。 Che は、マルチプレイヤー「Robbie Lee」とのデュオ、..."

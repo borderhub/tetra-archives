@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Horacio Pollard（イギリス） myspace www.neighmusic.co.uk www.icenivillagestudio.co.uk  Morooka Mitsuo （福岡） myspace  shayne bowden（福岡／オーストラリア） http://www.deterra8.com http://inshayneinthemembraneous.blogspot..."

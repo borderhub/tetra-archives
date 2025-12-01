@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "實松 亮（サネマツ　アキラ） ビデオ映像を光学的な原理を用いて造形的に組み込んだ作品から出発し、９０年半ばからインスタレーションの中に音も用いた音響的な展開を見せはじめる。 98年に大友良英の「Gronud Zero」のリミックスCD参加、99年パフォーマンスグループ「時々自動」のエキストラ出演、2000年即興のヴォイス・パフォーマンスグループ「Kuu」への参加なども行う。近年は他作家とのコラボレ..."

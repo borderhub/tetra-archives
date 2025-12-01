@@ -11,20 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "作家：点点 (TenTen) ■内容 オリジナル刺繍絵の展示、販売、ワークショップ..."

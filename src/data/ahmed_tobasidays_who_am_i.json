@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "22日は、アフメド・トゥバーシ（Ahmed Tobasi）がディレクターを務めるパレスチナのジェニンにある、Freedom theaterで実際に行っているワークショップの再現を、ここ、art space tetraで行います。演劇未経験の方や、英語やアラビア語が出来なくて不安がある方でも、気軽に参加できるワークショップですので、是非ご参加ください。 23日はパレスチナの現状や、自身の活動内容を語..."

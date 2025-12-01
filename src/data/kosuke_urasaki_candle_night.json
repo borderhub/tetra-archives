@@ -11,39 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "キャンドルをひとつご準備ください ライブの時間に灯す自分のためのキャンドルを 手元にご準備ください （キャンドルホルダーも忘れずに）  詩をお寄せください 会場となる art space tetra にてライブのはじまりに朗読される詩を募集します Kosuke Urataniの演奏を聴きながら「詩を灯す」貴方の一編をお寄せください 詳細を確認する ※当日朗読されなかった作品も配信アーカイブとあわせ..."

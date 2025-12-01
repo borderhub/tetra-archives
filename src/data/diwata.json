@@ -11,68 +11,49 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "  It is a celebration of our boundless capacity to transform. これは、私たちがいかようにも変化できることを祝福するものです。  . 植民地時代以前にさかのぼるフィリピンの土着の神話に登場するトランスジェンダーの神々。 同時代を生きるクィア・アーティスト 3 名が自ら体現し、写真表現に昇華した、圧巻の『DIWATA』シリーズ第一弾。  首..."

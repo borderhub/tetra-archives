@@ -11,19 +11,14 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "tetraガレージセール　2014年秋の陣  参加　kimonoize、wayo、kmac、日野直樹、他　随時増えます。   出店  ・kimonoize/ セカンドハンド着物 　材料用からお稽古用・ステージ用・お出かけ用まで、セカンドハンド着物を多数出品します。 　年代物からデッドストック新古品まで、掘り出し物が見つかるかも？ 　長着：500円〜  ・日野直樹 　写真家。カメラ（中古）とカメラ、..."

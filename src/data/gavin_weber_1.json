@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "鉄のフレーム、コンクリート、テープなどを用い、まるで重力から解放された有機物のような彫刻作品を制作・発表し続けているアメリカの美術作家C・ギャビン・M・ウェバーによる展覧会。   C. Gavin M. Weber アメリカ・ノースカロライナ州で活動する彫刻家。素材のテクスチャーと形態が不可思議に融合した作品を発表し続けている。作品発表の傍ら、デビッドソン大学芸術コースで、学生の指導や彫刻素材の研..."

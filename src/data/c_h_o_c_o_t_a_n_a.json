@@ -11,28 +11,21 @@
       "label": "トップ掲載",
       "basename": "top",
       "parentId": 0,
-      "path": [
-        "top"
-      ]
+      "path": ["top"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "  C  h  o  c  o  t  a  n  a ちょこたな  モノクロ写真（是本信高）と 映像（わえ）の二人展　 black-and-white photography +movie   味わい深く栄養たっぷりの安心・安全な有機野菜を栽培。その、とれたてのおいしさを収穫から24時間以内に食卓にお届けする、たなまち農園の挑戦に密着。棚町氏とその家族や仲間たちの日々をモノクロの手焼きプリントと..."

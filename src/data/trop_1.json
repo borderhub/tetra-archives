@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "3人の演奏と　梢夏子のちょっとしたいたずら。  梅田哲也  1980年生まれ、大阪在住。  おもに音のインスタレーション、パフォーマンスを活動の軸とし、物理現象や電気によるミニマルな運動から、常に空間のキャラクターに焦点をあてた作品を発表している。  ライブイベントを主な活動の拠点とし、2002年以降『Festival Beyond Innocence』に毎年参加、2006年にはスコットランドの『..."

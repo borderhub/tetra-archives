@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "miroque（東京） 1979年生まれ。2000年にライブ&作曲活動を始める。2001年、MISTONのコンピレーションに参加。360recordsから1st albumをリリース。2002年、自身のレーベル“cacha*mai”からunico名義でのアルバム等、joywindなどリリース。森アートミュージアムのコンピレーションに参加。また、電通ビル”カレッタ汐留”のB1Fの音楽を担当。現在も2..."

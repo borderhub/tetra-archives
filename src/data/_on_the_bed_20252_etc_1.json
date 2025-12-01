@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "鈴木淳は現代美術家として、身の回りにある既製品を用いたインスタレーションや、絵画、写真、映像、パフォーマンス、テキストなど様々な手法を用いた表現活動をしています。それらの作品や行為は、普段の生活で見慣れた風景や「もの」「こと」に対して、ユーモアやアイロニーを含め、場の特性や日常に潜む違和感を引き出し、異化しています。  今回の「On the Bed 2025-3, etc.」は、2025年の一年間..."

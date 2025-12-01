@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Object Collection   ニューヨークのアーティスト／作家／デザイナーであるKara Feelyと作曲家／サックスプレーヤーのTravis Justが、2004年に設立したエクペリメンタルシアター、ミュージックパフォーマンスグループ。ライブでは音と音楽と言葉を使ったパフォーマンスを行う。ニューヨークを拠点として、世界中のアーティストたちとコラボレーションし、さまざまなプロジェクトを展..."

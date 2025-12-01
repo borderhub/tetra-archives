@@ -11,30 +11,21 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "大分県別府市市街地を中心に活動するNPO法人BEPPU PROJECTが2008年より継続しているアーティスト・イン・レジデンス事業「KASHIMA」 今回は\"A COURSE THROUGHOUT BEPPU\"（別府そぞろ歩き）をテーマに、 世界中より集まった８００以上の応募の中から、厳選な審査を経て選ばれた２プログラムを実施しています。  art space tetraでは、 その１プログラム..."

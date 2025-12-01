@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "ACC（アジアン・カルチュラル・カウンシル）の助成を受け、アメリカへキュレーションについての調査に行っていたテトラの幽霊部員・遠藤水城が帰ってきた。  アメリカは　どうだったのか お前は　何をしたのか そして　何を考えたのかっ！  雑誌の発行・イベントのオーガナイズなど、様々な活動を展開してきたｒｈｙｔｈｍを主催し、マニラと福岡でアートスペースの立ち上げに関わり、イタリアでキュレーターの賞を受賞。..."

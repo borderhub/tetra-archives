@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "福岡を拠点に雑誌の発行や音楽イベント・展覧会などを企画してきた rhythm がプロデュースする「project for actual art」シリーズ・第二弾。この企画は、福岡のアーティストをシリーズで紹介する展覧会。今回は北九州を拠点に絵画を中心とした活動を行うアーティスト・日野陽太朗を紹介。   [curator] Mizuki Endo (rhythm) [director] Keiji ..."

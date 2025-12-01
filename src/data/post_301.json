@@ -11,38 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "中東のパリ - 内戦 - 中東のスイス - 経済破綻 - ベイルート港爆発事故という、目まぐるしくアップダウンを繰り返している現代の中東 レバノン。  そんな激動の中でも、古代より世界中で愛されているレバノンの食文化や、古代メソポタミアの文学作品で、世界最古の物語とされる「ギルガメッシュ叙事詩」の世界など、多くの愛される文化が根付いているレバノンでのビターでスイートな旅のお話。  本イベントでは、..."

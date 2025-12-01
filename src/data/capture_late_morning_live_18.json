@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： ▼谷本史童(尺八) 琴古流尺八演奏、長崎市出身、大和聚童に師事し昭和の人間国宝・納富寿童直伝の琴古流尺八を学ぶ。古典尺八を基礎に置きつつも新たな創造を求め、現在はドローンアンビエント/ポストクラシカルを背景にしたオリジナル作品を中心に展開中。 https://sidoshauhachi.jimdofree.com  ▼中村勇治(bass clarinet, soprano saxophon..."

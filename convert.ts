@@ -13,7 +13,10 @@ const CRAWLER_RESULTS_FILE = './scraped.json'; // クローラーの出力ファ
 
 // --- 型定義 ---
 
-type CategoryMap = Map<number, { basename: string; label: string; parentId: number }>;
+type CategoryMap = Map<
+  number,
+  { basename: string; label: string; parentId: number }
+>;
 type CategoryInfo = {
   id: number;
   label: string;
@@ -24,8 +27,8 @@ type CategoryInfo = {
 
 interface CrawlerItem {
   title: string;
-  imageUrl: string; 
-  pageUrl: string; 
+  imageUrl: string;
+  pageUrl: string;
 }
 
 // --- ヘルパー関数（タイトル比較用） ---
@@ -37,108 +40,140 @@ interface CrawlerItem {
  * @returns 先頭のキーワード部分を正規化・小文字化したキー文字列
  */
 function getNormalizedKey(title: string): string {
-    if (!title) return "";
-    
-    let key = title.trim();
-    
-    // 1. 【修正ポイント】日本語と英数字が結合している箇所に空白を挿入
-    key = key.replace(/([a-zA-Z0-9])([一-龠ぁ-ゔァ-ヴ])/g, '$1 $2');
-    key = key.replace(/([一-龠ぁ-ゔァ-ヴ])([a-zA-Z0-9])/g, '$1 $2');
-    key = key.replace(/\s+/g, ' ').trim(); // 空白を再整形
+  if (!title) return '';
 
-    // 2. 【最重要修正】先頭から、最初の主要な区切り文字群（空白、#、-、(、[など）が現れる直前までを抽出
-    // 正規表現: ^(.*?)(?:[\s\u3000#\-—(（\[「『:\uff1a・]|$)/
-    const match = key.match(/^(.*?)(?:[\s\u3000#\-\—(（\[「『:\uff1a・\r\n]|$)/);
-    if (match && match[1]) {
-        key = match[1].trim();
-    } else {
-        // マッチングが不要な場合はそのまま継続 (ほぼ発生しないはず)
-        key = key.trim();
-    }
+  let key = title.trim();
 
-    // 3. 全角/半角の空白、タブ、改行をすべて除去
-    key = key.replace(/[\s\u3000]/g, ''); 
-    
-    // 4. 特殊記号や括弧、句読点などを除去
-    // 先頭抽出で多くの記号は除かれますが、念のためクリーンアップ
-    key = key.replace(/[()（）【】\[\]「」『』,。．！？!?':;・、\-/～_#]/g, '');
+  // 1. 【修正ポイント】日本語と英数字が結合している箇所に空白を挿入
+  key = key.replace(/([a-zA-Z0-9])([一-龠ぁ-ゔァ-ヴ])/g, '$1 $2');
+  key = key.replace(/([一-龠ぁ-ゔァ-ヴ])([a-zA-Z0-9])/g, '$1 $2');
+  key = key.replace(/\s+/g, ' ').trim(); // 空白を再整形
 
-    // 5. 文字をすべて小文字に変換
-    key = key.toLowerCase();
-    
-    // 6. 最後に英数字と日本語の文字以外を全て除去し、純粋なキーワードにする
-    key = key.replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/g, '');
+  // 2. 【最重要修正】先頭から、最初の主要な区切り文字群（空白、#、-、(、[など）が現れる直前までを抽出
+  // 正規表現: ^(.*?)(?:[\s\u3000#\-—(（\[「『:\uff1a・]|$)/
+  const match = key.match(/^(.*?)(?:[\s\u3000#\-\—(（\[「『:\uff1a・\r\n]|$)/);
+  if (match && match[1]) {
+    key = match[1].trim();
+  } else {
+    // マッチングが不要な場合はそのまま継続 (ほぼ発生しないはず)
+    key = key.trim();
+  }
 
-    return key;
+  // 3. 全角/半角の空白、タブ、改行をすべて除去
+  key = key.replace(/[\s\u3000]/g, '');
+
+  // 4. 特殊記号や括弧、句読点などを除去
+  // 先頭抽出で多くの記号は除かれますが、念のためクリーンアップ
+  key = key.replace(/[()（）【】\[\]「」『』,。．！？!?':;・、\-/～_#]/g, '');
+
+  // 5. 文字をすべて小文字に変換
+  key = key.toLowerCase();
+
+  // 6. 最後に英数字と日本語の文字以外を全て除去し、純粋なキーワードにする
+  key = key.replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/g, '');
+
+  return key;
 }
 
 // --- ヘルパー関数（通信・画像処理） ---
 
 function extractUrl(text: string): string | null {
   if (!text || text === 'NULL' || text.trim() === '') return null;
-  
+
   let cleanedText = text.trim();
-  if ((cleanedText.startsWith("'") && cleanedText.endsWith("'")) ||
-      (cleanedText.startsWith('"') && cleanedText.endsWith('"'))) {
+  if (
+    (cleanedText.startsWith("'") && cleanedText.endsWith("'")) ||
+    (cleanedText.startsWith('"') && cleanedText.endsWith('"'))
+  ) {
     cleanedText = cleanedText.slice(1, -1);
   }
-  
+
   const urlMatch = cleanedText.match(/https?:\/\/[^\s'"]+/i);
   return urlMatch ? urlMatch[0] : null;
 }
 
 function extractImageFromHtml(html: string): string | null {
-  const mainImageMatch = html.match(/<img\s+[^>]*class=["']main_image["'][^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i) ||
-                         html.match(/<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*class=["']main_image["'][^>]*>/i);
+  const mainImageMatch =
+    html.match(
+      /<img\s+[^>]*class=["']main_image["'][^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i
+    ) ||
+    html.match(
+      /<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*class=["']main_image["'][^>]*>/i
+    );
   if (mainImageMatch) {
     return mainImageMatch[1].trim();
   }
-  
-  const blockBoxMatch = html.match(/<div\s+class=["']block_box["'][^>]*>([\s\S]*?)<\/div>/i);
+
+  const blockBoxMatch = html.match(
+    /<div\s+class=["']block_box["'][^>]*>([\s\S]*?)<\/div>/i
+  );
   if (blockBoxMatch) {
     const blockBoxContent = blockBoxMatch[1];
-    const imgMatch = blockBoxContent.match(/<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i);
+    const imgMatch = blockBoxContent.match(
+      /<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i
+    );
     if (imgMatch) {
       return imgMatch[1].trim();
     }
   }
-  
-  const block1Match = html.match(/<div\s+class=["']block1["'][^>]*>([\s\S]*?)<\/div>/i);
+
+  const block1Match = html.match(
+    /<div\s+class=["']block1["'][^>]*>([\s\S]*?)<\/div>/i
+  );
   if (block1Match) {
     const block1Content = block1Match[1];
-    const imgMatch = block1Content.match(/<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i);
+    const imgMatch = block1Content.match(
+      /<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i
+    );
     if (imgMatch) {
       return imgMatch[1].trim();
     }
   }
-  
-  const generalImgMatch = html.match(/<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i);
+
+  const generalImgMatch = html.match(
+    /<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i
+  );
   return generalImgMatch ? generalImgMatch[1].trim() : null;
 }
 
 function fetchHtml(urlStr: string): Promise<string> {
   return new Promise((resolve, reject) => {
     const protocol = urlStr.startsWith('https') ? https : http;
-    
+
     const req = protocol.get(urlStr, (res) => {
-      if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+      if (
+        res.statusCode &&
+        res.statusCode >= 300 &&
+        res.statusCode < 400 &&
+        res.headers.location
+      ) {
         fetchHtml(res.headers.location).then(resolve).catch(reject);
         return;
       }
 
       if (res.statusCode !== 200) {
         res.resume();
-        reject(new Error(`Request Failed. Status Code: ${res.statusCode} URL: ${urlStr}`));
+        reject(
+          new Error(
+            `Request Failed. Status Code: ${res.statusCode} URL: ${urlStr}`
+          )
+        );
         return;
       }
 
       let data = '';
       res.setEncoding('utf8');
-      res.on('data', (chunk) => { data += chunk; });
-      res.on('end', () => { resolve(data); });
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      res.on('end', () => {
+        resolve(data);
+      });
     });
 
-    req.on('error', (e) => { reject(e); });
+    req.on('error', (e) => {
+      reject(e);
+    });
     req.end();
   });
 }
@@ -149,9 +184,16 @@ function downloadImage(url: string, savePath: string): Promise<void> {
     const file = fs.createWriteStream(savePath);
 
     const request = protocol.get(url, (response) => {
-      if (response.statusCode && response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+      if (
+        response.statusCode &&
+        response.statusCode >= 300 &&
+        response.statusCode < 400 &&
+        response.headers.location
+      ) {
         fs.unlink(savePath, () => {});
-        downloadImage(response.headers.location, savePath).then(resolve).catch(reject);
+        downloadImage(response.headers.location, savePath)
+          .then(resolve)
+          .catch(reject);
         return;
       }
 
@@ -322,7 +364,9 @@ function cleanSqlValue(val: string): string {
 }
 
 function extractSqlBlock(sqlContent: string, tableName: string): string | null {
-  const match = sqlContent.match(new RegExp(`INSERT INTO \`${tableName}\`[\\s\\S]*?VALUES\\s*([^;]+)`, 'is'));
+  const match = sqlContent.match(
+    new RegExp(`INSERT INTO \`${tableName}\`[\\s\\S]*?VALUES\\s*([^;]+)`, 'is')
+  );
   return match ? match[1] : null;
 }
 
@@ -362,7 +406,11 @@ function parsePlacements(sqlContent: string): Map<number, number[]> {
   return placementMap;
 }
 
-function buildCategoryPath(categoryId: number, map: CategoryMap, path: string[] = []): string[] {
+function buildCategoryPath(
+  categoryId: number,
+  map: CategoryMap,
+  path: string[] = []
+): string[] {
   const category = map.get(categoryId);
   if (!category) return path;
   path.unshift(category.basename);
@@ -370,7 +418,10 @@ function buildCategoryPath(categoryId: number, map: CategoryMap, path: string[] 
   return buildCategoryPath(category.parentId, map, path);
 }
 
-function getCategoryInfo(categoryId: number, map: CategoryMap): CategoryInfo | null {
+function getCategoryInfo(
+  categoryId: number,
+  map: CategoryMap
+): CategoryInfo | null {
   const category = map.get(categoryId);
   if (!category) return null;
   return {
@@ -382,7 +433,9 @@ function getCategoryInfo(categoryId: number, map: CategoryMap): CategoryInfo | n
   };
 }
 
-function parseBlogs(sqlContent: string): Map<number, { site_url: string; archive_url: string }> {
+function parseBlogs(
+  sqlContent: string
+): Map<number, { site_url: string; archive_url: string }> {
   const map = new Map<number, { site_url: string; archive_url: string }>();
   const valuesBlock = extractSqlBlock(sqlContent, 'mt_blog');
   if (!valuesBlock) return map;
@@ -406,49 +459,55 @@ function extractThumbnailFromPluginData(blob: string): string | null {
   if (!blob || blob === 'NULL') return null;
 
   let decoded: string;
-  
+
   if (blob.startsWith("X'") || blob.startsWith("x'")) {
     const hexString = blob.slice(2, -1);
     try {
       const buffer = Buffer.from(hexString, 'hex');
       decoded = buffer.toString('utf8');
-    } catch (e) {
+    } catch (_) {
       return null;
     }
-  } 
-  else if (blob.startsWith("'") && blob.endsWith("'")) {
+  } else if (blob.startsWith("'") && blob.endsWith("'")) {
     const content = blob.slice(1, -1);
     if (/^[0-9A-Fa-f]+$/.test(content) && content.length > 100) {
       try {
         const buffer = Buffer.from(content, 'hex');
         decoded = buffer.toString('utf8');
-      } catch (e) {
+      } catch (_) {
         decoded = cleanSqlValue(blob);
       }
     } else {
       decoded = cleanSqlValue(blob);
     }
-  }
-  else {
+  } else {
     decoded = cleanSqlValue(blob);
   }
 
-  const imgTagMatch = decoded.match(/<img\s+[^>]*src\s*=\s*["']([^"']+\.(?:jpe?g|gif|png|webp)[^"']*)["'][^>]*>/i);
+  const imgTagMatch = decoded.match(
+    /<img\s+[^>]*src\s*=\s*["']([^"']+\.(?:jpe?g|gif|png|webp)[^"']*)["'][^>]*>/i
+  );
   if (imgTagMatch) {
     return imgTagMatch[1];
   }
-  
-  const hyphenUrlMatch = decoded.match(/-\s*(https?:\/\/[^\s"'<>]+\.(?:jpe?g|gif|png|webp))/i);
+
+  const hyphenUrlMatch = decoded.match(
+    /-\s*(https?:\/\/[^\s"'<>]+\.(?:jpe?g|gif|png|webp))/i
+  );
   if (hyphenUrlMatch) {
     return hyphenUrlMatch[1];
   }
-  
-  const standardUrlMatch = decoded.match(/\b(https?:\/\/[^\s"'<>]+\.(?:jpe?g|gif|png|webp)(?:\?\w+=\w+)*)\b/i);
+
+  const standardUrlMatch = decoded.match(
+    /\b(https?:\/\/[^\s"'<>]+\.(?:jpe?g|gif|png|webp)(?:\?\w+=\w+)*)\b/i
+  );
   if (standardUrlMatch) {
     return standardUrlMatch[1];
   }
-  
-  const looseUrlMatch = decoded.match(/(https?:\/\/[^\s"'<>]+\.(?:jpe?g|gif|png|webp))/i);
+
+  const looseUrlMatch = decoded.match(
+    /(https?:\/\/[^\s"'<>]+\.(?:jpe?g|gif|png|webp))/i
+  );
   if (looseUrlMatch) {
     return looseUrlMatch[1];
   }
@@ -477,7 +536,10 @@ function parsePluginDataThumbnails(sqlContent: string): Map<number, string> {
 }
 
 // --- 本文先頭画像をフォールバックで取得 ---
-function extractThumbnailFromContent(text: string, textMore: string): string | null {
+function extractThumbnailFromContent(
+  text: string,
+  textMore: string
+): string | null {
   const html = textMore + '\n' + text;
   const match = html.match(/<img\s+[^>]*src\s*=\s*["']([^"'>]+)["'][^>]*>/i);
   return match ? match[1].trim() : null;
@@ -497,7 +559,8 @@ async function main() {
   }
 
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  if (!fs.existsSync(PUBLIC_UPLOAD_DIR)) fs.mkdirSync(PUBLIC_UPLOAD_DIR, { recursive: true });
+  if (!fs.existsSync(PUBLIC_UPLOAD_DIR))
+    fs.mkdirSync(PUBLIC_UPLOAD_DIR, { recursive: true });
 
   const sql = fs.readFileSync(INPUT_SQL_FILE, 'utf8');
 
@@ -509,28 +572,36 @@ async function main() {
   const pluginThumbnailMap = parsePluginDataThumbnails(sql);
 
   // --- クローラー結果の読み込み ---
-  let crawlerMapByTitle: Map<string, CrawlerItem> = new Map();
-  let crawlerMapByUrl: Map<string, CrawlerItem> = new Map();
+
+  const crawlerMapByTitle: Map<string, CrawlerItem> = new Map();
+
+  const crawlerMapByUrl: Map<string, CrawlerItem> = new Map();
 
   if (fs.existsSync(CRAWLER_RESULTS_FILE)) {
     console.log(`クローラー結果 (${CRAWLER_RESULTS_FILE}) を読み込み中...`);
-    const crawlerData: CrawlerItem[] = JSON.parse(fs.readFileSync(CRAWLER_RESULTS_FILE, 'utf8'));
-    crawlerData.forEach(item => {
-        const titleKey = getNormalizedKey(item.title);
-        
-        if (titleKey) {
-            // タイトルをキーとして保持 (先に登録された方を優先)
-            if (!crawlerMapByTitle.has(titleKey)) {
-                crawlerMapByTitle.set(titleKey, item);
-            }
+    const crawlerData: CrawlerItem[] = JSON.parse(
+      fs.readFileSync(CRAWLER_RESULTS_FILE, 'utf8')
+    );
+    crawlerData.forEach((item) => {
+      const titleKey = getNormalizedKey(item.title);
+
+      if (titleKey) {
+        // タイトルをキーとして保持 (先に登録された方を優先)
+        if (!crawlerMapByTitle.has(titleKey)) {
+          crawlerMapByTitle.set(titleKey, item);
         }
-        // URLをキーとして保持 (URLマッチングのフォールバック用)
-        const cleanUrl = item.pageUrl.replace(/\/index\.html$/i, '').replace(/\/$/, '');
-        crawlerMapByUrl.set(cleanUrl, item);
+      }
+      // URLをキーとして保持 (URLマッチングのフォールバック用)
+      const cleanUrl = item.pageUrl
+        .replace(/\/index\.html$/i, '')
+        .replace(/\/$/, '');
+      crawlerMapByUrl.set(cleanUrl, item);
     });
-    console.log(`クローラー結果 ${crawlerData.length} 件を読み込みました。比較可能なタイトルキー: ${crawlerMapByTitle.size}件`);
+    console.log(
+      `クローラー結果 ${crawlerData.length} 件を読み込みました。比較可能なタイトルキー: ${crawlerMapByTitle.size}件`
+    );
   }
-  
+
   // --- MTエントリの処理 ---
   const seenSlugs = new Set<string>();
   let count = 0;
@@ -577,57 +648,71 @@ async function main() {
     // ==================== サムネイル取得ロジック ====================
     let thumbnailPath = '';
     let thumbUrl: string | null = null;
-    
+
     let crawlerItem: CrawlerItem | undefined;
 
     // 1. 【最優先】正規化タイトルでクローラー結果とマッチング
     const mtTitleKey = getNormalizedKey(title);
     crawlerItem = crawlerMapByTitle.get(mtTitleKey);
-    
-    if (crawlerItem) {
-        thumbUrl = crawlerItem.imageUrl;
-        console.log(`   [タイトル一致] ID:${entryId} Title:"${title}" -> ${thumbUrl}`);
-    } else {
-        // 2. 【次点】URLでクローラー結果とマッチング
-        const mtArticleUrl = extractUrl(rawOriginalUrl);
-        if (mtArticleUrl) {
-            const cleanUrl = mtArticleUrl.replace(/\/index\.html$/i, '').replace(/\/$/, '');
-            crawlerItem = crawlerMapByUrl.get(cleanUrl);
-             if (crawlerItem) {
-                thumbUrl = crawlerItem.imageUrl;
-                console.log(`   [URL一致] ID:${entryId} URL:"${cleanUrl}" -> ${thumbUrl}`);
-            }
-        }
-    }
 
+    if (crawlerItem) {
+      thumbUrl = crawlerItem.imageUrl;
+      console.log(
+        `   [タイトル一致] ID:${entryId} Title:"${title}" -> ${thumbUrl}`
+      );
+    } else {
+      // 2. 【次点】URLでクローラー結果とマッチング
+      const mtArticleUrl = extractUrl(rawOriginalUrl);
+      if (mtArticleUrl) {
+        const cleanUrl = mtArticleUrl
+          .replace(/\/index\.html$/i, '')
+          .replace(/\/$/, '');
+        crawlerItem = crawlerMapByUrl.get(cleanUrl);
+        if (crawlerItem) {
+          thumbUrl = crawlerItem.imageUrl;
+          console.log(
+            `   [URL一致] ID:${entryId} URL:"${cleanUrl}" -> ${thumbUrl}`
+          );
+        }
+      }
+    }
 
     // 3. 【フォールバック】従来のMT個別ページ解析
     if (!thumbUrl) {
       const extractedUrl = extractUrl(rawOriginalUrl);
-      
+
       if (extractedUrl) {
-          const lowerUrl = extractedUrl.toLowerCase();
-          
-          if (lowerUrl.match(/\.(jpeg|jpg|png|gif|webp)$/)) {
-            thumbUrl = extractedUrl;
-            console.log(`   [URL直指定] ID:${entryId} -> ${thumbUrl}`);
-          } else {
-            console.log(`   [MT個別ページスクレイピング開始] ID:${entryId} -> ${extractedUrl}`);
-            try {
-              const htmlContent = await fetchHtml(extractedUrl);
-              const scrapedImgUrl = extractImageFromHtml(htmlContent);
-              
-              if (scrapedImgUrl) {
-                const urlObj = new URL(scrapedImgUrl, extractedUrl);
-                thumbUrl = urlObj.href;
-                console.log(`   [個別ページスクレイピング成功] 画像発見: ${thumbUrl}`);
-              } else {
-                console.log(`   [個別ページスクレイピング失敗] 画像が見つかりませんでした`);
-              }
-            } catch (err: any) {
-              console.warn(`   [MT個別ページスクレイピングエラー] ${err.message}`);
+        const lowerUrl = extractedUrl.toLowerCase();
+
+        if (lowerUrl.match(/\.(jpeg|jpg|png|gif|webp)$/)) {
+          thumbUrl = extractedUrl;
+          console.log(`   [URL直指定] ID:${entryId} -> ${thumbUrl}`);
+        } else {
+          console.log(
+            `   [MT個別ページスクレイピング開始] ID:${entryId} -> ${extractedUrl}`
+          );
+          try {
+            const htmlContent = await fetchHtml(extractedUrl);
+            const scrapedImgUrl = extractImageFromHtml(htmlContent);
+
+            if (scrapedImgUrl) {
+              const urlObj = new URL(scrapedImgUrl, extractedUrl);
+              thumbUrl = urlObj.href;
+              console.log(
+                `   [個別ページスクレイピング成功] 画像発見: ${thumbUrl}`
+              );
+            } else {
+              console.log(
+                `   [個別ページスクレイピング失敗] 画像が見つかりませんでした`
+              );
             }
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          } catch (err: any) {
+            console.warn(
+              `   [MT個別ページスクレイピングエラー] ${err.message}`
+            );
           }
+        }
       }
 
       // 4. 【フォールバック】CustomFields / 本文画像
@@ -635,7 +720,7 @@ async function main() {
         thumbUrl = pluginThumbnailMap.get(entryId) || null;
         console.log(`   [CustomFields] ID:${entryId} -> ${thumbUrl}`);
       }
-      
+
       if (!thumbUrl) {
         const fromContent = extractThumbnailFromContent(text, text_more);
         if (fromContent) {
@@ -643,7 +728,6 @@ async function main() {
           console.log(`   [本文画像] ID:${entryId}`);
         }
       }
-      
     }
     // ========================================================================
 
@@ -651,13 +735,13 @@ async function main() {
     if (thumbUrl) {
       try {
         let absoluteUrl = thumbUrl;
-        
+
         // 相対パスの場合のURL補完
         if (!absoluteUrl.startsWith('http')) {
           const blogId = parseInt(cleanSqlValue(rawCols[2]), 10);
           const blog = blogMap.get(blogId);
           const base = blog ? blog.site_url.replace(/\/+$/, '') : '';
-          
+
           if (absoluteUrl.startsWith('/')) {
             absoluteUrl = base + absoluteUrl;
           } else {
@@ -667,15 +751,22 @@ async function main() {
 
         const urlObj = new URL(absoluteUrl);
         let fileName = decodeURIComponent(path.basename(urlObj.pathname));
-        
+
         if (!path.extname(fileName) || fileName.length > 50) {
           fileName = `thumb-${entryId}.jpg`;
         }
 
-        const thumbDir = path.join(PUBLIC_UPLOAD_THUMBNAIL_DIR, String(entryId));
-        if (!fs.existsSync(thumbDir)) fs.mkdirSync(thumbDir, { recursive: true });
+        const thumbDir = path.join(
+          PUBLIC_UPLOAD_THUMBNAIL_DIR,
+          String(entryId)
+        );
+        if (!fs.existsSync(thumbDir))
+          fs.mkdirSync(thumbDir, { recursive: true });
 
-        const savePath = path.join(thumbDir, 'thumbnail' + path.extname(fileName));
+        const savePath = path.join(
+          thumbDir,
+          'thumbnail' + path.extname(fileName)
+        );
         const publicPath = `/thumbnail/${entryId}/thumbnail${path.extname(fileName)}`;
 
         if (!fs.existsSync(savePath)) {
@@ -684,11 +775,14 @@ async function main() {
         }
 
         thumbnailPath = publicPath;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
       } catch (e: any) {
-        console.warn(`   [サムネ処理失敗] ID:${entryId} URL:${thumbUrl} Error:${e.message}`);
+        console.warn(
+          `   [サムネ処理失敗] ID:${entryId} URL:${thumbUrl} Error:${e.message}`
+        );
       }
     }
-    
+
     // --- 最終データ生成と書き出し ---
     cleanText = cleanText
       .replace(/<\s*([^a-z0-9/])(?:.*?)?>/gi, '')
@@ -700,18 +794,25 @@ async function main() {
       id: entryId,
       title: title || '(無題)',
       date: created_on.replace(/'/g, '').substring(0, 10),
-      author: "No Name",
+      author: 'No Name',
       thumbnail: thumbnailPath,
       content: cleanText,
       categories,
-      excerpt: cleanText.replace(/<[^>]*>?/gm, '').slice(0, 200).replace(/\n/g, ' ') + "..."
+      excerpt:
+        cleanText
+          .replace(/<[^>]*>?/gm, '')
+          .slice(0, 200)
+          .replace(/\n/g, ' ') + '...',
     };
 
-    fs.writeFileSync(path.join(OUTPUT_DIR, `${finalSlug}.json`), JSON.stringify(post, null, 2));
+    fs.writeFileSync(
+      path.join(OUTPUT_DIR, `${finalSlug}.json`),
+      JSON.stringify(post, null, 2)
+    );
     count++;
   }
 
   console.log(`公開記事書き出し: ${count} 件 完了！`);
 }
 
-main().catch(err => console.error('致命的エラー:', err));
+main().catch((err) => console.error('致命的エラー:', err));

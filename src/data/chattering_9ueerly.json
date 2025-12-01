@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "ゲスト：古怒田望人／いりや & 小宮りさ麻吏奈 協賛：なごみ貿易株式会社 参加費: 2,000円（２階入口で徴収）＋ワンドリンク（１階奥でオーダー） 問い合わせ：逆卷しとね（vortexsitone@gmail.com）  形式： バトル・ロワイヤル方式。ゲストによる1時間のお喋りの後、10分ごとに参加者がひとりずつ増えていく。新規「おしゃべりすと」は、直前のおしゃべりから単語をひとつ拾って、お喋..."

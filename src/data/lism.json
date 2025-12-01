@@ -11,30 +11,21 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "この度、国士文通省企画で似非lismを開催します。  福岡に来て知り合った2人を題材に自分なりのドキュメンタリーを作ろうと。 予ねてから、2人の人間性の違いについて考えていたことがあり、 彼らを彼らの撮る写真、SNSの投稿からよりよく知ろうとする試みです。  この展示は分かりやすく言うと、非常に明快で  @hide33333 新田英人 vs @kazukiobscura 谷脇和樹 の写真展 ..."

@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "この度、フランスとクロアチアを行き来しながら活動する若手サウンドアーティスト、Hugo氏がリサーチ・レジデンシーのため来日し、九州を訪問されることになりました。 九州の音楽・アートシーンに強い関心を持つHugo氏との交流を深める機会として、以下のワークショップとプレゼンテーションを開催いたします。 また、今回は、九州大学 芸術工学研究院 准教授の城さん、芸術工学部音響設計の後藤さん、テクニカルスタ..."

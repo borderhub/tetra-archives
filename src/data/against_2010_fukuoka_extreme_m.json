@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "今回で三回目を迎える音楽フェスタ「Against 2010: Fukuoka Extreme Music Festival（2010.04.17 at graf）」の関連イベント。 ※メインのイベントは翌日、別会場です。  坂口壱彦（福岡） Sumo on Summit（オーストラリア／日本）myspace.com/sumoonsummit Luisa LaChouf と Aki Sukita に..."

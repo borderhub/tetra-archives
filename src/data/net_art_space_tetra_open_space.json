@@ -11,49 +11,35 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "参加者 坂口 壱彦 小山 冴子 江上 賢一郎 Camilla Lundquist codama 牧園 憲二 村上 アキヒロ 匿名アーティストN 諸岡 光男 崔 栄梨 松岡 涼子   アートスペース・テトラはアーティストや音楽家、企画者、リサーチャーなど、様々な背景をもつメンバーによって共同運営されているスペースです。一つの場所を複数の個人で共有することで、それぞれの活動やネットワークを反映し、多く..."

@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "取りまく「在る」ものの媒介者として　（DMより転載）  空間に散らばって明滅するハンガーに取り付けられたかそけき光は、各々の存在を主張するというよりは、その継起が個々の存在を包括する運動全体のリズムを現前させ（project for actual art 001）、トイレットペーパーによって作られた仮想のシャーレは、微視的な世界への参照によって、瞳と対象の間に横たわる広大で無限の「無視された」ある..."

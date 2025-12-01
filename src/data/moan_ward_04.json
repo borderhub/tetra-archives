@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "moan wardは、昨年12月から始まった隔月開催のライブイベント。実験音楽、即興、ノイズといった音楽を取り上げ、福岡近辺の若手音楽家を中心に紹介している。また、イベントのアートワークは、デザイン事務所「attic associates」が中心となり行っている。一般化しない（できない）音楽を普通に（肩肘を張らずに）楽しめる、というのも企画者側の意図であり、毎回趣向を変えた演出がなされるハズである..."

@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "永田\b塁（MC MANGO）  http://doshahhhhhhh.tumblr.com/ http://lostmasterscassette.tumblr.com/  植野隆司 テニスコーツのギター担当。ギター作品やフォークのアルバム多数発表会  KENICHI WAGA 仙台市出身。1996年にカセットMTRでアルバム制作を開始しました。2006年に自作テルミンのノイズを使って制作された..."

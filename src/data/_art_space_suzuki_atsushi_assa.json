@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "鈴木淳は、北九州に拠点を置いて活動するヴィデオ／インスタレーション・アーティストである。彼の作品で用いられるのは日常的な素材、商品、空間である。鈴木は我々が見ているもの、消費しているもの、そして一般的に慣れ親しんでいるものから美的な意識を創造する特異な能力を持っている。鈴木淳は6月12日のone against 1に出演し、インスタレーション作品を作る。その後、13日から26日まで、「art sp..."

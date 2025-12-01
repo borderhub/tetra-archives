@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "2022年より毎年9月下旬にイベントを開催してきたArt Fair Earthですが、今年は年間を通して様々な活動を行ってきました。メキシコでのリサーチやワークショップ、台湾やドイツのアーティストとのコラボレーション、さらに11月にはウズベキスタンでのアーティストインレジデンスも予定しています。  また、9月上旬には横浜のArt Center NEWで開催された「NEW PLATFORM -Alt..."

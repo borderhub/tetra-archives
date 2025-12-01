@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "福岡の若手アーティストを紹介していく、rhythm企画のシリーズ。 今回は、昨年 art space tetraと*IAF SHOPで２カ所同時に初個展を行った遠山裕崇が個展を行った。   [curator] Mizuki Endo (rhythm) [director] Keiji Tanaka (rhythm) [DM design] Takaaki Yano (rhythm)  rhythm..."

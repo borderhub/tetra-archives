@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "John Chantler オーストラリア出身、ロンドンに10年ほど住んで、今はスウェーデンはストックホルムに在住。音楽家、オーガナイザー。  ロンドン在住中は、実験音楽系の箱としてはとても有名な cafe OTO のディレクターもしていたようです。ストックホルムでは実験音楽系のフェスティバルの企画なんかもしています。  ドラマーとしてテニスコーツのUKツアーをサポートしたり、Tsujiko No..."

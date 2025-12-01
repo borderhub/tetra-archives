@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "西洋音楽から最も離れた位置にあるミャンマー音楽。日本ではあまり知られていないジャンルですが、独特に進化したそのスタイルは奇妙かつ美しくあります。今まで日本でミャンマー音楽を紹介する時はワールドミュージックの文脈で語られることがほとんどでしたが、それはあまりに惜しい。その独自性はフリージャズ/プログレ/現代音楽/ダブにも通じます。 2016年から現地調査を行っている村上巨樹が、レコード、カセット、C..."

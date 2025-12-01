@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "＜DMより転載＞ rhythmでは、フィリピンよりジェイソン・オリベリア、ジョナサン・オラゾという２名の若手アーティストを招待し、アーティスト滞在制作型の展覧会を開催します。  ジェイソン・オリベリアはフィリピン大学美術コースを経て、マニラに設立されたアート・スペース「Big Sky Mind」に参加。今年から始まったアテネオ・アート・アワードで大賞をとるなど期待の若手美術作家です。  ジョナサン..."

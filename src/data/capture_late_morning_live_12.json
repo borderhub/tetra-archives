@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： ▼中村勇治(soprano saxophone) https://capture.nakamurayuji.com   ▼ピピサンアロニ(piano,vocal) YouTube  https://youtube.com/@pipisanaloni65 Instagram https://instagram.com/pipisan_hikigatari ※所属バンド「何もない我が家」 Yo..."

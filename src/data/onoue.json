@@ -11,28 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "フェアリータイプとonoue＋サカグチリュウノスケ（fromaldo van eyck）という二組のユニットが即興演奏で共演。フェアリータイプは、ボイスパフォーマーのChumakinoとサックス奏者のミドリトモヒデによるデュオで、エモーショナルでドラマチックなサウンドを奏でる。onoueとサカグチリュウノスケは、ともにaldo van eyckとして活動を行っており、雑食な音楽性とクールなスタイル..."

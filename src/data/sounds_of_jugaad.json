@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Artists: Demsky Junes K Layla Morpho  art space tetra は、リスナーの皆さんを型にはまらない時間やリズムがやわらかく漂い、調和のとれた旋律とともに静かに響き渡る世界「ジュガール（Jugaad）」へと誘います。  art space tetra invites listeners into a world of Jugaad where uncon..."

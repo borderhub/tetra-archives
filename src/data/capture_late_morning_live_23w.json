@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： サネマツアキラ(voice,per,electronics) 中村勇治(bass clarinet, soprano saxophone) https://capture.nakamurayuji.com  photo:@chi.vino_ch *50音順  朝活ライブ23回目をサネマツアキラさんをお迎えして開催いたします。今回は実験的に「微音で演奏するというコンセプト」のもと、サネマツさ..."

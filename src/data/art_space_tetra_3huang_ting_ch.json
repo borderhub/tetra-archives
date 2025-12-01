@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "art space tetra アーティスト イン レジデンス 第3弾 ◇アーティスト名 黃鼎鈞　HUANG TING CHUN   ◇会期中の交流予定 県外ツアー 福岡県内の遠方交流ツアー 美術関係者との交流会 福岡市内のギャラリーやスペースのツアー 地元アーティストとのコラボレーション 地元住民との交流 会期中にart space tetraで行われるイベントへの参加 九州産業大学芸術学部での..."

@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 49,
       "label": "07_演劇イベント",
       "basename": "theater",
       "parentId": 34,
-      "path": [
-        "genre",
-        "theater"
-      ]
+      "path": ["genre", "theater"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "  ○場所 artspacetetra 〒812-0028 福岡県福岡市博多区須崎町２−１５ ○出演 河田全休 由谷鈍行 かんじぇ(三味線) ○チケット ■一般 前売：¥1,800／当日：¥2,000 ■学生（25歳まで） 前売：¥1,000／当日：¥1,200 ■小中学生 前売：¥500／当日：¥600 ○申込方法 以下googleフォームからお願いします。 https://docs.googl..."

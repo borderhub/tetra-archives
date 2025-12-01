@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "スペインの３組ノイズ アタック！！！！  TUBE TENTACLES  Kike Kaos (Madrid, 1979) musician and writter active for more than a decade so far. Responsible for projects such as Tube Tentacles and Daiben, exploring Dark fiel..."

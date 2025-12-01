@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "(P) UTSUNOMIYA SATOSHI  写真展シリーズ『ACCORDING TO WHAT』では、「見ること」について思考するための足掛かりとして写真だけに焦点を絞り、そのような思考を促す写真を日々撮り続けている写真家を取り上げていく。  「すなわち、わたしたちは何によって何かを見ているのか。（That we see something according to what.）」 —岡田隆彦..."

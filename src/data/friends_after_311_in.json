@@ -11,10 +11,7 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "ゲスト…岩井俊二（映画監督） 　　　　出水　薫（政治学者） 　　　　森　元斎（哲学者）  主催…西南学院大学　学内ＧＰ「ことばの力養成講座」 　　　田村　元彦（法学部教員）..."

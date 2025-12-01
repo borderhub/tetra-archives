@@ -11,79 +11,56 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 49,
       "label": "07_演劇イベント",
       "basename": "theater",
       "parentId": 34,
-      "path": [
-        "genre",
-        "theater"
-      ]
+      "path": ["genre", "theater"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "今年も9月になりましたので、毎年恒例の企画ART FAIR EARTHを開催します。 ART FAIR EARTH®のプロジェクトは、世界各国のアーティストや、アート関係者をフレンドシップによってつなぐプロジェクトです。 今回は、パレスチナ北部のジェニンにある、劇場のフリーダム・シアターで芸術監督を務める、アフメド・トゥバーシ氏ゲストとして迎え、9月13日～23日まで開催いたします。関連企画として..."

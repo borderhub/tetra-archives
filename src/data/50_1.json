@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "  写真学科50期生PhotoExhibition2020展より 選抜された7名の写真展です。 7人が写した世界と記録した跡を展示致します。..."

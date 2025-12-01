@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "P-Factory は、David Dilworth, 河口彩, Jacob Lunderby, Andy Messerschmidt, 中島隆太の５名で構成される。ニューメディア中心に構成される現代美術の流れの中で、あえて「絵画」にこだわり、平面表現の可能性を探ると同時にアートの新たな思想的発展を模索する。今後、各地での展覧会を通して、日常生活レベルからのアートの活性化をも目的としている。 P-..."

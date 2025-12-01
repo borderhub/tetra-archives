@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "新進エレクトロニカ・レーベル「FLYREC」から５月にセカンド・アルバムを発表する気鋭のアーティストkazumasa hashimotoを東京より招いて催されるワンマンライブ。  kazumasa hashimoto http://home.att.ne.jp/star/bd/    [organiser] FLYREC http://www.flyrec.com/ [support] rhyth..."

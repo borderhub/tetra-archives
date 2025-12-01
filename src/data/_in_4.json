@@ -11,28 +11,21 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "箱庭 - プレイベント in テトラ  概要： ２月にエウレカで行う展覧会に向けて、自作の装置とインスタレーションを用いて公開実験をテトラで行います。色んな素材で試行錯誤しながらの実験ですので、些細な事でも気付いたことやアイデア等頂けたら幸いです。飲み物など用意してますので雑談しながら気軽に来ていただけたらと思います。  開催日：11月10日 (水) オープン：15時〜（12時くらいには在廊してま..."

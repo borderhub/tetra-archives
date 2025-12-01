@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "ノルウェー、トロンハイム（Trondheim)から、2人組みのエレクトロ・アコースティック・ユニットがやってきます。3年前テトラで演奏した秋山徹次率いる“古木選集（Koboku Senju）”のメンバーと交流がある2人で、デビューアルバム“shape & phases”をして、本年のフランスQwartz Electronic Music AwardsのDiscovery部門にノミネートされたそうで..."

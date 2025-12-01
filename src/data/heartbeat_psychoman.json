@@ -11,39 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": " 人と人とが距離を取らされるようになった 分断され、 渦にのまれ 堕ちていく人 個人の意思がなくなっていく 自由度の低さが感じられる 大切なものがなくなっていく もともとあった理想がなくなっていく  モチーフの人型 核心にせまっているように 正解はない 正解と意味は鑑賞者の中に在ればいい       heARTbeat psychoman １９７７年生まれ 北九州出身 住所不定ボーダレスホームレス..."

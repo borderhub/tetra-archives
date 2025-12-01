@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "クリストファー・ウィリッツ / Christopher Willits サンフランシスコを拠点に活躍するサウンドアーティスト。自身のレーベルや12Kからリリース。テイラー・デュプリー、マトモス、坂本龍一とのコラボレーションでも知られる。 http://christopherwillits.com http://overlap.org      Praed（Paed Conca + Raed Yas..."

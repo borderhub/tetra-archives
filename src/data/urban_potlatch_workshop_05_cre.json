@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "今回のurban potlatchでは、ドキュメンタリー監督の早川由美子監督をゲストに、イギリスにおける新たな社会運動の一つである、「オルタナティヴ•ビレッジ」についてのレクチャー•トークを行います。   2000年代以降、ヨーロッパや北米では、社会運動の世界的な高まりと同時に、政治的な運動の中で水平的、直接民主主義的な原理に基づいた生活空間を野外に一時的に作り上げる「オルタナティヴ•ビレッジ」を..."

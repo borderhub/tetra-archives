@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： Motomu.Miura(Laser+Modular Synthesizer) Chu Makino(Voice Performance) Yuji Nakamura(Saxophone)  プロフィール： Chu Makino 鹿児島在住のヴォイスパフォーマー。 自身の声帯を限界まで酷使し、まるで独自の言語のような声を出す。さらにエフェクトを駆使することでスピード感あふれる演奏を行う。現..."

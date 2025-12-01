@@ -11,29 +11,21 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "【趣旨】参加者の皆さんで、さまざまな方法を用いて、一緒に歌詞を作り、旋律を作って、共同で「歌」を創作していくワークショップです。音楽経験は問いません。 書き留める筆記具・ノートをご持参ください。何か音の出せる音具類を持ってきていただいても良いです。   【申込み・問合せ先】colorrecords@gmail.com または 090-9686-8241まで 【講師】河合拓始 ピアニスト、作曲家、即..."

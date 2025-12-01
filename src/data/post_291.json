@@ -11,49 +11,35 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "鈴木淳は現代美術家として、身の回りにある既製品を用いたインスタレーションや、写真、映像、パフォーマンス、テキストなど様々な手法を用いた表現活動をしています。それらの作品や行為は、普段の生活で見慣れた風景や「もの」「こと」に対して、ユーモアやアイロニーを含め、場の特性や日常に潜む違和感を引き出し、異化しています。   今回、鈴木淳は絵画のみによる個展を開催し、「アート・フェア」の形式がとられ、作品に..."

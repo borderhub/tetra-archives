@@ -11,20 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "‪記憶の断片、願い、祈り‬ ‪自分の中のそれと合わさるとき‬ ‪自身と離れて近づく‬ ‪ある時はそこにありのままを映し出す夢‬  ‪at artspacetetra ‬ ‪福岡市博多区須崎町 2-15‬      【ご来場の方へ】 ・マスクの着用のお願い ・検温の実施をしており、体温37.5度以上の方のご来場をお断りしております。 ・健康状態や環境に不安がある方はご来店をお控え頂くようお願い致しま..."

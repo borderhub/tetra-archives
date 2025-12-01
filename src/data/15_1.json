@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "1月5日（日）に北米のアート/アクティビスト・コレクティブ「Beehive Design Collective (ビーハイブ・デザイン・コレクティブ）」のメンバーDarius Mirshahi氏を囲んでのトーク＆歓迎鍋パーティを開催します。  アメリカで2000年に結成されたBeehive Design Collectiveは、インク・ペン画の技法によるポスター、バナーの共同制作活動を通じて、グロ..."

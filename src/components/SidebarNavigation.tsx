@@ -30,7 +30,7 @@ export default function SidebarNavigation({
   onLinkClick,
   getCategoryCountForYear,
   getYearCount,
-  allPostsInYearCount
+  allPostsInYearCount,
 }: SidebarNavigationProps) {
   return (
     <>
@@ -40,28 +40,30 @@ export default function SidebarNavigation({
         </h2>
         <ul className="space-y-2">
           <li>
-            <Link 
-              href={`/archive/all/year/${currentYear}/page/1`} 
+            <Link
+              href={`/archive/all/year/${currentYear}/page/1`}
               className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
-                currentCategory === 'all' 
-                  ? 'bg-gray-600 text-white font-semibold' 
+                currentCategory === 'all'
+                  ? 'bg-gray-600 text-white font-semibold'
                   : 'hover:bg-gray-100 text-gray-700'
               }`}
               onClick={() => isMobile && onLinkClick()}
             >
               <span className="flex justify-between items-center">
                 <span>All Categories</span>
-                <span className="text-xs opacity-70">({allPostsInYearCount})</span>
+                <span className="text-xs opacity-70">
+                  ({allPostsInYearCount})
+                </span>
               </span>
             </Link>
           </li>
-          {categories.map(cat => (
+          {categories.map((cat) => (
             <li key={cat.id}>
               <Link
                 href={`/archive/${cat.basename}/year/${currentYear}/page/1`}
                 className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
-                  currentCategory === cat.basename 
-                    ? 'bg-gray-600 text-white font-semibold' 
+                  currentCategory === cat.basename
+                    ? 'bg-gray-600 text-white font-semibold'
                     : 'hover:bg-gray-100 text-gray-700'
                 }`}
                 onClick={() => isMobile && onLinkClick()}
@@ -83,20 +85,22 @@ export default function SidebarNavigation({
           Year
         </h2>
         <ul className="space-y-2">
-          {years.map(y => (
+          {years.map((y) => (
             <li key={y}>
               <Link
                 href={`/archive/${currentCategory}/year/${y}/page/1`}
                 className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
-                  y === currentYear 
-                    ? 'bg-gray-600 text-white font-semibold' 
+                  y === currentYear
+                    ? 'bg-gray-600 text-white font-semibold'
                     : 'hover:bg-gray-100 text-gray-700'
                 }`}
                 onClick={() => isMobile && onLinkClick()}
               >
                 <span className="flex justify-between items-center">
                   <span>{y}</span>
-                  <span className="text-xs opacity-70">({getYearCount(y)})</span>
+                  <span className="text-xs opacity-70">
+                    ({getYearCount(y)})
+                  </span>
                 </span>
               </Link>
             </li>

@@ -11,20 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "『東亞大笨蛋～東アジア大マヌケ～作戦　福岡編！』   東京、高円寺の商店街でリサイクルショップ「素人の乱」を経営しつつ、独自の場所づくりを展開している松本哉氏。最近は本業に日々勤しんでいるのだろう、と思いきや…  なんと、ここ数年のあいだに東アジア圏（中国、台湾、韓国、香港、果てはマレーシアまで）に足繁く通い、謎の文化圏との交流を深めているという！  最近アジアで面白い動きが生まれつつある、と謎の..."

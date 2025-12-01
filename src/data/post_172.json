@@ -11,10 +11,7 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "金融危機、またはスペインとその周辺における現代の都市的闘争という文脈で行われた、アート／アクティヴィストによるもっとも創造的な介入アクション——LaBolsa o La Vida、You Will Not Have a Home in Your Fucking Life、WorldChampions of Unemployment、We are not numbers、The Reflectors..."

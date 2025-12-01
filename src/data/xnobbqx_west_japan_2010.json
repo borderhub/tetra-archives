@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "xNOBBQx http://www.pulledout.org/xnobbqx.html http://www.myspace.com/xnobbqx オーストラリアの実験JUNK DRUM＆BASSデュオ \"xNOBBQx\" を招聘。 Punk / Experimental / Hardcore Militant vegan hardcore played by constipated mon..."

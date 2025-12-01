@@ -11,29 +11,21 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "西光祐輔は作品のスライドショーで城戸英章と対峙します。 展覧会では見られなかった写真もたくさん見られると思います。 まるやまももこはウクレレの弾き語りを予定。少し低く、広い彼女の声で ほっこりしてください。城戸英章はソロでのサックス演奏です！  展示終了後に準備をしてからはじめます。 ＊２０時までは通常通り展覧会を開催していますので、ぜひ併せて御覧ください。..."

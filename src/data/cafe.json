@@ -11,50 +11,35 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "福岡で1日限定の『ちょっとしたcafe』をopenすることになりました。 東京人の私たちだけでは、つくり出すことができない福岡での1日カフェ。 素敵な福岡の方々のお力のもと、人、もの、素材が結び、 笑顔のあふれる場所になりますように。 カフェの内容は、東京のちょっとしたcafeの空気をそのまま福岡に　ということで、 手作り教室や、からだに優しいごはんやケーキ、お茶、パンが食べられたり、 アートの展..."

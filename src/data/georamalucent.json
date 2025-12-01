@@ -11,29 +11,21 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "2009年に私が書いた紹介文に足しておきます。 今回は村井氏はさらにlucentというあらたな装置を携えて福岡入りします。 ジョン・ケージの演奏者にして研究者、  フルクサスの研究者にしてフルクサスを再演するパフォーマー、  バックミンスター・フラーの研究者、  元Ｐ３の音楽キュレーター。  そして、電子工作にて音響を作り出すサウンドアーティスト。  ジェームス・ジョイスの愛読者にしてバロウズのフ..."

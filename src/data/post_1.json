@@ -11,29 +11,21 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "福岡を拠点に活動するrhythm主催によるレクチャー＆ライブイベント。東京より大友良英氏を招聘。 初日は大友氏によるレクチャー、２日目はライブ。   [organiser] rhythm http://www.mhtyhr.com/ [DM design] attic associates ..."

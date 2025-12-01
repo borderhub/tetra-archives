@@ -11,20 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     }
   ],
   "excerpt": "海外や県外から福岡を訪れるさまざまな人々と出会い、話を聞き、さらには直接顔を合わせて交流する場「サークル/Circle」の第２回目。  今回は、福岡アジア美術館で一ヶ月のリサーチ・レジデンス滞在中の研究者、パン・ルー（潘律）さんを招いて、彼女の研究テーマであるアートとパブリック・スペースの関係性について話してをしてもらうと同時に、彼女が現在製作中のドキュメンタリープロジェクトの一つ「The  Ex..."

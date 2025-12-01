@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "今回のReknubは、art space tetraで隔月開催されている実験音楽イベントmoan wardの常連演奏家、坂口壱彦をフューチャーします。  moan ward開始当初はラップトップを使い、電子音特有の硬質な音を即興と構築の間で戯れさせる、質の高い演奏を行っていた坂口でしたが、ここ最近、その演奏には変化が見られます。 moan ward 05において、テープデッキのカバーを剥ぎ取った小..."

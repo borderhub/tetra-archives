@@ -11,20 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "平成二十九年 秋のオーダー会を開催いたします。  春先のお届けに向けて新作の日傘が並び、前回の雨傘のオーダーも承ります。  長傘をはじめ、折畳み傘や、紳士向けの傘もお作り頂けるほか  イイダ傘店のテキスタイルデザインを楽しめる、布モノや紙モノなども  多数ご用意しております。秋のお散歩がてら、ぜひご来店くださいませ。    イイダ傘店 http://www.iida-kasaten.jp/..."

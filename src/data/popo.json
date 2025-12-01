@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "popo　 山本信記（trumpet, synth）、喜多村朋太（organ）、江崎將史（trumpet, recorder） 2004年大原裕追悼ライブの際に3人で演奏したのがきっかけとなりスタートした、チェンバー・ロックスティディ・バンド。おおらかで繊細、なおかつ線の太いメロディを、この限定された小さな編成の中でつむいでいく。今年7月、1st CD [kibito] がcompare note..."

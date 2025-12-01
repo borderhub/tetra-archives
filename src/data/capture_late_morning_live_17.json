@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： ▼神山孝史 好事家。芸能芸術各種。監督映画『ラリー街11番地の方へ』『言葉について』『明烏夢泡雪浦里雪責段』他。映画『ぼくンがしんだ』準備中。藤枝守『珊瑚文様』(映像編集を担当したドーム上映作品)三月に喜界島にて上映予定 ▼中村勇治(bass clarinet, soprano saxophone) 朝活ライブcapture late morning liveなどのイベント企画者であり即興..."

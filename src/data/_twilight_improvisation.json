@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "19:00open Opening act by Roomin’（butoh）  19:15start genzen × hospi Master Wotazumi （hotchiku） PETiT APPAREiLLE × Roomin’  ----------- by OddRooming  More infomation is the below! https://oddrooming.co..."

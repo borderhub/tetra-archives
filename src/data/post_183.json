@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "ドイツビールと糸島直送イナゴ料理で乾杯するイベントです 糸島から秋の虫の鳴き声をUst同時中継予定!!  ■9月26日（金） 12時〜18時　ガレージセール　出店：'Ä'-Style（服 from Berlin）、とんつーレコード（CD・書籍）、kimonoize（セカンドハンド着物）、spicemania（カレー） 19時　ドイツビールで乾杯 19時30分〜20時　トーク 「福岡ついで観光」西村..."

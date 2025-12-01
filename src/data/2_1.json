@@ -11,10 +11,7 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     }
   ],
   "excerpt": "想田和弘監督「選挙２」公開記念　 「政治を変えるには　―「選挙」について考える―」  想田和弘 web http://www.laboratoryx.us/sodaofficial/HOME.html  前日14日（日）FSL憲法学習会＠西南学院大学「憲法改正の政治学」 http://www.seinan-gu.ac.jp/education_research/news/2950.html に引き..."

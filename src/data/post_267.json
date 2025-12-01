@@ -11,9 +11,7 @@
       "label": "事務情報",
       "basename": "info",
       "parentId": 0,
-      "path": [
-        "info"
-      ]
+      "path": ["info"]
     }
   ],
   "excerpt": "  ルート１…西鉄天神駅から ルート２…博多駅から ..."

@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "FILASTINE & NOVA (from Barcelona)  バルセロナを拠点とする作曲家／映像作家フィラスティンと、インドネシア出身のネオ・ソウル・ボーカリスト、ノヴァ・ルスによるデュオ。  ブラジルのカーニバルやモロッコの神秘主義者たちから打楽器を学び、ラディカル・マーチングバンドThe Infernal Noise Brigadeを率いたフィラスティンと、幼い頃からインドネシアの霊歌..."

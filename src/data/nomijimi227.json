@@ -11,39 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "今回は自分自身から一歩離れ、第二の視点から自分を観察し、観察者と被観察者のシナリオと物語を仮想し、最近制作したパンダに関する絵画を整理してみました。  実際、私にとって絵画そのものには特別な意味はなく、本能的な必要性から描いています。言葉で説明しにくい衝動を絵を通して解放する必要があります。しかし、なぜこの図案、この色、この描き方、そしてこれらの画材を選んだのか、その背後にある論理は後から分析でき..."

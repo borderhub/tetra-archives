@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Haco「Qoosui」2017年9月10日リリース 伝説のアヴァンポップバンド After Dinner の創始者、歌姫／作詞作曲家として世界中にフォロワーをもつHaco。元祖音響系女子ソロとして通算7枚目にあたる本作には、広島アンビエントシーンを代表する stabilo (speaker gain teardrop) と Gallery Six、チェコのエクスペリメンタル・エレクトロシーンを牽..."

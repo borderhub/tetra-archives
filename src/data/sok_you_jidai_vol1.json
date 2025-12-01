@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "HEY SOK!! YOU!!  I sok you.? You sok you? We sok you...........Let's sok you!  ヘイ　即興でござんす！  わたしは即Kおしますか？ あなたわ即Kおします？ わたしたちは即Kおします。。。。  良ければ即興しましょうよ！  * * * * * * * * * *  この「SOK!! YOU Jidai」では音楽、パフォーマ..."

@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "「On the Bed 2025-8 ,etc.」は、2025年の一年間、毎月展開する二日間の個展のシリーズの八回目となり、「On the Bed 」シリーズの絵画作品と、それ以外の新作絵画作品（ ,etc.）を展示します。 今回の「,etc」は、「Water Web Landscape」シリーズの新作を展示します。  「Water Web Landscape」シリーズについて 水面のさざ波を描い..."

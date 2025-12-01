@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "soejima takuma & emsenble cocoon [LIVE]  soejima takuma [piano&laptop]  1990年生まれ。福岡県出身。17歳より作曲活動を開始。活動を続けていくにつれフォーレやドビュッシー、グバイドゥーリナ、権代敦彦といった近・現代音楽に傾倒するようになり、自身の創作でも和声的なアプローチ やミニマル性、アート性を強く意識するようになる。同時..."

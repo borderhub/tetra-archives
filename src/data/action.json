@@ -11,19 +11,14 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "映画監督、映像作家、詩人、現代美術家、ダンサー？ 様々な顔を持つ男、大木裕之。 福岡、art space tetraという場所、様々な人々との関わりの中で、彼が起こす『アクション』とは。  『遊泳禁止』（1989）、『優勝ールネッサンス』（1995~1997）等のフィルム時代の作品から、『カム』（2006~）、 『TRAIN』（2007~）等、ビデオに持ち替えて以降の更新され続ける作品も上映予定。..."

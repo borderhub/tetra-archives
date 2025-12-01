@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "Work Camp  Projectとは、シルクスクリーン初心者である二人が技術の上達を図り、自らほぼ強制に近いかたちで展覧会日程を組み、それほど興味もないテーマに 沿って作品を作れるだけ作ろう、という「うだうだ言ってばかりでなにもしようとしない野郎」のための強制プロジェクトです。今回テーマにしたのは、二人 があまり触れたことのない「ヘビメタ」。テーマ決定後、二人は昼夜を問わず図書館やWikipe..."

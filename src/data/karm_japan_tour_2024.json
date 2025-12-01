@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "2024/3/24(日)はart space tetraでは久しぶりの海外アーチストによる演奏です。  プラハのミハル・ヴルブレフスキ（alto sax, clarinet）とベルリンのトルステン・パペンハイム（guitar, objects）によるKARM。 アコースティックだけで、こちらが慣れ親しんだはずの楽器の音を超える音響空間を生み出すデュオユニット。2022年にはデビュー盤『KRAM』を..."

@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "……見せかけの土壌を変える。生活に、具体性に、自然に足をしっかりつける。地を這うことが重要なのだ。こうしたアナキズムの基礎に基づいてマフノはコミューンを作っていった。ルクリュは進化を唱えていった。クロポトキンは相互扶助を再発見していった。バクーニンは暴れた。プルードンは革命を唱えた。……（本文より）  若き哲学研究者、森元斎氏が九州からアナキズムの狼煙をあげる！今年3月にちくま書房から出版された氏..."

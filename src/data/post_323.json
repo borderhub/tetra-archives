@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "本展は、作品を通じて「烏有」の状態を探求する試みである。中国語において、「烏有」は何もないことを意味しながらも、同時に「黒」の意向をも含んでいる。映像、言語、構造の中で、あるものは常に捨て去られ、遮蔽され、視界の外へと追いやられる。それらは単なる虚無ではなく、まだ名づけられていない、未だ現れていない潜在的な存在である可能性を孕んでいる。本展では、写真、映像、空間インスタレーションを用いて、その言葉..."

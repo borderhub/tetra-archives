@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "【概要】 Black Limestone は、20 世紀初頭の東アジア/東南アジアにおけるアナキズムの歴史に関するセミ・フィクションのジンです。  19 世紀末以来、世界中のアナキストたちは国境を越えてネットワークを構築してきました。コロナ禍以降、ますます分断化が進む世界において、1 世紀前のこうした国際主義の実践は、間違いなく私たちに連帯のネットワーク構築のインスピレーションを与えてくれるでしょ..."

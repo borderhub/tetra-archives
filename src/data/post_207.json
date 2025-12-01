@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "この度art space tetraでは篠原達郎展を開催いたします。 篠原は東京を拠点に活動する美術作家です。 今回は彼の福岡での初個展となります。 本展覧会ではこれまでの篠原の活動を振り返るとともに、 近年の新作を発表いたします。 篠原の作品を見る貴重な機会となります。 みなさま是非会場に足をお運びくだい。                                             ..."

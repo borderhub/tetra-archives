@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Robert Piotrowicz：サウンド・アーティスト。作曲家。即興演奏家。Musica Genera Festival と Musica Genera label の共同設立者。  Piotrowicz は、ラジオ・ドラマ、サウンド・インスタレーション、劇場音楽等を作ってきた。また、オーディオ/ビジュアル・パフォーマンスを行なうアーティスト達と定期的に共同制作をしてきた。演奏家としては主にエ..."

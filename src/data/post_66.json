@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "音を介して光や磁力が繋がる装置を作って、最後はみんなで実験をしてみます。  【当日ご持参いただく物】 ハンダごてなど、電子工作道具（お持ちでない方はご相談ください）＊詳細は追ってご連絡いたします。 　  ※写真は、大阪でのワークショップの様子..."

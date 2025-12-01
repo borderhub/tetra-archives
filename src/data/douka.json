@@ -11,30 +11,21 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "耨化　DOUKA アーティストグループ同化による展示。「耨（くさぎ-る）」は雑草を取り除く行為を指し、雑草と人間の関係を象徴します。  ◆ 企画 アーティストグループ同化 　2022 年、展示会「同化」をきっかけに、アーティスト森本凌司・水田雅也により結成。2023 年には、キュレーター尹泰陽、アーティスト高梨麻梨香が加入。以降、「どうか」の音に当て字を付けたタイトルを用い、展示会シリーズを展開し..."

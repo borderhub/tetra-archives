@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "Gereon Lepper 1956年生まれ。彫刻家。デュッセルドルフを拠点にドイツおよびフランスで活動。 1998年シドニービエンナーレに参加。大型の機械を作成し、重力とそれに反する力との拮抗状態を現出させる作品群で知られる。 http://www.gereon-lepper.de/  [support] art space tetra [event coordinator] Mizuki En..."

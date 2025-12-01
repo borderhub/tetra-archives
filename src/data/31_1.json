@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： ピピサンアロニ codama 倉地久美夫 +中村勇治  3組の個性的なアーチストによる音楽ライブをお楽しみください。第1回目となる今回はピアノ、ギターの弾き語り3組それぞれにサックスが1曲づつ加わります。  ※コロナの状況を考慮し今回は無観客配信にて開催します。 配信URL：https://www.youtube.com/watch?v=OU1w3Ur7AZY ※無料でご覧いただけます。 ..."

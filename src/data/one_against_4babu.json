@@ -11,19 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "one against seriesとは、art space tetraにて2004年6月12日にはじまったイベントシリーズである。 その基本コンセプトは、アーティストとミュージシャンが同じ時間・同じ場所に出演することにある。 観客は限られた時間のなか、演奏とアートワークを同時に目の当たりにする。その後、完成された作品はart space tetraにて展示される。このシリーズの目的は、芸術作品と..."

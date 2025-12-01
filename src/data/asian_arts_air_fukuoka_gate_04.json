@@ -11,10 +11,7 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": " Asian Arts Air FUKUOKAとは？？ リサーチ、レジデンス、展覧会企画や参加などでアジア各国を訪れた人たちから、最前線のアジアアート事情を聞く会を不定期に開催します。アジアの事例や動向を知り、参加者が積極的に質問しディスカッションをすることで、福岡のアートシーンの現況を見つめ、これからの活動について考える機会にしたいと思います。  Gate 04 Jogjakarta, Taip..."

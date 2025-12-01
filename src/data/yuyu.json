@@ -11,39 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": " yuyu ダンサー/振付師 生々しい動きやフォーメーション組み替え空間を使った振付を行う。 体温が伝わるダンス。   主催 @monami0321 @yuyutaodoru  ◆本公演 esse = to be 2022/05/21・22 MONAMI 主催公演 \"esse = to be\"  5月21日 (土) 15:00 5月21日 (土) 18:30  5月22日(日) 15:00 5月2..."

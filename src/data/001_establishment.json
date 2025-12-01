@@ -11,20 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "  (イベント内容) ステンシルスプレーを致します ・料金は発生しません ・持ち込みのT-shirtでも致します  撮影スペースをご用意しております 専属カメラマンでの撮影となります ・撮影した写真は、InstagramでのUPとなりますのでご了承の程お願いします。 (ID/@0.01__official)  ご購入された方にライターorステッカーのプレゼントいたします  1 Drink(¥500..."

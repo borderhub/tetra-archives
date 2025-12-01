@@ -11,10 +11,7 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "暗室で新年会的なものやります。プリントするもよし、何かちょっとした食べ物もお出しできればと思っています。..."

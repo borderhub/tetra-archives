@@ -11,39 +11,28 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "秋の「日傘・晴雨兼用傘・雨傘」受注会の季節が近づいてまいりました。 今回はspoken words projectと共同制作での作品発表になります。 筆を使った手描きによる染色や、ろうけつ染めを用いた透明感のあるテキスタイルを日傘に仕立てました。 今回の受注会では新作の日傘に加えて、これまでに発表してきたアーカイブの雨傘、日傘、晴雨兼用傘をご用意。 お好みのデザイン、手元、サイズ、名入れをお選びい..."

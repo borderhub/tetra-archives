@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "南米アルゼンチンの伝説的な実験音楽グループ「Reynols (レイノルズ)」の事実上の“バンマス”にして、世界中でソロ活動を展開する音楽家のアンラ・コーティスが、地球の裏側より福岡にやって来る。  ・2011年来日時のインタビュー（webDICE より）  http://en.wikipedia.org/wiki/Anla_Courtis http://www.discogs.com/artist..."

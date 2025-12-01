@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "今冬、アートスペーステトラでティファニー·リーの個展「Liquid Nostalgia」を開催いたします。 ティファニー·リーは、前回アートスペーステトラで開催した「PechaCucha link up project 2」でペチャクチャ·セミナーと作品展示を行いました。その時に展示した作品シリーズ「Palm Tree Project」では、これまで都市の風景を消費社会の虚無感を作家の持つ特有のメ..."

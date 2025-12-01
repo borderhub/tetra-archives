@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "duennlabelと福岡の前衛音楽集団quelle（クベレ）の特別企画less。今回はROVOの勝井祐二氏をゲストに迎えお送りします。 http://leeeessss.tumblr.com/post/59962362245/duennlabelxquelle-less-feat-rovo  勝井祐二（音楽家／ヴァイオリニ スト） 1964年北海道生まれ。エレクトリック・ヴァイオリンの表現の可能..."

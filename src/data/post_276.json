@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "【内容】 哲学者、森元斎さんの新著「もう革命しかないもんね 」の刊行を記念して山下陽光さんとの対談を行います。  もう革命しかないもんね　※晶文社のページより DIY=平和な工作活動!? からだを動かしながら考えよう。 革命の最前線は＜日常＞にあり。 里山に移住した哲学者・アナキストによる実践的ゆるゆる「生活の哲学」入門講座。 「さて、どうしようか。 お金はあっても生きていけるが、なくても生きてい..."

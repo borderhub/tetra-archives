@@ -11,30 +11,21 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 49,
       "label": "07_演劇イベント",
       "basename": "theater",
       "parentId": 34,
-      "path": [
-        "genre",
-        "theater"
-      ]
+      "path": ["genre", "theater"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "【演者・スタッフ】 脚本・演出 : 风月 写真 : あだな CAST : やわらあさ PAINTER : 金子 このみ 演出助手 : 内田 龍太郎 スタッフ : 髙橋 輝多  【予約フォーム】 https://www.quartet-online.net/ticket/dokodare10..."

@@ -11,20 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "韓国では「誕生日を迎えた本人が食事をごちそうするのがマナー」ということで、韓国に6年ほど身を置いた私が、韓国文化にならって、日頃お世話になっている福岡の皆さんやこの日をきっかけに出会った方々にビビンバをごちそうしておもてなしをします。 この日、アジ美では東南アジアの現代美術を紹介する「サンシャワー展」のオープン。日本人の私が韓国のビビンバを作ってもかなり東アジア寄り。ちょっと南の要素が欲しいよね、..."

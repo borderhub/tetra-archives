@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "1981年9月22日生まれ。福岡県田川市在住。写真、音楽、絵、映像等で活動。21歳から写真をはじめる。電子顕微鏡を使ったVJ、モールス信号等を使ったグリッチテクノドュオ「e」アンビエントユニット「ぬるま湯」、カセットテープDJ、20名から30名で構成された即興打楽器集団「空室」、10人編成のノイズユニット「heracles」ベース、ドラムの編成の「zarest」チープ機材使用の「PICO」インダス..."

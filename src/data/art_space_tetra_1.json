@@ -11,18 +11,14 @@
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     },
     {
       "id": 36,
       "label": "事務情報",
       "basename": "info",
       "parentId": 0,
-      "path": [
-        "info"
-      ]
+      "path": ["info"]
     }
   ],
   "excerpt": "福岡市の催物の開催制限に伴い、11月25日以降のイベントに関してのチェックリストを掲示しております。     ..."

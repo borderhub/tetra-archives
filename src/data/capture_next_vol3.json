@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "▼出演 endsnotnear 建築写真 中村勇治  ▼capture next：capture主宰の中村勇治が、次に(next)繋げていくという視点で始めた企画。今回は実験音楽、電子音楽、即興音楽などをテーマに福岡でユニークな活動を続けている3組が出演します。  ▼問い合わせ：art space tetra / capture works and music (中村勇治) 070-5400-19..."

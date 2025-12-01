@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "専門学校九州ビジュアルアーツ写真学科2年の PhotoExhibition2019 から選抜された7名の写真展です。 それぞれが大切にしている、写真と被写体への愛が溢れた作品です。..."
