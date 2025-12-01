@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 3:I[16261,["/tetra-archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra-archives/_next/static/chunks/256ae7175b6b2777.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"lrRh910zhMjk-9phNc46q","rsc":["$","$1","c",{"children":["$L2",null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"XaOc2TdMcm7k3n31HmcpN","rsc":["$","$1","c",{"children":["$L2",null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
 2:E{"digest":"NEXT_REDIRECT;replace;/archive/all/year/2025/page/1;307;"}
