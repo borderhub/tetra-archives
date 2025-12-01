@@ -8,6 +8,7 @@ import Sidebar from '@/components/Sidebar';
 import SidebarNavigation from '@/components/SidebarNavigation';
 import Footer from '@/components/Footer';
 import Pagination from '@/components/Pagination';
+import { stripHtmlTags } from '@/helper';
 
 const POSTS_PER_PAGE = 10;
 const MAX_PAGES_DISPLAY = 10;
@@ -27,6 +28,7 @@ type PostMeta = {
   year: string;
   excerpt: string;
   categories: CategoryBaseInfo[];
+  thumbnail: string | null;
 };
 
 export default function ArchivePageClient({ 
@@ -183,9 +185,26 @@ export default function ArchivePageClient({
                     {/* カードコンテンツ */}
                     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-200 group-hover:border-gray-600">
                       <div className="p-6">
+                        {/* ★ サムネイル画像（なければ no-image.png） */}
+                        <Link href={`/posts/${post.slug}`} className="pb-4 block">
+                        { post.thumbnail ?
+                            <img
+                                src={post.thumbnail}
+                                alt={post.title}
+                                className="w-full h-48 object-cover border-b border-gray-200 group-hover:opacity-90 transition"
+                            />
+                            : <svg width="100%" height="100%" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="1200" height="640" fill="#f3f4f6"/>
+                                <path d="M300 200 L900 430 L900 200 Z" fill="#e5e7eb"/>
+                                <circle cx="600" cy="315" r="120" fill="#d1d5db"/>
+                                <path d="M550 280 L650 380 M650 280 L550 380" stroke="#9ca3af" strokeWidth="40" strokeLinecap="round"/>
+                                <text x="600" y="520" fontFamily="system-ui, sans-serif" fontSize="80" fill="#6b7280" textAnchor="middle">NO IMAGE</text>
+                            </svg>
+                        }
+                        </Link>
                         <h3 className="text-xl font-bold mb-3 leading-tight text-gray-900 group-hover:text-gray-600 transition-colors">
                           <Link href={`/posts/${post.slug}`} className="block">
-                            {post.title}
+                            {stripHtmlTags(post.title)}
                           </Link>
                         </h3>
                         

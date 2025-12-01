@@ -9,6 +9,7 @@ import MobileHeader from '@/components/MobileHeader';
 import Sidebar from '@/components/Sidebar';
 import PostSidebarNavigation from '@/components/PostSidebarNavigation';
 import Footer from '@/components/Footer';
+import { stripHtmlTagsKeepLineBreaks } from '@/helper';
 
 type CategoryBaseInfo = {
   id: number;
@@ -279,7 +280,7 @@ export default function PostPageClient({
                 ))}
               </div>
               <h1 className="text-3xl lg:text-5xl font-black mb-6 leading-tight text-gray-900">
-                {post.title}
+                {stripHtmlTagsKeepLineBreaks(post.title)}
               </h1>
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">

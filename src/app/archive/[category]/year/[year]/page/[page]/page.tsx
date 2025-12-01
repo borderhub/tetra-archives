@@ -22,6 +22,7 @@ type PostMeta = {
   year: string;
   excerpt: string;
   categories: CategoryBaseInfo[];
+  thumbnail: string | null;
 };
 
 function getAllPosts(): PostMeta[] {
@@ -42,6 +43,7 @@ function getAllPosts(): PostMeta[] {
         year,
         excerpt: raw.excerpt || '',
         categories: (raw.categories as CategoryBaseInfo[]) || [],
+        thumbnail: raw.thumbnail ? `/tetra-archives${raw.thumbnail}` : null,
       };
     });
     return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
