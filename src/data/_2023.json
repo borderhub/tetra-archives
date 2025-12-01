@@ -11,20 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演:村上巨樹(トーク)  日本で唯一のミャンマー音楽に焦点を当てたトークイベント。日本では「ビルマの竪琴」のイメージが強いですが、実はオリジナリティ溢れる音楽文化が残っている国でもあります。プログレすら凌駕する超絶打楽器アンサンブル「サインワイン」、西洋の奏法を踏まえていないビルマ式ピアノ「サンダヤー」。ミャンマー音楽研究家の村上が、その歴史と魅力を話します。特に2022年末の現地訪問レポートは..."

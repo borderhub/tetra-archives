@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "安部 貴住（あべ たかすみ）  1976 大分県生まれ 1999 九州産業大学芸術学部美術学科彫刻コース卒業 2000-2002 共同アトリエ３号倉庫にて制作 2001 九州産業大学芸術学部美術学科彫刻コース研究生修了 2004 art space tetraを共同で設立 現在art space tetraを拠点に制作  Solo & Selected Group Exhibitions 2009..."

@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "ミラノを代表する即興／サウンド・アートのレーベル「Fringes Recordings」を主宰し、自らもインプロウ゛ァイザーとして活動しているジュゼッペ・イエラシ。  サウンド・アーティストとしてPS1やDe Appel、シカゴ現代美術館などで作品を発表し、ミュージシャンとしてジム・オルークやケウ゛ィン・ドラムらと共作音源をリリースしているトマス・アンカースミット。今回で６回目を数えるrhythm..."

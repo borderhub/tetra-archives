@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "ブラスとドラムによるポップともいえる３人組NEWDAYと、共演者の演奏を聞くことすら放棄した即興トリオ「寂しい女」。 まるで正反対な音楽性をもつこの二つのトリオが、同じ場所で相対する。それはまさに新しい日。   NEWDAY　http://newday.sunnyday.jp/  sakerockのトロンボーン浜野謙太率いる3人のバンド。 強力子供サックス橋本キッズ剛秀に、伝説の曲者、中尾勘二。 ..."

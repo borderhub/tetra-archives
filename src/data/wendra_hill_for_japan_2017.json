@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "ノルウェーの即興演奏アンサンブル、Wendra Hill For をメイン・ゲストに迎えてのライブ・イベント。お見逃しなく！  Wendra Hill For  Jenny Berger Myhre - clarinet / electronics Jo David Meyer Lysne - acoustic guitars    Tobias Pfeil - electric guitars ..."

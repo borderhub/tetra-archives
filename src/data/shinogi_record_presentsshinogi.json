@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "「alfred beach sandal」is... 「カリブ海のキャプテンビーフハート」なんて異名も聞こえてくる、Alfred Beach Sandalこと北里彰久の音楽は、ブルースやジャズ、辺境音楽などに見られる揺らぎを、プログレ/オルタナ/マスロック的な手法で再構築したような…と書くといかにも難解そうに思えるが、細かいコードワークと箱庭的というより短編小説的な歌詞、そして朴訥としながらもひね..."

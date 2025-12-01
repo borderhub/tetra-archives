@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： 中村勇治(soprano saxophone) https://capture.nakamurayuji.com  Yuki Hata(beat live) https://shiosaba2003.wixsite.com/yukihata *50音順  朝活ライブcapture late morning live・第8回目は場所を薬院のギャラリー・IAF SHOP*に移しての開催となりま..."

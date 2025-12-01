@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演：三枝彩子（モンゴル民謡ほか歌）、谷本仰（ヴァイオリン）  予約・問い合わせ： tel 070-5400-1965 , e-mail capture@nakamurayuji.com (担当：アートスペース・テトラ：中村)..."

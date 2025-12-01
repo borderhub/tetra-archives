@@ -11,20 +11,14 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "「END:CIV」は、私達の文化が常習的に繰り返す組織的な暴力と環境破壊についてのドキュメンタリーだ。その結果として生み出されるのは、汚染された 大地と、精神に動揺を来した国家である。デリック･ジェンセンの著作『エンドゲーム（最終局面）』に部分的に依拠しながら、 END:CIV は次のような質問を見る者に投げかける。「エイリアンが故郷を侵略して木々を切り倒し、水と空気そして食料を汚染したとしたら、..."

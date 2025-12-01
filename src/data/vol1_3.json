@@ -11,20 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "それは！！そそそそそそそそそして！！そそそそそそそそそういうことで！！そそそそそそそそそそくさと！！そそそそそそそそそしらぬかおで！！そそそそそそそそそばにいるよ、そんなわけでそっきょう時代。  この「それは！！そそそそそそそそ即興時代」では音楽、パフォーマンス（ダンス、即興演劇、 ライヴペインティング等々なんでもあり）のジャンルで来て頂いた方々から、 任意にそれぞれ二名のデュオまたは三名のトリオ..."

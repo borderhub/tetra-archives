@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "荒瀬哲也 ヴィデオ・インスタレーション Tracking – TETSUYA ARASE | EXHIBITION 2021年7月22日|木・祝|−8月1日|日| 17:00-20:00 会期中無休  ■画像キャプション 《Tracking》2021年／ヴィデオ・インスタレーション    ■展示内容  モーション・トラッキングカメラを用い、リアルタイムで撮影された映像を数秒遅れでプロジェクション。..."

@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "出版レーベルart and agricultureの企画による写真家・高平真帆の展覧会を開催します。 高平真帆は、風景のスナップ写真を中心に制作を続ける写真家です。 企画したart and agriculture（＝a.a.a、アートアンドアグリカルチャー）は、今年できたばかりの出版レーベルです。 なお本展覧会はa.a.aによって展覧会カタログが制作され、電子書籍として配布されます。 詳細は以下で..."

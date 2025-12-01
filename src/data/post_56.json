@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "地元福岡のミュージシャン達による、弾き語りイベント 五人各々の声色（こわいろ）と、音を楽しむひととき・・・声色屋  藤井邦博（魚座)  http://uoza.net/ 毛利幸隆（ライスボウル） http://www.drawngirl.com/ Rilke DECO., http://www.myspace.com/iemomokoarita 豊嶋義之  羽衣..."

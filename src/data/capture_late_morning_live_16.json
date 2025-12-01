@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： ▼とんちピクルス 福岡在住の松浦浩司によるソロユニット。ウクレレの弾き語り、自作のカラオケを使ったラップなどさまざまなスタイルで人生のわび、さびを描く。TPOはわきまえているのでどなたでも安心してご覧いただけます。コロナ禍を機に自宅配信を始める。 https://blog.goo.ne.jp/tonchipickles ▼中村勇治(sax) 朝活ライブcapture late mornin..."

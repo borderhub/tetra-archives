@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "2023年より始動したこの企画は、2025年の実施を目標に、福岡を拠点に活動するart space tetraとタシュケント在住のアーティストを繋ぐプロジェクトです。2024年からは、大阪を拠点に活動するアートスペース「デラハジリ」も賛同し、共働してくれることになりました。 デラハジリを運営する下浦さんとは、2024年3月に滋賀県にある山中suplexでのイベントをきっかけに知り合いました。そこで..."

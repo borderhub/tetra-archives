@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "2008年最初のDr.Toshimaの台湾ニューシネマは、台湾ニューシネマを代表する監督であるホウ・シャオシェンの生い立ちを描いた「童年往事時の流れ」について行う。 1940年代、幼かったホウ・シャオシェンこと少年アハを連れて一家は台湾に移住。自分の生まれ故郷とは違う、新たな土地で過ごした幼少期や青年期を描いた映画であり、自分の家族を客観的に描写した力作となっている。..."

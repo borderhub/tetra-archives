@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "展示タイトル:Catharsis 作家名:liillvll0 ■内容 絵・物の展示 1から独学で学んできた19歳が開く展示会とはどんなものか？ 引き込まれるような世界観にみなさんはこの絵を観て何を思うか。 なにか考えたり得るものがあれば幸いです..."

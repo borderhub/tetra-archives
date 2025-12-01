@@ -11,29 +11,21 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "● . . . アーティスト名を「. . .」 と名乗るニコラ・ムヌー。彼はスイスのローザンヌで毎年開催される著名なフェス「ローザンヌ・アンダーグラウンド・フィルム＆ミュージック・フェスティヴァル（LUFF）」の運営メンバー、そして音楽プログラマー／音響ディレクターとして活躍している。２０１２年に東京で開催された「LUFF does Tokyo」をコーディネイトしたのも彼である。また、ローザンヌで..."

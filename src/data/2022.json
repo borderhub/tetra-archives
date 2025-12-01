@@ -11,20 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "aco 福岡在住イラストレーター 女性をモチーフに制作。 久しぶりの個展となります。 ご覧いただければ幸いです。 イラストの展示他、 物販も予定しております。 全日在廊。    【問い合わせ】 art space tetra / capture works and music 中村勇治 capture@nakamurayuji.com..."

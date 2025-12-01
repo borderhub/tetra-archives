@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "今回から新しく始まるe-musik　坂本豊　主催 Contemporary Live Performanceイベント  Stil　(シュティール) スタイルを意味するドイツ語で、流儀、様式、形などを意味する。 その人独自のスタイルを持った個性豊かなアーティストを、国内外、ジャンル、性別、有名無名問わず、ゲストに招き、今まで聴いたことの無い新しいスタイルを体感してもらうイベント。 その日その場でしか..."

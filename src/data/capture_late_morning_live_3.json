@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： 石合弘道(alto saxophone) 中村勇治(bass clarinet,soprano saxophone) *50音順  朝活ライブcapture late morning live第三弾！！ 第3回目はジャズ系をメインに活動しつつ今回のようなアバンギャルドな演奏にも力を入れている石合弘道さんをお招きして、木管楽器奏者二人によるアンサンブルなのかバトルなのか、いやなんなのか的なセ..."

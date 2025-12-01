@@ -11,20 +11,14 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "サックス奏者 篠田昌已 （1958～1992）は、生活向上委員会，パンゴ，JAGATARA，コンポステラ 等のバンドで活躍すると共に、チンドンの魅力を新しい世代に伝える「東京チンドン」（puff up）などで知られています。彼が生きていれば今年で50歳。ということで, 親交のあった園田佐登志氏が1993年に制作した≪篠田昌已 act 1987≫の上映会を開催します。東京チンドン長谷川宣伝社・楽隊，..."

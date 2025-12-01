@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "deploy": "gh-pages -d out",
     "scrape": "tsx scrape.ts",
     "convert": "tsx convert.ts",
@@ -42,8 +45,11 @@
     "baseline-browser-mapping": "^2.8.32",
     "eslint": "^9",
     "eslint-config-next": "16.0.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
+    "prettier": "^3.7.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

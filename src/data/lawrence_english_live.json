@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Lawrence English ローレンス・イングリッシュはオーストラリア出身のライター、ミュージシャン、メディア・アーティスト。これまでにデイヴィッド・トゥープ、吉田アミ、KK Null、スキャナー、ツジコ・ノリコらと共演。その音楽は「アンビエントな歪んだサウンドスケープ」と評され、従来型の音と曲構造に対するアプローチを問い直す。  http://www.room40.org,  http:/..."

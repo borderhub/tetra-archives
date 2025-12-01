@@ -11,19 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "スタイルも活動軸もまったく違うこの二人の作家がart space tetraという場所で何をおこすのか。  どんな音がうまれ  どんな「こと」が見えるのか    ライブかパフォーマンスか展覧会か   あるいは全て。    梅田 哲也  現象としての音の動きや空間のキャラクターに焦点をあてたインスタレーションやライブパフォーマンスを行う。「Festival Beyond Innocence」（200..."

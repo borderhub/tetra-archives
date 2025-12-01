@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "PAN ON FIRE 中村としまる - mixer マッティン・タクスト - microtonal tuba  中村としまる 小型のミキサーに、音源からの入力結線をせず、内部発振を起こさせることで発音するという独自の手法を得て、ノー・インプット・ミキシングボードと名付けて演奏をする。共演者は世界各地に広がっており、主に日本、ヨーロッパ、北米にて活動しているが、近年はその活動領域を、アジア、中南米..."

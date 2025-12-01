@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： capture(中村勇治+松岡涼子) Layla Morpho #CEE6C1 ミワサチコ  問い合わせ：art space tetra / capture works and music (中村勇治) 070-5400-1965 / capture@nakamurayuji.com  プロフィール： capture(中村勇治+松岡涼子) ・中村勇治(bass clarinet,sopra..."

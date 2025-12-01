@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "今年を締めくくる今回は、6月に他界したエドワード・ヤン監督の「ヤンヤン 夏の想い出」についてお話したいと思います。 台北に暮らす少年ヤンヤンとその家族が、ある出来事を発端に動き始める。都会に生きる現代の人々を丁寧に描き出した本作は、ヤン監督の遺作であり集大成 的な作品でもあります。 皆様、是非お越し下さい。..."

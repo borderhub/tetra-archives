@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "  Escapade Wynton  Pierre Borel [DE/FR] saxophone Joel Grip [DE/SE] double bass Antonin Gerbal [FR] drums  パリ、ベルリン、ストックホルムに拠点を置く、インディペンデント・レーベル “ウムラウト・レコーズ（Umlaut Records）” に所属する３人の即興演奏家、ピエール・ボーレル Pie..."

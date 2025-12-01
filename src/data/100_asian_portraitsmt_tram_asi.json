@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "現在、インバウンドで、多くの外国人が来日していますが、自由に移動ができなかったコロナ禍で取材・撮影した100人の記録です。  　当時、母国に帰ることができない人たちの想いを伝えたいと考えたのがきっかけで2021年にスタート。モデル探しからアポイントメント、の撮影、現像、プリントまでを一貫して手がけました。１年半に渡って、ベトナム、ネパール、バングラデシュ、中国、タイ、カンボジア、インドネシア、..."

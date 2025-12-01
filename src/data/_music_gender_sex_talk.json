@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "- イベントについて 女になったり男になったりする音、どちらでも無い音 ラブグッズの音の形にまみれる音楽  前半は、ジェンダーとセックスをテーマにした音楽を HOTAKA が 後半は、ジェンダーの研究している PANDA を交えて 音楽×学問 トークをします。  福岡レインボープライドの前にジェンダーとセックスの話をしに来ませんか?  - MUSIC  program  1. Outside of..."

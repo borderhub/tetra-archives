@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "白石恵里（彫刻） 中尾衣智子（絵画）  佐賀大学卒業、修了生による展覧会。 卒業後から現在に至るまでの作品を展示します。..."

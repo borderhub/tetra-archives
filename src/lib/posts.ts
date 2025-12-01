@@ -18,7 +18,9 @@ export async function getAllPosts(): Promise<Post[]> {
     return [];
   }
 
-  const fileNames = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.json'));
+  const fileNames = fs
+    .readdirSync(postsDirectory)
+    .filter((f) => f.endsWith('.json'));
 
   const posts = await Promise.all(
     fileNames.map(async (fileName) => {
@@ -34,7 +36,9 @@ export async function getAllPosts(): Promise<Post[]> {
         date: raw.date || '1970-01-01',
         author: raw.author || 'Anonymous',
         content: contentHtml,
-        excerpt: raw.excerpt || contentHtml.replace(/<[^>]+>/g, '').slice(0, 160) + '...',
+        excerpt:
+          raw.excerpt ||
+          contentHtml.replace(/<[^>]+>/g, '').slice(0, 160) + '...',
       };
     })
   );
@@ -44,7 +48,7 @@ export async function getAllPosts(): Promise<Post[]> {
 
 export async function getPostBySlug(slug: string): Promise<Post> {
   const posts = await getAllPosts();
-  const post = posts.find(p => p.slug === slug);
+  const post = posts.find((p) => p.slug === slug);
   if (!post) throw new Error('Post not found');
   return post;
 }

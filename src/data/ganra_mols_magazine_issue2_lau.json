@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Artists: MAKOTO SAKAMOTO, Tetsu Nagasawa x Yutaka Sakamoto Duo Video Exhibition: Aun Helden Decoration: muninaru  2月3日(土)、ドイツ・ベルリン発のドキュメンタリー&カルチャーマガジン「MOLS」の第2号ローンチを記念したポップアップイベントが、福岡のアートスペース「TETRA」で開..."

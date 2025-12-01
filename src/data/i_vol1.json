@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "即興セッション企画　>そっ…時代 （副題：できるだけそっとしておいてください、の「そっ」ではなくそっ興の「そっ」） vol.1  ゴルゴサーティーン（13）の第134巻「大いなる黄昏日和、悪の慕情の巻」の163ページの2段目右のコマで、デューク東郷が「ソッ…」と呟いているシーンが存在する。  漫画マニアでもついついこの見落としがちな一コマをわたしが初めて見た時、そのストーリー内での前後のコマとの整..."

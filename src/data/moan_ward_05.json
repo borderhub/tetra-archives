@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "隔月開催される実験音楽イベント。  これまでmoan wardに数回出演している坂口壱彦は、それまでの「MAX/MSP」のみを用いた演奏から独自の自作デバイスを使った演奏形態へと変化を見せた。小型ラジカセの回転部に金属盤(?)を取り付け、音叉による振動を再生ヘッドへと送り込み、シンプルな音のモアレを出現させた。 riverはmoan wardは初出演ながら、以前、rhythm主催のライブイベント「..."

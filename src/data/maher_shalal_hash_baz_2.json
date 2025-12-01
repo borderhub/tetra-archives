@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "今回は、Maher Shalal Hash Bazに現代美術家・江上計太が参加します。 お見逃しなく！  Maher Shalal Hash Baz（マヘル・シャラル・ハシュ・バズ） 70年代から日本のアンダーグラウンド・シーンで活躍する工藤冬里が率いるバンド。ギターの弾き語りから、ブラスをフューチャーした大アンサンブルまで時と場所により形を変え、演奏も様々な人々が参加する。シンプルで美しいメロデ..."

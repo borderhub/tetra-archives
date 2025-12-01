@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "コラージュとペイント作品の展示  [place] art space tetra 〒812-0028 福岡県福岡市博多区須崎町２−１５ [time] 18:00〜21:00 [tel] 092-262-6560  2025/02/01(sat) OP IVENT  [live] 神の子 うえだしょ〜じ KT 電卓 moyanmn  [DJ] DJ nakayama  [ST] 17:30 [fee..."

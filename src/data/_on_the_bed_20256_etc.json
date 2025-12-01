@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "「On the Bed 2025-6 ,etc.」は、2025年の一年間、毎月展開する二日間の個展のシリーズの六回目となり、「On the Bed 」シリーズの絵画作品と、それ以外の新作絵画作品（ ,etc.）を展示します。 今回の「,etc」は、「Yellow Fruit / Strange Fruit」シリーズの新作を展示します。  「On the Bed」シリーズについて 朝、目覚めた後が残..."

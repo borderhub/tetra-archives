@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： 中村勇治(bass clarinet,soprano saxophone)  photo:@chi.vino_ch  薔薇園花江(朗読劇) *50音順  capture late morning live・14回目は、変化球企画となります。とはいっても、薔薇園さんと主催の中村は、演劇公演だけでなく、ポエトリーリーディングと即興演奏のライブで何度か共演を重ねておりまして、満を持しての朝活ライ..."

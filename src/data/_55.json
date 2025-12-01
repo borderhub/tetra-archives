@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "PhotoExhibition2025より、選抜された7名の写真展です。 心の内にひしめく、写真への深い想いを個々の視点で据え、 一つとして同じものはない作品を展示しています。..."

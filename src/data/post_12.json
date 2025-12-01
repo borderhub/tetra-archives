@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "内橋和久（うちはし・かずひさ） 12才からギターを始め、10代の頃はフォーク、ロックのバンドで演奏する。学生時代にジャズのテクニックを学び、徐々に即興演奏へと関心を向ける。  1990年にナスノミツル（b）、芳垣安洋（dr）とAltered Statesを結成。Altered Statesは非常階段、Boredoms、Ruinsなどと共に、日本のアンダーグラウンドシーンの雄とみなされており、即興演..."

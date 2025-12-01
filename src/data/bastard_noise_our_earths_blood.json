@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "約2年半ぶりの来福、Bastard Noise. 今回の日本ツアーで Eric Wood は各地の地元ミュージシャンとの共演を予定しており、福岡では Shaye Bowden と共演します。Shayne は長らく福岡でノイズ・ミュージックを作り続けているアーティストであり、Eric Wood とも旧知の仲。また、以前より trogotronic (元Bastard Noise のメンバー、W.T...."

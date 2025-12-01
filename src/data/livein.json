@@ -11,20 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     }
   ],
   "excerpt": "私は、笊である。  私たちは、笊である。  総じて、等しく、笊である。    art space tetraのメンバーcodamaのユニット遇々（たまたま）による御念仏 LIVE。  今回は出張企画として会場はartspacetetraではなく、福岡県大牟田市の明行寺（浄土真宗 本願寺派）よりYouTube LIVE配信を行います。  現在の状況を踏まえ無観客でのライブとなります。是非ご視聴下さい..."

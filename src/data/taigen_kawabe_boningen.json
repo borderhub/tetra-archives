@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Taigen Kawabe (BO-NINGEN from London)  1986年東京生まれ。2004年より活動拠点をロンドンに移し、2007年に日本人サイケデリックロックバンド、Bo Ningenを結成。イギリスを拠点に現在まで３枚のフルアルバムをリリース。2013年には FUJI ROCK 出演、2014年全米3大ロックフェスの1つ  や Black Sabbath が大トリを努めた  ..."

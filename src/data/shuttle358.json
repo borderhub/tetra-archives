@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "shuttle358 http://www.mille-plateaux.net/mp/，http://www.12k.com/ Fourcolor http://www.cubicmusic.com/ 堀尾 寛太 http://k.adin4.com/   [organiser] Kanta Horio ..."

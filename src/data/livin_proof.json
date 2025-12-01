@@ -11,30 +11,21 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "   バックボーン、年齢もバラバラの三人が21´夏の終わりにドロップする グラフィティー、アンダーグラウンド、ストリート、ポップカルチャー、音楽 などのキーワードを元にあらゆるジャンルを昇華し包括した三者三様の世界観を可視化したグループアート展を開催します。   ◇オープニングパーティー 09/17 Start18:00 End22:00 ※チャージフリー □Guest DJs： ・GOSK ・J..."

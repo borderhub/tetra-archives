@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： codama(vocal,piano) 中村勇治(bass clarinet,soprano saxophone) *50音順  朝活ライブcapture late morning liveも4回目となりました。 過去3回は即興色の強いライブでしたが、今回は、楽曲メインとなります。今回お迎えするのは、音楽ユニット「ブランコノリ」や、念佛系めおとユニット「遇々（たまたま）」で活動するcoda..."

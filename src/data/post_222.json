@@ -11,20 +11,14 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "  大衆音楽が、都市化と近代化の過程のなかで、社会文化的なアイデンティティ、道徳的価値、近代性を表すことが多いとすれば、アジアの歌姫とその音楽は社会文化的に重要な現象である。  そこでこのトークでは、植民地時代とその後の時代の、韓国のイ・エリス、キム・チュジャ、日本の美空ひばりと松田聖子、中国・台湾のテレサ・テン、マレーのサロマ・イスマイル、インドのラタ・マンゲシュカール、フィリピンのイメルダ・パ..."

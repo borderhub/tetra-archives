@@ -27,8 +27,10 @@ type PostMeta = {
 
 function getAllPosts(): PostMeta[] {
   try {
-    const fileNames = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.json'));
-    const posts: PostMeta[] = fileNames.map(fileName => {
+    const fileNames = fs
+      .readdirSync(postsDirectory)
+      .filter((f) => f.endsWith('.json'));
+    const posts: PostMeta[] = fileNames.map((fileName) => {
       const slug = fileName.replace(/\.json$/, '');
       const fullPath = path.join(postsDirectory, fileName);
       const raw = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
@@ -60,8 +62,8 @@ export async function generateStaticParams() {
   const categorySet = new Set<string>(['all']);
   const yearSet = new Set<string>();
 
-  allPosts.forEach(post => {
-    post.categories.forEach(cat => categorySet.add(cat.basename));
+  allPosts.forEach((post) => {
+    post.categories.forEach((cat) => categorySet.add(cat.basename));
     yearSet.add(post.year);
   });
 
@@ -74,11 +76,16 @@ export async function generateStaticParams() {
     for (const year of years) {
       let filtered = allPosts;
       if (category !== 'all') {
-        filtered = filtered.filter(p => p.categories.some(c => c.basename === category));
+        filtered = filtered.filter((p) =>
+          p.categories.some((c) => c.basename === category)
+        );
       }
-      filtered = filtered.filter(p => p.year === year);
+      filtered = filtered.filter((p) => p.year === year);
 
-      const totalPages = Math.max(1, Math.ceil(filtered.length / POSTS_PER_PAGE));
+      const totalPages = Math.max(
+        1,
+        Math.ceil(filtered.length / POSTS_PER_PAGE)
+      );
 
       for (let i = 1; i <= totalPages; i++) {
         paths.push({ category, year, page: String(i) });
@@ -97,9 +104,12 @@ type Props = {
 };
 
 // メタデータ生成
-export async function generateMetadata({ params: paramsPromise }: Props): Promise<Metadata> {
+export async function generateMetadata({
+  params: paramsPromise,
+}: Props): Promise<Metadata> {
   const { category, year, page } = await paramsPromise;
-  const categoryLabel = category === 'all' ? 'ALL' : category.replace(/_/g, ' ').toUpperCase();
+  const categoryLabel =
+    category === 'all' ? 'ALL' : category.replace(/_/g, ' ').toUpperCase();
   return {
     title: `ARCHIVE - ${categoryLabel} (${year}) | Page ${page}`,
   };
@@ -108,6 +118,13 @@ export async function generateMetadata({ params: paramsPromise }: Props): Promis
 export default async function ArchivePage({ params }: Props) {
   const { category, year, page } = await params;
   const allPosts = getAllPosts();
-  
-  return <ArchivePageClient allPosts={allPosts} category={category} year={year} page={page} />;
+
+  return (
+    <ArchivePageClient
+      allPosts={allPosts}
+      category={category}
+      year={year}
+      page={page}
+    />
+  );
 }

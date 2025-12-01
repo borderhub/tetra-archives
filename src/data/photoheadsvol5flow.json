@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "All seem to be part of the FLOW Get into the FLOW    @photo_heads  @taisyophoto @katsuki_1984 @sibatasen  +++ a special guest +++  @uchamixx @makoto_ishii_kawa    enjoy     ..."

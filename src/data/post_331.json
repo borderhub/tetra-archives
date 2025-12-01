@@ -11,38 +11,28 @@
       "label": "トップ掲載",
       "basename": "top",
       "parentId": 0,
-      "path": [
-        "top"
-      ]
+      "path": ["top"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "◇概要 12月後半に九州ツアーを行う秩父の音楽家・笹久保伸氏を ３年ぶりに福岡のart space tetraにお迎えします！ 笹久保氏は、アンデスの農村地域で音楽の採集と研究を行ったのち、秩父を拠点にアートコレクティヴ「秩父前衛派」を立ち上げ、地域の信仰や民謡、歴史などの調査、そして武甲山の環境問題に向き合いながら、多領域にわたる活動を展開してきました。 第一部は、音楽家であり記録者でもある氏に..."

@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "中島吏英 （なかじまりえ） 　 ロンドン在住。音と物、空間に関わるインスタレーション、パフォーマンスを作り、多くの国々で発表する。David Toop と「Sculpture」シリーズの企画を2013年から共に手がける他、山本景子とデュオバンド「O YAMA O」, Pierre Berthet と「Dead Plants and Living Objects」のプロジェクトを持つ。David C..."

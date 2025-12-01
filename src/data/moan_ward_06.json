@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "隔月開催される実験音楽イベント。 今回は東京より中村としまるをゲストに迎えた。  kmmo(Digital MTR, TV, Mobile Phone, Electric Guitar...) Shayne Bowden（Effecter, Tape Recorder, Mic...) 電子卓上音楽団 (Analogue synthesizer, sequencer, filter, CDJ......"

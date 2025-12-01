@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "出演： 中村勇治(bass clarinet,soprano saxophone) 山本泰輔(dance) *50音順  朝活と銘打って4/17に第1回目を開催したcapture late morning live 午前中という時間帯にも関わらず割と好評だったので今後も少人数ながらフットワーク軽く、でもユニークな組み合わせやソロでの企画を予定しています。 第2回目は第1回目にも飛び入り参加してくれ..."

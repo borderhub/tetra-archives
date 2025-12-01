@@ -11,20 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "福島鷹  鹿児島出身で北九州在住。 独自の目線と鋭い感性でスケートボードに関するあらゆる角度から写真を撮り続けているフォトグラファーTAKA 。NEFと共に学んでは遊び、日々の生活を楽しんでは記録している。 そんな彼が作り出すジン「マチヲカナデル」を9月26日に数量限定でリリースいたします。  そちらを記念いたしまして福岡のアートスペーステトラにてTAKA photo e..."

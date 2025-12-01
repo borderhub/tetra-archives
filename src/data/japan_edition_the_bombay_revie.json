@@ -11,10 +11,7 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "スコット・ピュー教授に村上春樹の短編小説「かえるくん、東京を救う」についてお話しをしていただくとともに、参加者の皆さんとも考えを共有したいと思っております。..."

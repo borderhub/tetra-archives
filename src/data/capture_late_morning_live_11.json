@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： ちー 中村勇治(bass clarinet) *50音順    ■capture late morning live(朝活ライブ)について。 初回を2022/4/17に、2回目を8月、以降、月1回のペースで【午前中にライブ】をart space tetra、そしてIAF SHOP*にて4月まで開催してきました。今回はテトラに戻り3ヶ月ぶりの朝活です。引き続きどうぞよろしくお願いします。  ..."

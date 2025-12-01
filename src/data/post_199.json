@@ -11,29 +11,21 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "７月はアートスペース・テトラにグランドピアノがやってきます！ この機会を捉えて、現代音楽の気になるピアノ特殊奏法を洗いざらい見て・聴いて・触れてみませんか？　現代音楽ピアノのスペシャリスト河合拓始氏をお招きして、その実際について懇切丁寧に解説していただきながら、たっぷりと実演を聴くレクチャーコンサートです。 実験的な音楽表現に興味のあるかた、斬新なピアノ演奏をしてみたいかた、自宅のピアノでこっそり..."

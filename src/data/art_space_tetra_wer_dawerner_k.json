@@ -11,39 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "  WER DA は、ベルリンを拠点に活動する Werner Kernebeck（ヴェアナー・ケルネベック） とDavid Braithwaite（デイヴィッド・ブレイスウェイト）によるアーティストデュオ。名はドイツ語で「誰がそこ に？」を意味し、存在や自然とのつながりを問う姿勢を示す。2014年、ヴェアナーのインスタレーション《Home》に登場した「冬のクリーチャー」から活動を開始。 自分たちの..."

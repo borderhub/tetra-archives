@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "小山冴子 1982年生まれ。福岡在住。 art space tetraを拠点に様々なイベントを企画。 最近では言葉やイメージに関する会話の場を作ったり、ふと浮かぶ歌と言葉で歌ったりもしている。 art space tetraでの展示  工藤見奈子 1978年生まれ。福岡在住。 心理学者。専門は精神分析。絵画を制作。そして時々、展示。   田熊沙織 1981年生まれ。福岡在住。 以前は人物画を中心と..."

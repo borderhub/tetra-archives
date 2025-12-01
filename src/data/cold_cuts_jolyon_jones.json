@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "ベルリンを拠点に活動するアーティスト、ジョリオン・ジョーンズによる　  個展「COLD CUTS」。昨年の秋、東京の金属鋳造所・工房で制作をしていたジョーンズは、日本で過ごした時間に影響を受けた新作を展示します。  東京で制作した作品を切り刻み、ひとりで持ち運べるだけの断片をスーツケースに詰め福岡まで電車で運んで来た彼は、限られたパーツを用いてスケールの制限の中で今回の展覧会を構成しました。  東..."

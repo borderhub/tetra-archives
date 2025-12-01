@@ -11,10 +11,7 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "写真をプリントしたり、焼いたプリントを眺めながら飲むという企画です。   来られた方次第で、硬派な写真談義から、セイフライトの下での怪しい飲み会まで、どう転ぶかはお客さん次第です！..."

@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "福岡を中心にサックスでの即興演奏を続ける中村勇治による音楽イベント。 なま音を重視した構成でお届けします。 　  capture acoustic electronic captureは管楽器奏者・中村勇治が主宰し、毎回メンバーが変わる即興セッションバンド。今回は５人の個性的アーチストによるアコースティックな音、エレクトロニックな音で art space tetra の音響空間を形成していきます。..."

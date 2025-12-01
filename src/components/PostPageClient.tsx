@@ -33,17 +33,28 @@ type PostData = {
 };
 
 const VOID_ELEMENTS = [
-  'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'keygen',
-  'link', 'meta', 'param', 'source', 'track', 'wbr'
+  'area',
+  'base',
+  'br',
+  'col',
+  'embed',
+  'hr',
+  'img',
+  'input',
+  'keygen',
+  'link',
+  'meta',
+  'param',
+  'source',
+  'track',
+  'wbr',
 ];
 
 export default function PostPageClient({
   post,
-  postId,
-  allPosts
+  allPosts,
 }: {
   post: Post;
-  postId: string;
   allPosts: PostData[];
 }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -66,7 +77,7 @@ export default function PostPageClient({
 
     checkMobile();
     window.addEventListener('resize', debouncedCheckMobile);
-    
+
     return () => {
       clearTimeout(timeoutId);
       window.removeEventListener('resize', debouncedCheckMobile);
@@ -76,32 +87,38 @@ export default function PostPageClient({
   const year = post.date ? post.date.substring(0, 4) : 'Unknown';
 
   // フッター用データ
-  const categoryMap = new Map<number, { id: number; label: string; basename: string; count: number }>();
-  allPosts.forEach(p => {
-    p.categories.forEach(cat => {
-      if (!categoryMap.has(cat.id)) categoryMap.set(cat.id, { ...cat, count: 0 });
+  const categoryMap = new Map<
+    number,
+    { id: number; label: string; basename: string; count: number }
+  >();
+  allPosts.forEach((p) => {
+    p.categories.forEach((cat) => {
+      if (!categoryMap.has(cat.id))
+        categoryMap.set(cat.id, { ...cat, count: 0 });
       categoryMap.get(cat.id)!.count++;
     });
   });
 
-  const uniqueCategories = Array.from(categoryMap.values())
-    .sort((a, b) => a.label.localeCompare(b.label, 'ja'));
+  const uniqueCategories = Array.from(categoryMap.values()).sort((a, b) =>
+    a.label.localeCompare(b.label, 'ja')
+  );
 
-  const uniqueYears = Array.from(new Set(allPosts.map(p => p.year)))
-    .sort((a, b) => b.localeCompare(a));
+  const uniqueYears = Array.from(new Set(allPosts.map((p) => p.year))).sort(
+    (a, b) => b.localeCompare(a)
+  );
 
   const getYearCount = (targetYear: string) => {
-    return allPosts.filter(p => p.year === targetYear).length;
+    return allPosts.filter((p) => p.year === targetYear).length;
   };
 
   // HTML変換関数
   const replace = (node: DOMNode) => {
     if (node.type === 'text') {
       const text = node.data;
-      
+
       // デバッグ用（本番では削除可）
       // console.log('Processing text:', JSON.stringify(text));
-      
+
       // 完全に空白だけで改行もない場合はスキップ
       if (!text.trim() && !/\n/.test(text)) return null;
 
@@ -109,34 +126,36 @@ export default function PostPageClient({
       if (text.includes('\n')) {
         // 2つ以上の連続改行で段落を分割
         const paragraphs = text.split(/\n\n+/);
-        
-        const processedParagraphs = paragraphs.map((paragraph, pIndex) => {
-          const trimmedParagraph = paragraph.trim();
-          
-          // 空の段落はスキップ
-          if (!trimmedParagraph) return null;
-          
-          // 段落内の単一改行を処理
-          const lines = trimmedParagraph.split('\n');
-          
-          // 各行を処理
-          const contentWithBreaks = lines.map((line, lIndex) => (
-            <Fragment key={lIndex}>
-              {line}
-              {lIndex < lines.length - 1 && <br />}
-            </Fragment>
-          ));
 
-          return (
-            <p key={pIndex} className="my-4 leading-relaxed text-gray-700">
-              {contentWithBreaks}
-            </p>
-          );
-        }).filter(Boolean); // null を除外
+        const processedParagraphs = paragraphs
+          .map((paragraph, pIndex) => {
+            const trimmedParagraph = paragraph.trim();
+
+            // 空の段落はスキップ
+            if (!trimmedParagraph) return null;
+
+            // 段落内の単一改行を処理
+            const lines = trimmedParagraph.split('\n');
+
+            // 各行を処理
+            const contentWithBreaks = lines.map((line, lIndex) => (
+              <Fragment key={lIndex}>
+                {line}
+                {lIndex < lines.length - 1 && <br />}
+              </Fragment>
+            ));
+
+            return (
+              <p key={pIndex} className="my-4 leading-relaxed text-gray-700">
+                {contentWithBreaks}
+              </p>
+            );
+          })
+          .filter(Boolean); // null を除外
 
         return processedParagraphs.length > 0 ? processedParagraphs : null;
       }
-      
+
       // 改行がない通常のテキスト
       return text;
     }
@@ -152,15 +171,19 @@ export default function PostPageClient({
       const classNames = `my-8 rounded-lg shadow-lg border border-gray-200 ${elem.attribs.class || ''}`;
 
       const parseSize = (val: string | number | undefined) => {
-        if (typeof val === "number") return val;
-        if (typeof val === "string") return parseInt(val.replace("px", "").replace("auto", "0"), 10) || undefined;
+        if (typeof val === 'number') return val;
+        if (typeof val === 'string')
+          return (
+            parseInt(val.replace('px', '').replace('auto', '0'), 10) ||
+            undefined
+          );
         return undefined;
       };
 
       const w = parseSize(elem.attribs.width) || 800;
       const h = parseSize(elem.attribs.height) || 600;
 
-      if (src.startsWith("/upload/")) {
+      if (src.startsWith('/upload/')) {
         return (
           <Image
             src={src}
@@ -168,7 +191,7 @@ export default function PostPageClient({
             width={w}
             height={h}
             className={classNames}
-            style={{ width: w ? `${w}px` : "100%", height: "auto" }}
+            style={{ width: w ? `${w}px` : '100%', height: 'auto' }}
           />
         );
       }
@@ -186,15 +209,16 @@ export default function PostPageClient({
 
     if (elem.name === 'a') {
       const href = elem.attribs.href || '';
-      const isExternal = href.startsWith("http");
-      const baseClass = "text-gray-600 hover:text-gray-800 underline transition-colors duration-200";
-      const externalClass = "inline-flex items-center gap-1";
+      const isExternal = href.startsWith('http');
+      const baseClass =
+        'text-gray-600 hover:text-gray-800 underline transition-colors duration-200';
+      const externalClass = 'inline-flex items-center gap-1';
 
       return (
         <a
           href={href}
-          target={isExternal ? "_blank" : elem.attribs.target}
-          rel={isExternal ? "noopener noreferrer" : elem.attribs.rel}
+          target={isExternal ? '_blank' : elem.attribs.target}
+          rel={isExternal ? 'noopener noreferrer' : elem.attribs.rel}
           className={`${baseClass} ${isExternal ? externalClass : ''} ${elem.attribs.class || ''}`}
         >
           {children} {isExternal && <span className="text-xs">↗</span>}
@@ -203,21 +227,41 @@ export default function PostPageClient({
     }
 
     if (elem.name === 'p') {
-      return <p className={`my-4 leading-relaxed text-gray-700 ${elem.attribs.class || ''}`}>{children}</p>;
+      return (
+        <p
+          className={`my-4 leading-relaxed text-gray-700 ${elem.attribs.class || ''}`}
+        >
+          {children}
+        </p>
+      );
     }
 
     if (elem.name === 'div') {
-      return <div className={`my-6 p-4 bg-gray-50 border-l-4 border-gray-600 rounded ${elem.attribs.class || ''}`}>{children}</div>;
+      return (
+        <div
+          className={`my-6 p-4 bg-gray-50 border-l-4 border-gray-600 rounded ${elem.attribs.class || ''}`}
+        >
+          {children}
+        </div>
+      );
     }
 
     if (elem.name === 'br') return <br />;
 
     if (elem.name === 'details') {
-      return <details className={`bg-gray-50 rounded-lg p-4 my-6 border border-gray-200 ${elem.attribs.class || ''}`}>{children}</details>;
+      return (
+        <details
+          className={`bg-gray-50 rounded-lg p-4 my-6 border border-gray-200 ${elem.attribs.class || ''}`}
+        >
+          {children}
+        </details>
+      );
     }
     if (elem.name === 'summary') {
       return (
-        <summary className={`cursor-pointer font-bold text-lg list-none flex items-center gap-2 hover:text-gray-600 transition-colors ${elem.attribs.class || ''}`}>
+        <summary
+          className={`cursor-pointer font-bold text-lg list-none flex items-center gap-2 hover:text-gray-600 transition-colors ${elem.attribs.class || ''}`}
+        >
           <span className="text-gray-600">▼</span> {children}
         </summary>
       );
@@ -239,7 +283,7 @@ export default function PostPageClient({
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* ヘッダー（モバイル用） */}
-      <MobileHeader 
+      <MobileHeader
         year={year}
         sidebarOpen={sidebarOpen}
         onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
@@ -269,7 +313,7 @@ export default function PostPageClient({
             {/* ヘッダー */}
             <header className="p-8 lg:p-12 border-b-4 border-gray-600 bg-gradient-to-r from-gray-50 to-white">
               <div className="mb-4 flex flex-wrap gap-2">
-                {post.categories.map(cat => (
+                {post.categories.map((cat) => (
                   <Link
                     key={cat.id}
                     href={`/archive/${cat.basename}/year/${year}/page/1`}
@@ -284,14 +328,34 @@ export default function PostPageClient({
               </h1>
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                    />
                   </svg>
                   <span>{post.author}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
                   </svg>
                   <span>{post.date}</span>
                 </div>
@@ -309,8 +373,18 @@ export default function PostPageClient({
                 href={`/archive/all/year/${year}/page/1`}
                 className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 font-bold transition-colors"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                  />
                 </svg>
                 Back to Archive
               </Link>

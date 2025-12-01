@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "倉紀子／多摩美術大学修士課程卒  主な展示 「シャガールの夢」／熊谷守一美術館　　 「百展」／寺家回廊 「生まれる墓」／３３１アーツ千代田ポコラート展..."

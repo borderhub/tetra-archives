@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "・オカルトとはなんなのか？ ・オカルト期末テスト実施！ ・UFOのこんな説、あんな説 ・映像上映　など  世界の不思議から身の回りの出来事まで！ 忘れていた、夢とロマンとオカルト空間を用意しております。  「気づいたらオカルトだらけだった」 「いやいやそんなもの信じないね」等、 各自それぞれ違ったオカルト観を今一度 再確認しつつ、楽しい夜を過ごしましょう。   あなたの持ってる秘蔵のオカルトグッズ..."

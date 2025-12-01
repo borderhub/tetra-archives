@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "DJ活動と自身のパーティーの、フライヤーを始め、graficの創作を行なってきた Free P (本名：城下健悟）による初となる個展 ‘ALONE’。 日々のレコード集めからDJをすることや音楽の制作方法であるサンプリングという文化との近似性を感じ作り始めた。 デジタルを用いたコラージュ作品を展示しています。..."

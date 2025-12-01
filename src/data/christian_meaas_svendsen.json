@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Christian Meaas Svendsen（クリスティアン　メオス　スヴェンセン）はノルウェーのコングスベルグで生まれ育った。ノルウェー国立音楽大学、ジャズ即興音楽科にて４年間、同大学クラシック科にて２年間学び、ジャズベースを Bjørn Kjellemyr、クラシックベースを Dan Styffe に師事。在学中の１年間ドイツのケルンにて交換留学生として Dieter Mandersche..."

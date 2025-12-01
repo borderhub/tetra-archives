@@ -11,20 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "日々の生活の中でどんな音に耳を澄ませていますか？ また、どんな音をもっと聴きたいと思いますか？ 私たちは音の洪水の中で生活するうちに、 多くの音を無意識のうちに聞き流す能力を身につけてしまっているのではないでしょうか。 私は音に携わる芸術家として、このような現象に興味を持ちながら 「よりよく聴くこと」をテーマに創作活動を続けています。  今回のワークショップでは「よりよく聴くこと」について改めて考..."

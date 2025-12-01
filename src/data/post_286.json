@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "企画 名もなき実昌 主催 名もなき実昌・堀江たくみ        ◇作家プロフィール 名もなき実昌 主にTwitterを拠点とし、アカウント（@sanemasa5x）を利用して2015年より作品の投稿をはじめ、同時に展覧会への参加なども実施。インターネット上の人格や画家のキャラクター性を出発点として、タッチパネルやSNSなどのテクノロジーに影響された作品を制作している。作品の多くはアニメや漫画に影..."

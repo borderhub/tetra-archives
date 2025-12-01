@@ -11,20 +11,14 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "「日本学」とは、様々な視点から「日本」について研究をする分野で、海外の大学ではアジア研究の一つとして歴史を持っています。その代表的な機関の一つである、ドイツ・ライプツィヒ大学日本学科からドロテア・ムラデノヴァさんが研究のため来日。  そのテーマはなんと、「日本における終活」。  「なんで終活？」と思った人も、「日本学」に興味がある人も、ない人も、「日本」についての外からの視点を知り、さらにさまざま..."

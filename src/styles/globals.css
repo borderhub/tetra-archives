@@ -52,11 +52,16 @@ button {
   }
 
   /* ← ここを修正！ */
-  nav, footer, button, aside, [class*="print:hidden"], [class*="print\\:hidden"] {
+  nav,
+  footer,
+  button,
+  aside,
+  [class*='print:hidden'],
+  [class*='print\\:hidden'] {
     display: none !important;
   }
 
-  .prose :where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  .prose :where(h2):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
     font-size: 36pt !important;
     margin-top: 1em !important;
   }

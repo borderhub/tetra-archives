@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Yuko NEXUS6 1964年大阪生まれ。パフォーマー＆Mac音楽家。2002年リリースのCD「Journal de Tokyo」(sonore)でARS Electronica Honorary Mentionを受賞（デジタルミュージック部門、2003）。2003年結成のユニット“YukoMariko”では主に音とにぎやかし担当。本年６月にはニューアルバム「NEXUS..."

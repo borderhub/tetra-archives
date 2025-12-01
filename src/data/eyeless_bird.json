@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "九州産業大学造形短期大学部二年生によるグループ展 Artist 江口ももあ 城戸結珠 鶴薗琉晟 中野芹那 洞天花 堀江一真 溝田百葉  問い合わせ先 九州産業大学造形短期大学部 〒813-8503 福岡県福岡市東区松香台2丁目3番1号 tel.092-673-5151..."

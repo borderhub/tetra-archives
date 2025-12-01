@@ -11,20 +11,14 @@
       "label": "07_演劇イベント",
       "basename": "theater",
       "parentId": 34,
-      "path": [
-        "genre",
-        "theater"
-      ]
+      "path": ["genre", "theater"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "［キャスト］ 樅山幸音 千代田佑李 (以上、万能グローブガラパゴスダイナモス) 金子好 手嶋萌 风月／非・売れ線系ビーナス  【予約フォーム】 https://www.quartet-online.net/ticket/kingyoyume   あらすじ  あるひは金魚を三匹買っていた。 が、ある日、あるひの日常から三匹は姿を消す。  部屋にはからっぽの水槽がひとつ。  いつでも戻ってこれるように..."

@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "アメリカはノースカロライナにて開催された「Force of Nature」展に参加したアーティスト安部貴住による報告会。  10月13日から12月6日までの期間、アメリカ南部、ノース・カロライナ、サウスカロライナ両州の各所で開催されている展覧会「Force of Nature（自然の力）」。この展覧会は、自然素材、もしくは自然的な要素、自然の中に見られるある種のプロセス（例えば、風、火、水、また、..."

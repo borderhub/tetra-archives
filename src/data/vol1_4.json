@@ -11,20 +11,14 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "「即興とはいつまで剥いても皮でありつづけるラッキョウ…つまりナゾの事だ」 即興のモーツァルト こと キースロー（※）   みなさん、な　ぞ　な　ぞ　は好きですか？  ふ　と　気　が　付　い　た　ら  な　ぞ　な　ぞ　なんて忘れてしまった汚れた大人になってませんか？  今宵はそんななぞなぞな世界にご招待〜〜〜〜〜〜〜なぞなぞなぞな、なぜなのな？  この「そっきょ・・・・・・・いや！！なぞなぞ時代」で..."

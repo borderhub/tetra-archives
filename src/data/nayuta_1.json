@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "木下由貴 1986年　佐賀県生まれ 2008年　多摩美術大学中退  展示 2007年 個展『石垣でのこと』（石垣市民会館／沖縄）  http://kinoshitayuki.jp/..."

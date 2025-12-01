@@ -11,40 +11,28 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "音楽家・ギタリスト笹久保伸による九州初のホールライブと映画作品上映&トーク  11月11日（金）から13日（日）までの3日間、ジャンルを超越した孤高の音楽家、ギタリストであり、映画や写真作品など独自の芸術活動を徹底して実践してきた笹久保伸さんを特集した特別企画『SHIN SASAKUBO Live and Screening』を開催します。  笹久保伸さんは1983年埼玉・秩父に生まれ。幼少の頃か..."

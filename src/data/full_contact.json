@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "「BAREHANDS, Asian Artist Residency Project - FUKUOKA」は、インドネシア・マレーシア・フィリピン・ヨルダンの作家約14人、日本作家7人による「BAREHANDS（ベアハンズ）=素手」をコンセプトとした現代美術展です。アートスペーステトラでは、関連プログラムとして「FULL CONTACT」と題したプロジェクト型の展示を行います。FULL CONTA..."

@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "ウズベキスタンで定番の料理のプロフを作って食べながらお話する会です。ウズベキスタンのスパイスティーやおやつ（大塚曰く、おつまみ）も持参します。  ゲスト：大塚 麻里子（大津町国際交流協会 会長・農家） JICAや国際交流基金での経験を経て、現在は熊本県大津町に在住し、農業に従事。  聞き手：菅 梓（写真家・紀行家・料理研究家） 世界中を旅する写真家。主に中東では、生活や社会を切り取ったリアルを記録..."

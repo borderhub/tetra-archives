@@ -11,30 +11,21 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "本展はheARTbeatpsychomanによる新作絵画展となる。  2019年に奈良の山の中を旅した際、ふと思い立って描き出した向日葵の絵。  その後も定期的に制作を続けている向日葵シリーズでは初の展覧会となる。  彼曰く、精神的に安定しているときに描ける向日葵の絵は、唯一邪念が入らず純粋に絵と向き合う事ができる時間だという。   5月に同会場で開催された、heARTbeatpsychoman ..."

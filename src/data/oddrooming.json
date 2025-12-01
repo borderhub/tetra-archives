@@ -11,20 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Program 第一景　とどのまつり Rite of Todo  第二景　42丁目交差点 Times Square  第三景　しず香の部屋 Shizuka’s room   「舞踏という旅」 私にとって舞踏とは旅のようなもの。それは決して物理的な距離という観点ではなく、おどりによって非日常へ旅立つこと。自分でつくった世界のなかへ飛び込むこと。その世界は日常のからだのふとした裏にあるものだったりして..."

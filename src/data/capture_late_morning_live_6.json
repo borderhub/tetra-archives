@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "出演： 倉地久美夫(vocal,guitar) 中村勇治(soprano saxophone, bass clarinet) *50音順  朝活ライブcapture late morning live・第6回目です。 今年最後の朝活ライブは倉地久美夫さんをお招きしました。  倉地久美夫：福岡県在住 http://kumkumkura.seesaa.net/ ギターと歌、ソロを中心に共演も多い。 0..."

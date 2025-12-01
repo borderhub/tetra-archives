@@ -11,19 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "2004年6月12日を最初に、art space tetraで開催されるイベントシリーズ。基本的なコンセプトはアーティストとミュージシャンがartspace tetraの一階フロアで、同じ空間で、同時に現れるということ。限られた時間内で、音楽演奏と作品制作がライブで観客の前で発生する。その後、完成した作品はtetra内で展示される。このシリーズの目的は芸術作品と音楽演奏のアクチュアルな制作／遂行を..."

@@ -11,29 +11,21 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": [
-        "genre",
-        "broadcast"
-      ]
+      "path": ["genre", "broadcast"]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": [
-        "genre",
-        "others"
-      ]
+      "path": ["genre", "others"]
     }
   ],
   "excerpt": "昨晩、チョン・ユギョンさんの個展「After Potemkin Villages」のアーティストトーク、来場・オンラインでのご参加いただきありがとうございました。  ４月からtetraで滞在制作を続けていたユギョンさんですが、今回の成果展では韓国在住中に韓国国立美術館（MMCA）で発表した作品「Letter of a private」（2020)の映像作品、そして福岡で滞在した新作「After P..."

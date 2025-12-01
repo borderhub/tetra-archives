@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "POPO 山本信記（trumpet, synth）、喜多村朋太（organ）、江崎將史（trumpet, recorder） 2004年大原裕追悼ライブの際に3人で演奏したのがきっかけとなりスタートした、チェンバー・ロックスティディ・バンド。驚くほどシンプルで、おおらかで繊細なその音やメロディには、耳を澄まさずにはいられない。 　   山本信記 1973年大阪生まれ。live! laugh!、 h..."

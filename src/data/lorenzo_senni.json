@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "ロレンツォ・セニ（イタリア） ロレンツォ・セニ (1983年生まれ) はミラノ在住のアーティストで作曲家。ボローニャの Alma Mater Studiorum大学で音楽学を学び、エレクトロニック・オーディオの創作をしている。 Max/msp や Supercollider やデジタル音を使い、コンピュータミュージックやサウンドスケープの潮流を作り出している。かれの探求はアートにアルゴリズム理論（..."

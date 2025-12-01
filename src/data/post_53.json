@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "・第1回「オカルトテスト」実施 ・トクディーヌが選ぶ「オカルト映画」上映  オカルト、ホラー、ミステリー！ そもそもオカルトとは何なのか？ なぜひかれるのか？  埋めても埋めても満たされないこの想いと、 “さっぱりわからない”魅力をお届けします。..."

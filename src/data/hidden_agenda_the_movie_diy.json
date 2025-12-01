@@ -11,10 +11,7 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     }
   ],
   "excerpt": "香港の伝説的インディーズライブハウスHiddenAgendaのドキュメンタ リー、一夜限りの特別公開!!!   香港の倉庫街の一角にあるHiddenAgendaは、現在香港でインディー ズ音楽シーンを牽引している唯一のライブハウスです。   HiddenAgendaは、2009年の創立以来、行政や商業スポンサーから の支援を受けることなく、非合法かつ完全D.I.Yでライブハウスの設 営、運営、企画..."

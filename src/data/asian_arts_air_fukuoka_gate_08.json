@@ -11,10 +11,7 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "最前線のアジアアート事情を聞く会を不定期開催するグループAsian Arts Air FUKUOKAは、活躍中のキュレーターやアーティストの生の声を聴く機会を設け、アジアのアートシーンを身近に感じられるプラットフォームとなっています。 8回目となる今回は”Gate 08 Chongqing, Seoul, Jakarta, Tainan”として、文化庁新進芸術家海外研修制度等で重慶に1年半滞在制作..."

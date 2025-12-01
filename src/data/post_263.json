@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "音楽家ほたかと、画家下坂卓也のコラボレーションイベント「泉」の開催が決定しました！ こんこんと湧き出す泉のように、2人の中から湧き上がるアートがぶつかり、形になります。  スペシャルな時間にするため、着々と準備中です！ ぜひ、皆様足をお運びくださいませ。   [お問い合わせ]09094844616 kodomoneko@softbank.ne.jp..."

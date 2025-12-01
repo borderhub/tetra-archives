@@ -11,19 +11,14 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     }
   ],
   "excerpt": "「phase」  朝が来ると一日が始まる あやふやな長い夢の記憶をなるべく傍におきながら、コーヒーを飲んで身支度をする。 それぞれに与えられた価値は今日も変貌する。  油彩を中心に作品制作を始めてからの変遷 私の学びの過程や今後の挑戦、今後のアートの展望を探る旅を共有します。 「油彩画」によって切り取られた、変わり続ける一瞬一瞬の進化を感じていただければ幸いです。  -—————  イケナナ @i..."

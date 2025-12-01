@@ -11,20 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "film_event"
-      ]
+      "path": ["genre", "film_event"]
     }
   ],
   "excerpt": "END:CIV上映会の前の時間を使ってワークショップを行います。 今回の日本５か所上映会を企画したナリタケイスケ氏が初来福するので、せっかくだから自身が運営する東京のインフォショップ「IRREGULAR RHYTHM ASYLUM」（http://irregular.sanpal.co.jp/）にて毎週木曜に行っている愉快な企画「NU☆MAN」を福岡でもやってもらいます  ●持ってくるもの（手ぶら..."

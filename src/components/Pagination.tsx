@@ -9,7 +9,12 @@ type PaginationProps = {
   baseUrl: string;
 };
 
-export default function Pagination({ currentPage, totalPages, maxDisplay, baseUrl }: PaginationProps) {
+export default function Pagination({
+  currentPage,
+  totalPages,
+  maxDisplay,
+  baseUrl,
+}: PaginationProps) {
   if (totalPages <= 1) return null;
 
   const displayedPages = Array.from(
@@ -25,7 +30,7 @@ export default function Pagination({ currentPage, totalPages, maxDisplay, baseUr
       <div className="flex flex-wrap justify-center gap-2">
         {/* Prev ボタン */}
         {currentPage > 1 ? (
-          <Link 
+          <Link
             href={`${baseUrl}/${currentPage - 1}`}
             className="px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-600 hover:text-white hover:border-gray-600 transition-all duration-200 font-medium"
           >
@@ -36,25 +41,25 @@ export default function Pagination({ currentPage, totalPages, maxDisplay, baseUr
             ← Prev
           </span>
         )}
-        
+
         {/* ページ番号 */}
-        {displayedPages.map(n => (
+        {displayedPages.map((n) => (
           <Link
             key={n}
             href={`${baseUrl}/${n}`}
             className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-              n === currentPage 
-                ? 'bg-gray-600 text-white shadow-md' 
+              n === currentPage
+                ? 'bg-gray-600 text-white shadow-md'
                 : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-100'
             }`}
           >
             {n}
           </Link>
         ))}
-        
+
         {/* Next ボタン */}
         {currentPage < totalPages ? (
-          <Link 
+          <Link
             href={`${baseUrl}/${currentPage + 1}`}
             className="px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-600 hover:text-white hover:border-gray-600 transition-all duration-200 font-medium"
           >

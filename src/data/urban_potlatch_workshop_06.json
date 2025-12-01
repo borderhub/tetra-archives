@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "今月のアーバンポトラッチでは、これまでの消費中心の生活スタイルから離れ、自分たちの頭と手を動かしてつくる生活への方向転換(transition)するための知識や技術を共有していく場所づくりをテーマに、土曜の夜の時間に小さな集まりを開きます。  近年、食と健康の問題が大きな社会的関心となりつつありますが、食が環境問題とどのように密接に関わっているのかという視点はまだ十分に知られていないと思います。 ..."

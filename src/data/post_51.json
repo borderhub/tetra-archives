@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "小山 冴子（おやま さえこ） 1982年福岡生まれ。 学生時代に見た現代アートの展覧会で、アートそのものに疑問を抱いたのをきっかけに、以後多数の美術イベントや展覧会にボランティアスタッフとして関わる。2007年よりart space tetra運営メンバー。若手作家を紹介する展覧会シリーズ「タイラカ」や、場とそこに響く音を聴くということにポイントをおいた音楽イベント「 trop 」「 場 」、トー..."

@@ -11,19 +11,14 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "Residency Project 2021にて4月末から約2ヶ月間art space tetraに滞在したチョン・ユギョンによる成果発表展を開催します。  チョン・ユギョンは1991年に兵庫県に生まれ、朝鮮学校美術科を卒業後、日本国内のみならず、韓国や上海で展示を行うなど活躍する新進気鋭のアーティストです。在日コリアン3世というバックボーンを出発点に絵画作品をメインに制作しています。作品では国家..."

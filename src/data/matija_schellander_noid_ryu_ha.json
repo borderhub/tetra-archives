@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "noid : A, cello, jing-hu Matija Schellander : A, victorian synthesizer, modular synthesizer, double bass Ryu Hankil : KR, typewriter & clockworks     noid /aka arnold haberl 1970年生まれ。ウィーン在住。  作曲家、パフォー..."

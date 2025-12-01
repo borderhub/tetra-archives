@@ -11,20 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     }
   ],
   "excerpt": "OCTOPUSSY（オクトプッシー）は織り上げられた言葉や旋律、ビートを魅惑的なサウンドスケープに波立たせる触覚的なイメージを用いて、その場所の特性を活かしながら、適応性のあるライブパフォーマンスで多くの国を旅してきました。互いに学び触れ合う触覚能力はオクトプッシーに水、汚染、リサイクルといった世界的な諸問題に対して演説し切り抜ける機会を与えます。孤独な放浪の旅人として、オクトプッシーは地元のたま..."

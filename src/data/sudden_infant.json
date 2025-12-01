@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Photograph by Martin Holtkamp     Sudden Infant / Joke Lanz 1965年4月6日 Basel、Swiss生まれ。現在はBerlinに拠点を移している。1989年、チューリッヒでRunzelstirn & GurgelstockのRudolf EB.ERとの出会いを切っ掛けに、ラジオ・ショーを媒体としてSudden Infant及びSchim..."

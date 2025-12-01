@@ -11,18 +11,14 @@
       "label": "事務情報",
       "basename": "info",
       "parentId": 0,
-      "path": [
-        "info"
-      ]
+      "path": ["info"]
     },
     {
       "id": 35,
       "label": "トップ掲載",
       "basename": "top",
       "parentId": 0,
-      "path": [
-        "top"
-      ]
+      "path": ["top"]
     }
   ],
   "excerpt": "読み込んでいます…..."

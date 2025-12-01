@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "ジェフ・マターズ ジェフ・マターズはNYを基盤に世界的に活躍する音楽家であり、メデイア　アーテイスト、テクノロジストです。  90年代後半にGDAM（http://gdam.ffem.org/）と名付けられたオープンソースのDJソフトを開発して以来、彼はライブメデイアパフォーマンスの為に斬新なコンピュターインターフェイスを時には彼自身が開発し使い続けています。SHARE（http://share...."

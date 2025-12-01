@@ -11,19 +11,14 @@
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": [
-        "genre"
-      ]
+      "path": ["genre"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "Hans Koch / Gaudenz Badrutt Duo バス・クラリネット奏者の Hans Koch と電子音楽家の Gaudenz Badrutt は、この数年来、様々な音楽プロジェクトで共演してきた。2011年に彼らはバス・クラリネットとエレクトロニクスを組み合わせたデュオを結成した。 Hans Koch（バス・クラリネット、サキソフォーン、エレクトロニクス）は主に Hardcore ..."

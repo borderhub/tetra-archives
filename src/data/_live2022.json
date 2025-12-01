@@ -11,20 +11,14 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "art_event"
-      ]
+      "path": ["genre", "art_event"]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "「音になる」坂田明・中島吏英ライブツアー2022 会場：art space tetra 住所：福岡県福岡市博多区須崎町2-15  ロンドンを拠点に日用品とキネティックな仕掛けを組み合わせ、音楽と彫刻の融合を試みる活動を行うアーティスト中島吏英と、72年～79年山下洋輔トリオに参加して以降様々なグループの形成解体を繰り返し、世界中を演奏して周るサックスプレーヤーの坂田明によるスペシャルイベントを開催..."

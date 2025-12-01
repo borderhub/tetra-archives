@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "今回で三回目を迎える音楽フェスタ「Against 2010: Fukuoka Extreme Music Festival（2010.04.17 at graf）」の関連イベント。   Porta Chiusa（スイス）myspace このポルタ・チウーザは、私たちの住む21世紀が未だそれぞれの国家に根ざして存在しており、公平な社会には程遠く、個人が肌の色や人種によって判断され、食生活、健康、教育..."

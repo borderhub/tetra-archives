@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "photo by Kozaburo Sakamoto  suzukiski  http://www.soup-disk.com/d_l001.html#suzuki, http://mypage.odn.ne.jp/home/suzukiski 稲岡健　http://www.myspace.com/keninaoka 青（ao)  http://www.myspace.com/aoiao roam..."

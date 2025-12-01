@@ -11,10 +11,7 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": [
-        "genre",
-        "exhibition"
-      ]
+      "path": ["genre", "exhibition"]
     }
   ],
   "excerpt": "In the city we are forced to walk,so that's what we do.We walk,with the streetlights burning at our brains and the sun scorching at our necks.（都会では我々は歩かざるをえない。だからひたすら歩く。街灯に脳を焼かれ、太陽に首筋を炙られながら。）---東京・北千..."

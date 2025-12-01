@@ -11,29 +11,21 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     }
   ],
   "excerpt": "図形楽譜によるピアノ曲「プロジェクション・エセムプラスティック」(作曲：湯浅譲二）とプリペアド・ピアノ曲「季節外れのヴァレンタイン」(作曲：ジョン・ケージ）を題材に、前者では図形楽譜の読み方と演奏法（内部奏法を含む）を、後者ではプリペアの施し方を解説したあと、受講者に実際に演奏とプリパレーションに取り組んでもらい、アドバイスをします。 受講資格や演奏レベルは問いません。  【講師】　河合拓始 ピア..."

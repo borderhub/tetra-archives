@@ -11,19 +11,14 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": [
-        "genre",
-        "workshop_lecture"
-      ]
+      "path": ["genre", "workshop_lecture"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "「牛肉麺すすりながら、愛玉でも食べて、映画を語っちゃえば良いじゃん」 写真狂で映画狂のDr.Toshimaによるシネマトークイベント。台湾映画界のヌーベルバーグと言われている「台湾ニューシネマ」の特集です。第二回目に取り上げる監督は前回に引き続き侯孝賢（ホウ・シャオシェン）の「憂鬱な楽園」。台湾やアジア映画ファンの方、ロードムービーが好きな方、ヴィム・ヴェンダースやアキ・カウリスマキが好きな方、そ..."

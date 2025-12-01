@@ -11,10 +11,7 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     }
   ],
   "excerpt": "There Are No More Four Seasons  マチアス・ピータソン (スイス） スウェーデンのピアニスト、作曲家、、プロジューサー、ミュージシャン。主に実験的エレクトロニク・ミュージック、サウンド・アートの分野で活動している。  Mattias Petersson was born in 1972 on an island off the southeast coast of S..."

@@ -11,19 +11,14 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": [
-        "genre",
-        "music_event"
-      ]
+      "path": ["genre", "music_event"]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": [
-        "tetra"
-      ]
+      "path": ["tetra"]
     }
   ],
   "excerpt": "様々なフィールドで活動する三人（小貫誠、吉田主税、井手陽介）によるelectro jam unit「寂しい女」。 それぞれの楽器を否定しつつも、そこから新たな肯定を生み出し浮遊してさまよう姿は聴くものを不思議の国へいざなっていく。共演者の演奏を聞くことすら放棄したようなそれはもはや即興と呼べるのか。括弧書きの即興を振り切った、あたらしいジャンルかもしれない。そこに広がる混沌と寂しさと、たまに偶然か..."
