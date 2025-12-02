@@ -3,7 +3,7 @@
   "title": "elemento 3 - fuego",
   "date": "2008-08-30",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/525/thumbnail.jpg",
   "content": "<strong>江上靖</strong>\nギター。大分在住。記憶の中にある原風景を顕現させる、響きとトーナリティ。\n<a href=\"http://www1.bbiq.jp/yasushiegami/\">http://www1.bbiq.jp/yasushiegami/</a>\n　\n<strong>丹野篤史</strong>\nギター。自分からの連鎖反応を紡ぐ即興演奏ギタリスト。隙間の余韻を愛する最小限主義者。\n<a href=\"http://www.myspace.com/pureclimber\">http://www.myspace.com/pureclimber</a>\n\n<strong>daenn.</strong>\nラップトップPC、映像。ラップトップを使用し空間に音を配置する感覚でドローン的な演奏を展開。\n<a href=\"http://www.myspace.com/daenn\">http://www.myspace.com/daenn</a>\n\n<strong>小貫誠</strong>\nエレクトロニクス、ギター、etc.。「その日、その時間の為に音を奏でます。」",
   "categories": [
     {
@@ -14,5 +14,6 @@
       "path": ["genre", "music_event"]
     }
   ],
+  "customField": "江上靖、丹野篤史、daenn.、小貫誠\n\n期日…2008年08月30日（土）\r\n時間…19:30 open / 20:00 start\r\n料金…1,500円（1ドリンク付）\n\n主催…elemento http://elemento.exblog.jp/",
   "excerpt": "江上靖 ギター。大分在住。記憶の中にある原風景を顕現させる、響きとトーナリティ。 http://www1.bbiq.jp/yasushiegami/ 　 丹野篤史 ギター。自分からの連鎖反応を紡ぐ即興演奏ギタリスト。隙間の余韻を愛する最小限主義者。 http://www.myspace.com/pureclimber  daenn. ラップトップPC、映像。ラップトップを使用し空間に音を配置する感..."
 }

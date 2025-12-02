@@ -3,7 +3,7 @@
   "title": "千田剛史 個展「自制心の軍隊」",
   "date": "2013-11-26",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/943/thumbnail.jpg",
   "content": "ちだごうし\n30才\n\n彼氏募集中",
   "categories": [
     {
@@ -14,5 +14,6 @@
       "path": ["genre", "exhibition"]
     }
   ],
+  "customField": "会期：2013年11月26日（火）- 12月1日（日）\r\n時間：平日（11月26日-29日）：16:00-20:00 / 土日（11月30日・12月1日）：13:00-20:00",
   "excerpt": "ちだごうし 30才  彼氏募集中..."
 }

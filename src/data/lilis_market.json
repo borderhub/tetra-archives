@@ -3,7 +3,7 @@
   "title": "LiLi's Market ",
   "date": "2025-02-11",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/1418/thumbnail.jpeg",
   "content": "LiLi's Market\nアーティストでありながら中国・重魔での活動で培った強自のネットワークを用いて行われるアートグッズのマーケットです。",
   "categories": [
     {
@@ -21,5 +21,6 @@
       "path": ["genre", "exhibition"]
     }
   ],
+  "customField": "月11日(火) - 13日(木)",
   "excerpt": "LiLi's Market アーティストでありながら中国・重魔での活動で培った強自のネットワークを用いて行われるアートグッズのマーケットです。..."
 }

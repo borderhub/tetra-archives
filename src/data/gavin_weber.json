@@ -3,7 +3,7 @@
   "title": "Gavin Weber 公開制作",
   "date": "2008-07-06",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/517/thumbnail.jpg",
   "content": "個展開催へ向けてのGavin Weberの制作状況を公開します。\n\n在廊時間は未定です。お問合せください｡",
   "categories": [
     {
@@ -21,5 +21,6 @@
       "path": ["tetra"]
     }
   ],
+  "customField": "会期…2008年7月6日（日）〜7月10日（木）",
   "excerpt": "個展開催へ向けてのGavin Weberの制作状況を公開します。  在廊時間は未定です。お問合せください｡..."
 }

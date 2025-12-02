@@ -23,6 +23,7 @@ type PostMeta = {
   excerpt: string;
   categories: CategoryBaseInfo[];
   thumbnail: string | null;
+  customField: string;
 };
 
 function getAllPosts(): PostMeta[] {
@@ -36,7 +37,7 @@ function getAllPosts(): PostMeta[] {
       const raw = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
       const date = raw.date as string;
       const year = date ? date.substring(0, 4) : 'Unknown';
-
+      const customField = raw.customField as string;
       return {
         slug,
         id: raw.id,
@@ -46,6 +47,7 @@ function getAllPosts(): PostMeta[] {
         excerpt: raw.excerpt || '',
         categories: (raw.categories as CategoryBaseInfo[]) || [],
         thumbnail: raw.thumbnail ? `/tetra-archives${raw.thumbnail}` : null,
+        customField,
       };
     });
     return posts.sort((a, b) => (a.date < b.date ? 1 : -1));

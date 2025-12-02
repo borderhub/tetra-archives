@@ -53,6 +53,7 @@ function getPostById(id: string) {
     author: raw.author as string,
     content: contentProcessed,
     categories: (raw.categories as CategoryBaseInfo[]) || [],
+    customField: raw.customField as string,
   };
 }
 
@@ -67,11 +68,13 @@ function getAllPosts() {
       const raw = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
       const date = raw.date as string;
       const year = date ? date.substring(0, 4) : 'Unknown';
+      const customField = raw.customField as string;
 
       return {
         slug: fileName.replace(/\.json$/, ''),
         year,
         categories: (raw.categories as CategoryBaseInfo[]) || [],
+        customField,
       };
     });
     return posts;

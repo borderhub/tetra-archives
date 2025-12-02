@@ -9,7 +9,8 @@ const INPUT_SQL_FILE = './mt-dump.sql';
 const OUTPUT_DIR = './src/data';
 const PUBLIC_UPLOAD_DIR = './public/upload';
 const PUBLIC_UPLOAD_THUMBNAIL_DIR = './public/thumbnail';
-const CRAWLER_RESULTS_FILE = './scraped.json'; // クローラーの出力ファイル名がこれであることを確認
+const PUBLIC_UPLOAD_TITLE_DIR = './public/title';
+const CRAWLER_RESULTS_FILE = './scraped.json';
 
 // --- 型定義 ---
 
@@ -31,56 +32,79 @@ interface CrawlerItem {
   pageUrl: string;
 }
 
-// --- ヘルパー関数（タイトル比較用） ---
+// --- ヘルパー関数(タイトル比較用) ---
 
 /**
- * タイトル文字列を比較のために整形する（より詳細な特徴抽出版）
+ * タイトル文字列を比較のために整形する（比較用のキーのみ生成）
  *
  * @param title 比較対象のタイトル文字列
- * @returns 正規化・小文字化したキー文字列（より詳細）
+ * @returns 正規化・小文字化したキー文字列（比較用）
  */
 function getNormalizedKey(title: string): string {
   if (!title) return '';
 
   let key = title.trim();
 
+  // 0. HTMLタグを完全に除去
+  key = key.replace(/<[^>]*>/g, '');
+
   // 1. 日本語と英数字が結合している箇所に空白を挿入
-  key = key.replace(/([a-zA-Z0-9])([一-龠ぁ-ゔァ-ヴ])/g, '$1 $2');
-  key = key.replace(/([一-龠ぁ-ゔァ-ヴ])([a-zA-Z0-9])/g, '$1 $2');
+  key = key.replace(/([a-zA-Z0-9])([一-龠ぁ-んァ-ヴ])/g, '$1 $2');
+  key = key.replace(/([一-龠ぁ-んァ-ヴ])([a-zA-Z0-9])/g, '$1 $2');
   key = key.replace(/\s+/g, ' ').trim();
 
-  // 2. 【修正】より多くの特徴を保持するため、複数のキーワードを抽出
-  // 先頭から最初の50-100文字程度、または意味のある単語の集合を取得
-
-  // まず一般的な区切り文字で分割
-  const segments = key.split(/[\s\u3000#\-—(（\[「『:\uff1a・\r\n]+/);
+  // 2. 一般的な区切り文字で分割
+  const segments = key.split(/[\s\u3000#\-—(（\[「『:\uff1a・\r\n"]+/);
 
   // 空でない有意義なセグメントを最大5個まで取得
   const meaningfulSegments = segments
     .filter((seg) => seg.trim().length > 0)
-    .slice(0, 5); // 最初の5セグメントを使用
+    .slice(0, 5);
 
   key = meaningfulSegments.join(' ');
 
-  // 3. 全角/半角の空白をスペース1つに統一（完全除去はしない）
+  // 3. 全角/半角の空白をスペース1つに統一
   key = key.replace(/[\s\u3000]+/g, ' ');
 
   // 4. 特殊記号や括弧、句読点などを除去
-  key = key.replace(/[()（）【】\[\]「」『』,。．！？!?':;、/～_]/g, '');
+  key = key.replace(/[()（）【】'\[\]「」『』,。．！？!?':;、\/～_"]/g, '');
 
   // 5. 文字をすべて小文字に変換
   key = key.toLowerCase();
 
-  // 6. 連続するハイフンやドットを1つに
+  // 6. 連続する重複部分文字列を除去（DOUKADOUKA → DOUKA）
+  // 空白で分割して各単語を処理
+  const words = key.split(/\s+/);
+  const deduplicatedWords = words.map((word) => {
+    if (word.length >= 4) {
+      // 単語の長さが4文字以上の場合のみチェック
+      for (let len = Math.floor(word.length / 2); len >= 2; len--) {
+        const pattern = word.substring(0, len);
+        // パターンが連続して繰り返されているかチェック
+        let repeated = pattern;
+        while (repeated.length < word.length) {
+          repeated += pattern;
+        }
+        if (word === repeated.substring(0, word.length)) {
+          // 完全に繰り返しパターンの場合、最初のパターンのみ保持
+          return pattern;
+        }
+      }
+    }
+    return word;
+  });
+  key = deduplicatedWords.join(' ');
+
+  // 7. 連続するハイフンやドットを1つに
   key = key.replace(/[-]+/g, '-').replace(/\.+/g, '.');
 
-  // 7. 先頭・末尾の記号を除去
+  // 8. 先頭・末尾の記号を除去
   key = key.replace(/^[-.\s]+|[-.\s]+$/g, '');
 
-  // 8. 最終的なクリーンアップ（空白を除去せず、識別子として保持）
+  // 9. 最終的なクリーンアップ
   key = key.replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf\s]/g, '');
 
-  // 9. 連続する空白を1つに
+  // 10. 連続する空白を1つに
   key = key.replace(/\s+/g, ' ').trim();
 
   return key;
@@ -112,15 +136,12 @@ function findBestCrawlerMatch(
       key: getNormalizedKey(item.title),
     }))
     .filter(({ key }) => {
-      // 双方向の部分一致をチェック
       return (mtKey.includes(key) || key.includes(mtKey)) && key.length > 10;
     })
-    .sort((a, b) => b.key.length - a.key.length); // 長いキーを優先
+    .sort((a, b) => b.key.length - a.key.length);
 
   if (candidates.length > 0) {
-    // 最も詳細なマッチを返す
     const best = candidates[0];
-    // ただし、共通部分が極端に短い場合は除外
     const commonLength = Math.min(mtKey.length, best.key.length);
     if (commonLength > 15) {
       return best.item;
@@ -130,7 +151,32 @@ function findBestCrawlerMatch(
   return undefined;
 }
 
-// --- ヘルパー関数（通信・画像処理） ---
+// --- タイトル内画像処理 ---
+
+/**
+ * タイトル文字列からimgタグのみを検出し、画像情報を抽出
+ * 他のHTMLタグや文字列はそのまま保持
+ */
+function extractImageFromTitle(title: string): {
+  cleanTitle: string;
+  imageUrl: string | null;
+} {
+  if (!title) return { cleanTitle: '', imageUrl: null };
+
+  const imgMatch = title.match(/<img\s+[^>]*src\s*=\s*["']([^"']+)["'][^>]*>/i);
+
+  if (imgMatch) {
+    const imageUrl = imgMatch[1];
+    // imgタグのみを除去、他のHTMLタグや文字列はそのまま保持
+    const cleanTitle = title.replace(/<img[^>]*>/gi, '').trim();
+    return { cleanTitle, imageUrl };
+  }
+
+  // imgタグがない場合は元のタイトルをそのまま返す
+  return { cleanTitle: title, imageUrl: null };
+}
+
+// --- ヘルパー関数(通信・画像処理) ---
 
 function extractUrl(text: string): string | null {
   if (!text || text === 'NULL' || text.trim() === '') return null;
@@ -418,11 +464,24 @@ function cleanSqlValue(val: string): string {
     .replace(/\\\\/g, '\\');
 }
 
+// 変更: 1つのテーブルに対する全てのINSERTブロックを結合して返すように修正
 function extractSqlBlock(sqlContent: string, tableName: string): string | null {
-  const match = sqlContent.match(
-    new RegExp(`INSERT INTO \`${tableName}\`[\\s\\S]*?VALUES\\s*([^;]+)`, 'is')
+  // グローバル検索(gフラグ)で全ての VALUES (...) 部分を探す
+  const regex = new RegExp(
+    `INSERT INTO \`${tableName}\`[\\s\\S]*?VALUES\\s*([^;]+);`,
+    'gi'
   );
-  return match ? match[1] : null;
+  let combinedValues = '';
+  let match;
+
+  while ((match = regex.exec(sqlContent)) !== null) {
+    if (combinedValues) {
+      combinedValues += ','; // 複数のブロックをカンマで結合
+    }
+    combinedValues += match[1];
+  }
+
+  return combinedValues.length > 0 ? combinedValues : null;
 }
 
 // --- カテゴリ解析 ---
@@ -590,6 +649,114 @@ function parsePluginDataThumbnails(sqlContent: string): Map<number, string> {
   return map;
 }
 
+// --- カスタムフィールド解析 (mt_plugindata) ---
+
+// 変更: SERG除去の強化と、文字数制限の撤廃
+// 変更: SERG除去の強化と、文字数制限の撤廃
+function extractCustomFieldFromPluginData(blob: string): string | null {
+  if (!blob || blob === 'NULL') return null;
+
+  let decoded: string;
+
+  // HEX / String デコード処理
+  if (blob.startsWith("X'") || blob.startsWith("x'")) {
+    try {
+      decoded = Buffer.from(blob.slice(2, -1), 'hex').toString('utf8');
+    } catch {
+      return null;
+    }
+  } else if (blob.startsWith("'") && blob.endsWith("'")) {
+    const content = blob.slice(1, -1);
+    if (/^[0-9A-Fa-f]+$/.test(content) && content.length > 100) {
+      try {
+        decoded = Buffer.from(content, 'hex').toString('utf8');
+      } catch {
+        decoded = cleanSqlValue(blob);
+      }
+    } else {
+      decoded = cleanSqlValue(blob);
+    }
+  } else {
+    decoded = cleanSqlValue(blob);
+  }
+
+  // クリーニング処理
+  // 1. 制御文字とバイナリゴミの除去
+  let cleaned = decoded.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
+  cleaned = cleaned.replace(/SERG[\s\S]*?(\d+_)/, '$1'); // SERGヘッダからキー名付近までを除去試行
+  cleaned = cleaned.replace(/SERG/g, ''); // 残ったSERGを除去
+
+  // ★ ゴミ文字の除去
+  cleaned = cleaned.replace(/\b\d[\w-]*?-\uFFFD\b/g, '');
+
+  // ★ 対象の文字列の前
+  cleaned = cleaned.replace(
+    /^[\s\S]*?[0-9A-Za-z]+_height-[0-9A-Za-z]+_height-[0-9A-Za-z]+-\S/,
+    ''
+  );
+
+  // ★ 対象の文字列の後
+  cleaned = cleaned.replace(/7-5_height[\s\S]*/, '');
+
+  // ★ 改行整理
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n').trim();
+
+  // 2. HTML/URL除去
+  cleaned = cleaned.replace(/<img[^>]*>/gi, '');
+  cleaned = cleaned.replace(
+    /https?:\/\/[^\s"'<>]+\.(?:jpe?g|gif|png|webp)[^\s"'<>]*/gi,
+    ''
+  );
+  cleaned = cleaned.replace(/<a[^>]*href=["'][^"']*["'][^>]*>/gi, '');
+  cleaned = cleaned.replace(/<[^>]+>/g, '');
+
+  // 3. 整形
+  cleaned = cleaned
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/[\r\n]{3,}/g, '\n\n')
+    .trim();
+
+  return cleaned.length > 0 ? cleaned : null;
+}
+
+// 変更: extractSqlBlockの修正により自動的に全件取得されるようになりますが、
+// 念のためカウント処理とキーのマッチングを確実にします。
+function parsePluginDataCustomFields(sqlContent: string): Map<number, string> {
+  const map = new Map<number, string>();
+  // 修正版の extractSqlBlock を使用することで全ブロックが結合されて返ってきます
+  const valuesBlock = extractSqlBlock(sqlContent, 'mt_plugindata');
+
+  if (!valuesBlock) {
+    console.log('  [警告] mt_plugindataテーブルが見つかりません');
+    return map;
+  }
+
+  // 結合された巨大な文字列をパースする
+  for (const row of iterateSqlValues(`VALUES ${valuesBlock}`)) {
+    const cols = parseSqlRow(row);
+    // mt_plugindataのカラム構成: [0]id, [1]data, [2]key ...
+    const blob = cols[1];
+    const key = cleanSqlValue(cols[2]);
+
+    const entryMatch = key.match(/^entry_(\d+)$/);
+    if (entryMatch) {
+      const entryId = Number(entryMatch[1]);
+      const customFieldText = extractCustomFieldFromPluginData(blob);
+
+      // テキストが存在すればMapにセット
+      if (customFieldText) {
+        map.set(entryId, customFieldText);
+      }
+    }
+  }
+
+  return map;
+}
+
 // --- 本文先頭画像をフォールバックで取得 ---
 function extractThumbnailFromContent(
   text: string,
@@ -606,6 +773,10 @@ async function main() {
   // --- 準備 ---
   if (!fs.existsSync(PUBLIC_UPLOAD_THUMBNAIL_DIR)) {
     fs.mkdirSync(PUBLIC_UPLOAD_THUMBNAIL_DIR, { recursive: true });
+  }
+
+  if (!fs.existsSync(PUBLIC_UPLOAD_TITLE_DIR)) {
+    fs.mkdirSync(PUBLIC_UPLOAD_TITLE_DIR, { recursive: true });
   }
 
   if (!fs.existsSync(INPUT_SQL_FILE)) {
@@ -625,12 +796,14 @@ async function main() {
   const categoryDataMap = parseCategories(sql);
   const entryCategoriesMap = parsePlacements(sql);
   const pluginThumbnailMap = parsePluginDataThumbnails(sql);
+  const pluginCustomFieldMap = parsePluginDataCustomFields(sql);
+
+  console.log(`カスタムフィールド解析完了: ${pluginCustomFieldMap.size}件`);
 
   // --- クローラー結果の読み込み ---
-
   const crawlerMapByTitle: Map<string, CrawlerItem> = new Map();
-
   const crawlerMapByUrl: Map<string, CrawlerItem> = new Map();
+  const allCrawlerItems: CrawlerItem[] = [];
 
   if (fs.existsSync(CRAWLER_RESULTS_FILE)) {
     console.log(`クローラー結果 (${CRAWLER_RESULTS_FILE}) を読み込み中...`);
@@ -638,15 +811,18 @@ async function main() {
       fs.readFileSync(CRAWLER_RESULTS_FILE, 'utf8')
     );
     crawlerData.forEach((item) => {
-      const titleKey = getNormalizedKey(item.title);
+      // 元のタイトルで保存
+      allCrawlerItems.push(item);
 
+      // 比較用のキーでマップを作成
+      const titleKey = getNormalizedKey(item.title);
       if (titleKey) {
-        // タイトルをキーとして保持 (先に登録された方を優先)
         if (!crawlerMapByTitle.has(titleKey)) {
           crawlerMapByTitle.set(titleKey, item);
         }
       }
-      // URLをキーとして保持 (URLマッチングのフォールバック用)
+
+      // URLでもマップを作成
       const cleanUrl = item.pageUrl
         .replace(/\/index\.html$/i, '')
         .replace(/\/$/, '');
@@ -670,10 +846,14 @@ async function main() {
     const status = rawCols[12];
     const text = cleanSqlValue(rawCols[14]);
     const text_more = cleanSqlValue(rawCols[15]);
-    const title = cleanSqlValue(rawCols[16]);
+    const rawTitle = cleanSqlValue(rawCols[16]); // 元のタイトル（HTMLタグ含む）
     const created_on = cleanSqlValue(rawCols[19]);
 
     if (status != '2' && status != "'2'") continue; // 公開記事のみ
+
+    // タイトル内の画像を検出（imgタグのみ除去、他はそのまま）
+    const { cleanTitle: titleForComparison, imageUrl: titleImageUrl } =
+      extractImageFromTitle(rawTitle);
 
     const fullText = (text + '\n\n' + text_more).trim();
     let cleanText = fullText;
@@ -700,6 +880,49 @@ async function main() {
       .map((id) => getCategoryInfo(id, categoryDataMap))
       .filter((v): v is CategoryInfo => v !== null);
 
+    const customField = pluginCustomFieldMap.get(entryId) || '';
+    // ==================== タイトル画像処理 ====================
+    let titlePath = '';
+    if (titleImageUrl) {
+      try {
+        let absoluteUrl = titleImageUrl;
+
+        // 相対パスの場合のURL補完
+        if (!absoluteUrl.startsWith('http')) {
+          const blogId = parseInt(cleanSqlValue(rawCols[2]), 10);
+          const blog = blogMap.get(blogId);
+          const base = blog ? blog.site_url.replace(/\/+$/, '') : '';
+
+          if (absoluteUrl.startsWith('/')) {
+            absoluteUrl = base + absoluteUrl;
+          } else {
+            absoluteUrl = base + '/' + absoluteUrl.replace(/^\/+/, '');
+          }
+        }
+
+        const urlObj = new URL(absoluteUrl);
+        const ext = path.extname(urlObj.pathname) || '.jpg';
+
+        const titleDir = path.join(PUBLIC_UPLOAD_TITLE_DIR, String(entryId));
+        if (!fs.existsSync(titleDir))
+          fs.mkdirSync(titleDir, { recursive: true });
+
+        const savePath = path.join(titleDir, `title${ext}`);
+        const publicPath = `/title/${entryId}/title${ext}`;
+
+        if (!fs.existsSync(savePath)) {
+          await downloadImage(absoluteUrl, savePath);
+          console.log(`   [タイトル画像DL完了] ID:${entryId}`);
+        }
+
+        titlePath = publicPath;
+      } catch (e: any) {
+        console.warn(
+          `   [タイトル画像処理失敗] ID:${entryId} URL:${titleImageUrl} Error:${e.message}`
+        );
+      }
+    }
+
     // ==================== サムネイル取得ロジック ====================
     let thumbnailPath = '';
     let thumbUrl: string | null = null;
@@ -707,17 +930,16 @@ async function main() {
     let crawlerItem: CrawlerItem | undefined;
 
     // 1. 【最優先】正規化タイトルでクローラー結果とマッチング
-    const mtTitleKey = getNormalizedKey(title);
+    const mtTitleKey = getNormalizedKey(titleForComparison);
     crawlerItem = crawlerMapByTitle.get(mtTitleKey);
 
     if (!crawlerItem) {
       // より柔軟なマッチングを試行
-      const allCrawlerItems = Array.from(crawlerMapByTitle.values());
-      crawlerItem = findBestCrawlerMatch(title, allCrawlerItems);
+      crawlerItem = findBestCrawlerMatch(titleForComparison, allCrawlerItems);
 
       if (crawlerItem) {
         console.log(
-          `   [部分一致] ID:${entryId} Title:"${title}" -> Matched:"${crawlerItem.title}"`
+          `   [部分一致] ID:${entryId} Title:"${titleForComparison.substring(0, 30)}..." -> Matched:"${crawlerItem.title.substring(0, 30)}..."`
         );
       }
     }
@@ -725,7 +947,7 @@ async function main() {
     if (crawlerItem) {
       thumbUrl = crawlerItem.imageUrl;
       console.log(
-        `   [タイトル一致] ID:${entryId} Title:"${title}" -> ${thumbUrl}`
+        `   [タイトル一致] ID:${entryId} Title:"${titleForComparison.substring(0, 30)}..." -> ${thumbUrl}`
       );
     } else {
       // 2. 【次点】URLでクローラー結果とマッチング
@@ -773,7 +995,6 @@ async function main() {
                 `   [個別ページスクレイピング失敗] 画像が見つかりませんでした`
               );
             }
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
           } catch (err: any) {
             console.warn(
               `   [MT個別ページスクレイピングエラー] ${err.message}`
@@ -842,7 +1063,6 @@ async function main() {
         }
 
         thumbnailPath = publicPath;
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
       } catch (e: any) {
         console.warn(
           `   [サムネ処理失敗] ID:${entryId} URL:${thumbUrl} Error:${e.message}`
@@ -857,14 +1077,20 @@ async function main() {
       .replace(/<\/font>/gi, '')
       .replace(/ style=['"].*?['"]/gi, '');
 
+    // タイトルの最終決定：
+    // 1. タイトル画像がある場合は画像パスを使用
+    // 2. それ以外は元のタイトル（imgタグは除去済み）をそのまま使用
+    const finalTitle = titlePath || titleForComparison || '(無題)';
+
     const post = {
       id: entryId,
-      title: title || '(無題)',
+      title: finalTitle, // タイトル画像パス or 元のタイトル（HTMLタグ含む）
       date: created_on.replace(/'/g, '').substring(0, 10),
       author: 'No Name',
       thumbnail: thumbnailPath,
       content: cleanText,
       categories,
+      customField,
       excerpt:
         cleanText
           .replace(/<[^>]*>?/gm, '')
@@ -879,7 +1105,8 @@ async function main() {
     count++;
   }
 
-  console.log(`公開記事書き出し: ${count} 件 完了！`);
+  console.log(`公開記事書き出し: ${count} 件 完了!`);
+  console.log(`カスタムフィールド: ${pluginCustomFieldMap.size} 件`);
 }
 
 main().catch((err) => console.error('致命的エラー:', err));

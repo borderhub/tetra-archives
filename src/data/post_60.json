@@ -1,9 +1,9 @@
 {
   "id": 649,
-  "title": "<img class=\"title_img\" src=\"http://www.as-tetra.info/upload/2009/matsukuma.gif\" alt=\"ちいさなヴィオラ音楽会\" titke=\"ちいさなヴィオラ音楽会\" /><span class=\"none\">CHIISANA VIOLA ONGAKU-KAI</span> ",
+  "title": "/title/649/title.gif",
   "date": "2009-07-19",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/649/thumbnail.gif",
   "content": "<strong>松隈 聡子</strong>（ヴィオラ奏者）\n 2008年ロッテルダム音楽院器楽科卒業。\n故松村英夫氏にヴァイオリンを師事。18歳でヴィオラに転向後、内田博、平石謙二、ヴラディミール・メンデルスゾーンの各氏にヴィオラを師事。今井信子氏のマスタークラス受講。第47回北九州芸術祭にて奨励賞受賞。\n響ホール室内合奏団団員。",
   "categories": [
     {
@@ -21,5 +21,6 @@
       "path": ["tetra"]
     }
   ],
+  "customField": "期日…2009年7月19日（日）\r\n時間…午後5時30分（演奏は1時間程度を予定）\r\n料金…500円（1ドリンク付き）\r\n奏者…松隈聡子\r\n演目…J.S.Bach 無伴奏チェロ組曲より第４番 Ｅ flat Major　ほか",
   "excerpt": "松隈 聡子（ヴィオラ奏者）  2008年ロッテルダム音楽院器楽科卒業。 故松村英夫氏にヴァイオリンを師事。18歳でヴィオラに転向後、内田博、平石謙二、ヴラディミール・メンデルスゾーンの各氏にヴィオラを師事。今井信子氏のマスタークラス受講。第47回北九州芸術祭にて奨励賞受賞。 響ホール室内合奏団団員。..."
 }

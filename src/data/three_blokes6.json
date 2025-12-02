@@ -3,7 +3,7 @@
   "title": "three blokes～三匹が吹く！(6)",
   "date": "2008-12-05",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/559/thumbnail.jpg",
   "content": "演奏順…\n1. 城戸＆松永\n2. 城戸＆主税\n3. 主税＆松永\n4. 松永\n5. 城戸\n6. 主税",
   "categories": [
     {
@@ -21,5 +21,6 @@
       "path": ["genre", "music_event"]
     }
   ],
+  "customField": "城戸 英章、松永 秀臣、吉田 主税\n\n期日…2008年12月5日（金）\r\n時間…19:30 open / 20:00 start\r\n料金…1,000円（1ドリンクつき）",
   "excerpt": "演奏順… 1. 城戸＆松永 2. 城戸＆主税 3. 主税＆松永 4. 松永 5. 城戸 6. 主税..."
 }

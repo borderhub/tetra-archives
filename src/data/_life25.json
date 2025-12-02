@@ -3,7 +3,7 @@
   "title": " 山下夏木 個展 LIFE'25",
   "date": "2025-08-12",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/1450/thumbnail.jpeg",
   "content": "",
   "categories": [
     {
@@ -14,5 +14,6 @@
       "path": ["genre", "exhibition"]
     }
   ],
+  "customField": "2025年8月12日〜8月20日\r\nopen  10:00〜17:00\r\n※ 8月13日のみ15:00まで\r\n※ 期間中は作家在廊",
   "excerpt": "..."
 }

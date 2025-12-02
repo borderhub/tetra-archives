@@ -3,7 +3,7 @@
   "title": "二人展",
   "date": "2014-11-04",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/994/thumbnail.jpg",
   "content": "<strong>白石恵里</strong>（彫刻）\n<strong>中尾衣智子</strong>（絵画）\n\n佐賀大学卒業、修了生による展覧会。\n卒業後から現在に至るまでの作品を展示します。",
   "categories": [
     {
@@ -14,5 +14,6 @@
       "path": ["genre", "exhibition"]
     }
   ],
+  "customField": "作家：白石恵里 / 中尾衣智子\n\n会期：2014年11月4日（火）- 9日（日）\r\n時間：11月4日 - 7日（火 - 金）：16時 - 20時 / 8・9日（土日）：13時 - 20時",
   "excerpt": "白石恵里（彫刻） 中尾衣智子（絵画）  佐賀大学卒業、修了生による展覧会。 卒業後から現在に至るまでの作品を展示します。..."
 }

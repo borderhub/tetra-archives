@@ -3,7 +3,7 @@
   "title": "スナック はちこ",
   "date": "2010-08-06",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/757/thumbnail.jpg",
   "content": "明朗会計。\n安心しておくつろぎ頂けます。",
   "categories": [
     {
@@ -21,5 +21,6 @@
       "path": ["genre", "others"]
     }
   ],
+  "customField": "営業日…8月6日（金）\r\n営業時間…20:00〜23:00\r\nチャージ…500円（つまみ、酒１付）",
   "excerpt": "明朗会計。 安心しておくつろぎ頂けます。..."
 }

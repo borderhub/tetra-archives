@@ -3,7 +3,7 @@
   "title": "＋1",
   "date": "2008-01-22",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/491/thumbnail.jpg",
   "content": "卒業は通過点。写真が好きで集まった８人の学生の、最初で最後のグループ展。",
   "categories": [
     {
@@ -14,5 +14,6 @@
       "path": ["genre", "exhibition"]
     }
   ],
+  "customField": "会期…2008年1月22日（火）〜1月27日（日）\r\n時間…13:00〜20:00　\r\n入場無料",
   "excerpt": "卒業は通過点。写真が好きで集まった８人の学生の、最初で最後のグループ展。..."
 }
