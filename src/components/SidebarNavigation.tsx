@@ -76,9 +76,7 @@ export default function SidebarNavigation({
                 >
                   <span className="flex justify-between items-center">
                     <span>{cat.label}</span>
-                    <span className="text-xs opacity-70">
-                      ({count})
-                    </span>
+                    <span className="text-xs opacity-70">({count})</span>
                   </span>
                 </Link>
               </li>
@@ -109,9 +107,7 @@ export default function SidebarNavigation({
                 >
                   <span className="flex justify-between items-center">
                     <span>{y}</span>
-                    <span className="text-xs opacity-70">
-                      ({count})
-                    </span>
+                    <span className="text-xs opacity-70">({count})</span>
                   </span>
                 </Link>
               </li>

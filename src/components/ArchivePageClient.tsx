@@ -208,7 +208,10 @@ export default function ArchivePageClient({
                       </div>
 
                       {/* カード本体：横並びレイアウト */}
-                      <Link href={`/posts/${post.slug}`} className="block h-full">
+                      <Link
+                        href={`/posts/${post.slug}`}
+                        className="block h-full"
+                      >
                         <div className="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 hover:border-gray-400 group">
                           <div className="flex flex-col lg:flex-row">
                             {/* サムネイル（左側） */}

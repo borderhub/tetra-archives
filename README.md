@@ -19,17 +19,17 @@ Movable TypeからNext.js静的ブログへの移行プロジェクト。
 1. `cp /path/to/mt-dump.sql ./mt-dump.sql`
 2. `npm run convert` # ← src/data/\*.json が生成される
 
-## 3. 開発
+## 4. 開発
 
 1. `npm run dev` # ローカル確認
 2. `npm run build` # ./outにビルド
 3. `npm run deploy` # GitHub Pages公開 (少し時間かかります)
 
-## PDFエクスポート
+### PDFエクスポート
 
 記事ページのボタンでGoogleスライド風PDF生成。
 
-## JSONだけをコミット ※必要であれば
+### JSONだけをコミット ※必要であれば
 
 1. `git add src/data/`
 2. `git commit -m "Add 350 posts from MT"`

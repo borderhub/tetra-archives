@@ -34,45 +34,100 @@ interface CrawlerItem {
 // --- ヘルパー関数（タイトル比較用） ---
 
 /**
- * タイトル文字列を比較のために整形する（先頭のキーワードブロックのみを抽出）
+ * タイトル文字列を比較のために整形する（より詳細な特徴抽出版）
  *
  * @param title 比較対象のタイトル文字列
- * @returns 先頭のキーワード部分を正規化・小文字化したキー文字列
+ * @returns 正規化・小文字化したキー文字列（より詳細）
  */
 function getNormalizedKey(title: string): string {
   if (!title) return '';
 
   let key = title.trim();
 
-  // 1. 【修正ポイント】日本語と英数字が結合している箇所に空白を挿入
+  // 1. 日本語と英数字が結合している箇所に空白を挿入
   key = key.replace(/([a-zA-Z0-9])([一-龠ぁ-ゔァ-ヴ])/g, '$1 $2');
   key = key.replace(/([一-龠ぁ-ゔァ-ヴ])([a-zA-Z0-9])/g, '$1 $2');
-  key = key.replace(/\s+/g, ' ').trim(); // 空白を再整形
+  key = key.replace(/\s+/g, ' ').trim();
 
-  // 2. 【最重要修正】先頭から、最初の主要な区切り文字群（空白、#、-、(、[など）が現れる直前までを抽出
-  // 正規表現: ^(.*?)(?:[\s\u3000#\-—(（\[「『:\uff1a・]|$)/
-  const match = key.match(/^(.*?)(?:[\s\u3000#\-\—(（\[「『:\uff1a・\r\n]|$)/);
-  if (match && match[1]) {
-    key = match[1].trim();
-  } else {
-    // マッチングが不要な場合はそのまま継続 (ほぼ発生しないはず)
-    key = key.trim();
-  }
+  // 2. 【修正】より多くの特徴を保持するため、複数のキーワードを抽出
+  // 先頭から最初の50-100文字程度、または意味のある単語の集合を取得
 
-  // 3. 全角/半角の空白、タブ、改行をすべて除去
-  key = key.replace(/[\s\u3000]/g, '');
+  // まず一般的な区切り文字で分割
+  const segments = key.split(/[\s\u3000#\-—(（\[「『:\uff1a・\r\n]+/);
+
+  // 空でない有意義なセグメントを最大5個まで取得
+  const meaningfulSegments = segments
+    .filter((seg) => seg.trim().length > 0)
+    .slice(0, 5); // 最初の5セグメントを使用
+
+  key = meaningfulSegments.join(' ');
+
+  // 3. 全角/半角の空白をスペース1つに統一（完全除去はしない）
+  key = key.replace(/[\s\u3000]+/g, ' ');
 
   // 4. 特殊記号や括弧、句読点などを除去
-  // 先頭抽出で多くの記号は除かれますが、念のためクリーンアップ
-  key = key.replace(/[()（）【】\[\]「」『』,。．！？!?':;・、\-/～_#]/g, '');
+  key = key.replace(/[()（）【】\[\]「」『』,。．！？!?':;、/～_]/g, '');
 
   // 5. 文字をすべて小文字に変換
   key = key.toLowerCase();
 
-  // 6. 最後に英数字と日本語の文字以外を全て除去し、純粋なキーワードにする
-  key = key.replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/g, '');
+  // 6. 連続するハイフンやドットを1つに
+  key = key.replace(/[-]+/g, '-').replace(/\.+/g, '.');
+
+  // 7. 先頭・末尾の記号を除去
+  key = key.replace(/^[-.\s]+|[-.\s]+$/g, '');
+
+  // 8. 最終的なクリーンアップ（空白を除去せず、識別子として保持）
+  key = key.replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf\s]/g, '');
+
+  // 9. 連続する空白を1つに
+  key = key.replace(/\s+/g, ' ').trim();
 
   return key;
+}
+
+/**
+ * 複数の方法でタイトルの類似性をチェック
+ */
+function findBestCrawlerMatch(
+  mtTitle: string,
+  crawlerItems: CrawlerItem[]
+): CrawlerItem | undefined {
+  if (!mtTitle) return undefined;
+
+  const mtKey = getNormalizedKey(mtTitle);
+
+  // 方法1: 完全一致
+  for (const item of crawlerItems) {
+    const crawlerKey = getNormalizedKey(item.title);
+    if (mtKey === crawlerKey) {
+      return item;
+    }
+  }
+
+  // 方法2: 部分一致（より長いキーを優先）
+  const candidates = crawlerItems
+    .map((item) => ({
+      item,
+      key: getNormalizedKey(item.title),
+    }))
+    .filter(({ key }) => {
+      // 双方向の部分一致をチェック
+      return (mtKey.includes(key) || key.includes(mtKey)) && key.length > 10;
+    })
+    .sort((a, b) => b.key.length - a.key.length); // 長いキーを優先
+
+  if (candidates.length > 0) {
+    // 最も詳細なマッチを返す
+    const best = candidates[0];
+    // ただし、共通部分が極端に短い場合は除外
+    const commonLength = Math.min(mtKey.length, best.key.length);
+    if (commonLength > 15) {
+      return best.item;
+    }
+  }
+
+  return undefined;
 }
 
 // --- ヘルパー関数（通信・画像処理） ---
@@ -654,6 +709,18 @@ async function main() {
     // 1. 【最優先】正規化タイトルでクローラー結果とマッチング
     const mtTitleKey = getNormalizedKey(title);
     crawlerItem = crawlerMapByTitle.get(mtTitleKey);
+
+    if (!crawlerItem) {
+      // より柔軟なマッチングを試行
+      const allCrawlerItems = Array.from(crawlerMapByTitle.values());
+      crawlerItem = findBestCrawlerMatch(title, allCrawlerItems);
+
+      if (crawlerItem) {
+        console.log(
+          `   [部分一致] ID:${entryId} Title:"${title}" -> Matched:"${crawlerItem.title}"`
+        );
+      }
+    }
 
     if (crawlerItem) {
       thumbUrl = crawlerItem.imageUrl;
