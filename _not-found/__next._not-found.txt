@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[3241,["/tetra-archives/_next/static/chunks/8f1aff91ec65de35.js","/tetra-archives/_next/static/chunks/83ac0b56238ca7f6.js"],"default"]
-3:I[91924,["/tetra-archives/_next/static/chunks/8f1aff91ec65de35.js","/tetra-archives/_next/static/chunks/83ac0b56238ca7f6.js"],"default"]
-0:{"buildId":"nbj8zfOiYnIQcNHRGWUKN","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[3241,["/tetra-archives/_next/static/chunks/cac5a9cb395548a0.js","/tetra-archives/_next/static/chunks/83ac0b56238ca7f6.js"],"default"]
+3:I[91924,["/tetra-archives/_next/static/chunks/cac5a9cb395548a0.js","/tetra-archives/_next/static/chunks/83ac0b56238ca7f6.js"],"default"]
+0:{"buildId":"ss-OMrhgh1zG_GT4BCGmY","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
