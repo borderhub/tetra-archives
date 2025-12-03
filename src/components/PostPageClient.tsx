@@ -114,9 +114,22 @@ export default function PostPageClient({
     (a, b) => b.localeCompare(a)
   );
 
+  const getCategoryCountForYear = (
+    categoryBasename: string,
+    targetYear: string
+  ) => {
+    return allPosts.filter(
+      (p) =>
+        p.year === targetYear &&
+        p.categories.some((c) => c.basename === categoryBasename)
+    ).length;
+  };
+
   const getYearCount = (targetYear: string) => {
     return allPosts.filter((p) => p.year === targetYear).length;
   };
+
+  const allPostsInYearCount = allPosts.filter((p) => p.year === year).length;
 
   // タイトルが画像パスかチェック
   const titleIsImage = isImagePath(post.title);
@@ -203,13 +216,14 @@ export default function PostPageClient({
         );
       }
       return (
-        <img
+        <Image
           src={src}
           alt={alt}
-          width={elem.attribs.width}
-          height={elem.attribs.height}
+          width={parseInt(elem.attribs.width, 10) || 0}
+          height={parseInt(elem.attribs.height, 10) || 0}
           className={classNames}
           loading="lazy"
+          unoptimized
         />
       );
     }
@@ -334,10 +348,14 @@ export default function PostPageClient({
               {/* タイトル: 画像パスの場合は画像として表示、それ以外はテキスト */}
               {titleIsImage ? (
                 <div className="mb-6">
-                  <img
+                  <Image
                     src={`/tetra-archives/${post.title}`}
                     alt="Title"
+                    width={320}
+                    height={180}
                     className="max-w-full h-auto max-h-32 object-contain"
+                    loading="lazy"
+                    unoptimized
                   />
                 </div>
               ) : (
@@ -391,7 +409,7 @@ export default function PostPageClient({
 
             {/* コンテンツ */}
             {post.content ? (
-              <div className="p-8 lg:p-12 prose prose-lg max-w-none lg:p-12 border-t-1 border-gray-600 bg-gradient-to-r from-gray-50">
+              <div className="p-8 lg:p-12 prose prose-lg max-w-none lg:p-12 border-t-1 border-gray-200 bg-gradient-to-r from-gray-50">
                 {parse(post.content, { replace })}
               </div>
             ) : null}
@@ -426,10 +444,11 @@ export default function PostPageClient({
       <Footer
         categories={uniqueCategories}
         years={uniqueYears}
-        allPostsCount={allPosts.length}
         currentYear={year}
         currentCategory="all"
         getYearCount={getYearCount}
+        getCategoryCountForYear={getCategoryCountForYear}
+        allPostsInYearCount={allPostsInYearCount}
       />
     </div>
   );

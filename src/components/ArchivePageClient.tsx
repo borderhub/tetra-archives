@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import MobileHeader from '@/components/MobileHeader';
 import Sidebar from '@/components/Sidebar';
@@ -249,12 +250,15 @@ export default function ArchivePageClient({
                             {/* サムネイル(左側) */}
                             <div className="lg:w-80 lg:flex-shrink-0">
                               {thumbnailSrc ? (
-                                <img
+                                <Image
                                   src={thumbnailSrc}
                                   alt={
                                     titleIsImage ? 'Title Image' : post.title
                                   }
+                                  width={320}
+                                  height={192}
                                   className="w-full h-48 lg:h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                  unoptimized
                                 />
                               ) : (
                                 <div className="bg-gray-200 border-2 border-dashed border-gray-300 rounded-t-xl lg:rounded-l-xl lg:rounded-t-none flex items-center justify-center h-48 lg:h-64">
@@ -270,10 +274,13 @@ export default function ArchivePageClient({
                               {/* タイトル: 画像パスの場合は画像として表示、それ以外はテキスト */}
                               {titleIsImage ? (
                                 <div className="mb-3">
-                                  <img
+                                  <Image
                                     src={`/tetra-archives/${post.title}`}
                                     alt="Title"
+                                    width={320}
+                                    height={192}
                                     className="max-w-full h-auto max-h-24 object-contain"
+                                    unoptimized
                                   />
                                 </div>
                               ) : (
@@ -343,10 +350,11 @@ export default function ArchivePageClient({
       <Footer
         categories={uniqueCategories}
         years={uniqueYears}
-        allPostsCount={allPosts.length}
         currentYear={year}
         currentCategory={category}
         getYearCount={getYearCount}
+        getCategoryCountForYear={getCategoryCountForYear}
+        allPostsInYearCount={allPostsInYearCount}
       />
     </div>
   );
