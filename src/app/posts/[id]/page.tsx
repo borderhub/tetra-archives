@@ -54,6 +54,7 @@ function getPostById(id: string) {
     content: contentProcessed,
     categories: (raw.categories as CategoryBaseInfo[]) || [],
     customField: raw.customField as string,
+    thumbnail: raw.thumbnail as string || null
   };
 }
 
@@ -69,12 +70,14 @@ function getAllPosts() {
       const date = raw.date as string;
       const year = date ? date.substring(0, 4) : 'Unknown';
       const customField = raw.customField as string;
+      const thumbnail = raw.thumbnail as string || null;
 
       return {
         slug: fileName.replace(/\.json$/, ''),
         year,
         categories: (raw.categories as CategoryBaseInfo[]) || [],
         customField,
+        thumbnail,
       };
     });
     return posts;
@@ -104,5 +107,5 @@ export default async function PostPage({
   const post = getPostById(id);
   const allPosts = getAllPosts();
 
-  return <PostPageClient post={post} allPosts={allPosts} />;
+  return <PostPageClient post={post} allPosts={allPosts} slug={id} />;
 }
