@@ -10,15 +10,7 @@ import SidebarNavigation from '@/components/SidebarNavigation';
 import Footer from '@/components/Footer';
 import Pagination from '@/components/Pagination';
 import { stripHtmlTags } from '@/helper';
-
-const POSTS_PER_PAGE = 10;
-const MAX_PAGES_DISPLAY = 10;
-
-// 非表示にするカテゴリのbasenameリスト
-const HIDDEN_CATEGORIES = [
-  'top', // トップ掲載
-  'info', // 事務情報
-];
+import { POSTS_PER_PAGE, MAX_PAGES_DISPLAY, HIDDEN_CATEGORIES } from '@/constants';
 
 type CategoryBaseInfo = {
   id: number;
@@ -131,7 +123,7 @@ export default function ArchivePageClient({
     category === 'all'
       ? 'ALL'
       : uniqueCategories.find((c) => c.basename === category)?.label ||
-        category.toUpperCase();
+      category.toUpperCase();
 
   // ヘルパー関数
   const getCategoryCountForYear = (
