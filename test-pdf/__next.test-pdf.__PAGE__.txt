@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[73049,["/tetra-archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra-archives/_next/static/chunks/83ac0b56238ca7f6.js"],"ClientPageRoot"]
+3:I[20149,["/tetra-archives/_next/static/chunks/8f1aff91ec65de35.js","/tetra-archives/_next/static/chunks/5036c7017edac684.js"],"default"]
+6:I[16261,["/tetra-archives/_next/static/chunks/a411406ac2fd6c94.js","/tetra-archives/_next/static/chunks/83ac0b56238ca7f6.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"nbj8zfOiYnIQcNHRGWUKN","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/tetra-archives/_next/static/chunks/5036c7017edac684.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:{}
+8:null
