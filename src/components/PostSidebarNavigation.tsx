@@ -56,10 +56,6 @@ export default function PostSidebarNavigation({
           ))}
         </ul>
       </section>
-
-      <section>
-        <PdfDownloadButton />
-      </section>
     </>
   );
 }
