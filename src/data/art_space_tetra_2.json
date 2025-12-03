@@ -3,7 +3,7 @@
   "title": "art space tetra 企画募集結果報告",
   "date": "2022-03-15",
   "author": "No Name",
-  "thumbnail": "/thumbnail/1294/thumbnail.jpg",
+  "thumbnail": "",
   "content": "",
   "categories": [
     {
@@ -56,5 +56,6 @@
       "path": ["genre", "exhibition"]
     }
   ],
+  "customField": "art space tetra 企画募集結果報告4- 13_height-16213-beacon-15-",
   "excerpt": "..."
 }

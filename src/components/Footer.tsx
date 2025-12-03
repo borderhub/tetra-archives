@@ -12,22 +12,24 @@ type CategoryInfo = {
 type ArchiveFooterProps = {
   categories: CategoryInfo[];
   years: string[];
-  allPostsCount: number;
   currentYear: string;
   currentCategory?: string;
   getYearCount: (year: string) => number;
+  getCategoryCountForYear: (categoryBasename: string, year: string) => number;
+  allPostsInYearCount: number;
 };
 
 export default function Footer({
   categories,
   years,
-  allPostsCount,
   currentYear,
   currentCategory = 'all',
   getYearCount,
+  getCategoryCountForYear,
+  allPostsInYearCount,
 }: ArchiveFooterProps) {
   return (
-    <footer className="bg-gray-800 text-white mt-16">
+    <footer className="bg-gray-300 text-gray-500 mt-16">
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* カテゴリー一覧 */}
@@ -39,19 +41,27 @@ export default function Footer({
                   href={`/archive/all/year/${currentYear}/page/1`}
                   className="hover:text-gray-400 transition-colors"
                 >
-                  All Categories ({allPostsCount})
+                  All Categories ({allPostsInYearCount})
                 </Link>
               </li>
-              {categories.slice(0, 8).map((cat) => (
-                <li key={cat.id}>
-                  <Link
-                    href={`/archive/${cat.basename}/year/${currentYear}/page/1`}
-                    className="hover:text-gray-400 transition-colors"
-                  >
-                    {cat.label} ({cat.count})
-                  </Link>
-                </li>
-              ))}
+              {categories.slice(0, 8).map((cat) => {
+                const yearCount = getCategoryCountForYear(
+                  cat.basename,
+                  currentYear
+                );
+                if (yearCount === 0) return null;
+
+                return (
+                  <li key={cat.id}>
+                    <Link
+                      href={`/archive/${cat.basename}/year/${currentYear}/page/1`}
+                      className="hover:text-gray-400 transition-colors"
+                    >
+                      {cat.label} ({yearCount})
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
@@ -61,16 +71,21 @@ export default function Footer({
               Archives by Year
             </h3>
             <ul className="space-y-2 text-sm">
-              {years.map((y) => (
-                <li key={y}>
-                  <Link
-                    href={`/archive/${currentCategory}/year/${y}/page/1`}
-                    className="hover:text-gray-400 transition-colors"
-                  >
-                    {y} ({getYearCount(y)} entries)
-                  </Link>
-                </li>
-              ))}
+              {years.map((y) => {
+                const count = getYearCount(y);
+                if (count === 0) return null;
+
+                return (
+                  <li key={y}>
+                    <Link
+                      href={`/archive/${currentCategory}/year/${y}/page/1`}
+                      className="hover:text-gray-400 transition-colors"
+                    >
+                      {y} ({count} entries)
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
@@ -90,7 +105,7 @@ export default function Footer({
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-500">
-          <p>© 2025 Archive. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Archive. All rights reserved.</p>
         </div>
       </div>
     </footer>

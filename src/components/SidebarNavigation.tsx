@@ -2,6 +2,12 @@
 
 import Link from 'next/link';
 
+// 非表示にするカテゴリのbasenameリスト
+const HIDDEN_CATEGORIES = [
+  'top', // トップ掲載
+  'info', // 事務情報
+];
+
 type CategoryInfo = {
   id: number;
   label: string;
@@ -60,6 +66,9 @@ export default function SidebarNavigation({
             </li>
           )}
           {categories.map((cat) => {
+            // 非表示カテゴリはスキップ
+            if (HIDDEN_CATEGORIES.includes(cat.basename)) return null;
+
             const count = getCategoryCountForYear(cat.basename, currentYear);
             if (count === 0) return null;
 
@@ -76,9 +85,7 @@ export default function SidebarNavigation({
                 >
                   <span className="flex justify-between items-center">
                     <span>{cat.label}</span>
-                    <span className="text-xs opacity-70">
-                      ({count})
-                    </span>
+                    <span className="text-xs opacity-70">({count})</span>
                   </span>
                 </Link>
               </li>
@@ -109,9 +116,7 @@ export default function SidebarNavigation({
                 >
                   <span className="flex justify-between items-center">
                     <span>{y}</span>
-                    <span className="text-xs opacity-70">
-                      ({count})
-                    </span>
+                    <span className="text-xs opacity-70">({count})</span>
                   </span>
                 </Link>
               </li>

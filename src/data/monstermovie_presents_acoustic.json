@@ -3,7 +3,7 @@
   "title": "Mostermovie acoustic hour 2008",
   "date": "2008-03-01",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/495/thumbnail.jpg",
   "content": "",
   "categories": [
     {
@@ -14,5 +14,6 @@
       "path": ["genre", "music_event"]
     }
   ],
+  "customField": "“Mostermovie acoustic hour 2008”Monstermovie acoustic + Chiharu Yamaguchi, Duo Dialogue, A Silent Progression\n\n2008.03.01\r\n18:30 open / 19:00 start\r\n¥1,500 + 1drink order 13_height-13013-beacon-15-",
   "excerpt": "..."
 }

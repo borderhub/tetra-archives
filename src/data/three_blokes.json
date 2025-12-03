@@ -3,7 +3,7 @@
   "title": "three blokes 〜 三匹が吹く！(1)",
   "date": "2008-02-01",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/492/thumbnail.gif",
   "content": "サクソフォーンだけの演奏会シリーズ第1回。",
   "categories": [
     {
@@ -21,5 +21,6 @@
       "path": ["tetra"]
     }
   ],
+  "customField": "城戸 英章、上田 秀臣、吉田 主税\n\n期日…2008年2月1日 (金)\r\n時間…19:30 open / 20:00 start\r\n料金…1,000円（1ドリンク付）",
   "excerpt": "サクソフォーンだけの演奏会シリーズ第1回。..."
 }

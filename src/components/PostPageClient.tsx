@@ -24,12 +24,14 @@ type Post = {
   author: string;
   content: string;
   categories: CategoryBaseInfo[];
+  customField: string;
 };
 
 type PostData = {
   slug: string;
   year: string;
   categories: CategoryBaseInfo[];
+  customField: string;
 };
 
 const VOID_ELEMENTS = [
@@ -49,6 +51,11 @@ const VOID_ELEMENTS = [
   'track',
   'wbr',
 ];
+
+// タイトルが画像パスかどうかを判定
+const isImagePath = (str: string): boolean => {
+  return /^\/title\/\d+\/title\.(gif|jpg|jpeg|png|webp)$/i.test(str);
+};
 
 export default function PostPageClient({
   post,
@@ -107,17 +114,30 @@ export default function PostPageClient({
     (a, b) => b.localeCompare(a)
   );
 
+  const getCategoryCountForYear = (
+    categoryBasename: string,
+    targetYear: string
+  ) => {
+    return allPosts.filter(
+      (p) =>
+        p.year === targetYear &&
+        p.categories.some((c) => c.basename === categoryBasename)
+    ).length;
+  };
+
   const getYearCount = (targetYear: string) => {
     return allPosts.filter((p) => p.year === targetYear).length;
   };
+
+  const allPostsInYearCount = allPosts.filter((p) => p.year === year).length;
+
+  // タイトルが画像パスかチェック
+  const titleIsImage = isImagePath(post.title);
 
   // HTML変換関数
   const replace = (node: DOMNode) => {
     if (node.type === 'text') {
       const text = node.data;
-
-      // デバッグ用（本番では削除可）
-      // console.log('Processing text:', JSON.stringify(text));
 
       // 完全に空白だけで改行もない場合はスキップ
       if (!text.trim() && !/\n/.test(text)) return null;
@@ -196,13 +216,14 @@ export default function PostPageClient({
         );
       }
       return (
-        <img
+        <Image
           src={src}
           alt={alt}
-          width={elem.attribs.width}
-          height={elem.attribs.height}
+          width={parseInt(elem.attribs.width, 10) || 0}
+          height={parseInt(elem.attribs.height, 10) || 0}
           className={classNames}
           loading="lazy"
+          unoptimized
         />
       );
     }
@@ -282,7 +303,7 @@ export default function PostPageClient({
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      {/* ヘッダー（モバイル用） */}
+      {/* ヘッダー(モバイル用) */}
       <MobileHeader
         year={year}
         sidebarOpen={sidebarOpen}
@@ -323,9 +344,26 @@ export default function PostPageClient({
                   </Link>
                 ))}
               </div>
-              <h1 className="text-3xl lg:text-5xl font-black mb-6 leading-tight text-gray-900">
-                {stripHtmlTagsKeepLineBreaks(post.title)}
-              </h1>
+
+              {/* タイトル: 画像パスの場合は画像として表示、それ以外はテキスト */}
+              {titleIsImage ? (
+                <div className="mb-6">
+                  <Image
+                    src={`/tetra-archives/${post.title}`}
+                    alt="Title"
+                    width={320}
+                    height={180}
+                    className="max-w-full h-auto max-h-32 object-contain"
+                    loading="lazy"
+                    unoptimized
+                  />
+                </div>
+              ) : (
+                <h1 className="text-3xl lg:text-5xl font-black mb-6 leading-tight text-gray-900">
+                  {stripHtmlTagsKeepLineBreaks(post.title)}
+                </h1>
+              )}
+
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <svg
@@ -362,10 +400,19 @@ export default function PostPageClient({
               </div>
             </header>
 
+            {/* カスタムフィールズ */}
+            {post.customField ? (
+              <div className="p-8 lg:p-12 prose prose-lg max-w-none">
+                {post.customField}
+              </div>
+            ) : null}
+
             {/* コンテンツ */}
-            <div className="p-8 lg:p-12 prose prose-lg max-w-none">
-              {parse(post.content, { replace })}
-            </div>
+            {post.content ? (
+              <div className="p-8 lg:p-12 prose prose-lg max-w-none lg:p-12 border-t-1 border-gray-200 bg-gradient-to-r from-gray-50">
+                {parse(post.content, { replace })}
+              </div>
+            ) : null}
 
             {/* フッターナビ */}
             <footer className="p-8 border-t border-gray-200 bg-gray-50">
@@ -397,10 +444,11 @@ export default function PostPageClient({
       <Footer
         categories={uniqueCategories}
         years={uniqueYears}
-        allPostsCount={allPosts.length}
         currentYear={year}
         currentCategory="all"
         getYearCount={getYearCount}
+        getCategoryCountForYear={getCategoryCountForYear}
+        allPostsInYearCount={allPostsInYearCount}
       />
     </div>
   );

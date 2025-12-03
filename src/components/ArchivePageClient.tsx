@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import MobileHeader from '@/components/MobileHeader';
 import Sidebar from '@/components/Sidebar';
@@ -12,6 +13,12 @@ import { stripHtmlTags } from '@/helper';
 
 const POSTS_PER_PAGE = 10;
 const MAX_PAGES_DISPLAY = 10;
+
+// 非表示にするカテゴリのbasenameリスト
+const HIDDEN_CATEGORIES = [
+  'top', // トップ掲載
+  'info', // 事務情報
+];
 
 type CategoryBaseInfo = {
   id: number;
@@ -29,6 +36,18 @@ type PostMeta = {
   excerpt: string;
   categories: CategoryBaseInfo[];
   thumbnail: string | null;
+};
+
+// タイトルが画像パスかどうかを判定
+const isImagePath = (str: string): boolean => {
+  return /^\/title\/\d+\/title\.(gif|jpg|jpeg|png|webp)$/i.test(str);
+};
+
+// 表示するカテゴリのみをフィルタリング
+const filterVisibleCategories = (
+  categories: CategoryBaseInfo[]
+): CategoryBaseInfo[] => {
+  return categories.filter((cat) => !HIDDEN_CATEGORIES.includes(cat.basename));
 };
 
 export default function ArchivePageClient({
@@ -64,6 +83,9 @@ export default function ArchivePageClient({
   // ========== フィルタリング ==========
   let filtegrayPosts = allPosts;
 
+  // カテゴリが0個の記事は非表示
+  filtegrayPosts = filtegrayPosts.filter((post) => post.categories.length > 0);
+
   if (category !== 'all') {
     filtegrayPosts = filtegrayPosts.filter((post) =>
       post.categories.some((c) => c.basename === category)
@@ -88,6 +110,9 @@ export default function ArchivePageClient({
   >();
   allPosts.forEach((post) => {
     post.categories.forEach((cat) => {
+      // 非表示カテゴリは除外
+      if (HIDDEN_CATEGORIES.includes(cat.basename)) return;
+
       if (!categoryMap.has(cat.id))
         categoryMap.set(cat.id, { ...cat, count: 0 });
       categoryMap.get(cat.id)!.count++;
@@ -128,7 +153,7 @@ export default function ArchivePageClient({
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      {/* ヘッダー（モバイル用） */}
+      {/* ヘッダー(モバイル用) */}
       <MobileHeader
         year={year}
         sidebarOpen={sidebarOpen}
@@ -173,7 +198,7 @@ export default function ArchivePageClient({
 
           {/* タイムライン */}
           <div className="relative">
-            {/* 縦線（デスクトップ） */}
+            {/* 縦線(デスクトップ) */}
             <div className="hidden lg:block absolute top-0 bottom-0 left-8 w-0.5 bg-gradient-to-b from-gray-600 via-gray-400 to-gray-200"></div>
             <div className="space-y-8">
               {paginatedPosts.length > 0 ? (
@@ -183,21 +208,29 @@ export default function ArchivePageClient({
                     post.excerpt.length > 120
                       ? post.excerpt.slice(0, 120) + '...'
                       : post.excerpt;
+
+                  // タイトルが画像パスかチェック
+                  const titleIsImage = isImagePath(post.title);
+
+                  // サムネイル: thumbnailがあればそれを、なければタイトルが画像パスならそれを使用
+                  const thumbnailSrc =
+                    post.thumbnail || (titleIsImage ? post.title : null);
+
                   return (
                     <article
                       key={post.slug}
                       className="relative lg:pl-20 group mb-8"
                       style={{ animationDelay: `${index * 50}ms` }}
                     >
-                      {/* タイムラインドット（デスクトップ） */}
+                      {/* タイムラインドット(デスクトップ) */}
                       <div className="hidden lg:flex absolute left-6 top-8 w-5 h-5 rounded-full bg-gray-600 border-4 border-white shadow-lg z-10 group-hover:scale-125 transition-transform duration-200"></div>
 
-                      {/* 日付バッジ（モバイル） */}
+                      {/* 日付バッジ(モバイル) */}
                       <div className="lg:hidden mb-4 inline-block bg-gray-600 text-white px-4 py-1.5 rounded-full text-sm font-bold">
                         {post.date}
                       </div>
 
-                      {/* 日付（デスクトップ） */}
+                      {/* 日付(デスクトップ) */}
                       <div className="hidden lg:block absolute left-0 top-6 text-right pr-12 w-20">
                         <div className="text-sm font-bold text-gray-900">
                           {post.year}
@@ -207,17 +240,25 @@ export default function ArchivePageClient({
                         </div>
                       </div>
 
-                      {/* カード本体：横並びレイアウト */}
-                      <Link href={`/posts/${post.slug}`} className="block h-full">
+                      {/* カード本体:横並びレイアウト */}
+                      <Link
+                        href={`/posts/${post.slug}`}
+                        className="block h-full"
+                      >
                         <div className="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 hover:border-gray-400 group">
                           <div className="flex flex-col lg:flex-row">
-                            {/* サムネイル（左側） */}
+                            {/* サムネイル(左側) */}
                             <div className="lg:w-80 lg:flex-shrink-0">
-                              {post.thumbnail ? (
-                                <img
-                                  src={post.thumbnail}
-                                  alt={post.title}
+                              {thumbnailSrc ? (
+                                <Image
+                                  src={thumbnailSrc}
+                                  alt={
+                                    titleIsImage ? 'Title Image' : post.title
+                                  }
+                                  width={320}
+                                  height={192}
                                   className="w-full h-48 lg:h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                  unoptimized
                                 />
                               ) : (
                                 <div className="bg-gray-200 border-2 border-dashed border-gray-300 rounded-t-xl lg:rounded-l-xl lg:rounded-t-none flex items-center justify-center h-48 lg:h-64">
@@ -228,11 +269,25 @@ export default function ArchivePageClient({
                               )}
                             </div>
 
-                            {/* テキストエリア（右側） */}
+                            {/* テキストエリア(右側) */}
                             <div className="flex-1 p-6 lg:p-8">
-                              <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-gray-700 transition-colors">
-                                {stripHtmlTags(post.title)}
-                              </h3>
+                              {/* タイトル: 画像パスの場合は画像として表示、それ以外はテキスト */}
+                              {titleIsImage ? (
+                                <div className="mb-3">
+                                  <Image
+                                    src={`/tetra-archives/${post.title}`}
+                                    alt="Title"
+                                    width={320}
+                                    height={192}
+                                    className="max-w-full h-auto max-h-24 object-contain"
+                                    unoptimized
+                                  />
+                                </div>
+                              ) : (
+                                <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-gray-700 transition-colors">
+                                  {stripHtmlTags(post.title)}
+                                </h3>
+                              )}
 
                               <p className="text-gray-600 text-sm lg:text-base leading-relaxed mb-5 line-clamp-3">
                                 {truncatedExcerpt}
@@ -240,14 +295,16 @@ export default function ArchivePageClient({
 
                               {/* カテゴリタグ */}
                               <div className="flex flex-wrap gap-2">
-                                {post.categories.map((cat) => (
-                                  <span
-                                    key={cat.id}
-                                    className="inline-block px-3 py-1.5 text-xs font-medium bg-gray-100 text-gray-700 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-200"
-                                  >
-                                    {cat.label}
-                                  </span>
-                                ))}
+                                {filterVisibleCategories(post.categories).map(
+                                  (cat) => (
+                                    <span
+                                      key={cat.id}
+                                      className="inline-block px-3 py-1.5 text-xs font-medium bg-gray-100 text-gray-700 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-200"
+                                    >
+                                      {cat.label}
+                                    </span>
+                                  )
+                                )}
                               </div>
                             </div>
                           </div>
@@ -293,10 +350,11 @@ export default function ArchivePageClient({
       <Footer
         categories={uniqueCategories}
         years={uniqueYears}
-        allPostsCount={allPosts.length}
         currentYear={year}
         currentCategory={category}
         getYearCount={getYearCount}
+        getCategoryCountForYear={getCategoryCountForYear}
+        allPostsInYearCount={allPostsInYearCount}
       />
     </div>
   );

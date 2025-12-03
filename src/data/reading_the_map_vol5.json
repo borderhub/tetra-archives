@@ -3,7 +3,7 @@
   "title": "「地図を読む」Reading the MAP vol.5",
   "date": "2017-12-24",
   "author": "No Name",
-  "thumbnail": "",
+  "thumbnail": "/thumbnail/1146/thumbnail.jpg",
   "content": "",
   "categories": [
     {
@@ -14,5 +14,6 @@
       "path": ["genre", "music_event"]
     }
   ],
+  "customField": "showcase for 4 solo perfomers\r\n４人のソロによるショウケース\n\n松岡涼子(dance)\r\n中村勇治(bass clarinet)\r\nBreezesquad(DJ set)\r\nサネマツアキラ(per,etc)\n\n期日：2017年12月24日(日)\r\n開場：18時30分 / 開演：19時\r\n料金：1500円+1ドリンク(500円)",
   "excerpt": "..."
 }

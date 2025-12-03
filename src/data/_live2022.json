@@ -21,5 +21,6 @@
       "path": ["genre", "music_event"]
     }
   ],
+  "customField": "日程：8月22日（月）\r\n時間：19：00 (open)\r\n入場：3,000円\r\n(function(d,s,id){var st=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}var nst=d.createElement(s);nst.id=id;nst.src=\"//btn.stores.jp/button.js\";nst.charset=\"UTF-8\";st.parentNode.insertBefore(nst,st);})(document, \"script\", \"storesjp-button\");\r\n「音になる」 坂田 明　中島吏英　LIVEツアー2022のイベントページはこちら",
   "excerpt": "「音になる」坂田明・中島吏英ライブツアー2022 会場：art space tetra 住所：福岡県福岡市博多区須崎町2-15  ロンドンを拠点に日用品とキネティックな仕掛けを組み合わせ、音楽と彫刻の融合を試みる活動を行うアーティスト中島吏英と、72年～79年山下洋輔トリオに参加して以降様々なグループの形成解体を繰り返し、世界中を演奏して周るサックスプレーヤーの坂田明によるスペシャルイベントを開催..."
 }
