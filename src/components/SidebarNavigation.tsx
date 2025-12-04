@@ -1,12 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-
-// 非表示にするカテゴリのbasenameリスト
-const HIDDEN_CATEGORIES = [
-  'top', // トップ掲載
-  'info', // 事務情報
-];
+import { HIDDEN_CATEGORIES } from '@/constants';
 
 type CategoryInfo = {
   id: number;
@@ -40,7 +35,7 @@ export default function SidebarNavigation({
 }: SidebarNavigationProps) {
   return (
     <>
-      <section className="mb-8 pb-6 border-b border-gray-200">
+      <section className="mb-8 p-4 border-b border-gray-200">
         <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">
           Category
         </h2>
@@ -49,11 +44,10 @@ export default function SidebarNavigation({
             <li>
               <Link
                 href={`/archive/all/year/${currentYear}/page/1`}
-                className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
-                  currentCategory === 'all'
-                    ? 'bg-gray-600 text-white font-semibold'
-                    : 'hover:bg-gray-100 text-gray-700'
-                }`}
+                className={`block px-3 py-2 rounded-lg transition-all duration-200 ${currentCategory === 'all'
+                  ? 'bg-gray-600 text-white font-semibold'
+                  : 'hover:bg-gray-100 text-gray-700'
+                  }`}
                 onClick={() => isMobile && onLinkClick()}
               >
                 <span className="flex justify-between items-center">
@@ -76,11 +70,10 @@ export default function SidebarNavigation({
               <li key={cat.id}>
                 <Link
                   href={`/archive/${cat.basename}/year/${currentYear}/page/1`}
-                  className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
-                    currentCategory === cat.basename
-                      ? 'bg-gray-600 text-white font-semibold'
-                      : 'hover:bg-gray-100 text-gray-700'
-                  }`}
+                  className={`block px-3 py-2 rounded-lg transition-all duration-200 ${currentCategory === cat.basename
+                    ? 'bg-gray-600 text-white font-semibold'
+                    : 'hover:bg-gray-100 text-gray-700'
+                    }`}
                   onClick={() => isMobile && onLinkClick()}
                 >
                   <span className="flex justify-between items-center">
@@ -94,7 +87,7 @@ export default function SidebarNavigation({
         </ul>
       </section>
 
-      <section>
+      <section className="mb-8 p-4 border-b border-gray-200">
         <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">
           Year
         </h2>
@@ -107,11 +100,10 @@ export default function SidebarNavigation({
               <li key={y}>
                 <Link
                   href={`/archive/${currentCategory}/year/${y}/page/1`}
-                  className={`block px-3 py-2 rounded-lg transition-all duration-200 ${
-                    y === currentYear
-                      ? 'bg-gray-600 text-white font-semibold'
-                      : 'hover:bg-gray-100 text-gray-700'
-                  }`}
+                  className={`block px-3 py-2 rounded-lg transition-all duration-200 ${y === currentYear
+                    ? 'bg-gray-600 text-white font-semibold'
+                    : 'hover:bg-gray-100 text-gray-700'
+                    }`}
                   onClick={() => isMobile && onLinkClick()}
                 >
                   <span className="flex justify-between items-center">

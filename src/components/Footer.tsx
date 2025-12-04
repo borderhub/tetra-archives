@@ -34,7 +34,7 @@ export default function Footer({
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* カテゴリー一覧 */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-gray-400">Categories</h3>
+            <h3 className="text-lg font-bold mb-4 text-gray-500">Categories</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -67,7 +67,7 @@ export default function Footer({
 
           {/* 年別アーカイブ */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-gray-400">
+            <h3 className="text-lg font-bold mb-4 text-gray-500">
               Archives by Year
             </h3>
             <ul className="space-y-2 text-sm">
@@ -91,7 +91,7 @@ export default function Footer({
 
           {/* サイト情報 */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-gray-400">Archive</h3>
+            <h3 className="text-lg font-bold mb-4 text-gray-500">Archive</h3>
             <p className="text-sm text-gray-400 mb-4">
               タイムライン形式で過去の記事を閲覧できます。カテゴリーや年別でフィルタリングが可能です。
             </p>

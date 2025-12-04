@@ -1,24 +1,17 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import MobileHeader from '@/components/MobileHeader';
 import Sidebar from '@/components/Sidebar';
 import SidebarNavigation from '@/components/SidebarNavigation';
 import Footer from '@/components/Footer';
 import Pagination from '@/components/Pagination';
-import { stripHtmlTags } from '@/helper';
-
-const POSTS_PER_PAGE = 10;
-const MAX_PAGES_DISPLAY = 10;
-
-// 非表示にするカテゴリのbasenameリスト
-const HIDDEN_CATEGORIES = [
-  'top', // トップ掲載
-  'info', // 事務情報
-];
+import ViewToggle, { ViewMode } from '@/components/ViewToggle';
+import SidebarToggle from '@/components/SidebarToggle';
+import PostList from '@/components/PostList';
+import PostMasonry from '@/components/PostMasonry';
+import { POSTS_PER_PAGE, MAX_PAGES_DISPLAY, HIDDEN_CATEGORIES } from '@/constants';
 
 type CategoryBaseInfo = {
   id: number;
@@ -38,18 +31,6 @@ type PostMeta = {
   thumbnail: string | null;
 };
 
-// タイトルが画像パスかどうかを判定
-const isImagePath = (str: string): boolean => {
-  return /^\/title\/\d+\/title\.(gif|jpg|jpeg|png|webp)$/i.test(str);
-};
-
-// 表示するカテゴリのみをフィルタリング
-const filterVisibleCategories = (
-  categories: CategoryBaseInfo[]
-): CategoryBaseInfo[] => {
-  return categories.filter((cat) => !HIDDEN_CATEGORIES.includes(cat.basename));
-};
-
 export default function ArchivePageClient({
   allPosts,
   category,
@@ -61,44 +42,98 @@ export default function ArchivePageClient({
   year: string;
   page: string;
 }) {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false); // モバイル用
+
+  // 初期値は常に同じ値を使用（Hydrationエラー対策）
+  const [desktopSidebarOpen, setDesktopSidebarOpen] = useState(true);
+
   const [isMobile, setIsMobile] = useState(false);
 
+  // 初期値は常に同じ値を使用（Hydrationエラー対策）
+  const [viewMode, setViewMode] = useState<ViewMode>('list');
+
+  // アニメーション制御用（初期化が終わるまでfalse）
+  const [shouldAnimate, setShouldAnimate] = useState(false);
+
+  // 初期化処理（モバイル判定・LocalStorage復元・アニメーション有効化）
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 1024);
-      if (window.innerWidth >= 1024) {
+    // 1. 同期setState警告回避のため setTimeout を使用
+    const initTimer = setTimeout(() => {
+      // モバイル判定
+      const mobileCheck = window.innerWidth < 1024;
+      setIsMobile(mobileCheck);
+      if (!mobileCheck) {
+        setSidebarOpen(false);
+      }
+
+      // LocalStorage復元
+      const savedDesktopSidebar = localStorage.getItem('desktopSidebarOpen');
+      if (savedDesktopSidebar !== null) {
+        setDesktopSidebarOpen(savedDesktopSidebar === 'true');
+      }
+
+      const savedViewMode = localStorage.getItem('archiveViewMode') as ViewMode;
+      if (savedViewMode && (savedViewMode === 'list' || savedViewMode === 'masonry')) {
+        setViewMode(savedViewMode);
+      }
+
+      // 2. 状態更新がDOMに反映され、レイアウトが確定した後にアニメーションを有効化
+      // 即座に有効化すると、初期レイアウト調整の動きが見えてしまうため遅延させる
+      setTimeout(() => {
+        setShouldAnimate(true);
+      }, 150);
+    }, 0);
+
+    const handleResize = () => {
+      const mobile = window.innerWidth < 1024;
+      setIsMobile(mobile);
+      if (!mobile) {
         setSidebarOpen(false);
       }
     };
 
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
+    window.addEventListener('resize', handleResize);
+    return () => {
+      clearTimeout(initTimer);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
+
+  // ビューモード変更時にローカルストレージに保存
+  const handleViewChange = (view: ViewMode) => {
+    setViewMode(view);
+    localStorage.setItem('archiveViewMode', view);
+  };
+
+  // デスクトップサイドバーの開閉切り替え
+  const toggleDesktopSidebar = () => {
+    const newState = !desktopSidebarOpen;
+    setDesktopSidebarOpen(newState);
+    localStorage.setItem('desktopSidebarOpen', String(newState));
+  };
 
   const currentPage = parseInt(pageStr, 10);
   if (isNaN(currentPage) || currentPage < 1) notFound();
 
   // ========== フィルタリング ==========
-  let filtegrayPosts = allPosts;
+  let filteredPosts = allPosts;
 
   // カテゴリが0個の記事は非表示
-  filtegrayPosts = filtegrayPosts.filter((post) => post.categories.length > 0);
+  filteredPosts = filteredPosts.filter((post) => post.categories.length > 0);
 
   if (category !== 'all') {
-    filtegrayPosts = filtegrayPosts.filter((post) =>
+    filteredPosts = filteredPosts.filter((post) =>
       post.categories.some((c) => c.basename === category)
     );
   }
 
-  filtegrayPosts = filtegrayPosts.filter((post) => post.year === year);
+  filteredPosts = filteredPosts.filter((post) => post.year === year);
 
-  const totalPosts = filtegrayPosts.length;
+  const totalPosts = filteredPosts.length;
   const totalPages = Math.max(1, Math.ceil(totalPosts / POSTS_PER_PAGE));
   if (currentPage > totalPages) notFound();
 
-  const paginatedPosts = filtegrayPosts.slice(
+  const paginatedPosts = filteredPosts.slice(
     (currentPage - 1) * POSTS_PER_PAGE,
     currentPage * POSTS_PER_PAGE
   );
@@ -131,7 +166,7 @@ export default function ArchivePageClient({
     category === 'all'
       ? 'ALL'
       : uniqueCategories.find((c) => c.basename === category)?.label ||
-        category.toUpperCase();
+      category.toUpperCase();
 
   // ヘルパー関数
   const getCategoryCountForYear = (
@@ -160,181 +195,106 @@ export default function ArchivePageClient({
         onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
       />
 
+      {/* デスクトップ用サイドバートグルボタン */}
+      <SidebarToggle
+        isOpen={desktopSidebarOpen}
+        onToggle={toggleDesktopSidebar}
+      />
+
       <div className="flex">
         {/* サイドバー */}
-        <Sidebar
-          title="ARCHIVE"
-          titleLink={`/archive/all/year/${year}/page/1`}
-          mobileTitle="MENU"
-          isMobile={isMobile}
-          isOpen={sidebarOpen}
-          onClose={() => setSidebarOpen(false)}
+        <div
+          className={`${shouldAnimate ? 'transition-all duration-300' : ''} ${isMobile
+            ? '' // モバイルは元の動作（幅制御なし）
+            : desktopSidebarOpen
+              ? 'w-80' // デスクトップでサイドバーが開いている
+              : 'w-0' // デスクトップでサイドバーが閉じている
+            }`}
         >
-          <SidebarNavigation
-            categories={uniqueCategories}
-            years={uniqueYears}
-            currentCategory={category}
-            currentYear={year}
+          <Sidebar
+            title="ARCHIVE"
+            titleLink={`/archive/all/year/${year}/page/1`}
+            mobileTitle="MENU"
             isMobile={isMobile}
-            onLinkClick={() => setSidebarOpen(false)}
-            getCategoryCountForYear={getCategoryCountForYear}
-            getYearCount={getYearCount}
-            allPostsInYearCount={allPostsInYearCount}
-          />
-        </Sidebar>
+            isOpen={isMobile ? sidebarOpen : desktopSidebarOpen}
+            onClose={() => setSidebarOpen(false)}
+            shouldAnimate={shouldAnimate}
+          >
+            <SidebarNavigation
+              categories={uniqueCategories}
+              years={uniqueYears}
+              currentCategory={category}
+              currentYear={year}
+              isMobile={isMobile}
+              onLinkClick={() => setSidebarOpen(false)}
+              getCategoryCountForYear={getCategoryCountForYear}
+              getYearCount={getYearCount}
+              allPostsInYearCount={allPostsInYearCount}
+            />
+          </Sidebar>
+        </div>
 
         {/* メインコンテンツ */}
-        <main className="flex-1 p-4 lg:p-8 max-w-6xl mx-auto w-full">
-          {/* タイトル */}
+        <main
+          className={`flex-1 p-4 lg:p-8 mx-auto w-full ${shouldAnimate ? 'transition-all duration-100' : ''} ${!isMobile && !desktopSidebarOpen
+            ? 'max-w-full lg:px-16' // サイドバー閉: フルサイズ
+            : 'max-w-6xl' // サイドバー開: 通常の最大幅
+            }`}
+        >
+          {/* タイトルとトグルスイッチ */}
           <div className="mb-8 bg-white rounded-lg shadow-md p-6 border-l-4 border-gray-600">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900">
-              {currentCategoryLabel} <span className="text-gray-600">・</span>{' '}
-              {year}
-            </h2>
-            <p className="text-sm text-gray-600 mt-2">
-              {totalPosts} entries found
-            </p>
-          </div>
-
-          {/* タイムライン */}
-          <div className="relative">
-            {/* 縦線(デスクトップ) */}
-            <div className="hidden lg:block absolute top-0 bottom-0 left-8 w-0.5 bg-gradient-to-b from-gray-600 via-gray-400 to-gray-200"></div>
-            <div className="space-y-8">
-              {paginatedPosts.length > 0 ? (
-                paginatedPosts.map((post, index) => {
-                  // excerpt を120文字で切り詰め
-                  const truncatedExcerpt =
-                    post.excerpt.length > 120
-                      ? post.excerpt.slice(0, 120) + '...'
-                      : post.excerpt;
-
-                  // タイトルが画像パスかチェック
-                  const titleIsImage = isImagePath(post.title);
-
-                  // サムネイル: thumbnailがあればそれを、なければタイトルが画像パスならそれを使用
-                  const thumbnailSrc =
-                    post.thumbnail || (titleIsImage ? post.title : null);
-
-                  return (
-                    <article
-                      key={post.slug}
-                      className="relative lg:pl-20 group mb-8"
-                      style={{ animationDelay: `${index * 50}ms` }}
-                    >
-                      {/* タイムラインドット(デスクトップ) */}
-                      <div className="hidden lg:flex absolute left-6 top-8 w-5 h-5 rounded-full bg-gray-600 border-4 border-white shadow-lg z-10 group-hover:scale-125 transition-transform duration-200"></div>
-
-                      {/* 日付バッジ(モバイル) */}
-                      <div className="lg:hidden mb-4 inline-block bg-gray-600 text-white px-4 py-1.5 rounded-full text-sm font-bold">
-                        {post.date}
-                      </div>
-
-                      {/* 日付(デスクトップ) */}
-                      <div className="hidden lg:block absolute left-0 top-6 text-right pr-12 w-20">
-                        <div className="text-sm font-bold text-gray-900">
-                          {post.year}
-                        </div>
-                        <div className="text-xs text-gray-500">
-                          {post.date.split('-').slice(1).join('/')}
-                        </div>
-                      </div>
-
-                      {/* カード本体:横並びレイアウト */}
-                      <Link
-                        href={`/posts/${post.slug}`}
-                        className="block h-full"
-                      >
-                        <div className="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 hover:border-gray-400 group">
-                          <div className="flex flex-col lg:flex-row">
-                            {/* サムネイル(左側) */}
-                            <div className="lg:w-80 lg:flex-shrink-0">
-                              {thumbnailSrc ? (
-                                <Image
-                                  src={thumbnailSrc}
-                                  alt={
-                                    titleIsImage ? 'Title Image' : post.title
-                                  }
-                                  width={320}
-                                  height={192}
-                                  className="w-full h-48 lg:h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                                  unoptimized
-                                />
-                              ) : (
-                                <div className="bg-gray-200 border-2 border-dashed border-gray-300 rounded-t-xl lg:rounded-l-xl lg:rounded-t-none flex items-center justify-center h-48 lg:h-64">
-                                  <span className="text-gray-500 font-medium">
-                                    NO IMAGE
-                                  </span>
-                                </div>
-                              )}
-                            </div>
-
-                            {/* テキストエリア(右側) */}
-                            <div className="flex-1 p-6 lg:p-8">
-                              {/* タイトル: 画像パスの場合は画像として表示、それ以外はテキスト */}
-                              {titleIsImage ? (
-                                <div className="mb-3">
-                                  <Image
-                                    src={`/tetra-archives/${post.title}`}
-                                    alt="Title"
-                                    width={320}
-                                    height={192}
-                                    className="max-w-full h-auto max-h-24 object-contain"
-                                    unoptimized
-                                  />
-                                </div>
-                              ) : (
-                                <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-gray-700 transition-colors">
-                                  {stripHtmlTags(post.title)}
-                                </h3>
-                              )}
-
-                              <p className="text-gray-600 text-sm lg:text-base leading-relaxed mb-5 line-clamp-3">
-                                {truncatedExcerpt}
-                              </p>
-
-                              {/* カテゴリタグ */}
-                              <div className="flex flex-wrap gap-2">
-                                {filterVisibleCategories(post.categories).map(
-                                  (cat) => (
-                                    <span
-                                      key={cat.id}
-                                      className="inline-block px-3 py-1.5 text-xs font-medium bg-gray-100 text-gray-700 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-200"
-                                    >
-                                      {cat.label}
-                                    </span>
-                                  )
-                                )}
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    </article>
-                  );
-                })
-              ) : (
-                <div className="text-center py-12 bg-white rounded-lg shadow-md">
-                  <svg
-                    className="w-16 h-16 mx-auto text-gray-400 mb-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  <p className="text-gray-500 text-lg">
-                    該当する記事は見つかりませんでした
-                  </p>
-                </div>
-              )}
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <div>
+                <h2 className="text-2xl lg:text-3xl font-bold text-gray-900">
+                  {currentCategoryLabel}{' '}
+                  <span className="text-gray-600">・</span> {year}
+                </h2>
+                <p className="text-sm text-gray-600 mt-2">
+                  {totalPosts} entries found
+                </p>
+              </div>
+              <ViewToggle
+                currentView={viewMode}
+                onViewChange={handleViewChange}
+              />
             </div>
           </div>
+
+          {/* 投稿表示エリア */}
+          {paginatedPosts.length > 0 ? (
+            <>
+              {viewMode === 'list' ? (
+                <PostList
+                  posts={paginatedPosts}
+                  HIDDEN_CATEGORIES={HIDDEN_CATEGORIES}
+                />
+              ) : (
+                <PostMasonry
+                  posts={paginatedPosts}
+                  HIDDEN_CATEGORIES={HIDDEN_CATEGORIES}
+                />
+              )}
+            </>
+          ) : (
+            <div className="text-center py-12 bg-white rounded-lg shadow-md">
+              <svg
+                className="w-16 h-16 mx-auto text-gray-400 mb-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p className="text-gray-500 text-lg">
+                該当する記事は見つかりませんでした
+              </p>
+            </div>
+          )}
 
           {/* ページネーション */}
           <Pagination
