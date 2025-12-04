@@ -52,11 +52,21 @@ export default function ArchivePageClient({
   // 初期値は常に同じ値を使用（Hydrationエラー対策）
   const [viewMode, setViewMode] = useState<ViewMode>('list');
 
-  // クライアントサイドでlocalStorageから値を読み込む
+  // アニメーション制御用（初期化が終わるまでfalse）
+  const [shouldAnimate, setShouldAnimate] = useState(false);
+
+  // 初期化処理（モバイル判定・LocalStorage復元・アニメーション有効化）
   useEffect(() => {
-    // setStateをEffect内で同期的に呼ぶ警告を回避するため、
-    // setTimeoutを使用して処理を次のサイクルに回す
-    const timeoutId = setTimeout(() => {
+    // 1. 同期setState警告回避のため setTimeout を使用
+    const initTimer = setTimeout(() => {
+      // モバイル判定
+      const mobileCheck = window.innerWidth < 1024;
+      setIsMobile(mobileCheck);
+      if (!mobileCheck) {
+        setSidebarOpen(false);
+      }
+
+      // LocalStorage復元
       const savedDesktopSidebar = localStorage.getItem('desktopSidebarOpen');
       if (savedDesktopSidebar !== null) {
         setDesktopSidebarOpen(savedDesktopSidebar === 'true');
@@ -66,25 +76,26 @@ export default function ArchivePageClient({
       if (savedViewMode && (savedViewMode === 'list' || savedViewMode === 'masonry')) {
         setViewMode(savedViewMode);
       }
+
+      // 2. 状態更新がDOMに反映され、レイアウトが確定した後にアニメーションを有効化
+      // 即座に有効化すると、初期レイアウト調整の動きが見えてしまうため遅延させる
+      setTimeout(() => {
+        setShouldAnimate(true);
+      }, 150);
     }, 0);
 
-    return () => clearTimeout(timeoutId);
-  }, []);
-
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 1024);
-      if (window.innerWidth >= 1024) {
+    const handleResize = () => {
+      const mobile = window.innerWidth < 1024;
+      setIsMobile(mobile);
+      if (!mobile) {
         setSidebarOpen(false);
       }
     };
 
-    // 初回チェックを非同期で実行してカスケードレンダリングを防ぐ
-    const timeoutId = setTimeout(checkMobile, 0);
-    window.addEventListener('resize', checkMobile);
+    window.addEventListener('resize', handleResize);
     return () => {
-      clearTimeout(timeoutId);
-      window.removeEventListener('resize', checkMobile);
+      clearTimeout(initTimer);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -193,8 +204,8 @@ export default function ArchivePageClient({
       <div className="flex">
         {/* サイドバー */}
         <div
-          className={`transition-all duration-300 ${isMobile
-            ? '' // モバイルは元の動作
+          className={`${shouldAnimate ? 'transition-all duration-300' : ''} ${isMobile
+            ? '' // モバイルは元の動作（幅制御なし）
             : desktopSidebarOpen
               ? 'w-80' // デスクトップでサイドバーが開いている
               : 'w-0' // デスクトップでサイドバーが閉じている
@@ -207,6 +218,7 @@ export default function ArchivePageClient({
             isMobile={isMobile}
             isOpen={isMobile ? sidebarOpen : desktopSidebarOpen}
             onClose={() => setSidebarOpen(false)}
+            shouldAnimate={shouldAnimate}
           >
             <SidebarNavigation
               categories={uniqueCategories}
@@ -224,7 +236,7 @@ export default function ArchivePageClient({
 
         {/* メインコンテンツ */}
         <main
-          className={`flex-1 p-4 lg:p-8 mx-auto w-full transition-all duration-300 ${!isMobile && !desktopSidebarOpen
+          className={`flex-1 p-4 lg:p-8 mx-auto w-full ${shouldAnimate ? 'transition-all duration-100' : ''} ${!isMobile && !desktopSidebarOpen
             ? 'max-w-full lg:px-16' // サイドバー閉: フルサイズ
             : 'max-w-6xl' // サイドバー開: 通常の最大幅
             }`}

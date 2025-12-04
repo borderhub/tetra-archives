@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { X } from 'lucide-react';
-import { ReactNode, useEffect } from 'react';
+import { ReactNode } from 'react';
 
 interface SidebarProps {
   title: string;
@@ -12,13 +12,11 @@ interface SidebarProps {
   isOpen: boolean;
   onClose: () => void;
   children: ReactNode;
+  shouldAnimate?: boolean; // 追加: アニメーション有効化フラグ
 }
 
 /**
- * サイドバーコンポーネント（デスクトップ開閉機能対応版）
- * 
- * モバイル: オーバーレイ付きの全画面サイドバー
- * デスクトップ: 開閉可能な固定サイドバー
+ * サイドバーコンポーネント
  */
 export default function Sidebar({
   title,
@@ -28,6 +26,7 @@ export default function Sidebar({
   isOpen,
   onClose,
   children,
+  shouldAnimate = false, // デフォルトはfalseにしておく
 }: SidebarProps) {
   return (
     <>
@@ -43,13 +42,13 @@ export default function Sidebar({
       <aside
         className={`
           p-4 fixed lg:sticky top-0 h-screen bg-white shadow-lg z-40
-          transition-all duration-300 ease-in-out
+          ${shouldAnimate ? 'transition-all duration-300 ease-in-out' : 'hidden'} 
           ${isMobile
-            ? // モバイル: スライドイン・アウト
+            ? // モバイル
             isOpen
               ? 'translate-x-0 w-80'
               : '-translate-x-full w-80'
-            : // デスクトップ: 幅の変更とフェード
+            : // デスクトップ
             isOpen
               ? 'w-80 opacity-100'
               : 'w-0 opacity-0 overflow-hidden'
@@ -66,7 +65,7 @@ export default function Sidebar({
               {isMobile ? mobileTitle : title}
             </Link>
 
-            {/* 閉じるボタン（モバイルのみ） */}
+            {/* 閉じるボタン */}
             {isMobile && (
               <button
                 onClick={onClose}

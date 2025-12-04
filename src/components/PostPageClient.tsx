@@ -78,36 +78,53 @@ export default function PostPageClient({
   const [isMobile, setIsMobile] = useState(false);
   const [isDownloading, setIsDownloading] = useState(false);
 
+  // アニメーション制御用（初期化が終わるまでfalse）
+  const [shouldAnimate, setShouldAnimate] = useState(false);
+
+  // 初期化処理（モバイル判定・LocalStorage復元・アニメーション有効化）
   useEffect(() => {
-    const checkMobile = () => {
-      const mobile = window.innerWidth < 1024;
-      setIsMobile(mobile);
-      if (!mobile) {
+    // 1. 同期setState警告回避のため setTimeout を使用
+    const initTimer = setTimeout(() => {
+      // モバイル判定
+      const mobileCheck = window.innerWidth < 1024;
+      setIsMobile(mobileCheck);
+      if (!mobileCheck) {
         setSidebarOpen(false);
       }
+
+      // LocalStorageからサイドバー状態を復元
+      const savedSidebarState = localStorage.getItem('desktopSidebarOpen');
+      if (savedSidebarState !== null) {
+        setDesktopSidebarOpen(savedSidebarState === 'true');
+      }
+
+      // 2. 状態更新がDOMに反映され、レイアウトが確定した後にアニメーションを有効化
+      // 300ms待つことで、モバイルでの初期幅調整時のアニメーションを防ぐ
+      setTimeout(() => {
+        setShouldAnimate(true);
+      }, 150);
+    }, 0);
+
+    // リサイズイベントの処理（デバウンス付き）
+    let resizeTimer: NodeJS.Timeout;
+    const handleResize = () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const mobile = window.innerWidth < 1024;
+        setIsMobile(mobile);
+        if (!mobile) {
+          setSidebarOpen(false);
+        }
+      }, 150);
     };
 
-    let timeoutId: NodeJS.Timeout;
-    const debouncedCheckMobile = () => {
-      clearTimeout(timeoutId);
-      timeoutId = setTimeout(checkMobile, 150);
-    };
-
-    checkMobile();
-    window.addEventListener('resize', debouncedCheckMobile);
+    window.addEventListener('resize', handleResize);
 
     return () => {
-      clearTimeout(timeoutId);
-      window.removeEventListener('resize', debouncedCheckMobile);
+      clearTimeout(initTimer);
+      clearTimeout(resizeTimer);
+      window.removeEventListener('resize', handleResize);
     };
-  }, []);
-
-  // LocalStorageからサイドバー状態を復元
-  useEffect(() => {
-    const savedSidebarState = localStorage.getItem('desktopSidebarOpen');
-    if (savedSidebarState !== null) {
-      setDesktopSidebarOpen(savedSidebarState === 'true');
-    }
   }, []);
 
   // デスクトップサイドバーの開閉切り替え
@@ -367,7 +384,7 @@ export default function PostPageClient({
       <div className="flex">
         {/* サイドバー */}
         <div
-          className={`transition-all duration-300 ${isMobile
+          className={`${shouldAnimate ? 'transition-all duration-100' : ''} ${isMobile
             ? ''
             : desktopSidebarOpen
               ? 'w-80'
@@ -381,6 +398,7 @@ export default function PostPageClient({
             isMobile={isMobile}
             isOpen={isMobile ? sidebarOpen : desktopSidebarOpen}
             onClose={() => setSidebarOpen(false)}
+            shouldAnimate={shouldAnimate}
           >
             <PostSidebarNavigation
               categories={post.categories}
@@ -393,9 +411,9 @@ export default function PostPageClient({
 
         {/* メインコンテンツ */}
         <main
-          className={`flex-1 mx-auto w-full transition-all duration-300 ${!isMobile && !desktopSidebarOpen
+          className={`flex-1 mx-auto w-full ${shouldAnimate ? 'transition-all duration-300' : ''} ${!isMobile && !desktopSidebarOpen
             ? 'max-w-full lg:px-16'  // サイドバー閉: フルサイズ
-            : 'max-w-6xl'           // サイドバー開: 通常幅
+            : `max-w-6xl`           // サイドバー開: 通常幅
             }`}
         >
           <article className="pdf-article-content bg-white rounded-lg shadow-xl overflow-hidden my-8">
