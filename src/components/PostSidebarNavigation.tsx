@@ -25,7 +25,7 @@ export default function PostSidebarNavigation({
 }: PostSidebarNavigationProps) {
   return (
     <>
-      <section className="mb-8 pb-6 border-b border-gray-200">
+      <section className="mb-8 py-6 border-b border-gray-200">
         <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">
           Year
         </h2>
