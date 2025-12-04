@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 /**
  * html2canvasの動作確認用テストコンポーネント
- * 
+ *
  * 使用方法:
  * 1. src/app/test-pdf/page.tsx として配置
  * 2. http://localhost:3000/test-pdf にアクセス
@@ -16,7 +17,10 @@ export default function TestPDFComponent() {
 
   const addLog = (message: string) => {
     console.log(message);
-    setLogs(prev => [...prev, `${new Date().toLocaleTimeString()}: ${message}`]);
+    setLogs((prev) => [
+      ...prev,
+      `${new Date().toLocaleTimeString()}: ${message}`,
+    ]);
   };
 
   // テスト1: html2canvasのインポート確認
@@ -66,13 +70,16 @@ export default function TestPDFComponent() {
       document.body.appendChild(clonedElement);
 
       // すべての要素のbackground-imageを削除
-      const allElements = [clonedElement, ...Array.from(clonedElement.querySelectorAll('*'))];
+      const allElements = [
+        clonedElement,
+        ...Array.from(clonedElement.querySelectorAll('*')),
+      ];
       allElements.forEach((el) => {
         const htmlEl = el as HTMLElement;
         htmlEl.style.backgroundImage = 'none';
       });
 
-      await new Promise(resolve => setTimeout(resolve, 50));
+      await new Promise((resolve) => setTimeout(resolve, 50));
 
       addLog('キャプチャ開始...');
       const canvas = await html2canvas(clonedElement, {
@@ -120,13 +127,16 @@ export default function TestPDFComponent() {
       document.body.appendChild(clonedElement);
 
       // すべての要素のbackground-imageを削除
-      const allElements = [clonedElement, ...Array.from(clonedElement.querySelectorAll('*'))];
+      const allElements = [
+        clonedElement,
+        ...Array.from(clonedElement.querySelectorAll('*')),
+      ];
       allElements.forEach((el) => {
         const htmlEl = el as HTMLElement;
         htmlEl.style.backgroundImage = 'none';
       });
 
-      await new Promise(resolve => setTimeout(resolve, 50));
+      await new Promise((resolve) => setTimeout(resolve, 50));
 
       addLog('キャプチャ中...');
       const canvas = await html2canvas(clonedElement, {
@@ -254,15 +264,22 @@ export default function TestPDFComponent() {
               <p className="text-gray-500">ログなし</p>
             ) : (
               logs.map((log, i) => (
-                <div key={i} className="mb-1">{log}</div>
+                <div key={i} className="mb-1">
+                  {log}
+                </div>
               ))
             )}
           </div>
         </div>
 
         {/* テストコンテンツ1: テキストのみ */}
-        <div id="test-content" className="bg-white rounded-lg shadow p-8 mb-6 border-4 border-blue-500">
-          <h2 className="text-2xl font-bold mb-4 text-gray-800">テストコンテンツ1</h2>
+        <div
+          id="test-content"
+          className="bg-white rounded-lg shadow p-8 mb-6 border-4 border-blue-500"
+        >
+          <h2 className="text-2xl font-bold mb-4 text-gray-800">
+            テストコンテンツ1
+          </h2>
           <p className="text-gray-700 mb-4">
             これはhtml2canvasのテストコンテンツです。
             このボックスがPDFに正しくキャプチャされるか確認します。
@@ -274,14 +291,19 @@ export default function TestPDFComponent() {
         </div>
 
         {/* テストコンテンツ2: 画像付き */}
-        <div id="test-content-with-image" className="bg-white rounded-lg shadow p-8 border-4 border-green-500">
-          <h2 className="text-2xl font-bold mb-4 text-gray-800">テストコンテンツ2（画像付き）</h2>
+        <div
+          id="test-content-with-image"
+          className="bg-white rounded-lg shadow p-8 border-4 border-green-500"
+        >
+          <h2 className="text-2xl font-bold mb-4 text-gray-800">
+            テストコンテンツ2（画像付き）
+          </h2>
           <p className="text-gray-700 mb-4">
             画像が含まれるコンテンツのテストです。
           </p>
           <div className="bg-gray-200 p-4 rounded mb-4">
             <p className="text-sm text-gray-600 mb-2">プレースホルダー画像:</p>
-            <img
+            <Image
               src="https://via.placeholder.com/400x200/4299e1/ffffff?text=Test+Image"
               alt="Test"
               className="w-full rounded"
@@ -296,10 +318,18 @@ export default function TestPDFComponent() {
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded">
           <h3 className="font-bold mb-2">テストの進め方:</h3>
           <ol className="list-decimal list-inside space-y-2 text-sm">
-            <li>まず「テスト1: インポート確認」を実行して、ライブラリが正しく読み込めるか確認</li>
-            <li>次に「テスト2: キャプチャ確認」でキャプチャ機能が動作するか確認</li>
+            <li>
+              まず「テスト1:
+              インポート確認」を実行して、ライブラリが正しく読み込めるか確認
+            </li>
+            <li>
+              次に「テスト2: キャプチャ確認」でキャプチャ機能が動作するか確認
+            </li>
             <li>「テスト3: PDF生成」で実際にPDFファイルをダウンロード</li>
-            <li>「テスト4: 画像付きキャプチャ」で画像を含むコンテンツのキャプチャを確認</li>
+            <li>
+              「テスト4:
+              画像付きキャプチャ」で画像を含むコンテンツのキャプチャを確認
+            </li>
           </ol>
           <p className="mt-4 text-sm text-gray-700">
             各テストの実行ログとブラウザのコンソールを確認して、エラーがないか確認してください。

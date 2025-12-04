@@ -35,7 +35,7 @@ export default function SidebarNavigation({
 }: SidebarNavigationProps) {
   return (
     <>
-      <section className="mb-8 pb-6 border-b border-gray-200">
+      <section className="mb-8 p-4 border-b border-gray-200">
         <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">
           Category
         </h2>
@@ -87,7 +87,7 @@ export default function SidebarNavigation({
         </ul>
       </section>
 
-      <section>
+      <section className="mb-8 p-4 border-b border-gray-200">
         <h2 className="text-xs font-bold uppercase mb-4 tracking-wider text-gray-600">
           Year
         </h2>

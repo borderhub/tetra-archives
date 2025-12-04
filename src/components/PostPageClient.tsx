@@ -7,6 +7,7 @@ import parse, { DOMNode, domToReact, Element } from 'html-react-parser';
 import React, { Fragment } from 'react';
 import MobileHeader from '@/components/MobileHeader';
 import Sidebar from '@/components/Sidebar';
+import SidebarToggle from '@/components/SidebarToggle';
 import PostSidebarNavigation from '@/components/PostSidebarNavigation';
 import Footer from '@/components/Footer';
 import { stripHtmlTagsKeepLineBreaks } from '@/helper';
@@ -72,7 +73,8 @@ export default function PostPageClient({
   allPosts: PostData[];
   slug: string;
 }) {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false); // モバイル用
+  const [desktopSidebarOpen, setDesktopSidebarOpen] = useState(true); // デスクトップ用
   const [isMobile, setIsMobile] = useState(false);
   const [isDownloading, setIsDownloading] = useState(false);
 
@@ -99,6 +101,21 @@ export default function PostPageClient({
       window.removeEventListener('resize', debouncedCheckMobile);
     };
   }, []);
+
+  // LocalStorageからサイドバー状態を復元
+  useEffect(() => {
+    const savedSidebarState = localStorage.getItem('desktopSidebarOpen');
+    if (savedSidebarState !== null) {
+      setDesktopSidebarOpen(savedSidebarState === 'true');
+    }
+  }, []);
+
+  // デスクトップサイドバーの開閉切り替え
+  const toggleDesktopSidebar = () => {
+    const newState = !desktopSidebarOpen;
+    setDesktopSidebarOpen(newState);
+    localStorage.setItem('desktopSidebarOpen', String(newState));
+  };
 
   const year = post.date ? post.date.substring(0, 4) : 'Unknown';
 
@@ -224,275 +241,112 @@ export default function PostPageClient({
         throw new Error('jsPDFの読み込みに失敗しました。npm install jspdf を実行してください。');
       }
 
-      // PDF用のコンテンツ要素を取得
-      const element = document.getElementById('pdf-content');
-      if (!element) {
-        console.error('pdf-content要素が見つかりません');
-        throw new Error('PDF content element not found');
+      const articleElement = document.querySelector('.pdf-article-content');
+      if (!articleElement) {
+        throw new Error('PDF変換対象の要素が見つかりません。');
       }
-      console.log('要素取得成功:', element.tagName);
 
-      // 一時的にスクロール位置を保存
-      const scrollY = window.scrollY;
-      console.log('スクロール位置:', scrollY);
-
-      // html2canvasでキャプチャ
-      console.log('html2canvasキャプチャ開始...');
-      const canvas = await html2canvas(element, {
+      console.log('キャンバス変換中...');
+      const canvas = await html2canvas(articleElement as HTMLElement, {
         scale: 2,
         useCORS: true,
-        allowTaint: true,
-        logging: true, // デバッグ用に一時的にtrueに
+        logging: false,
         backgroundColor: '#ffffff',
-        windowWidth: element.scrollWidth,
-        windowHeight: element.scrollHeight,
-        onclone: (clonedDoc) => {
-          const clonedElement = clonedDoc.getElementById('pdf-content');
-          if (!clonedElement) return;
-
-          // ▼▼▼▼▼ ここが修正ポイント ▼▼▼▼▼
-          // 1. PDFに含めたくない要素（カテゴリ・ダウンロードボタン）を削除
-          const elementsToRemove = clonedElement.querySelectorAll('.pdf-ignore-element');
-          elementsToRemove.forEach((el) => el.remove());
-
-          // 2. グラデーションの互換性処理
-          const header = clonedElement.querySelector('header');
-          if (header) {
-            header.style.backgroundImage = 'linear-gradient(to right, #d1d5db, #9ca3af)';
-          }
-
-          const gradientElements = clonedElement.querySelectorAll('[class*="bg-gradient-to-"]');
-          gradientElements.forEach((el) => {
-            const element = el as HTMLElement;
-            const className = element.className;
-            if (element.tagName === 'HEADER') return;
-
-            if (className.includes('from-gray-50') || className.includes('to-gray-50')) {
-              const direction = className.includes('bg-gradient-to-br') ? 'to bottom right' : 'to right';
-              if (className.includes('from-white')) {
-                element.style.backgroundImage = `linear-gradient(${direction}, #ffffff, #f9fafb)`;
-              } else {
-                element.style.backgroundImage = `linear-gradient(${direction}, #f9fafb, #ffffff)`;
-              }
-            }
-          });
-        }
+        ignoreElements: (element: Element) => {
+          return (element as unknown as HTMLElement).classList?.contains('pdf-ignore-element') || false;
+        },
       });
 
-      console.log('キャプチャ成功! Canvas:', canvas.width, 'x', canvas.height);
+      console.log('キャンバス変換完了:', canvas.width, 'x', canvas.height);
 
-      // 元のスクロール位置に戻す
-      window.scrollTo(0, scrollY);
-
-      const imgData = canvas.toDataURL('image/jpeg', 0.95);
-      console.log('画像データ変換成功');
-
-      const imgWidth = 210; // A4幅 (mm)
-      const imgHeight = (canvas.height * imgWidth) / canvas.width;
-
-      // PDFを作成
+      const imgData = canvas.toDataURL('image/png');
       const pdf = new jsPDF({
-        orientation: imgHeight > imgWidth ? 'portrait' : 'landscape',
+        orientation: canvas.width > canvas.height ? 'landscape' : 'portrait',
         unit: 'mm',
         format: 'a4',
       });
-      console.log('PDF作成成功');
+
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = pdf.internal.pageSize.getHeight();
+      const imgWidth = pdfWidth - 20;
+      const imgHeight = (canvas.height * imgWidth) / canvas.width;
 
       let heightLeft = imgHeight;
-      let position = 0;
+      let position = 10;
 
-      // 最初のページ
-      pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
-      heightLeft -= 297; // A4の高さ
+      pdf.addImage(imgData, 'PNG', 10, position, imgWidth, imgHeight);
+      heightLeft -= pdfHeight - 20;
 
-      // 複数ページに分割
       while (heightLeft > 0) {
-        position = heightLeft - imgHeight;
+        position = heightLeft - imgHeight + 10;
         pdf.addPage();
-        pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
-        heightLeft -= 297;
+        pdf.addImage(imgData, 'PNG', 10, position, imgWidth, imgHeight);
+        heightLeft -= pdfHeight - 20;
       }
 
-      // PDFを保存
       pdf.save(`${slug}.pdf`);
-      console.log('PDF保存成功:', `${slug}.pdf`);
+      console.log('PDF保存完了');
     } catch (error) {
-      console.error('PDF download error:', error);
-      console.error('エラースタック:', error instanceof Error ? error.stack : 'スタックなし');
-
-      const errorMessage = error instanceof Error ? error.message : 'PDFダウンロードに失敗しました';
-      alert(`PDFダウンロードエラー: ${errorMessage}\n\nブラウザのコンソールで詳細を確認してください。`);
+      console.error('PDF生成エラー:', error);
+      alert(`PDFダウンロードに失敗しました: ${error instanceof Error ? error.message : '不明なエラー'}`);
     } finally {
       setIsDownloading(false);
-      console.log('PDF生成処理終了');
     }
   };
 
-  // HTML変換関数
-  const replace = (node: DOMNode) => {
-    if (node.type === 'text') {
-      const text = node.data;
+  // html-react-parserの変換設定（画像をSSG対応に変換）
+  const replace = (domNode: DOMNode) => {
+    if (domNode instanceof Element && domNode.name) {
+      const { name, attribs, children } = domNode;
 
-      // 完全に空白だけで改行もない場合はスキップ
-      if (!text.trim() && !/\n/.test(text)) return null;
-
-      // 改行を含む場合の処理
-      if (text.includes('\n')) {
-        // 2つ以上の連続改行で段落を分割
-        const paragraphs = text.split(/\n\n+/);
-
-        const processedParagraphs = paragraphs
-          .map((paragraph, pIndex) => {
-            const trimmedParagraph = paragraph.trim();
-
-            // 空の段落はスキップ
-            if (!trimmedParagraph) return null;
-
-            // 段落内の単一改行を処理
-            const lines = trimmedParagraph.split('\n');
-
-            // 各行を処理
-            const contentWithBreaks = lines.map((line, lIndex) => (
-              <Fragment key={lIndex}>
-                {line}
-                {lIndex < lines.length - 1 && <br />}
-              </Fragment>
-            ));
-
-            return (
-              <p key={pIndex} className="my-4 leading-relaxed text-gray-700">
-                {contentWithBreaks}
-              </p>
-            );
-          })
-          .filter(Boolean); // null を除外
-
-        return processedParagraphs.length > 0 ? processedParagraphs : null;
-      }
-
-      // 改行がない通常のテキスト
-      return text;
-    }
-
-    if (node.type !== 'tag') return;
-
-    const elem = node as Element;
-    const children = domToReact(elem.children as DOMNode[], { replace });
-
-    if (elem.name === 'img') {
-      const src = elem.attribs.src ? `/tetra-archives/${elem.attribs.src}` : '';
-      const alt = elem.attribs.alt || '';
-      const classNames = `my-8 rounded-lg shadow-lg border border-gray-200 ${elem.attribs.class || ''}`;
-
-      const parseSize = (val: string | number | undefined) => {
-        if (typeof val === 'number') return val;
-        if (typeof val === 'string')
-          return (
-            parseInt(val.replace('px', '').replace('auto', '0'), 10) ||
-            undefined
-          );
-        return undefined;
-      };
-
-      const w = parseSize(elem.attribs.width) || 800;
-      const h = parseSize(elem.attribs.height) || 600;
-
-      if (src.startsWith('/upload/')) {
-        return (
-          <Image
-            src={src}
-            alt={alt}
-            width={w}
-            height={h}
-            className={classNames}
-            style={{ width: w ? `${w}px` : '100%', height: 'auto' }}
-          />
-        );
-      }
-      return (
-        <Image
-          src={src}
-          alt={alt}
-          width={parseInt(elem.attribs.width, 10) || 0}
-          height={parseInt(elem.attribs.height, 10) || 0}
-          className={classNames}
-          loading="lazy"
-          unoptimized
-        />
-      );
-    }
-
-    if (elem.name === 'a') {
-      const href = elem.attribs.href || '';
-      const isExternal = href.startsWith('http');
-      const baseClass =
-        'text-gray-600 hover:text-gray-800 underline transition-colors duration-200';
-      const externalClass = 'inline-flex items-center gap-1';
-
-      return (
-        <a
-          href={href}
-          target={isExternal ? '_blank' : elem.attribs.target}
-          rel={isExternal ? 'noopener noreferrer' : elem.attribs.rel}
-          className={`${baseClass} ${isExternal ? externalClass : ''} ${elem.attribs.class || ''}`}
-        >
-          {children} {isExternal && <span className="text-xs">↗</span>}
-        </a>
-      );
-    }
-
-    if (elem.name === 'p') {
-      return (
-        <p
-          className={`my-4 leading-relaxed text-gray-700 ${elem.attribs.class || ''}`}
-        >
-          {children}
-        </p>
-      );
-    }
-
-    if (elem.name === 'div') {
-      return (
-        <div
-          className={`my-6 p-4 bg-gray-50 border-l-4 border-gray-600 rounded ${elem.attribs.class || ''}`}
-        >
-          {children}
-        </div>
-      );
-    }
-
-    if (elem.name === 'br') return <br />;
-
-    if (elem.name === 'details') {
-      return (
-        <details
-          className={`bg-gray-50 rounded-lg p-4 my-6 border border-gray-200 ${elem.attribs.class || ''}`}
-        >
-          {children}
-        </details>
-      );
-    }
-    if (elem.name === 'summary') {
-      return (
-        <summary
-          className={`cursor-pointer font-bold text-lg list-none flex items-center gap-2 hover:text-gray-600 transition-colors ${elem.attribs.class || ''}`}
-        >
-          <span className="text-gray-600">▼</span> {children}
-        </summary>
-      );
-    }
-
-    const { name, attribs } = elem;
-    const props = { ...attribs, key: node.startIndex || undefined };
-
-    if (typeof name === 'string' && name.match(/^[a-z0-9]+/)) {
+      // 自己閉じタグの処理
       if (VOID_ELEMENTS.includes(name)) {
+        const props: Record<string, unknown> = { ...attribs };
+
+        // img タグの場合のみ、Imageコンポーネントに変換
+        if (name === 'img' && attribs.src) {
+          const src = attribs.src.startsWith('/')
+            ? `/tetra-archives${attribs.src}`
+            : `/tetra-archives/${attribs.src}`;
+
+          // width/heightを安全にパース
+          const parseSize = (value: string | undefined, defaultValue: number): number => {
+            if (!value) return defaultValue;
+            const parsed = parseInt(value, 10);
+            return isNaN(parsed) || parsed <= 0 ? defaultValue : parsed;
+          };
+
+          const width = parseSize(attribs.width, 800);
+          const height = parseSize(attribs.height, 450);
+
+          return (
+            <Image
+              src={src}
+              alt={attribs.alt || 'Content Image'}
+              width={width}
+              height={height}
+              className={attribs.class || ''}
+              loading="lazy"
+              unoptimized
+            />
+          );
+        }
+
+        // その他の自己閉じタグはそのまま
         return React.createElement(name, props);
       }
-      return React.createElement(name, props, children);
+
+      // 通常のタグ（子要素あり）
+      const props: Record<string, unknown> = { ...attribs };
+      return React.createElement(
+        name,
+        props,
+        domToReact(children as DOMNode[], { replace })
+      );
     }
 
-    return null;
+    // それ以外はそのまま
+    return domNode;
   };
 
   return (
@@ -504,30 +358,56 @@ export default function PostPageClient({
         onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
       />
 
+      {/* デスクトップ用サイドバートグルボタン */}
+      <SidebarToggle
+        isOpen={desktopSidebarOpen}
+        onToggle={toggleDesktopSidebar}
+      />
+
       <div className="flex">
         {/* サイドバー */}
-        <Sidebar
-          title="ARCHIVE"
-          titleLink={`/archive/all/year/${year}/page/1`}
-          mobileTitle="INFO"
-          isMobile={isMobile}
-          isOpen={sidebarOpen}
-          onClose={() => setSidebarOpen(false)}
+        <div
+          className={`transition-all duration-300 ${isMobile
+            ? ''
+            : desktopSidebarOpen
+              ? 'w-80'
+              : 'w-0'
+            }`}
         >
-          <PostSidebarNavigation
-            year={year}
-            categories={post.categories}
+          <Sidebar
+            title="POST"
+            titleLink={`/archive/all/year/${year}/page/1`}
+            mobileTitle="MENU"
             isMobile={isMobile}
-            onLinkClick={() => setSidebarOpen(false)}
-          />
-        </Sidebar>
+            isOpen={isMobile ? sidebarOpen : desktopSidebarOpen}
+            onClose={() => setSidebarOpen(false)}
+          >
+            <PostSidebarNavigation
+              categories={post.categories}
+              year={year}
+              isMobile={isMobile}
+              onLinkClick={() => setSidebarOpen(false)}
+            />
+          </Sidebar>
+        </div>
 
         {/* メインコンテンツ */}
-        <main className="flex-1 p-4 lg:p-6 max-w-5xl mx-auto w-full">
-          <article id="pdf-content" className="bg-white rounded-lg overflow-hidden">
-            {/* ヘッダー - 資料風デザイン */}
-            <header className="relative text-gray-600 border-b-2 border-gray-100 ">
-              <div className="p-6 lg:p-12">
+        <main
+          className={`flex-1 mx-auto w-full transition-all duration-300 ${!isMobile && !desktopSidebarOpen
+            ? 'max-w-full lg:px-16'  // サイドバー閉: フルサイズ
+            : 'max-w-6xl'           // サイドバー開: 通常幅
+            }`}
+        >
+          <article className="pdf-article-content bg-white rounded-lg shadow-xl overflow-hidden my-8">
+            {/* ヘッダー部分 */}
+            <header className="relative text-gray-600 p-6 lg:p-12 border-b-1 border-gray-200">
+              {/* 背景装飾 */}
+              <div className="absolute inset-0 opacity-10">
+                <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+                <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+              </div>
+
+              <div className="relative z-10">
                 <div className="mb-8 pdf-ignore-element">
                   {/* 全体：PCは横並び / モバイルは縦 */}
                   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
@@ -546,7 +426,7 @@ export default function PostPageClient({
                     </div>
 
                     {/* ② ダウンロードボタン（モバイル：縦 / PC：横） */}
-                    <div className="flex flex-row gap-3 lg:justify-between">  {/* ← ここは常に横並びでOK（モバイルでも2個なら横で十分） */}
+                    <div className="flex flex-row gap-3 lg:justify-between">
                       <button
                         onClick={handleDownloadPDF}
                         disabled={isDownloading}
@@ -555,7 +435,7 @@ export default function PostPageClient({
                       >
                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 0 01-2 2z" />
+                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 0 1-2 2z" />
                         </svg>
                         <span className="text-sm font-medium">PDF</span>
                       </button>

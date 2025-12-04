@@ -1,99 +1,89 @@
 'use client';
 
 import Link from 'next/link';
-import { ReactNode } from 'react';
+import { X } from 'lucide-react';
+import { ReactNode, useEffect } from 'react';
 
-type SidebarProps = {
-  title?: string; // サイドバータイトル（デフォルト: "ARCHIVE"）
-  titleLink?: string; // タイトルのリンク先
-  mobileTitle?: string; // モバイルメニューのタイトル（デフォルト: "MENU"）
-  children: ReactNode;
+interface SidebarProps {
+  title: string;
+  titleLink: string;
+  mobileTitle: string;
   isMobile: boolean;
   isOpen: boolean;
   onClose: () => void;
-  className?: string; // 追加のカスタムクラス
-};
+  children: ReactNode;
+}
 
+/**
+ * サイドバーコンポーネント（デスクトップ開閉機能対応版）
+ * 
+ * モバイル: オーバーレイ付きの全画面サイドバー
+ * デスクトップ: 開閉可能な固定サイドバー
+ */
 export default function Sidebar({
-  title = 'ARCHIVE',
+  title,
   titleLink,
-  mobileTitle = 'MENU',
-  children,
+  mobileTitle,
   isMobile,
   isOpen,
   onClose,
-  className = '',
+  children,
 }: SidebarProps) {
   return (
     <>
-      {/* デスクトップサイドバー */}
+      {/* オーバーレイ（モバイルのみ） */}
+      {isMobile && isOpen && (
+        <div
+          className="fixed inset-0 bg-opacity-50 z-30 lg:hidden"
+          onClick={onClose}
+        />
+      )}
+
+      {/* サイドバー本体 */}
       <aside
-        className={`hidden lg:block w-80 bg-white border-r border-gray-200 sticky top-0 h-screen overflow-y-auto shadow-lg ${className}`}
+        className={`
+          p-4 fixed lg:sticky top-0 h-screen bg-white shadow-lg z-40
+          transition-all duration-300 ease-in-out
+          ${isMobile
+            ? // モバイル: スライドイン・アウト
+            isOpen
+              ? 'translate-x-0 w-80'
+              : '-translate-x-full w-80'
+            : // デスクトップ: 幅の変更とフェード
+            isOpen
+              ? 'w-80 opacity-100'
+              : 'w-0 opacity-0 overflow-hidden'
+          }
+        `}
       >
-        <div className="p-8">
-          <h1 className="text-3xl font-black mb-10 tracking-wider">
-            {titleLink ? (
-              <Link
-                href={titleLink}
-                className="hover:text-gray-600 transition-colors"
+        <div className="flex flex-col h-full">
+          {/* ヘッダー */}
+          <div className="flex items-center justify-between p-6 border-b border-gray-200">
+            <Link
+              href={titleLink}
+              className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors"
+            >
+              {isMobile ? mobileTitle : title}
+            </Link>
+
+            {/* 閉じるボタン（モバイルのみ） */}
+            {isMobile && (
+              <button
+                onClick={onClose}
+                className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                aria-label="サイドバーを閉じる"
               >
-                {title}
-              </Link>
-            ) : (
-              <span>{title}</span>
+                <X size={24} className="text-gray-600" />
+              </button>
             )}
-          </h1>
-          {children}
+          </div>
+
+          {/* コンテンツエリア */}
+          <div className="flex-1 overflow-y-auto">
+            {children}
+          </div>
         </div>
       </aside>
-
-      {/* モバイルサイドバー（オーバーレイ） */}
-      {isMobile && (
-        <>
-          {/* オーバーレイ背景 */}
-          <div
-            className={`fixed inset-0 bg-black transition-opacity duration-300 z-40 lg:hidden ${
-              isOpen ? 'opacity-50' : 'opacity-0 pointer-events-none'
-            }`}
-            onClick={onClose}
-          />
-
-          {/* サイドバーパネル */}
-          <aside
-            className={`fixed top-0 left-0 h-full w-80 bg-white shadow-2xl transform transition-transform duration-300 z-50 lg:hidden overflow-y-auto ${
-              isOpen ? 'translate-x-0' : '-translate-x-full'
-            }`}
-          >
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-8">
-                <h2 className="text-2xl font-black tracking-wider">
-                  {mobileTitle}
-                </h2>
-                <button
-                  onClick={onClose}
-                  className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
-                  aria-label="Close menu"
-                >
-                  <svg
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                </button>
-              </div>
-              {children}
-            </div>
-          </aside>
-        </>
-      )}
     </>
   );
 }
