@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "開催日：2014年9月20日（土）\r\n開場：14:00\r\n開始：14:30\r\n料金：1500円 + 1ドリンク（500円）",

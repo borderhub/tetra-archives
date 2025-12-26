@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "azumasa Hashimoto4-\n2004.06.Kazumasa Hashimoto(from Tokyo) came to tetra and promoted his latest FLYREC release.\n\nKazumasa Hashimoto http://home.att.ne.jp/star/bd/\n\n[organiser] FLYREC http://www.flyrec.com/\r\n[support] rhythm http://www.mhtyhr.com/\r\n[PA] Greg Sullivan (Escalator Audio)",

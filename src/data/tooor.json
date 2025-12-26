@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2011年3月15日（火）ー20日（日）\r\n時間…平日16:00-20:00 / 土日祝13:00-20:007-�\n\n5_height-1622-/ exhibition -The dream in the dream-4-C2011.3.15(tue) - 20(sun)\r\ntue- fri 16:00-20:00 / sat-sun13:00-20:00 13_height-16213-beacon-15-",

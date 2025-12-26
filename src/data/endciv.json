@@ -11,14 +11,20 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日...2010年10月10日（日・祝）\r\n時間...19:00～\r\n料金...1,000円\n\n上映後トーク\r\n本ドキュメンタリー監督のフランクリン・ロペス氏、新宿IRA店主ナリタケイスケ氏による上映後のトークも行います。",

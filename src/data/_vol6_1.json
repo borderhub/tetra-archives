@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日…2010年1月29日（金）\r\n時間…20:00 start\r\n料金…無料\r\n講師…ワカナ・トクディーヌ\r\n7-m\r\n5_height-2262-0 presents “Occultic☆Night” vol.64-^2010.1.29 (fri) \r\n20:00 start\r\n¥FREE\n\nWacana Tokudine 13_height-13013-beacon-15-",

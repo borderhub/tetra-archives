@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "期日...2012年７月21日（土）　\r\n時間...第一部「自身を語る」16:00 - 18:00　／第二部「自身で踊る」18:30 - 20:30\r\n料金...1,000円 （要別途ワンドリンクオーダー）※第一部、二部共通　\r\n要申込...kuhano@as-tetra.info（くはの）",

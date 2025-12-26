@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "江上靖、丹野篤史、daenn.、小貫誠\n\n期日…2008年08月30日（土）\r\n時間…19:30 open / 20:00 start\r\n料金…1,500円（1ドリンク付）\n\n主催…elemento http://elemento.exblog.jp/",

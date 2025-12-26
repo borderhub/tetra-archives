@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "日時：2013/10/06 （日）開場 17:30／開演 18:00 \r\n料金：DOOR¥3000 ADV¥2000 STUDENT¥1500\n\n勝井祐二（音楽家／ヴァイオリニ スト）、quelle、AtoNN（Nakamitsu Natsuki)、ダエン",

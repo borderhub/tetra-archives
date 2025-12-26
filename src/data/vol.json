@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2010年6月26日（土）\r\n時間…18:00～\r\n料金…500円【高校生以下無料】＋1ドリンクオーダー\n\n■ゲストパネラー/安部 貴住...現代美術家,アートスペーステ\r\nトラ構成メンバー\r\n■パネラー/福地 英臣...オタク作家\r\n■パネラー/佐藤 淳治...現代美術家\r\n■パネラー/安武 惣太...現代美術家\r\n■司会/松本 了一...現代美術家",

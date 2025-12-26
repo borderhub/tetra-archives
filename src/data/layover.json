@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期：2021年8月18日（水）- 22日（日）\r\n時間：15：00～20：00（平日）\r\n　　　13：00～20：00（土日祝）\r\n入場料：500円 ※学生無料（来場者には出品作家が選曲したコロンビア音楽のプレイリストを共有できるQRコードを贈呈します）\n\n【オンライン・トーク】\r\n8月20日（金）21:00-22:30　※当日オンライン配信あり\r\n本展を企画したキュレーターTakaaki KJ氏（コロンビア在住）によるオンライントークイベント「LAYOVER 展で、アートと社会的介入について考える。」を開催します。\r\nURL : https://www.youtube.com/watch?v=QlTdFK6Btc4",

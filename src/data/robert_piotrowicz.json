@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演…Robert Piotrowicz（ポーランド）w/ Hurricane Grind / shayne bowden / Diagonal Run\r\n日時…6月27日（木）　開場 19:00／開演 19:30\r\n料金…1,500円＋1ドリンクオーダー（500円）",

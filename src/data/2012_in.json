@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "日時…2012年5月25日（金）\r\n時間…19時00分より\r\n料金…1ドリンク（500円）＋投げ銭（アジアサミット投資にご協力を！）\r\n報告者…松本哉、江上賢一郎\r\n司会…森元斎",

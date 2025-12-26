@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "期日…2009年7月26日（日）\r\n時間…18:30 open / 19:00 start\r\n料金…1,500円（＋1ドリンクオーダー）",

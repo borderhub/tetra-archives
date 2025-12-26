@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日…2006年5月4日(木)\r\n時間…15:00〜7-\n\n5_height-1622-*' Travelling Academy”in Fukuoka4-22006.05.04\r\n15:00〜\n\norganized by Toshihiko Onobeacon-15-bIllcommonz http://illcomm.exblog.jp/",

@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2013年2月2日（土）\r\n時間…13:00～なくなり次第終了 \r\n※公開料理は11:00頃から",

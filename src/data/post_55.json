@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2009年4月30日（木）〜5月3日（日・祝）\r\n時間…11:00 - 19:00\r\n（初日は13時カラ　最終日は16時マデ）",

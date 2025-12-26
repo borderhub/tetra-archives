@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会場：art space tetra 2F\n\n【日時】\r\n　2024年９月13日（金）～ ９月23日（月）\r\n　平　日　15:00～20:00\r\n　土日祝　11:00～20:00\r\n※ＡＲＴ　ＦＩＡＲ　ＥＡＲＴＨ2024の入場料は別途500円必要です。\r\n9月22日（日）19:00～\r\nオンライン現地レポート\r\nhttps://youtube.com/live/Iac5dNKUZNA?feature=share\r\nゲスト：ズエン",

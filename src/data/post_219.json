@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日：2016年5月28日（土）\r\n開場18:00 / 開演18:30\r\n前売2,500円 / 当日3,000円 (1D別) \n\n出演：マッティア・コレッティ（イタリア）/ 王舟 / Alfred Beach Sandal\n\n問い合わせ：http://nighthike.wix.com/info",

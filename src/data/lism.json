@@ -11,21 +11,30 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "期間... 2020 年 10 月 27 日 (火) - 11 月 1 日(日))\r\n時間...14:00 - 21:00 (火〜金) 、12:00 - 21:00(土)、12:00 - 18:00（日）\r\nオープニング・トーク... 10 月 31 日(土) 17:00 -7-�5_height-2262-: 27th ,2020(Tue) - Nov. 1st ,2020(Sun)\r\n14:00 - 21:00(Tue , Wed , Thu , Fri)\r\n12:00 - 21:00(Sat)\r\n12:00 - 18:00(Sun)\r\nOpening Talk Oct. 31st ,2020(Sat) from 17:00 13_height-13013-beacon-15-",

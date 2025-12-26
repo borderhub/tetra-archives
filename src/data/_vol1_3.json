@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2010年8月12日（木）\r\n時間…19:00オープン、19:30スタート 終了予定21:30（参加者次第で早く終わる可能性もありますが、21:30頃に終わる予定）\r\n料金…参加費500円　見学のみ1000円（見るだけの人です。1ドリンク付）",

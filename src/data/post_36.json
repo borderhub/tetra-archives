@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "期日…2007年12月16日（日）\r\n時間…16:00〜\r\n料金…無料（ただし卵を二つご持参ください）",

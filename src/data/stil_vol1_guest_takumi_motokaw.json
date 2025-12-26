@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "※イベント会場はIAF shop＊となりますのでご注意ください。\n\n2023年2月19日 （日）\r\n15:00 open\r\nat IAF shop Fukuoka\r\n住所：福岡市中央区薬院3-7-19 2F\r\nStandard 3000円\r\nDiscount 2000円(25歳以下、60歳以上、学生対象、12歳以下無料)\r\n1drink付",

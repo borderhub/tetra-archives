@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "Aogu Tanimoto / AVAN / Tomohide Midori4-�June 7th, 2025 (Sat) open 14:30 / start 15:00\r\nCharge 2,000 JPY + 1 drink order required\n\nVenue: art space tetra (2-15 Susaki-machi Hakata-ku Fukuoka, Japan)\r\nhttp://www.as-tetra.info/ 13_height-13013-beacon-15-<Aogu Tanimoto(violin,etc.)\r\nAVAN(bass)\r\nTomohide Midori(sax)",

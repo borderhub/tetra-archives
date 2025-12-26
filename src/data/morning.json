@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2013年3月16日(土) - 24日(日)\r\n時間…平日19:00 - 22:00／土日祝日13:00 - 20:00",

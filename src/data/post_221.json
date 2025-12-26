@@ -11,14 +11,20 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "日時：２０１６年６月８日（水）\r\n時間：１９:００-２１:００\r\n参加費：無料+ワンドリンクお願いします。\n\n出演：ドロテア・ムラデノヴァ（ライプツィヒ大学日本学科）\r\n司会：竹内美帆（福岡女子短期大学非常勤講師）\r\nお手伝い係：江上賢一郎（マヌケスポット探検家）",

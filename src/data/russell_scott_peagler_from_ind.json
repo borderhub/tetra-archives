@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期...2015年4月22日(水)～4月29日(祝)\r\n時間...平日16:00 - 20:00、土日13:00 - 20:00\r\n＊トークショー　Russell Scott Peagler×生島国宜　25日(土)　19:00 ~\r\n参加費無料",

@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "“Mouhitotsu no Jikan” Akira Sanematsu workshop 4-\n2004.09.23 13_height-16213-beacon-15-�Akira Sanematsu http://www.bx.misty.ne.jp/~sane/\n\n[plan] Akira Sanematsu\r\n[support] art space tetra",

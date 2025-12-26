@@ -11,14 +11,20 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "間...2020/09/26（土）-09/28（月）\r\n9/26（sat）13:00〜20:00\r\n9/27（sun）13:00〜20:00\r\n9/28（mon）12:00〜15:00",

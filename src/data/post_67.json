@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "島津田四郎, ライスボウル, 魚座\n\n期日…9月13日（日）\r\n時間…18:00 オープン / 18:30 スタート \r\n料金…1,500円（1ドリンク付き）\n\n※ライスボウル、魚座はアコースティック編成での演奏です！！ \n\nチケット予約はricebal@hotmail.comまで",

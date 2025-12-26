@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期:7月4日（火）〜7月5日（水）\r\n時間:7/4 12時〜18時\r\n7/5 11時〜17時",

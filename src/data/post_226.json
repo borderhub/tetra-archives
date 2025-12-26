@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期...2016年10月19日(水)～10月23日(日)\r\n時間...12:00 - 19:00\r\n（最終日は17時マデ）",

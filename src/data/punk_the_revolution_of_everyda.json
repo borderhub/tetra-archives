@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "【会期】12月3日（金）-10日（金）\r\n【時間】15:00 - 20:00 （平日）　　\r\n　　　　13:00 - 20:00 (土・日）\r\n【観覧料】ドネーション\n\n【トーク企画】\r\n12月4日（土）18:00-20:00\r\nゲスト：川上幸之介(倉敷芸術科学大学）\r\n聞き手：江上賢一郎（アート・アクティビズム研究）\n\n　　　 The Revolution of Everyday Life4- 13_height-13013-beacon-15-",

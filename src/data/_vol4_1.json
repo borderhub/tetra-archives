@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2009年9月12日（土）\r\n時間…19:30 start\r\n料金…無料\r\n講師…ワカナ・トクディーヌ\n\n【内容】\r\n・秋の怪獣大決戦\r\n・奇人の墓と三角形",

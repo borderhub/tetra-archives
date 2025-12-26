@@ -11,21 +11,30 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 49,
       "label": "07_演劇イベント",
       "basename": "theater",
       "parentId": 34,
-      "path": ["genre", "theater"]
+      "path": [
+        "genre",
+        "theater"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "【日時】\r\n2023/12/1（Fri）展示 13:00-21:00 舞台19:00\r\n2023/12/2（Sat）展示12:00-21:00 舞台14:00/19:00\r\n2023/12/3（Sun）展示12:00-21:00 舞台14:00/19:00\n\n【料金】\r\n展示のみ:ワンドリンク制\r\n演劇 : 一般 2500円 U-25 2000円\r\n※どちらも1D付き\n\n7-^https://www.quartet-online.net/ticket/dokodare10",

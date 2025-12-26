@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "004.07.01-07.187-�\n\n5_height-1622-0 Tohyama“deduce in the space”4-2004.07.01-07.18 This was a solo a solo exhibition by local artist Tohyama Hirotaka. It was concurrently held at tetra and The IAF Shop.\n\n[Self-Produce]",

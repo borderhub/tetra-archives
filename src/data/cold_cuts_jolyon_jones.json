@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "OLD CUTS - Jolyon Jones4-�2/11 (Tue), 2/12 (Wed), 2/13 (Thu)\r\nTime: 12:00-20:00\n\nOpening Party\r\n2/11 (Tue) 17:00 - 20:00\n\nVenue：art space tetra\r\nAddress：2-15 Susaki-machi, Hakata-ku, Fukuoka City, Fukuoka\r\n 13_height-16213-beacon-15-�**COLD CUTS** \r\nA solo exhibition by Berlin-based artist Jolyon Jones\n\nJolyon Jones, who was creating at a metal foundry/workshop in Tokyo last fall, will showcase new works influenced by the time he spent in Japan.\n\nHe cut up pieces of the work he created in Tokyo, packed as many fragments as he could carry alone in a suitcase, and transported them by train to Fukuoka, where he composed this exhibition using a limited number of parts and within the constraints of scale.\n\nThe exhibition will feature three-dimensional objects that reflect the concepts of scale and possibility, including a cast aluminum work based on a discarded model by a Tokyo architecture student and an inverted piece of steel pipe.\n\n**COLD CUTS** reflects Jolyon Jones' approach of working within constraints. By reusing discarded materials, he transforms the boundaries between material and appearance and their implicit function in a given environment.",

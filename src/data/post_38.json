@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "+ 諸岡 光男\n\n期日…2007年03月07日（金）\r\n時間…19:00 open / 19:30 start\r\n料金…1,500円（1ドリンク付）",

@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "日程...2020年1月3日（金）\r\n時間...17時スタート\r\n料金...投げ銭+1ドリンクオーダーお願いします\r\n　　 お正月的な差し入れ歓迎！\r\n出演...倉地久美夫、\n\nリクエスト募集中！（~12/25日まで受付）\r\n応募方法は下記の概要をご覧ください。",

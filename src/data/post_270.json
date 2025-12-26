@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期...2020年10月16日(金)～10月20日(火)\r\n時間...12:00 - 18:00\r\n（最終日は17時マデ）",

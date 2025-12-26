@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期...2021年4月9日(金)～4月13日(火)\r\n時間...12:00 - 18:00\r\n（最終日は17時まで）<Iida Umbrella Shop “2021 Spring ” parasol and umbrella 4-A2021.4.9 (Fri.) - 4.13 (Tue.)\r\n12:00-18:00 ※Last day until 5pm. 13_height-16213-beacon-15-",

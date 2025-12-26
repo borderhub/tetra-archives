@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "メタル（a.k.a.九州霊能者協会（念写隊））、木村貴輝（a.k.a. the monkies）、岩永ハナエ （a.k.a.空室、ゴミュニケーション）、宋秀臣（a.k.a. Sun Eight）\n\n期日…2007年07月28日（土）\r\n開場…19:30 / 開演…20:00\r\n料金…1,000円（1ドリンク付き）",

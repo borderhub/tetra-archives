@@ -11,14 +11,20 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": ["genre", "broadcast"]
+      "path": [
+        "genre",
+        "broadcast"
+      ]
     }
   ],
   "customField": "日時：2020年5月21日　15時～\r\n場所：明行寺（無観客で実施） \n\nart space tetraのYouTubeチャンネルにて、LIVE配信。\r\nhttps://youtu.be/KhbWaFRFXDc",

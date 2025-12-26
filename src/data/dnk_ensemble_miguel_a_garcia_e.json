@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日：2017年12月9日（土）\r\n19:00 開場 / 19:30 開演\r\n料金：2000円＋1ドリンク (500円)",

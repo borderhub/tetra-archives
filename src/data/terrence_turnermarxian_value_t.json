@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日...2012年12月9日(日)\r\n時間...14:00〜\r\n料金...ドリンク代500円\r\n参加希望の方は、bossadelicjp@gmail.com（森）までご連絡ください",

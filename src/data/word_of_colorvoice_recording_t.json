@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "日時：7月20日（水）19:00〜 \r\n料金：1ドリンク（500円）\r\n予約申し込み不要\r\n※お好きな「色」にまつわる小文（30秒で読めるくらい）がありましたら、会場にご持参ください。",

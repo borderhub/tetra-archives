@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "期間：2016年11月11日 - 13日 / 11月15日 - 17日\r\n時間：11時 - 16時　（11月11日：18:00からオープニングパーティー）",

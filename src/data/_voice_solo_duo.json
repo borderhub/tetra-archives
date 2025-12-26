@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "otaro Williams Tokuhisa4-S+ Kazuhiko Sakaguchi\n\n2007.08.14\r\n19:30 open / 20:00 start\r\n¥1,500(1 drink inc.) 13_height-13013-beacon-15-�Kotaro \"Williams\" Tokuhisa http://william.air-nifty.com/",

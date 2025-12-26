@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "程：9月22日(日)、9月23日(月)\r\n時間：13:00～（両日共に約2時間程度を予定）\r\n参加費：2,000円（1日）\r\n　　　　3,000円（2日間通し）\r\n　　　　　500円（18才以下/1日）\r\n※全て展覧会の入場料込みの料金です。すでにご来場いただいている方は500円割引させていただきますのでお渡ししたステッカーをお持ちください。予約不要。\r\n会場：art space tetra (〒812-0028 福岡市博多区須崎町 2-15)",

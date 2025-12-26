@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "aher Shalal Hash Baz4-{2009.12.20(sun)\r\n19:00 open/start\r\n1,500yen (1drink inc)\r\norganized by tontuu record / 3150 13_height-16213-beacon-15-",

@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "【日時】2023年1月14日(土)19:30開演(19:00開場)\r\n【チャージ】2,000円(1ドリンク付き)\r\n【場所】art space tetra(福岡市博多区須崎町 2-15)",

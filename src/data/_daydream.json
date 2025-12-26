@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2009年10月27日（火）− 11月1日（日）\r\n時間…平日 16:00-20:00 / 土日 13:00-20:00\n\nクロージング・パーティー…10月31日（土）19:00〜 参加費500円",

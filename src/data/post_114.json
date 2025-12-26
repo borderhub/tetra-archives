@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2012年5月16日（水）ー5月20日（日）\r\n時間…12:00 - 19:00\r\n（初日は13時カラ　最終日は16時マデ）",

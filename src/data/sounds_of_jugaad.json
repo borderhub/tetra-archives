@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "ounds Of Jugaad4-�Saturday 6.28.2025\r\n6pm Start\r\n1000JPY + Drinks\n\nVenue:\r\nart space tetra\r\n2-15 Susaki-machi Hakata-ku Fukuoka, Japan\r\nhttp://www.as-tetra.info/ Artists:\r\nDemsky\r\nJunes K\r\nLayla Morpho\n\nart space tetra invites listeners into a world of Jugaad where unconventional times and rhythms gently linger through harmonious melodies.",

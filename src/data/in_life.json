@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2021.9.7(火)-9.12(日) \r\n時間…12:00-20:00 最終日18:00\r\nメンバー：伊藤 万里奈 / 天社 あずさ / 藤 史帆里 / 東 綾香 / 山之上 響",

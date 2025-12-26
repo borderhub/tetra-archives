@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2007年7月31日（火）〜8月5日（日）\r\n時間…平日 17時〜21時 / 土日 13時〜20時\r\n入場無料\n\n主催/企画…collaborative art network in-between　http://www.in-between.info/\r\n助成…国際交流基金、よかトピア記念国際財団",

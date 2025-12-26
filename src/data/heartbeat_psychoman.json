@@ -11,28 +11,39 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "heARTbeat psychoman　核心人型写術巡回展 「ＬＯＳＴＰＡＲＡＤＩＳＥ」05.21 - 05.29\r\n13:00～22：00（会期中無休）\r\n※19日より公開制作を行います。\n\n■オープニングイベント\r\n5月21日（土）\r\n18：00～\r\n1,000円＋1drink order\r\n密笑\r\nend'snotnear\r\n玄膳\r\n脳水\r\n黒山羊\n\n■クロージングイベント\r\n5月29日（日）\r\n18：00～\r\n2,000円＋1drink付\r\n長野光宏（映像）\r\n松岡涼子（舞踏）\r\n宋秀臣（音楽） 13_height-16213-beacon-15-�\r\n人と人とが距離を取らされるようになった\r\n分断され、\r\n渦にのまれ\r\n堕ちていく人\r\n個人の意思がなくなっていく\r\n自由度の低さが感じられる\r\n大切なものがなくなっていく\r\nもともとあった理想がなくなっていく\n\nモチーフの人型\r\n核心にせまっているように\r\n正解はない\r\n正解と意味は鑑賞者の中に在ればいい",

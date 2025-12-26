@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "作家：白石恵里 / 中尾衣智子\n\n会期：2014年11月4日（火）- 9日（日）\r\n時間：11月4日 - 7日（火 - 金）：16時 - 20時 / 8・9日（土日）：13時 - 20時",

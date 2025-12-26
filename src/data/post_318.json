@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "日程：7月13日(土)\r\n時間：18:30〜21:00 / 15分前開場（終了後、交流会）\r\n参加費：無料（交流会参加の方は+500円）\r\nYouTubeライブ\r\nhttps://youtube.com/live/Wyog7rjrK-U?feature=share",

@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "005.04.19(tue)7-J\n\n5_height-1622-0 Charles & Tesuya Umeda4-\n2005.04.19 French sound artist Xavier Charles and Tetsuya Umeda played at tetra on tuesday the 19th of April 2005. Xavier used speakers that were placed face up on a table. He then placed various small objects in the speakers and generated sounds from the speakers' vibrations. Tetsuya Umeda brought his own homemade instruments that he placed around the first floor space and then used to exchange sounds with Xavier. \n\nXavier Charles http://www.vudunoeuf.asso.fr/xavier/\r\nTetsutya Umeda http://siranami.m78.com/\n\n[plan] Tetsuya Umeda\r\n[support] art space tetra",

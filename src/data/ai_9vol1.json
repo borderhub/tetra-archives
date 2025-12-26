@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "日…9月13日（月）\r\n時間…オープン19:00　スタート19:30（参加者次第で早く終わる可能性もありますが、21:30頃に終わる予定）\r\n料金…参加費¥500　見学費¥1000（見るだけの人です。1ドリンク付）",

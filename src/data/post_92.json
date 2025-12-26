@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2010年11月17日（水）〜21日（日）\r\n時間…11:00 - 19:00\r\n（初日は13時カラ　最終日は16時マデ）\r\nhttp://www002.upp.so-net.ne.jp/iidakasaten/",

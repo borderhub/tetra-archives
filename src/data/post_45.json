@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "渡部裕二、安武聡太、福地英臣\n\n会期…2008年10月28日（火）−11月9日（日）　※11月3日（月）はオープン・翌4日（火）休廊\r\n時間…13:00 - 20:00\n\nトークイベント…11月2日15:00～\r\nクロージングパーティー…11月9日17:00～",

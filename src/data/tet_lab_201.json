@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "開催日：2014年9月28日（日）\r\n開場：18:30\r\n開始：19:00\r\n料金：1500円(ドリンク込）\r\n出演…吉濱翔（京都）、heirakuG、諸岡光男、IN(宋秀臣)",

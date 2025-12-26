@@ -11,14 +11,20 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "日時：2015年10月12日(月/祝) 午後４時～６時（受付開始：３時30分）\r\n講師：西風満紀子\r\nお問合せ・ご予約：colorrecords@gmail.com",

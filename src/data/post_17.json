@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日…12月22日(金) \r\n時間…19:00〜7-R5_height-1622-0 talk by Chizuru Kawanami4-2006.12.22\r\n19:00 startbeacon-15-�Fukuoka Prefectural Museum of Art \r\nhttp://fpmahs1.fpart-unet.ocn.ne.jp/cont_e/index.html",

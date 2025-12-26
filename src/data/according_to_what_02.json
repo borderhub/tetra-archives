@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期…2008年10月7日（火）〜19日（日）\r\n時間…13時〜20時\r\n休館…10月14日（火）\r\n主催…A2Wシリーズ実行委員会7-�\r\n(P) UTSUNOMIYA SATOSHI\n\n(P) UTSUNOMIYA SATOSHI\n\n(P) UTSUNOMIYA SATOSHI\n\n(P) UTSUNOMIYA SATOSHI\n\n(P) UTSUNOMIYA SATOSHI\r\n5_height-1622-2 to what” 02 - Satoshi Utsunomiya4-Z2008.10.07 - 10.19 *closed on 10.14\r\n13:00 - 20:00\n\norganised by A2W Executive Committee 13_height-16213-beacon-15-�(P) UTSUNOMIYA SATOSHI\r\n-------------------------------------------------------------------------------------------------------------\n\nThat we see something according to what. ——Takahiko Okada\n\n-------------------------------------------------------------------------------------------------------------\n\nA2W series・ACCORDING TO WHAT 03 SHINTARO YAMANAKA\r\n・ACCORDING TO WHAT 01 YOSHIHIRO TOSHIMA\n\n-------------------------------------------------------------------------------------------------------------",

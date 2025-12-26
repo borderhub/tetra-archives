@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "＋　山内桂\n\n期日…2011年11月22日（火）\r\n時間…20:00 start\r\n料金…2,000円（1ドリンク付）\n\n◆アナス・メルゴーアへのメールインタヴューを掲載しています。",

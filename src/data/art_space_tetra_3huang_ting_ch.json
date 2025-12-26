@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "◇滞在期間\r\n日　程　: 2月13日（木）～3月17日（月）\n\n◇滞在場所\r\n施設名　: art space tetra\r\n住　所　: 810-0028 福岡県福岡市博多区須崎2−15 \n\n◇オープンスタジオ\r\n会　場　: art space tetra 2階 ミーティングルーム\r\n日　程　: 2月15日(土)、16日(日)\r\n時　間　: 13:00～20:00\r\n※差し入れ歓迎\n\n◇展覧会\r\n展示名　: 私が闇を見つめるとき\r\n会　場　: １階ギャラリー\r\n日　程　: 3月8日(土)～3月16日(日)\r\n時　間　: 13:00-19:00（平日）\r\n　　　　 13:00-20:00（土・日）",

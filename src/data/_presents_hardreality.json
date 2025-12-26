@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "井上経康、Common Laughing Point (Yuji Maruyama +David Moscovich)、斜陽、kashiwa daisuke\n\n期日…2006年11月25日（土）\r\n開演…19:30〜\r\n料金…¥1,000 +１ドリンクオーダー",

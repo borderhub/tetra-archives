@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "期日...2012年12月29日(土)〜2013年1月27日(日)\r\n時間...平日16:00〜20:00／土日13:00〜20:00\r\n休廊日...毎週月曜、12月30日〜1月3日\n\n入場無料",

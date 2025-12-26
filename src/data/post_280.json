@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": ["genre"]
+      "path": [
+        "genre"
+      ]
     }
   ],
   "customField": "「欠けない月」\r\n九州産業大学 写真・映像メディア学科 進藤研究室 写真展\r\n会期 : 2022年1月25日（火）～2022年1月30日（日）\r\n時間 : 12時～20時　最終日 : 18時まで",

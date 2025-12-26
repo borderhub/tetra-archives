@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "期日…2015年4月10日(金) \r\n時間…19:30 open / 20:00 start\r\n参加費…500円(ワンドリンク付)",

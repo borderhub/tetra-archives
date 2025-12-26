@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時：2017年9月17日（日）　\r\n日時：2017年10月15日（日）\r\n※延期になりました\r\n時間：14:00 〜\r\n参加費：￥500（ハンドドリップコーヒー付き）\r\nテーマ『死後の世界』",

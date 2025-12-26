@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期…8月28日（火）〜9月6日（木）\r\n時間…平日 18:00〜22:00 / 土日 13:00〜20:00\r\n入場無料7-�\n\n5_height-1622-. Camp Project “Metallic Syndrome”4-F2007.08.28 - 09.06\r\n(mon-fri) 18:00 - 22:00 \r\n(sat-sun) 13:00 - 20:00 13_height-16213-beacon-15-",

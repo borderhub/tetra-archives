@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "日にち：2015年6月21日（日）\r\n時　間：18:00 〜\r\n参加費：￥500（お紅茶付き）",

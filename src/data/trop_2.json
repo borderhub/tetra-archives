@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "ふちがみとふなと\n\n期日…2008年11月15日（土）\r\n開演…20:00\r\n料金…2,000円（１ドリンク付き）\n\n主催…3150\r\nお問い合わせ…oyama@as-tetra.info（小山）",

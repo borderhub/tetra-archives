@@ -11,35 +11,49 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "日...2019年12月21日（土）〜29日（日）\r\n時間... 平日 19:00〜22:00／土日 14:00〜20:00\r\n休廊日...23日（月）、24日（火）\r\n入場料...500円（ワンドリンク付き）\r\nイベント...\r\n12/21（土） 19:00〜codama、遇々　ライブ『笊を浸ける』\r\n12/28（土） 14:00〜小山冴子『店番：おやま（14時〜17時）』\r\n12/28（土） 18:00〜松岡涼子　舞踏『灯す』\r\n※期間中のイベントは詳細が決り次第このページで追加告知していきます。",

@@ -11,14 +11,19 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日：2018年8月15日（水）\r\n時間：18時スタート\r\n料金：カンパをお願いします\n\nはなす人：小山冴子、手塚夏子、Venuri Perera",

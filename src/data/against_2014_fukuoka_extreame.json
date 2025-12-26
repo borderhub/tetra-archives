@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "開催日 2014年9月13日（土）\r\n開場：17:00\r\n開始：18:00\r\n料金：1500円 + 1ドリンク（500円）",

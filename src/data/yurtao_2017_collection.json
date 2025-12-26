@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "期間：2016年12月1日（木）- 4日（日）\r\n時間：12:00-19:00 （最終日は18時まで）",

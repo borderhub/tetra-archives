@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "\"Find Your Economy\" Talk Event : Kenichiro Egami × Motonao Mori4-E2012.11.4(sun)\r\n14:00 start\r\nfree\n\nKenichiro Egami\r\nMotonao Mori\r\n 13_height-16213-beacon-15-",

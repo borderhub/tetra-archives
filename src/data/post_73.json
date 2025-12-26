@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2010年2月23日（火）−3月14日（日）\r\n時間…平日 16:00〜20:00 / 土日 13:00〜20:00\r\n月曜休廊\r\n企画：江上茂雄画集制作委員会\r\n問い合わせ　江上計太　092-923-6775",

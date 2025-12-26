@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "004.11.03-11.207-.\n\n5_height-2262-. Oliveria & Jonathan Olazo4-2004.11.03-11.20 Jayson Olivera and Jonathon Olazo came to tetra direct from the Phillipines for a 3 week residency in november of 2004. They used materials found in Fukuoka for their installations. Works were also exhibited at Gallery Walt.\r\nThe project created a bridge between the Manilla and Fukuoka art communities.\n\n[curator] Mizuki Endo (rhythm)\r\n[DM design] Takaaki Yano (rhythm)",

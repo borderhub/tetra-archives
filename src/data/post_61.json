@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "Netsu-Ten”4-UShinnosuke Abe, Amamoto Riku, Takuma Soejima, Wataru Yamada\n\n2009.8.4(tue) - 9(sun) 13_height-16213-beacon-15-�Shinnosuke Abe -picture-\r\nAmamoto Riku -photo-\r\nTakuma Soejima -music-\r\nWataru Yamada -video-",

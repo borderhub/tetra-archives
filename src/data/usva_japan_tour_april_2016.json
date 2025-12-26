@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "2016.4.17{sun}\r\n19:00open / 19:30 start\r\nticket : ¥2,000(1drink incl)\r\n＊本公演はこの度の地震の影響により中止となりました。",

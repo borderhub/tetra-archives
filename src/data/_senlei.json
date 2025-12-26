@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "【会期】\r\n2023年1月5日㈭ 12:00 ～ 1月12日㈭18:00 \r\n※作家在廊中、随時開廊\n\n【トークイベント】\r\n1月7日（土）17:00～\r\n（￥500 ワンドリンクオーダー制）\r\n※YouTubeにて配信予定",

@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "ロイック・ストゥラーニのハイブリッド・ナイト\r\n「沖縄・文化チャンプルーElectric Sanshin」上映会\r\n& チャンプルー料理\r\n& ごちゃまぜ音楽 by dj Leonardo\n\n期日…2007年06月30日（土）\r\n時間…19:00 スタート\r\n料金…1000円（1ドリンクとロイックによる軽食付き）",

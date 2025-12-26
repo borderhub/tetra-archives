@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "2025 6月30日(月)〜7月6日(日)\r\nopen11：00〜close19:00(最終日のみ15:00まで)",

@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2010年8月28日（土）−9月5日（日）\r\n時間…平日 16:00〜20:00 / 土日 13:00〜20:00\r\n月曜休廊\r\n企画：江上茂雄画集制作委員会\n\n出版記念パーティー：8月28日（土）18:00〜\r\n入場無料（どなたでもご参加頂けます）7-#\n\n5_height-1622-1 Exhibition to Celebrate The Release of “ Shigeo Egami Works 1912-2010”4-V2010.8.28(sat) - 9.5(sun)\r\ntue-fri 16:00-20:00 / sat-sun 13:00-20:00\r\nClosed on Monday 13_height-16213-beacon-15-",

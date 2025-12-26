@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会場: art space tetra\r\n日程: 2025年9月27日(土)、28日(日)\r\n時間: 13:00 - 20:00\r\n入場料: 無料\n\n主催: Art Fair Earth実行委員会\n\n会期中イベント\r\n日程: 2025年9月27日(土)\r\n時間: 20:00 - 21:00\r\nArt Fair Earth現状報告とNEW PLATFORM -Alternative ASIA-報告会",

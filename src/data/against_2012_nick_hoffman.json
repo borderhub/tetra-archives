@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "gainst 2012: Nick Hoffman4-�2012.9.14(fri)\r\n19:00 open / 20:00 start\r\n￥1,000+1 drink order\r\norganized by deterra\n\nw/Mitsuo Morooka, MANSCUM, Duenn, Hurricane Grind and Guilty C. 13_height-13013-beacon-15-",

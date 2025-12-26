@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "開催日：2019年1月19日（土）\n\n1.) インスタレーション\r\nmonogs_yoin callback\r\n時間：13:00 - 18:00\r\n料金：無料\n\n2.) サウンドエキジビジョン（途中入退場不可）\r\n出演：duenn × 相川英輔\r\nOPEN 20:00 / START 20:15 / END 21:00\r\n料金：1000円",

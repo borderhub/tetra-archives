@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日...2011年8月13日（土）\r\n時間... 18:30開場／19:00開演\r\n＊時間通りにはじめたいと思います。早めにおこしください。\r\n料金...1000円（1ドリンク付）\r\n企画...江上賢一郎　\r\n協力...art space tetra\r\n問）江上賢一郎　u.potlatch@gmail.com\n\n椅子の数が限られていますので、お客様が多い場合石タイルの床に座っていただくことになるかもしれません。オシリがいたいです。準備できる方はクッションやタオルや、何か緩衝になるものをどうかお持ちください。",

@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日...2012年9月2日（日）\r\n時間...18:00開場／18:30開演\r\n料金：1,500円（＋1 drink order）\r\n出演：みねまいこ／TARJEELING \r\n予約・お問合せ：sekai_gekijou@yahoo.co.jp\r\n主催：世界激場実行委員会\n\n公式ブログ：http://sekaigekijou.jugem.jp/\r\ntwitter： http://twitter.com/sekaigekijou",

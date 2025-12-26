@@ -11,21 +11,29 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "Contemporary Piano Music : Lecture&Concert #2 \"Prepared Piano\"Vol.1 : 18th July 2015 (Sat) open 18:00 start 19:00 entrance fee：¥2500(1drink incl.)\r\nlecture, piano : Takuji Kawai\r\nreservation : izm@as-tetra.info or colorrecords@gmail.com 13_height-13013-beacon-15-Program (all composed by John Cage):\r\nThe Perilous Night\r\nIn the Name of the Holocaust\r\nPrelude for Meditation\r\nRoot of an Unfocus\r\nA Valentine Out of Season\r\nMusic for Marcel Duchamp\r\nOur Spring Will Come\n\nlecture & piano : Takuji Kawai (http://www.sepia.dti.ne.jp/kawai/)",

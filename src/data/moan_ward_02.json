@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "moan ward” 024-ayakomori+woofa, Kido Hideaki, Sakaguchi Kazuhiko, lux diffusion+eri hashimoto, tomi, Denshi Takujo Ongakudan\n\n2005.02.26\n\n 13_height-13013-beacon-15-\\ayakomori+woofa, Kido Hideaki, Sakaguchi Kazuhiko, lux diffusion+eri hashimoto, tomi and Denshi Takujo Ongakudan played live at moan ward 2. Local veteran free musicians Kido Hideaki (sax) and tomi (electric violin) played an improvised set/duel that was an inspiring highlight. DJ Abe spun dub reggae between performances with his elbow.\n\n[organiser] rhythm, deterra, attic associates\r\n[director] Keiji Tanaka (rhythm), Shayne Bowden (deterra)\r\n[art director] Shunsuke Onaka (attic associates), Tomoaki Hashimoto (attic associates)\r\n[PA] Greg Sullivan (Escalator Audio)",

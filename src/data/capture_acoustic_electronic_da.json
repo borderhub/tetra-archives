@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "capture acoustic electronic dance4-�capture acoustic electronic, Ryoko Matsuoka + Denshi Takujyou Ongakudan, BEAT NOIR\n\n2009.12.26 (sat)\r\nopen 19:00 /start 19:30\r\n1,000yen + 1drink order\r\nhttp://www.nakamurayuji.com/ 13_height-13013-beacon-15-",

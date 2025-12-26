@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "日時...2016年11月12日（土）16:00-18:00 ※会場15:30\r\n参加費...一般500円（1ドリンク付）学生200円（1ドリンク付）\r\n定員...30名（要予約）\r\n申込方法...asian.arts.air.fukuoka@gmail.comまでお願いします。\r\n※メールの際は上記アドレスからのメールを受け取れるよう設定願います。",

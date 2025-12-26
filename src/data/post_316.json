@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "日程：2024年6月16日（日）\r\n時間：15:00-17:00\r\n会場：art space tetra\r\n住所：福岡県福岡市博多区須崎2-15\n\n【スピーカー】\r\nIfe（中国南部出身のアーティスト、自己出版と自己組織化の実践に関わっている）\n\n【通訳】\r\n佐々木 玄太郎（中国現代美術研究）",

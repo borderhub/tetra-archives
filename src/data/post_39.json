@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "鮎川 類、越智 晴江、福崎 未来、横谷 史\n\n会期…03月18日（火）〜03月23日（日）\r\n時間…13:00〜2:00\r\n入場無料\n\n企画…熊野文乃",

@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "期...20201年4月1日（木）〜7日（水）\r\n平日...18:00-21:00\r\n土日...17:00-22:00\n\nクロージングパーティー\r\n4/7 18:00〜\r\nLIVE\r\n水槽楽\r\nDJ（Don't Joint）\r\n野口典秀\r\nthe shapeless mutant\r\ntape collage bgm\r\n宋秀臣",

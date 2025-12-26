@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "ie nakajima4-�w/ Sound Renovation Band / Mitsuo Morooka\n\ndate : July 26th, 2014 (Sat)\r\nopen : 7p.m. / start : 7:30p.m.\r\nticket : 1000yen+1drink order (500yen) 13_height-16213-beacon-15-",

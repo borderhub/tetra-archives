@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "開催日・時間：\r\n2018年8月4日（土）：12:00~18:00\r\n2018年8月5日（日）：11:00~15:30",

@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "時：2018年１月26日（金）19:00~21:00\r\n参加費：ワンドリンクオーダー&ドネーション\n\nゲスト：大谷悠（都市研究/日本の家共同代表）\r\nWEB:http://http://djh-leipzig.de/ja",

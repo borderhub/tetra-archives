@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "期日：２０１５年３月８日（日曜日）〜２０１５年３月１５日（日曜日）\r\n時間：土日は14:00~20:00、平日は16:00~20:00\r\nその他：月曜日休廊\r\n今回の展示はプリントの展示となります。",

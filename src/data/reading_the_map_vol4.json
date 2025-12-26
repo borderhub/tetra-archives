@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "showcase for 4 solo perfomers\r\n４人のソロによるショウケース\n\n堀尾茂雅 (trumpet)\r\nサネマツアキラ (slide projecter,electronics)\r\nダエン (electronics)\r\n生島国宜 (painting)\n\nリョウ イケシロ (electronics)\n\n期日：2017年9月30日(土)\r\n開場：18時30分 / 開演：19時\r\n料金：1500円+1ドリンク(500円)",

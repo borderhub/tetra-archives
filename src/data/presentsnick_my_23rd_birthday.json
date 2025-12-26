@@ -11,7 +11,10 @@
       "label": "07_演劇イベント",
       "basename": "theater",
       "parentId": 34,
-      "path": ["genre", "theater"]
+      "path": [
+        "genre",
+        "theater"
+      ]
     }
   ],
   "customField": "・日程：2025年8月3日(日) OPEN 15:00 / START 15:31\r\n・会場：art space tetra (〒812-0028 福岡市博多区須崎町 2-15)\r\n・料金：共通 1500円(前売/当日共通 ワンドリンク付き)\r\n大きくなったね！割 新生児の自分の写真の提示で200円キャッシュバック",

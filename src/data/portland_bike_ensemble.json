@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "+ David Moscovich\n\n期日…2006年12月02日（土）\r\n開演…19:30\r\n料金…1,000円（1ドリンク付）7-j5_height-2262-* Bike Ensemble4-5+ David Moscovich\n\n2006.12.02\r\n19:30 strat\r\n¥1,000 13_height-13013-beacon-15-",

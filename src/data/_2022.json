@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "○日程:2022年9月24日(土)\r\n○時間:14:30開場15:00開演、18:30開場19:00開演\r\n○場所:art space tetra(福岡市博多区須﨑町2-15)",

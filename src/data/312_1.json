@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日…2012年4月29日（日）\r\n時間…17:30開場／18:00開演\r\n料金…1,000円（１ドリンク付）\r\n共催…西南学院大学　学内GP「ことばの力養成講座」\r\n※ブックスキューブリックさんの御協力で矢部史郎著『3.12の思想』（以文社）の販売有り！！\r\n　お子様連れも大歓迎です！",

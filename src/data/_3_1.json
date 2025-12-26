@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期…2009年10月6日（火）− 25日（日）\r\n月曜休廊　※ただし12日（月・祝）は開廊、翌13日（火）休廊\r\n時間…平日 16:00-20:00 / 土日祝 13:00-20:00\r\nクロージング・パーティー…10月24日（土）19:00〜 参加費500円\n\n※17、20、23日はライブイベント開催のためライブスタートの時間までのご観覧となります。",

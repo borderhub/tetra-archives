@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2006年10月05日（木）\r\n時間…20:00〜 \r\n入場無料7-�\n\n5_height-2262-- talk by Gereon Lepper4-2006.10.05\r\n20:00 start 13_height-13013-beacon-15-vGereon Lepper http://www.gereon-lepper.de/",

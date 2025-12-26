@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日…2010年07月31日（土）\r\n時間…19:30 open / 20:00 start\r\n料金…1,000円（１ドリンク付き）7-�5_height-1622-7 Tellinga4->2010.7.31(sat)\r\n19:30 open / 20:00 start\r\n¥1,000 (1drink inc) 13_height-16213-beacon-15-nMartijn Tellinga\r\nhttp://www.martijntellinga.nl/",

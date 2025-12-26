@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "し手：江上徹（前九州産業大学建築学科教授）江上計太（現代美術作家）\r\n日時：2013年9月13日（金）　午後7時より\r\n料金：入場料は無料ですが、1ドリンクオーダー（500円）をお願いします",

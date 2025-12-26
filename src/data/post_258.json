@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "開催日：2019年7月28日（日）\r\n時間：11:00 ~ 21:00\r\n入場無料 (11:00 ~ 17:30)\n\n「個展内イベント」\r\n17:30〜20:30　チャージ500円\r\n・余興　もりわきひとみ\r\n・トーク　WISHKAHたかはし、さかたのおかし\r\n・聞き役　ヤマザキOKコンピュータ\r\n・DJ　ant_warp (uranomoyan records)",

@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期…2008年7月11日（金）〜7月27日（日）\r\n時間…13時〜20時\r\n休館…月曜\n\n交流パーティ…2008年7月12日（土）\n\n主催…art space tetra\r\n後援…(財)福岡市文化芸術振興財団　福岡市7-p \n\nArtsit Talk at Kyushu Sangyou Univercity Gallery, July 5, 2008.\r\nGavin Weber, Takasumi Abe and Fumio Iwamoto.\r\n5_height-2262-2 Weber4-�2008.07.11 - 07.27 *closed on Monday\r\n13:00 - 20:00\n\nexchange party will be held on 07.12 19:00-\n\nsupported by Fukuoka City Foundation for Arts and Cultural Promotion Gavin Weber will also participate in duo exhibition \"Circulate\" with Takasumi Abe at Kyushu Sangyo University art gallery (2008.07.01 - 07.13 / artist's talk: 07.05 15:00-).\n\nC. Gavin M. Weber\r\nHP　http://www.gavin-weber.com\r\nBlog http://gavin-weber.com/news/",

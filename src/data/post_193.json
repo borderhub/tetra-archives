@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "日程：2014年5月9日（土曜日）\r\n時間：13:00~20:00\r\n料金：投げ銭を乞うております",

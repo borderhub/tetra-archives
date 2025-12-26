@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日…2012年1月28日（土）\r\n時間…18:00open / 18:30start\r\n料金…前売り／1200円　当日1500円（共に要１ドリンクオーダー）\r\n※前売りチケットは前日までに下記問合せ先へ「お名前・電話番号・枚数」を明記の上ご連絡ください。\r\n企画…SHINOGI RECORD\r\nお問い合わせ…hagehage_boze@hotmail.com （市村）\n\n【出演】\r\nalfred beach sandal (from東京)\r\ndoit science (from熊本)\r\nBOGEY\r\nミワサチコ\r\nまるやまももこ\r\n　\r\nBGM:DRGN (SHINOGI RECORD会長)",

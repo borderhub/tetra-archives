@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "2014/2/11(火・祝)\r\nopen:19:30/start:20:00\r\n¥2,500(1drink付)\r\n※入場数に限りがある為、予約をおすすめします（当日受付も可）\r\n（予約はco.deviate@gmail.com または horio@as-tetra.info まで）\n\n出演…河合拓始／緒方祐香／小池陽子／石井則仁\r\n※終演後にアフタートーク有り",

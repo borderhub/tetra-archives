@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2013年3月29日（金）ー4月2日（火）\r\n時間…12:00 - 19:00\r\n（ 初日は13時から／最終日は16時まで ）",

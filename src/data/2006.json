@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "— シンガポール・上海・釜山 by くろ田雷じ\n\n期日…2007年01月23日(火) \r\n時間…19:00〜21:00\r\n料金…500円（1ドリンク付き）",

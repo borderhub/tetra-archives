@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "DJ Speedfarmer, 城戸英章, Cookie & Tea, Erin Gee, lux diffusion\n\n005.06.11(sat)\n\n7-�\n\n5_height-2262-- ward” 044-UDJ Speedfarmer, Hodeaki Kido, Cookie & Tea, Erin Gee, lux diffusion\n\n2005.06.11\n\n moan ward 4 featured DJ Speedfarmer (Turntable, Effects, laptop PC), Hideaki Kido (Sax),Cookie & Tea, Erin Gee (Voice / from Austria) and lux diffusion(Guitar, Electronics).Voice artist Erin Gee performed eerily enthralling solo compositions using 2 microphones with her own clicks, hisses, whistles and shrieks.\r\nVeteran Fukuoka free musicians Tomioka San (Roto Toms) and Koki Hanada (electric guitar) played an improvised piece that displayed much musical ability and skill. They were joined by Hideaki Kido who added additional texture and violence. Only just out of hospital after a recent illness, Kido went on a violent rampage throwing instruments and crutches at the other musicians and audience members alike. The music played on right throughout.\n\nErin Gee http://www.trans.artnet.or.jp/trans_05-06/resup_05-06/resup_05_art/erin_j.htm\n\n[organiser] rhythm, deterra, attic associates\r\n[director] Keiji Tanaka (rhythm), Shayne Bowden (deterra)\r\n[art director] Shunsuke Onaka (attic associates), Tomoaki Hashimoto (attic associates)\r\n[PA] Greg Sullivan (Escalator Audio)",

@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "Yuichi Ushioda 3rd Album Mizu No Nai Umi release tour4-?13/04/2014sun\r\nopen19:00 start19:30\r\ncharge 1500　＋　1drink 13_height-16213-beacon-15-",

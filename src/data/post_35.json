@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2007年11月13日（火）〜11月18日（日）\r\n時間…13:00〜20:00\r\n入場無料\n\nクロージング・パーティー…11月17日（土）19:00〜　無料（持ち込み歓迎）5_height-2262-6 Kawasaki4-#2007.11.13 - 11.18\r\n13:00 - 20:00\r\nbeacon-15-",

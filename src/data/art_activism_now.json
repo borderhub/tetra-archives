@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時...2018.11.25(Sun) \r\n時間帯...19:00~21:00\r\n入場料...ドネーション（+１ドリンクオーダーをおねがいします）\r\n出演...狩野愛、趙純恵、江上賢一郎",

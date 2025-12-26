@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "+ 實松亮、Shayne Bowden、花田コウキ\n\n期日…2006年2月8日(水)7-\"\n\n5_height-2262--'re Breaking Up4-[+ Sanematsu Akira, Shayne Bowden, Koki Hanada\n\n2006.02.08\n\nevent coordinated by deterra 13_height-13013-beacon-15-�TwoThousAnd http://twothousandand.com/\r\nCoin On The Track http://coinonthetrack.com/",

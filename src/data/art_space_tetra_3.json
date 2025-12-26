@@ -11,14 +11,18 @@
       "label": "事務情報",
       "basename": "info",
       "parentId": 0,
-      "path": ["info"]
+      "path": [
+        "info"
+      ]
     },
     {
       "id": 35,
       "label": "トップ掲載",
       "basename": "top",
       "parentId": 0,
-      "path": ["top"]
+      "path": [
+        "top"
+      ]
     }
   ],
   "customField": "-5_height-1622-7_height-5466_height-2581-4- 13_height-16213-beacon-15-",

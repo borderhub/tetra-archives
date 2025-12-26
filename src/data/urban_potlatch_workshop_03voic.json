@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "ドキュメンタリー上映会「ブライアンと仲間たち　パーラメント・スクエアSW1」 \r\nファシリテーター：江上賢一郎\n\n期日…2010年7月19日（月・祝） \r\n時間…開場13:00 \r\n料金…600円",

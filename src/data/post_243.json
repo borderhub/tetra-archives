@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "都合により中止となりました。\n\n開催日：2018年7月28日（土）\r\n出演：牛島均、サネマツアキラ\n\n17:00 -ワークショップ\r\n19:30 - ライブ\r\n開場はそれぞれ30分前から行います\n\n料金：\r\nワークショップのみ：¥1000\r\nライブのみ：¥1500\r\n通し：¥2000\r\n各々ドリンク別：¥500",

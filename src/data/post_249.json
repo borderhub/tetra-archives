@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "期間:10月7日(日)〜10月13日(土)\r\n時間:13時〜20時\r\n10月7日18時～オープニングパーティー",

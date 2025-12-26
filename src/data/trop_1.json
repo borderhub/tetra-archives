@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "梅田哲也、さや（tenniscoats）、植野隆司（tenniscoats） ＋ 梢夏子\n\n期日…2007年9月25日(火) \r\n開演…20:00\r\n料金…2,000円（1ドリンク付） 7-1\n\n5_height-2262--\r“trop” #14-cTetsuya Umeda, Saya, Takashi Ueno + Natsuko Kozue\n\n2007.09.25\r\n20:00 start\r\n¥2,000(1 drink inc.) 13_height-13013-beacon-15-?Tetsuya Umeda http://www.siranami.com/\r\nSaya & Takashi Ueno http://www.tenniscoats.com/ \r\nNatsuko Kozue http://www17.ocn.ne.jp/~cozupy/",

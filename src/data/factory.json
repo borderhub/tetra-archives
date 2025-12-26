@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日…2009年3月1日（日）\r\n時間…第1部：16:30 start / 第2部：19:00 start\r\n料金…第1部：1,500円（珈琲付） / 第2部：1,500円（1ドリンク付）\r\n / 1部2部通し券：2,500円（珈琲＋1ドリンク付）",

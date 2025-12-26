@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演：山崎春美 / 倉地久美夫\r\n日時：2016年4月23日（土）\r\n時間：開場：19:30 / 開演：20:00\r\n料金：2000円（ドリンク込み）",

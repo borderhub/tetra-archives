@@ -11,14 +11,20 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "END:CIV上映会 関連ワークショップ\n\n期日...2010年10月10日（日・祝）\r\n時間...15:00～（2時間くらい）\r\n料金...投げ銭制\r\n企画...反転地（佐野陽子）7-�\n\n5_height-1622-0 in FUKUOKA4-\\screened on October 10\r\nStart 19:00\r\n1000yen(or donation)\r\nplaned by Han-ten-chi (yoko sano) 13_height-16213-beacon-15-",

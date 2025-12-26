@@ -11,14 +11,19 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日...2014年6月8日(日)\r\n時間...17時30分（くらい）〜\n\n※ 歌には投げ銭をお願いします。\r\n((持ち寄りも歓迎します！)))",

@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 49,
       "label": "07_演劇イベント",
       "basename": "theater",
       "parentId": 34,
-      "path": ["genre", "theater"]
+      "path": [
+        "genre",
+        "theater"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "○日時\r\n2024年2月11日(日)\r\n1部14:00~(開場13:30~)\r\n2部17:00~(開場16:30~)",

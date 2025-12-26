@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "9.18（金） - 23（水） 2015\r\n18日（金）のみ18：00〜22：00\r\n19日〜23日　13：00〜22：00",

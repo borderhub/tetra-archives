@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日...2012年11月29日（木）\r\n買出し...18:00くらいから\r\n開始...20:00くらいから\r\n料金...食材費をワリカン（1000円程度：ワンドリンク付き）＋一人一品料理持ちより",

@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2008年10月23日（木）〜10月26日（日）\r\n時間…11:00-20:00（初日は13:00から、最終日は16:00まで）",

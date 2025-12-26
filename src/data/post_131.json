@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "日… 2013年3月5日（火）〜2013年3月12日（火）\r\n時間…平日16:00~20:00／9日（土）15:00~／10日（日）13:00~20:00\r\nその他…8日（金）はイベントのため展示なし\r\n※今回の展示はプリントの展示になります",

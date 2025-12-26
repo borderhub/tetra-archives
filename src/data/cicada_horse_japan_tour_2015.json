@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "w / 蹂躙, 武井庸郎 + 山本泰輔\n\n日時：2015年10月11日（日）\r\n19:30 開場 / 20:00 開演\r\n料金 : 1500円（1ドリンク込）",

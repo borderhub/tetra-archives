@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "期日...2013年1月5日(土)\r\n時間...開場 18:30 / 開演 19:00（21:00終了予定）\r\n料金...￥1,000（＋ワンドリンク・オーダー制）",

@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "span style=\"color:red;\">【重要：7/22中止】こちらでご案内しておりましたライブですが、諸事情のため中止とさせていただきます。楽しみにして頂いておりました皆様には、ご迷惑をお掛けします事、深くお詫び申し上げます。\n\n【日時】2023年7月22日（土）11:00開演(10:30開場)\r\n【チャージ】投げ銭＋1ドリンクオーダー制\r\n【場所】art space tetra(福岡市博多区須崎町 2-15)",

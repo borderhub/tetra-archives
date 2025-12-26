@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "期日：2018年9月1日（土）\r\n時間：18時〜20時\r\n参加費：1,000円\n\nトーク：山本高之\r\n進行：正路佐知子",

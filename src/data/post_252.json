@@ -11,14 +11,19 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "日：2019年1月6日（日）\r\n時間：18時スタート\r\n料金：1ドリンクオーダーしてください、差し入れ歓迎！\r\n進行：小山冴子、三好剛平\r\n話題の人：坂田賢治、高橋聡太、藤枝 大、他（調整中）",

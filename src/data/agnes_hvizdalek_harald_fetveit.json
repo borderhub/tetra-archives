@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "日時：2014年10月26日（日）\r\n開場：19:30 / 開始：20:00\r\n料金：1000円 + 500円（1ドリンク）",

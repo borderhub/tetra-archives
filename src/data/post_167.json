@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "日程：2014年4月12日（土）\r\n時間：15:30開始\r\n料金：学生500円（１ドリンク付き）、一般1000円（１ドリンク付き） 13_height-16213-beacon-15-",

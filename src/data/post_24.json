@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "講師…小田マサノリ（イルコモンズ）\n\n期日…2007年05月07日（月）　\r\n時間…14:00〜22:00 \n\n◎ギフトアカデミー形式\r\n◎参加自由／参加無料\r\n◎受講資格不問（女こども優先）",

@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2009年4月1日（水）〜19日（日）月曜休廊\r\n時間…平日16:00-20:00 / 土日祝13:00-20:00\r\n入場無料\n\nテトラ5周年&オープニング・パーティー\r\n4月4日（土）19:00- 参加無料7-�5_height-2262-5 space tetra 5th anniversaryTakasumi Abe “Circulate”2009.4.1(wed) - 19(sun)\r\ntue-fri 16:00-20:00 / sat-sun and holiday 13:00-20:00\n\nart space tetra 5th anniversary & opening party\r\n2009.4.4(sat) 19:00- ¥free 13_height-13013-beacon-15-",

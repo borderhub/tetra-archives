@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "人のソロによるショウケース\n\nkaoru norimatsu (dance)\r\nshogo takenaga (CDJ)\r\nakira sanematsu (roudoku)\r\ntomohide midori (sax) from OITA\n\n日時：2017年5月27日（土）\r\n開場：18時30分 / 開演：19時\r\n料金：1500円+1ドリンク(500円)",

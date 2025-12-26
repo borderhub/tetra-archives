@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "+ tomi\n\n期日…2007年1月28日（日）\r\n開場…19:00 / 開演…19:30\r\n料金…1,000円（1ドリンク付）",
