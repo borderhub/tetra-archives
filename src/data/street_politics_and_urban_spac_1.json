@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "期日：2018年8月7日 19:00~\r\n講師：クリストフ・トゥニ（Christophe Thouny）/九州大学准教授\r\n料金：ワンドリンクオーダー+ドネーション",

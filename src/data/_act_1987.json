@@ -11,14 +11,20 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "工藤冬里、Ω、城戸英章、kappa、園田佐登志\n\n期日…2008年8月25日（月）\r\n時間…18:30 open / 19:00 start\r\n料金…前売 2,000円 / 当日 2,300円（各1ドリンク付）\r\n※予約はメールのみの対応となります。→　info@as-tetra.info\n\ntime table…\r\n第1部　19:00～　本編未収録作品等　上映\r\n第2部　19:35～　live\r\n第3部　20:30～　本編　上映",

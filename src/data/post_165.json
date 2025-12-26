@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "2014年3月7日（金）19:30〜\r\n¥500（別途1Dオーダー）",

@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "005.05.14(sat)-05.29(sun)7-G\n\n5_height-1622-1 for actual art” 003 - Hirotaka Tohyama4-2005.05.14 - 05.29 rhythm's \"Project For Actual Art\" presented the work of young Fukuoka painter Hirotaka Tohyama. The exhibition ran for 2 weeks. Tohyama's paintings were exhibited on the 1st and 2nd floors of artspace tetra where many people could observe and discuss his work.\n\n[curator] Mizuki Endo (rhythm)\r\n[director] Keiji Tanaka (rhythm)\r\n[DM design] Takaaki Yano (rhythm)\n\nrhythm http://www.mhtyhr.com/",

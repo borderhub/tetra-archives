@@ -11,21 +11,28 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": ["genre"]
+      "path": [
+        "genre"
+      ]
     }
   ],
   "customField": "日程：2023年10月4日(水) \r\n時間：19:30〜（19:00オープン）\r\n会場：art space tetra（福岡県福岡市博多区須崎町2-15）\r\n料金：2,000円+1drink order\r\n◻︎出演\r\n◆フェアリータイプ（chumakino/ミドリトモヒデ）\r\n◆onoue （aldo van eyck）/サカグチリュウノスケ（aldo van eyck）",

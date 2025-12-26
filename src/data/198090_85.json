@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "【日時】2024年2月4日（日）14:00 スタート \r\n【発表者】佐々木玄太郎（熊本市現代美術館主任学芸員）\r\n【チャージ】投げ銭＋1ドリンクオーダー制",

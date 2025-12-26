@@ -11,35 +11,49 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "日程：6月2日(月)\n\n一部：オーディオリスニング（15:00-16:00）\r\n二部：メインライブ（17:30-20:00）\n\n■入場料\r\n1部のみ：500円＋1drink order\r\n通し券：1,500円＋1drink order\n\n出演：Sid Frank、小貫 誠、Layla Morpho、諸岡光男、調原作\n\n主催： ART FAIR EARTH PROJECT\r\n協力： art space tetra\r\nお問い合わせ：mooktank1983@gmail.com（城野）\r\nアクセス： 地下鉄空港線 中洲川端駅より徒歩5分",

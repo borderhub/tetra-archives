@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "■ 2020年1月26日（日） \r\n□Open 15:00〜22:00 \r\n□入場無料　 \r\n※1 要ワンドリンクオーダー \r\n※2 フード持ち込み可（ドリンク持ち込みＮＧ） \r\n◇ 出演者 \r\n▶︎ 竹永省吾 \r\n▶︎松尾ミネ \r\n▶︎ ATAMANAX \r\n▶︎ 小林ボードウォーク \r\n▶︎ オシマパ砦 \r\n▶︎cuvboys",

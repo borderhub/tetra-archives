@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "004.11.23-12.127-n\n\n5_height-1622-. for actual art” 002 - Youtarou Hino4-2004.11.23-12.12 13_height-16213-beacon-15-1For the 2nd 'project for actual art', rhythm organized an exhibition for the painter Yotaro Hino.\n\n[curator] Mizuki Endo (rhythm)\r\n[director] Keiji Tanaka (rhythm)\r\n[DM design] Takaaki Yano (rhythm)\r\n \r\nrhythm http://www.mhtyhr.com/",

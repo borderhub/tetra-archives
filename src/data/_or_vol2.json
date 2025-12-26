@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2010年5月18日（火）〜23日（日）\r\n時間…平日16:00〜20:00／土日13:00〜20:00\r\n入場無料7-m\r\n5_height-2262-1'Saori Taguma“tableau or wall paper”4-C2010.5.18(tue) - 23(sun)\r\ntue-fri 16:00-20:00 / sat-sun 13:00-20:00 13_height-13013-beacon-15-",

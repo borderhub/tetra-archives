@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "期…2006年11月28日（火）〜12月10日（日）\r\n時間…13:00〜20:00\r\n休館…月曜\r\n入場無料\n\nオープニングパーティー…28日19:00より。会費1,000円1ドリンク付き\n\n主催…art space tetra\r\n後援…Arts Council England",

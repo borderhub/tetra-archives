@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "会期：2019.11.22(金）-24(日）\r\n時間：\r\n11.22（金）13:00〜21:00\r\n11.23（土）11:00〜20:00\r\n11.24（日）11:00〜19:00\n\n22日19：00 よりオープニング・レセプション（写真家本人によるトーク）",

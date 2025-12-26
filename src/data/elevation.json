@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "Leaky Fields, 史音個性, Hashimoto Eri, Fujii Eri, Yasuda Kazu\n\n2005.06.18(sat)",

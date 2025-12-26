@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "講師…小田マサノリ　\r\n映像…イルコモンズ\n\n期日…2007年8月15日（水）\r\n時間…19:00 〜8月16日（木）朝まで（オールナイト）",

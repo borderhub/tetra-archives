@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2006年6月27日(火）〜2006年7月9日(日) \r\n時間…13:00-20:00 \r\n休廊…月曜休み\r\n入場無料",

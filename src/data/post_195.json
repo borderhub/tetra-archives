@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日付：2015年5月19日（火曜日）\r\n時間：18:00~\r\n料金：一般￥1000、学生￥500、いずれも1ドリンク付き",

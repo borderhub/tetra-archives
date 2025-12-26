@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "日時…2009年4月10日（金）20:00 start\r\n料金…無料\r\n講師…ワカナ・トクディーヌ",

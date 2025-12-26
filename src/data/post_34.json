@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日…2007年11月12日（月）\r\n時間…19:00〜 \r\n入場無料 \r\n※art space tetra　2階にて",

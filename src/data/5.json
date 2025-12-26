@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2008年3月29日（土） \r\n時間…19:30 open / 20:00 start\r\n料金…2,000円（1ドリンクつき）\n\n協力…(財）福岡市文化芸術振興財団",

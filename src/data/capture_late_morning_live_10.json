@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "薬院のギャラリー・IAF SHOP*での開催となります。ご注意ください。\n\n【日時】2023年4月22日（土）11:00開演(10:30開場)\r\n【チャージ】投げ銭＋1ドリンクオーダー制\r\n【場所】IAF SHOP*(福岡市中央区薬院3-7-19 2F)",

@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期：2014年4月30日(水) - 5月6日(火)\r\n時間：4月30日 - 5月2日 16:00 - 20:00 / 5月3日 - 5月6日 13:00 - 20:00\r\n入場無料\n\nオープニング・パーティー：5月3日(土・祝) 18:00 より",

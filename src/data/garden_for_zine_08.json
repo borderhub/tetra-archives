@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "2017年12月3日 (日)\r\n15時〜20時\r\nart space tetra 1F",

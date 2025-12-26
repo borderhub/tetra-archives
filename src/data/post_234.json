@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演：WACO / 竹内ゆえ / 倉地久美夫\n\n日時：2017年11月12日\r\n開場：19:00 / 開演：19:30\r\n料金：1500円+1ドリンク（500円）",

@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2013年10月11日（金）ー10月14日（祝・月）\r\n時間…12:00 - 19:00\r\n（ 初日は13時から／最終日は17時まで ）",

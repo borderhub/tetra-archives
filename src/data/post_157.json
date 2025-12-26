@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期　12月22日（日曜日）から28日（土曜日）まで\r\n時間　14:00 - 20:00（最終日は18時までとなります）\n\nクリスマスパーティー　12月23日（月祝）　18：00〜（1ドリンク付き1000円）",

@@ -11,35 +11,49 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "このページは９月のイベント情報のまとめページです。\r\n時間はイベントの始まる時間です。開場時間ではありませんのでご注意ください。\r\n情報は随時更新されます。時間の記載のない場合は、夕方から開ける予定です。\n\n12日（金）20:30〜福岡のアートについて話す会〜トリエンナーレ連携プログラムの視点から〜\r\n13日（土）18:00〜AGAINST2014 足立正生『略称・連続射殺魔』上映 / トークイベント：風景論と現在\r\n14日（日）12:00〜tetraガレージセール\r\n15日（月・祝）12:00〜tetraガレージセール\r\n20日（土）14:30〜AGAINST2014 足立正生氏トーク「シネマ／テリトリー／アクション」\r\n21日（日）19:30〜Ryu Hankil,Akira Sanematsu,七色川\r\n23日（火）16:30〜暗室角打ち\r\n26日（金）12:00〜tetraガレージセール\r\n　　　　　 19:00〜オクトーバーフェスト&トーク 「福岡ついで観光」西村依里（ポルカ社）＋ゲスト＋石田軒（カレー）\r\n27日（土）12:00〜tetraガレージセール\r\n　　　　　 19:00〜まちと美術館とアートプロジェクトとアーティストの新しい関係 : 藤浩志トーク\r\n28日（日）19:00〜tet_lab#201",

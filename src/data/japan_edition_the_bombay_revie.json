@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "日付：2016年6月26日（日）\r\n時間：18:30 ~ 20:00\r\n入場無料",

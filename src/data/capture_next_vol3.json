@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "apture next vol.May 18th, 2025 (Sun) open 18:00 / start 18:30\r\nCharge 1,500 JPY + 1 drink order required\n\nVenue: art space tetra (2-15 Susaki-machi Hakata-ku Fukuoka, Japan)\r\nhttp://www.as-tetra.info/\r\n 13_height-16213-beacon-15-$Performers\r\nendsnotnear\r\nKenchiku-Shashin\r\nYuji Nakamura\n\ncapture next: A project initiated by Yuji Nakamura, the organizer of capture, with the perspective of carrying things forward—next. This time, three groups that have been engaging in unique activities in Fukuoka, centered around experimental music, electronic music, and improvisational music, will perform.\n\nContact:\r\nart space tetra / capture works and music (Yuji Nakamura) 070-5400-1965 / capture@nakamurayuji.com",

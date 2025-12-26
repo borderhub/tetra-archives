@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "営業日…8月6日（金）\r\n営業時間…20:00〜23:00\r\nチャージ…500円（つまみ、酒１付）",

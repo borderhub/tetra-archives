@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "期日：2013年7月15日（月・祝）\r\n時間：20時から\r\n料金：1000円（1drink 付き）　＋　みんなでフードジョッキー形式でご飯（カンパや食べ物も求む！）",

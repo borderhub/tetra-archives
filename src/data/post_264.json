@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "Kim Changfa Solo Exihibition “You and Me”2020.03.08(Sun) - 03.12(Thu)\r\nSun. 1PM to 6PM.\r\nMon.-Thu. 4PM to 8PM. \r\n ・Holding the opening party on 03.08(Sun) from 2PM.\r\n・We are open until 7PM on 03.12(Thu).\r\n 13_height-13013-beacon-15-",

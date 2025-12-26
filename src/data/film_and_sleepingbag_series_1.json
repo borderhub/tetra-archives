@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "期日…2008年11月7日（金） ～ オールナイト上映\r\n時間…第1部：21:00-1:30 / 第2部：2:00-5:00 / 第3部：5:30-7:40\r\n料金…前売り限定3枚券：一般 2,500円、学生2,000円 / 当日1部券：一般 1,000円、学生 800円\n\n主催…film and sleeping-bag実行委員会\r\ntel 093-661-9130（旧百三十銀行ギャラリー, 10:00-18:00 月曜休廊）、e-mail fumiwo.iwamoto@gmail.com（岩本）\r\n作品提供…特定非営利活動法人 山形国際ドキュメンタリー映画祭",

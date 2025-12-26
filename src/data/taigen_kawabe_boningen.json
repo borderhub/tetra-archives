@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "aigen Kawabe (BO-NINGEN)duennlabel presents ex\r\nTaigen Kawabe / duenn / Hitomi Moriwaki / HAPPYFILM Toshiyuki Kotani (VJ)\n\ndate : December 7th, 2014 (Sun)\r\ntime : open 17:50 / start 18:00\r\nticket : adv/day: 1800yen (no-drink) 13_height-13013-beacon-15-",

@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会場：art space tetra\r\n〒812-0028 福岡市博多区須崎町2-15\r\n（2-15 Susakimachi, Hakata Ward, Fukuoka）\n\n会期：2025年5月24日（土）～6月1日（日）\r\n平日｜16:00～20:00\r\n週末｜13:00～20:00\r\n※月曜休廊",

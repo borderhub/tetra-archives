@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "w/ Capture 木管◯重奏 / Ryoko Matsuoka + shayne bowden / Hurricane Grind / Ancient Fish / baby crying (オーストラリア)\n\n日時：2016年8月27日\r\n18:30 開場 / 19:00 開演\r\n料金：2000円+1ドリンク（500円）",

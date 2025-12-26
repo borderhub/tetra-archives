@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "+ 上村 直也, 武井 庸郎, 中村 勇治, 諸岡 光男, RYOSAI\n\n期日…2007年02月10日（土）\r\n開場…19:00 / 開演…19:30\r\n料金…1,500円 + 1ドリンクオーダー\n\n企画/お問い合わせ/予約…中村\r\nhttp://members3.jcom.home.ne.jp/mew.ug_impro/\r\n(tel) 090-9722-4245 / (mail) ug_presents@jcom.home.ne.jp",

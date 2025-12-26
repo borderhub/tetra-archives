@@ -11,14 +11,19 @@
       "label": "記事トップ",
       "basename": "cat38",
       "parentId": 0,
-      "path": ["cat38"]
+      "path": [
+        "cat38"
+      ]
     },
     {
       "id": 42,
       "label": "テクスト",
       "basename": "cat42",
       "parentId": 39,
-      "path": ["cat39", "cat42"]
+      "path": [
+        "cat39",
+        "cat42"
+      ]
     }
   ],
   "customField": "8_height-1629-.",

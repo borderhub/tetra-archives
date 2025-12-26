@@ -4,12 +4,13 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import parse, { DOMNode, domToReact, Element } from 'html-react-parser';
-import React, { Fragment } from 'react';
+import React from 'react';
 import MobileHeader from '@/components/MobileHeader';
 import Sidebar from '@/components/Sidebar';
 import SidebarToggle from '@/components/SidebarToggle';
 import PostSidebarNavigation from '@/components/PostSidebarNavigation';
 import Footer from '@/components/Footer';
+import { useIsMounted } from '@/hooks';
 import { stripHtmlTagsKeepLineBreaks } from '@/helper';
 
 type CategoryBaseInfo = {
@@ -37,21 +38,7 @@ type PostData = {
 };
 
 const VOID_ELEMENTS = [
-  'area',
-  'base',
-  'br',
-  'col',
-  'embed',
-  'hr',
-  'img',
-  'input',
-  'keygen',
-  'link',
-  'meta',
-  'param',
-  'source',
-  'track',
-  'wbr',
+  'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'keygen', 'link', 'meta', 'param', 'source', 'track', 'wbr',
 ];
 
 // タイトルが画像パスかどうかを判定
@@ -59,7 +46,7 @@ const isImagePath = (str: string): boolean => {
   return /^\/title\/\d+\/title\.(gif|jpg|jpeg|png|webp)$/i.test(str);
 };
 
-// HTMLタグを除去してテキストのみ抽出
+// HTMLタグを除去してテキストのみ抽出（CSV用）
 const stripHtmlTags = (html: string): string => {
   return html.replace(/<[^>]*>/g, '');
 };
@@ -73,39 +60,31 @@ export default function PostPageClient({
   allPosts: PostData[];
   slug: string;
 }) {
-  const [sidebarOpen, setSidebarOpen] = useState(false); // モバイル用
-  const [desktopSidebarOpen, setDesktopSidebarOpen] = useState(true); // デスクトップ用
+  const isMounted = useIsMounted();
+  const [sidebarOpen, setSidebarOpen] = useState(isMounted.current || false);
+  const [desktopSidebarOpen, setDesktopSidebarOpen] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
   const [isDownloading, setIsDownloading] = useState(false);
-
-  // アニメーション制御用（初期化が終わるまでfalse）
   const [shouldAnimate, setShouldAnimate] = useState(false);
 
-  // 初期化処理（モバイル判定・LocalStorage復元・アニメーション有効化）
   useEffect(() => {
-    // 1. 同期setState警告回避のため setTimeout を使用
     const initTimer = setTimeout(() => {
-      // モバイル判定
       const mobileCheck = window.innerWidth < 1024;
       setIsMobile(mobileCheck);
       if (!mobileCheck) {
         setSidebarOpen(false);
       }
 
-      // LocalStorageからサイドバー状態を復元
       const savedSidebarState = localStorage.getItem('desktopSidebarOpen');
       if (savedSidebarState !== null) {
         setDesktopSidebarOpen(savedSidebarState === 'true');
       }
 
-      // 2. 状態更新がDOMに反映され、レイアウトが確定した後にアニメーションを有効化
-      // 300ms待つことで、モバイルでの初期幅調整時のアニメーションを防ぐ
       setTimeout(() => {
         setShouldAnimate(true);
       }, 150);
     }, 0);
 
-    // リサイズイベントの処理（デバウンス付き）
     let resizeTimer: NodeJS.Timeout;
     const handleResize = () => {
       clearTimeout(resizeTimer);
@@ -127,7 +106,6 @@ export default function PostPageClient({
     };
   }, []);
 
-  // デスクトップサイドバーの開閉切り替え
   const toggleDesktopSidebar = () => {
     const newState = !desktopSidebarOpen;
     setDesktopSidebarOpen(newState);
@@ -136,7 +114,7 @@ export default function PostPageClient({
 
   const year = post.date ? post.date.substring(0, 4) : 'Unknown';
 
-  // フッター用データ
+  // カテゴリ集計処理
   const categoryMap = new Map<
     number,
     { id: number; label: string; basename: string; count: number }
@@ -174,13 +152,10 @@ export default function PostPageClient({
 
   const allPostsInYearCount = allPosts.filter((p) => p.year === year).length;
 
-  // タイトルが画像パスかチェック
   const titleIsImage = isImagePath(post.title);
-
-  // サムネイル画像のソースを決定
   const thumbnailSrc = post.thumbnail || (titleIsImage ? post.title : null);
 
-  // CSVダウンロード（クライアントサイド）
+  // CSVダウンロード処理
   const handleDownloadCSV = () => {
     setIsDownloading(true);
     try {
@@ -209,7 +184,6 @@ export default function PostPageClient({
         .map((row) => row.map(escapeCsv).join(','))
         .join('\n');
 
-      // BOM付きUTF-8でエンコード（Excel対応）
       const bom = '\uFEFF';
       const csvWithBom = bom + csvContent;
 
@@ -311,78 +285,134 @@ export default function PostPageClient({
     }
   };
 
-  // html-react-parserの変換設定（画像をSSG対応に変換）
+  /**
+   * HTML変換設定 (html-react-parser)
+   * ここで特定のHTMLタグ（img, tableなど）を検出し、
+   * Tailwindのクラスを注入したReactコンポーネントに置き換えます。
+   */
   const replace = (domNode: DOMNode) => {
     if (domNode instanceof Element && domNode.name) {
       const { name, attribs, children } = domNode;
 
-      // 自己閉じタグの処理
-      if (VOID_ELEMENTS.includes(name)) {
-        const props: Record<string, unknown> = { ...attribs };
+      if (name === 'violin・vocal' || name.startsWith('dm') || name.includes('転載')) {
+        // 開始タグと終了タグをそのまま文字列として出力
+        const openingTag = `<${name}>`;
 
-        // img タグの場合のみ、Imageコンポーネントに変換
-        if (name === 'img' && attribs.src) {
-          const src = attribs.src.startsWith('/')
-            ? `/tetra-archives${attribs.src}`
-            : `/tetra-archives/${attribs.src}`;
+        // 子ノード（中の本文）は普通に表示
+        const content = domToReact(children as DOMNode[], { replace });
 
-          // width/heightを安全にパース
-          const parseSize = (value: string | undefined, defaultValue: number): number => {
-            if (!value) return defaultValue;
-            const parsed = parseInt(value, 10);
-            return isNaN(parsed) || parsed <= 0 ? defaultValue : parsed;
-          };
-
-          const width = parseSize(attribs.width, 800);
-          const height = parseSize(attribs.height, 450);
-
-          return (
-            <Image
-              src={src}
-              alt={attribs.alt || 'Content Image'}
-              width={width}
-              height={height}
-              className={attribs.class || ''}
-              loading="lazy"
-              unoptimized
-            />
-          );
-        }
-
-        // その他の自己閉じタグはそのまま
-        return React.createElement(name, props);
+        return (
+          <div>
+            {openingTag}
+            {content}
+          </div>
+        );
       }
 
-      // 通常のタグ（子要素あり）
-      const props: Record<string, unknown> = { ...attribs };
-      return React.createElement(
-        name,
-        props,
-        domToReact(children as DOMNode[], { replace })
-      );
+      // 1. 画像 (img) -> Next/Image へ変換
+      if (name === 'img' && attribs.src) {
+        const src = attribs.src.startsWith('/')
+          ? `/tetra-archives${attribs.src}`
+          : `/tetra-archives/${attribs.src}`;
+
+        const parseSize = (value: string | undefined, defaultValue: number): number => {
+          if (!value) return defaultValue;
+          const parsed = parseInt(value, 10);
+          return isNaN(parsed) || parsed <= 0 ? defaultValue : parsed;
+        };
+
+        const width = parseSize(attribs.width, 800);
+        const height = parseSize(attribs.height, 450);
+
+        return (
+          <Image
+            src={src}
+            alt={attribs.alt || 'Content Image'}
+            width={width}
+            height={height}
+            className={`max-w-full h-auto my-4 rounded-md ${attribs.class || ''}`}
+            loading="lazy"
+            unoptimized
+          />
+        );
+      }
+
+      // 2. テーブル (table) -> スタイルを強制注入
+      // Tailwindではテーブルの枠線がデフォルトで消えるため、ここでクラスを追加します。
+      if (name === 'table') {
+        const className = `${attribs.class || ''} w-full border-collapse border border-gray-300 my-6 text-sm lg:text-base`.trim();
+        return (
+          <table {...attribs} className={className}>
+            {domToReact(children as DOMNode[], { replace })}
+          </table>
+        );
+      }
+
+      // 3. テーブルヘッダー (th)
+      if (name === 'th') {
+        const className = `${attribs.class || ''} border border-gray-300 bg-gray-100 px-4 py-2 font-bold text-left min-w-[80px]`.trim();
+        return (
+          <th {...attribs} className={className}>
+            {domToReact(children as DOMNode[], { replace })}
+          </th>
+        );
+      }
+
+      // 4. テーブルセル (td)
+      if (name === 'td') {
+        const className = `${attribs.class || ''} border border-gray-300 px-4 py-2 align-top`.trim();
+        return (
+          <td {...attribs} className={className}>
+            {domToReact(children as DOMNode[], { replace })}
+          </td>
+        );
+      }
+
+      // 5. 引用 (blockquote)
+      if (name === 'blockquote') {
+        const className = `${attribs.class || ''} p-4 my-4 border-l-4 border-gray-300 bg-gray-50 italic text-gray-700`.trim();
+        return (
+          <blockquote {...attribs} className={className}>
+            {domToReact(children as DOMNode[], { replace })}
+          </blockquote>
+        );
+      }
+
+      // 6. 外部リンク (a)
+      if (name === 'a' && attribs.href) {
+        if (attribs.href.startsWith('http')) {
+          return (
+            <a
+              {...attribs}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`text-blue-600 hover:underline ${attribs.class || ''}`}
+            >
+              {domToReact(children as DOMNode[], { replace })}
+            </a>
+          );
+        }
+      }
     }
 
-    // それ以外はそのまま
-    return domNode;
+    // 他のタグ（p, div, brなど）はデフォルトの処理に任せる（undefinedを返すとそのままレンダリングされる）
+    return undefined;
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      {/* ヘッダー(モバイル用) */}
       <MobileHeader
         year={year}
         sidebarOpen={sidebarOpen}
         onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
       />
 
-      {/* デスクトップ用サイドバートグルボタン */}
       <SidebarToggle
         isOpen={desktopSidebarOpen}
         onToggle={toggleDesktopSidebar}
       />
 
       <div className="flex">
-        {/* サイドバー */}
         <div
           className={`${shouldAnimate ? 'transition-all duration-100' : ''} ${isMobile
             ? ''
@@ -398,7 +428,7 @@ export default function PostPageClient({
             isMobile={isMobile}
             isOpen={isMobile ? sidebarOpen : desktopSidebarOpen}
             onClose={() => setSidebarOpen(false)}
-            shouldAnimate={shouldAnimate}
+            shouldAnimate={isMounted.current && shouldAnimate}
           >
             <PostSidebarNavigation
               categories={post.categories}
@@ -409,17 +439,14 @@ export default function PostPageClient({
           </Sidebar>
         </div>
 
-        {/* メインコンテンツ */}
         <main
-          className={`flex-1 mx-auto w-full ${shouldAnimate ? 'transition-all duration-300' : ''} ${!isMobile && !desktopSidebarOpen
-            ? 'max-w-full lg:px-16'  // サイドバー閉: フルサイズ
-            : `max-w-6xl`           // サイドバー開: 通常幅
+          className={`flex-1 mx-auto w-full ${isMounted.current && shouldAnimate ? 'transition-all duration-300' : ''} ${!isMobile && !desktopSidebarOpen
+            ? 'max-w-full lg:px-16'
+            : `max-w-6xl`
             }`}
         >
           <article className="pdf-article-content bg-white rounded-lg shadow-xl overflow-hidden my-8">
-            {/* ヘッダー部分 */}
             <header className="relative text-gray-600 p-6 lg:p-12 border-b-1 border-gray-200">
-              {/* 背景装飾 */}
               <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
                 <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -427,10 +454,7 @@ export default function PostPageClient({
 
               <div className="relative z-10">
                 <div className="mb-8 pdf-ignore-element">
-                  {/* 全体：PCは横並び / モバイルは縦 */}
                   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
-
-                    {/* ① カテゴリタグ（常に左寄せ・フル幅で折り返しOK） */}
                     <div className="flex flex-wrap gap-2">
                       {post.categories.map((cat) => (
                         <Link
@@ -443,7 +467,6 @@ export default function PostPageClient({
                       ))}
                     </div>
 
-                    {/* ② ダウンロードボタン（モバイル：縦 / PC：横） */}
                     <div className="flex flex-row gap-3 lg:justify-between">
                       <button
                         onClick={handleDownloadPDF}
@@ -473,7 +496,6 @@ export default function PostPageClient({
                     </div>
                   </div>
                 </div>
-                {/* タイトル: 画像パスの場合は画像として表示、それ以外はテキスト */}
                 {titleIsImage ? (
                   <div className="mb-6 bg-white/10 p-6 rounded-lg backdrop-blur-sm">
                     <Image
@@ -492,37 +514,16 @@ export default function PostPageClient({
                   </h1>
                 )}
 
-                {/* メタ情報 */}
                 <div className="flex flex-wrap gap-4 text-sm text-gray-500/90">
                   <div className="flex items-center gap-2">
-                    <svg
-                      className="w-4 h-4"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                      />
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
                     <span>{post.author}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <svg
-                      className="w-4 h-4"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
                     <span>{post.date}</span>
                   </div>
@@ -530,20 +531,15 @@ export default function PostPageClient({
               </div>
             </header>
 
-            {/* サムネイル画像 & 補足情報セクション - 統合レイアウト */}
             {(thumbnailSrc || post.customField) && (
               <section>
                 <div className="p-6 lg:p-12 bg-white">
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-1 h-8 bg-gray-600 rounded"></div>
-                    <h2 className="text-xl lg:text-2xl font-bold text-gray-900">
-                      概要
-                    </h2>
+                    <h2 className="text-xl lg:text-2xl font-bold text-gray-900">概要</h2>
                   </div>
 
-                  {/* 2カラムレイアウト（デスクトップ）/ 縦積み（モバイル） */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-6">
-                    {/* サムネイル画像 */}
                     {thumbnailSrc && (
                       <div className="order-1 lg:order-2">
                         <div className="p-4 h-full">
@@ -559,21 +555,25 @@ export default function PostPageClient({
                       </div>
                     )}
 
-                    {/* 補足情報 */}
                     {post.customField && (
                       <div className={`order-2 lg:order-1 ${!thumbnailSrc ? 'lg:col-span-2' : ''}`}>
                         <div className="bg-gradient-to-br from-gray-50 to-white rounded-lg shadow-md p-6 lg:p-6 border-l-4 border-gray-600 h-full">
                           <div className="text-sm font-bold text-gray-600 mb-4 uppercase tracking-wide">
                             補足情報
                           </div>
-                          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed break-words">
+                            {/* customFieldにHTMLが含まれる可能性がある場合は parse() を使う。
+                                JSONを見る限りタグが除去されているためテキスト表示で問題ないが、
+                                改行を反映させるために whitespace-pre-wrap を適用するか、parserを通す。
+                                今回はJSON上テキストのみのためそのまま表示するが、改行は考慮する。
+                             */}
+                            {/* もし customField にHTMLを含めたい場合は parse(post.customField) に変更してください */}
                             {post.customField}
                           </div>
                         </div>
                       </div>
                     )}
 
-                    {/* サムネイルのみの場合、フル幅で表示 */}
                     {!post.customField && thumbnailSrc && (
                       <div className="lg:col-span-2 order-1">
                         <div className="bg-gradient-to-br from-gray-50 to-white rounded-lg shadow-lg p-6 border border-gray-200">
@@ -593,41 +593,28 @@ export default function PostPageClient({
               </section>
             )}
 
-            {/* コンテンツ - 本文セクション */}
             {post.content && (
               <section className="border-b-4 border-gray-200">
                 <div className="p-6 lg:p-12 bg-gradient-to-br from-white to-gray-50">
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-1 h-8 bg-gray-600 rounded"></div>
-                    <h2 className="text-xl lg:text-2xl font-bold text-gray-900">
-                      詳細
-                    </h2>
+                    <h2 className="text-xl lg:text-2xl font-bold text-gray-900">詳細</h2>
                   </div>
-                  <div className="prose prose-lg max-w-none">
+                  {/* Tailwind Typographyのproseを適用しつつ、replace関数でテーブル等を補強 */}
+                  <div className="prose prose-lg max-w-none prose-img:rounded-lg">
                     {parse(post.content, { replace })}
                   </div>
                 </div>
               </section>
             )}
 
-            {/* フッターナビ */}
             <footer className="p-6 bg-gray-50">
               <Link
                 href={`/archive/all/year/${year}/page/1`}
                 className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 font-bold transition-colors"
               >
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
-                  />
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
                 Back to Archive
               </Link>
@@ -636,7 +623,6 @@ export default function PostPageClient({
         </main>
       </div>
 
-      {/* フッター */}
       <Footer
         categories={uniqueCategories}
         years={uniqueYears}

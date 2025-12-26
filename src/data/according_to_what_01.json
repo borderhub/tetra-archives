@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期…2008年5月6日（火）〜5月18日（日）\r\n時間…13時〜20時\r\n休館…月曜\r\nクロージング・パーティー…5月17日（土）18:00〜　参加費500円（ドリンク・軽食）\r\n主催…A2Wシリーズ実行委員会",

@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "2018/12/24(月)〜12/30(日) 13:00 - 21:00 \r\nentrance free\r\n（12/24 openig party 17:00〜\r\nentrance fee¥1,000.with limited zine 15 copy only）",

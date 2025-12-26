@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "期間…2010年5月2日（日）〜5日（水）\r\n時間…13:00 - 20:00",

@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "Qua (Headz label), Ai Yamamoto, Lawrence English\n\n2005.12.19(mon)\r\n7-n\n\n5_height-1622-4 Abstraction” - sounds from Australia4-4Qua, Ai Yamamoto, Lawrence English\n\n2005.12.19\n\n 13_height-16213-beacon-15-p\r\nROOM40 http://www.room40.org/\r\nQUA http://www.faderbyheadz.com/\n\n[plan] Ai Yamamoto, Lawrence English\r\n[event coordinator] Shayne Bowden (deterra)\r\n[PA] Greg Sullivan (Escalator Audio)\r\n[support] art space tetra",

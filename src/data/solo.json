@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "sorosorosolo”4-uPhilip Leitner, Mitsuo Morooka, Momoko Arita, Shayne Bowden\n\n2009.10.19 (mon)\r\n19:00 open / 19:30 start\r\n1,000yen\r\n 13_height-13013-beacon-15-W4 sound performances with tetra & piano & TV & voice & noise & people, and so on.",

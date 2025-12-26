@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "2016年11月23日 (水・祝)\r\n15時〜20時頃\r\n参加費 無料 (1ドリンクのご注文をお願いします)",

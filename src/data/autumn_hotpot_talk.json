@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "ゲスト：キソン\r\n聞き手：山内光枝\n\n2020年11月13日（金）\r\nHotpot Open: 18:30ごろからボチボチ\r\nTalk: 19:30\r\n参加費：500円",

@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時：2018/12/20 19:30~22:30\r\n場所:art space tetra\r\n料金:ドネーション＋鍋材料費(500円程度）",

@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2010年5月29日（土）\r\n時間…17:00オープン、18:00スタート 終了予定21:30（場合によっては早く終了することもあります）\r\n料金…参加費500円　見学のみ1000円",

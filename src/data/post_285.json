@@ -11,35 +11,49 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期：７月４日（月）～１０日（日）\r\nOpen 12:00 - 22:00\r\n展示：入場無料\r\n※各イベントにはそれぞれ入場料が設定されていますのでご注意ください。\n\n７日 Bon-go\r\nシンギングボールxモジュラーシンセ即興ライブ（福岡）\r\n20:00-22:00 \r\nエントランス：¥1000　\r\n※パフォーマンスは21:00頃予定\n\n８日 玲音　　　\r\nラップxモジュラーシンセ即興ライブ（長崎）\r\n20:00-22:00\r\n エントランス：¥1000\r\n※パフォーマンスは21:00頃予定\n\n９日 MAKOTO SAKAMOTO　Yutaka`s birthday bash\r\n19:00-22:00\r\nエントランス：¥2000\r\n※パフォーマンス　20:00頃予定",

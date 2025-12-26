@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "日程：2020年 2/21（金）\r\n時間：開場18：30 開演19：00\r\n内容 ：『グラフィテイロス』の映像上映（70分）とアフタートーク（70分） のセットでのイベントとなります。\n\n料金： ¥1000 + ワンドリンクオーダー（予約不要）\r\n問い合わせ： u.potlatch@gmail.com\r\n詳細・関連情報は随時アップします\r\nWEB: http://www.as-tetra.info\r\nTWITTER: @abe_kota_\n\n企画：江上賢一郎／art space tetra\r\n企画・コンテンツ制作：阿部航太\r\n制作協力企画：Trash Talk Club",

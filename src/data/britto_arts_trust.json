@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "期日…2014年10月30日（木）\r\n時間…18:30open／19:00 start\r\n参加費…1000円（1ドリンク付き）\r\n※2杯めからは通常のドリンク料金になります。（200円～）\n\nゲスト：\r\nマハブブ・ラーマン（Britto Arts Trust）\r\nコビール･アフメッド･マスム･チスティ（Britto Arts Trust、FT5出品作家）\n\n協力：五十嵐理奈（福岡アジア美術館）、猪股春香（pukpuk)、小笠原瞳(pukpuk)、小山冴子(art space tetra)、笠井優(三菱地所アルティアム)、宮崎由子(紺屋2023)、",

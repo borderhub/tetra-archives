@@ -11,14 +11,19 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日...2012年12月22日（土）、23日（日）\r\n時間...22日（土）19:00　23日（日）15:00／19:00　\r\n料金...前売 2000円／当日 2500円 （前売・当日ともに1ドリンク付）\r\n問合せ...092-262-6560（当日のみ問合せ可能）\r\nチケットのご予約、お問合せ...kuhano@as-tetra.info（くはの）\r\n宣伝協力｜NPO法人コデックスCo.D.Ex",

@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "11月17日(金)-11月23日(木)\n\n平日13時-18時\r\n17日(金)-19日(日)は19時まで\r\n作家在廊　17日-20日",

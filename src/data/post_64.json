@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "Yoimachi”4-nif MASAKA, Youko Sano, Masato Sasaki\n\n2009.7.12 (sun)\r\n19:00 open / 19:30 start\r\n1,000 yen (+1drink order)\r\n 13_height-13013-beacon-15-",

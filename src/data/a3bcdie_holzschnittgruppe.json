@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "日時：4/3(日)　15:00〜20:00\n\n会場：art space tetra 2F (福岡市博多区須崎町２−１５)\n\n参加費：¥500＋1 drink",

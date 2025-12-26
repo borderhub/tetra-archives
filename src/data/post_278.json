@@ -11,14 +11,19 @@
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": ["genre"]
+      "path": [
+        "genre"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期...2021.11.18(木)~11.24(水)\n\n時間...11:00~20:00 最終日~18:00",

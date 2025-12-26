@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "+ 淋しい女（吉田主税+小貫誠）\n\n期日…5月8日（木） \r\n時間…19:30 open / 20:00 start\r\n料金…1,500円 + 1ドリンクオーダー",

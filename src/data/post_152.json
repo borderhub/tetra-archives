@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "開演日時：2013年11月3日（日） / 4日（祝）\r\n開場時間：3日：19:00 / 4日：13:00 / 17:00\r\n前売料金：500円\r\n当日料金：700円\n\n問い合わせ・ご予約\r\nerikoro4416@yahoo.co.jp　09011967569（酒井）\r\nコリッチ：http://stage.corich.jp/stage_detail.php?stage_id=49769 \r\nブログ 演劇ユニット「」：http://s.ameblo.jp/playunitkagikakko/",

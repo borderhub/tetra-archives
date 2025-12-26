@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "中島治子・中島吏英 二人展\r\n会期：2022年3月9・10日\r\n時間：12時 - 20時\r\n入場無料\n\n【関連イベント】\r\n坂田明・中島吏英ライブ\r\n日時：2022年3月9日　20時開演\r\n料金：3,000円\r\n(function(d,s,id){var st=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}var nst=d.createElement(s);nst.id=id;nst.src=\"//btn.stores.jp/button.js\";nst.charset=\"UTF-8\";st.parentNode.insertBefore(nst,st);})(document, \"script\", \"storesjp-button\");\n\n坂田明・中島吏英ライブ・パフォーマンス\r\nLIVE配信決定！！！\r\n配信用YoutubeのURLはこちら\n\n一定期間アーカイブ視聴もできるようにしておきますが、おそらく期間限定の配信となるので、ご視聴はお早めにお願いします。\r\n※LIVE配信の視聴は無料です。",

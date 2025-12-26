@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演：Phillipe Beer Garbel / capture / 諸岡光男 / 坂口壱彦\r\n日時：2015年2月14日（土）\r\n19:00 開場 / 19:30 開演\r\n料金：1500 円（1ドリンク込）",

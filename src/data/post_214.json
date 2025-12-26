@@ -11,14 +11,20 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "時：2016年3月10日(木)　19：00　start\n\n会場：art space tetra 〒812-0028 福岡県福岡市博多区須崎町２−１５\n\n入場料：500円　＋　ワンドリンクオーダーをお願いします。\n\n連絡先：info@as-tetra.info　（担当：江上宛）",

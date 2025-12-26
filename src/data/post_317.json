@@ -11,14 +11,20 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "024年7月28日（日）open 15:45 start 16:00\r\n会場　art space tetra（テトラ）福岡市博多区須崎町２−１５\r\ncharge 2000円+ワンドリンクオーダー（予約制/限定20席）",

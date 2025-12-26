@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2009年7月19日（日）\r\n時間…午後5時30分（演奏は1時間程度を予定）\r\n料金…500円（1ドリンク付き）\r\n奏者…松隈聡子\r\n演目…J.S.Bach 無伴奏チェロ組曲より第４番 Ｅ flat Major　ほか",

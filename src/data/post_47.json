@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2007年10月16日（火）〜10月28日（日）\r\n時間…13:00〜20:00　入場無料\r\n休廊…月曜日\n\nクロージング・パーティー…10月27日（土）19:00〜 参加費500円",

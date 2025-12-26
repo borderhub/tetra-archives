@@ -11,14 +11,19 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "005.01.22(Sat)7- \n\n5_height-1622-- against” 24-'Takasumi Abe / Kushitsu\n\n2005.01.22\r\n 13_height-16213-beacon-15-JFor 'one against 2' Fukuoka based conceptual artist Abe Takasumi created an installation piece on the first floor of tetra. Using video projections, toilet paper and paint bombs, Abe displayed an ability to skillfully utilize the first floor space for the benefit of his work.\r\nKushitsu are a 3 piece improvisational unit from Fukuoka. Using a multitude of guitars, effects and readymade objects Kushitsu performed for close to an hour next to Abe San.\n\n[director] Shayne Bowden (deterra)\r\n[DM design] attic associates",

@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "日程...2019年1月3日（木）\r\n時間...15時スタート\r\n料金...投げ銭+1ドリンクオーダーお願いします\r\n　　 お正月的な差し入れ歓迎！\r\n出演...倉地久美夫、\n\n当日はこちらでネット放送をする予定です。http://mixlr.com/saeko_oyama",

@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "期間：2月17日（月）〜24日（月・祝）＊21日（金）は上映会イベントのため休み\r\n時間：17:00 OPEN（平日）~ 終電くらいまで\r\n　　　12:00 OPEN（土日祝）〜終電くらいまで\r\n企画：山下陽光（途中でやめる：http://tochuyame.thebase.in/）\r\nTwitter : https://twitter.com/ccttaa",

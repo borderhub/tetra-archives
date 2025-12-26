@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "IMMUNITY Fukuoka4-t27 August, 2017\r\n18:30 OPEN / 19:00 START\r\nadmission free\n\nspeaker : Arata Hasegawa\r\ninterviewer : Souta Takahashi Impurity / Immunity trailer\r\nhttps://www.youtube.com/watch?v=P9ATjAucv8U",

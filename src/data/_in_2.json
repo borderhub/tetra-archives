@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時：2019年6月2日（日）\r\n時間：16:00 〜 19:00\r\n参加費：150元（日本茶とお菓子付き）\r\n場所 : 衛屋茶事 台南 (台南市北區富北街74號)\r\nテーマ『台湾の人に、日本の人にオススメしたい一冊』\r\n※art space tetraでの開催ではありません。ご注意下さい。",

@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演：Thomas Tilly（フランス）/ Ryoko Matsuoka / sahyne bowden\n\n期日：2016年11月5日（土）\r\n時間：19:00 開場 / 19:30 開演\r\n料金：2000円+1ドリンク（500円）",

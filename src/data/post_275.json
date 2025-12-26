@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": ["genre", "broadcast"]
+      "path": [
+        "genre",
+        "broadcast"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "Jong YuGyong Artist Talk reported by Kenichiro Egami 7月3日チョン・ユギョン個展「After Potemkin Villages」アーティスト・トーク \r\n登壇者：チョン・ユギョン\r\n聞手：牧園憲二（アーティスト／art space tetraメンバー）、江上賢一郎（アート・アクティヴィズム研究／art space tetraメンバー）\r\nYoutube配信（アーカイブ有り） : https://www.youtube.com/watch?v=0y_ebmZsl1I 13_height-13013-beacon-15-",

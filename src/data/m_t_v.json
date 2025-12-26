@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演…豊田道倫、岡崎康洋、バロン＆オブサリティ(やないけい+藤井邦博)、城戸英章\r\n日時…8月12日（月）　開場 19:00／開演 19:30\r\n料金…2,000円＋1ドリンクオーダー（500円）",

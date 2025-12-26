@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": ["genre"]
+      "path": [
+        "genre"
+      ]
     }
   ],
   "customField": "It's a New Day”4-[NEWDAY, Lonely Woman\n\n2010.1.17(sun)\r\n19:00 open / 19:30 start\r\n1,500yen + 1drink order\r\n 13_height-13013-beacon-15-",

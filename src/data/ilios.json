@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "+ Katchmare、Shayne Bowden、坂口 壱彦\n\n期日…2008年7月4日(金)\r\n時間…19:30 open /20:00 start\r\n料金…1,500円 + 1ドリンクオーダー\n\n主催…deterra \r\nhttp://www.deterra8.com/",

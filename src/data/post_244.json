@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "日時:2018年7月14日(土)16時～18時(受付15時30分～)\r\n参加費:無料",

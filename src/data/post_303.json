@@ -11,42 +11,58 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 30,
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": ["genre"]
+      "path": [
+        "genre"
+      ]
     }
   ],
   "customField": "日時：6月9日（金）19時～\r\n場所：art space tetra（福岡県福岡市博多区須崎町２−１５）\r\n参加費：1,000円＋1drink order\n\n■タイムスケジュール\r\n19:00　マダガスカルのミュージックビデオ鑑賞&マダガスカル鍋実食\r\n19:30　アフリ神主トーク\r\n20:15　マダガスカル鍋〆\r\n21:00　終了7-y\n\n鍋はラスーピ・エナ・ウンビ。トロトロに煮込んだニンジンなどの野菜と、牛肉、トロトロに煮込んだ牛スジ。これにパスタ麺か中華麺でどうかという感じ。\n\n5_height-2262-8 around Madagascar hot pot with Afri Priest4-5Date and time: Friday, June 9, 19:00 -\r\nPlace: art space tetra (2-15 Susaki-cho, Hakata-ku, Fukuoka City, Fukuoka Prefecture)\r\nFee: 1,000 yen + 1drink order\n\nTime Schedule\r\n19:00 Madagascar music video viewing & Madagascar hot pot\r\n19:30 Talk by Afri-Priest\r\n20:15 Closing of Madagascar hot pot\r\n21:00 End\r\n 13_height-13013-beacon-15-eThe Afri-Priest comes to the tetra!\n\nMr. MALEYUKI EVATA, a cultural anthropologist specializing in Madagascar's indigenous beliefs and traditional medicine, is also the head priest of a shrine in Mojiko.\n\nWhat is Madagascar like? Who are the shamans of Madagascar?\r\nLet's take a peek into the unknownvhk world over a Madagascar hot pot with Afri-Priest.",

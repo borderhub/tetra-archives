@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2010年6月21日（月）\r\n場所…アートスペーステトラ\r\n時間…19:00オープン、19:30スタート 終了予定21:30（場合によっては早く終了することもあります）\r\n料金…参加費500円　見学のみ1000円",

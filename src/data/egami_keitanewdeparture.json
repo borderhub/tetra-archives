@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2008年11月25日（火）〜12月21日（日）\r\n時間…13:00〜20:00\r\n月曜休廊\r\n企画…田中慶二（Calamari Inc. / art space tetra）\n\nアーティスト・トーク…12月06日（土）19:00〜 入場無料\r\nEKMKEM…12月16日（火）20:00〜 入場無料\r\nクロージング・パーティー…12月20日（土）18:00〜 参加費無料\n\n＜関連イベント（江上計太も出演します！）＞\r\nCONTRE - ATTAQUE #6 …12月13日（土）19:00〜\r\nMaher Shalal Hash Baz …12月14日（日）19:00〜\r\nReknub #4 …12月19日（金）19:00〜\r\n7-*x5_height-2262-) KeitaNew Departure4-X2008.11.25 - 12.21\r\n13:00-20:00\r\nClosed on Mondays.\r\nDirector...Keiji Tanaka (Calamari Inc. / art space tetra)\r\nArtist Talk ... 2008.12.06(sat) 19:00- ¥free\r\nEKMKEM... 2008.12.16(tue) 20:00- ¥free\r\nClosing Party ... 2008.12.20(sat) 18:00- ¥free 13_height-13013-beacon-15-!Keita Egami\r\nHe was born in Oomuta city, Fukuoka Japan in 1951. \r\nHe graduated from Tokyo National Univ. of Fine Arts and Music art department art subject in 1977. \n\nHe starts a private exhibition in before 80's including activity as an artist so far in each place such as Fukuoka and Tokyo, France.\r\nHe awarded the top prize at the Bangladesh Biennial in 1991. In addition, he plays an active part in the domestic and foreign group exhibitions and plans exhibition.\n\nAs for his work, there is the public art such as \"Hakata Riverain\" (festa square, pocket park) or \"Shibuya mark city\" (entrance colonnade space) in each place a lot nationwide, too.\n\nIn addition, he deals with the album jackets of I.S.O (Yoshihide Otomo, Sachiko M, Yoshimitsu Ichiraku) and Toshimaru Nakamura.",

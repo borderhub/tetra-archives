@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "【会期】 6月6日（月）-12日（日）\r\n【時間】 平日 13:00-20:00、土曜日 12:00-20:00（最終日12:00-18:00）\r\n【入場料】500円（会期中再入場可）\r\n【オープニング・レセプション】6/6(月）19:00 〜\r\n【イベント1】ラペットーク! 〜私のお友達を紹介します〜\r\n6月10日(金) 18:00-20:00 \r\n【イベント2】パフォーマンス+アフタートーク\r\n6月11日(土) 18:00-20:00\n\n特設Website→https://anonymouswomen2022.com/",

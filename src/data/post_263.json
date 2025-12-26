@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "日時：2020年2月16日（日）\r\n開場：16時30分\r\n開演：17時（約1時間を予定）\r\n料金：1500円＋1ドリンクオーダー（500円）",

@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "-. 8th (Sun) - 20 (Fri) July 2018\r\n13: 00-20: 00 13_height-16213-beacon-15-",

@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "ndreas Trobollowitsch4-�w/ MAKOTO ONUKI / HIROSHI MATOBA / THE MOROTANS\n\nDATE : Oct 23, 2013\r\nOPEN : 19:00 / START : 19:30\r\nTICKET : 1000yen + 1 drink order (500yen) 13_height-16213-beacon-15-�Andreas Trobollowitsch is a Vienna based electroacoustic musician, composer and sound artist.\n\nHe studied musicology and temporarily jazz in Vienna and Paris (thesis about the spatial approach in the compositions of Stockhausen and Cage). \n\nIn his works he uses mainly tapes, feedbacks, prepared musical instruments and prepared ventilators. Recently he is focusing on soundinstallations and conceptual compositions.",

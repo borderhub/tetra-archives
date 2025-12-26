@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "※Lorenzo Senni の出演は本人の都合により中止となりました。ご了承ください。他出演者のライブは開催いたします。\r\nw / kappa / 斜陽 / shayne bowden takei tsuneo\n\n期日…2010年9月18日（土）\r\n時間…開場 19:00／開演 19:30\r\n料金…1,000円＋1ドリンクオーダー\r\n主催…deterra",

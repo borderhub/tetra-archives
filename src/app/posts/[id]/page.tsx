@@ -51,9 +51,9 @@ function getPostById(id: string) {
     title: raw.title as string,
     date: raw.date as string,
     author: raw.author as string,
-    content: contentProcessed,
+    content: raw.content as string, // contentProcessed,
     categories: (raw.categories as CategoryBaseInfo[]) || [],
-    customField: raw.customField as string,
+    customField: raw.customField as string || '',
     thumbnail: (raw.thumbnail as string) || null,
   };
 }

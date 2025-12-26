@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "会期…2012年10月24日（水）ー10月28日（日）\r\n時間…12:00 - 19:00\r\n（ 最終日は16時まで ）",

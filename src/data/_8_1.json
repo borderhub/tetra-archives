@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時：2016年2月14日（日）\r\n時間：18:00 〜\r\n参加費：￥500（ハンドドリップコーヒー付き）\r\nテーマ『鬼』",

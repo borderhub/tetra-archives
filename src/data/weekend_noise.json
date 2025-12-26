@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "オオクボ-T\r\nshayne bowden\r\n屠殺器\n\n2017年4月15日（土）\r\n開場 19:00 / 開演 19:30\r\n料金：1500円+1ドリンクオーダー（500円）",

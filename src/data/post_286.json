@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期：2022/05/07 ~ 5/15　\r\n土日祝　13:00~20:00\r\n平日　　16:00~20:00\n\n■会期中イベント\r\n2022年5月7日　18:30～\n\n①オープニング利き酒会（特性おちょこ付き）お一人お様：3500円\r\n②堀江たくみ二人展＋名もなき実昌座談会　ワンドリンクオーダー",

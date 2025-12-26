@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "【日時】2025年10月26日（日）11:00開演(10:30開場)\r\n【チャージ】投げ銭制＋1ドリンクオーダー\r\n【場所】art space tetra(福岡市博多区須崎町 2-15)",

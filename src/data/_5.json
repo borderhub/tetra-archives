@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期…2010年10月19日（火）−10月24日（日）\r\n時間…平日 16:00〜20:00 / 土日祝 13:00〜20:00\n\n友池理絵活動15周年記念トーク＆スライド\r\n10月23日（土）20:00〜\r\n参加費：500円（1ドリンク付）7-�\n\n5_height-1622-6 series ”vol. 5 - Rie Tomoike4-G2010.10.19(tue) - 10.24(sun)\r\ntue-fri 16:00-20:00 / sat-sun 13:00-20:00 13_height-16213-beacon-15-",

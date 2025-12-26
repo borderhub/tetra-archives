@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "KATSURA YAMAUCHI Fukuoka 3 Dauys (2nd day)3rd August, 2019\r\nopen : 19:30 / start : 20:00\r\nticket : 2,000yen + 1drink (500yen)\n\nLIVE : Katura Yamauchi / Suisougaku × Ryoko Matsuoka × URANOS\r\nFilm Screening : HuuA (25min.) 13_height-16213-beacon-15-",

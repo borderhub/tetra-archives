@@ -11,14 +11,20 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "時：6月14日（火）19:00~\r\n場所：art space tetra 1階\n\nスピーカー：イ・ヨンウ（ニューヨーク大学助教授）\r\n聞き手：黒田雷児\n\n入場料：ワンドリンクオーダー＋カンパ",

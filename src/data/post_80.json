@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "出演：寂しい女（小貫誠、吉田主税、井手陽介）\n\n期日…2010年7月12日（月）\r\n時間…開場 19:00／開演 20:00\r\n料金…1,000円（1ドリンク付）",

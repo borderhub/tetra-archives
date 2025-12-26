@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "時：5月11日（日）\r\n①14:00-16:00　 ②18:00-20:00\r\n参加費： 2000円\r\n定員： 各回10名（男女不問）\n\n※各回120分。上記より時間帯をお選び下さい。\r\n※全てのレッスンは一回で完結します。\r\n※当日受付も可能です。",

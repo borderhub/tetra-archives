@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演…Rachael Dadd、ICHI、とんちピクルス\n\n期日…2010年12月6日（月）\r\n時間…開場19:00 / 開演19:30\r\n料金…予約2,000円 / 当日2,500円（共に1ドリンクオーダー）\r\n主宰…office glasgow",

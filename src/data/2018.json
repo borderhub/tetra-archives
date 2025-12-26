@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "期日…2018年9月15日（土）\r\n時間…19:00 - \r\n料金…無料\r\n出演…糸島芸農2018実行委員メンバー、他\r\n問い合わせ…info@ito-artsfarm.com",

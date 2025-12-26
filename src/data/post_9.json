@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2006年5月9日(火）〜2006年5月14日(日)\r\n時間…13:00〜20:00 \r\n入場無料\r\nクロージング・パーティー…2006年5月14日(日) 18:00〜　1,000円（ドリンク・軽食付）",

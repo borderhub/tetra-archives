@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "eading the MAP vol.showcase for 4 solo improvisers\n\ndate : 18 March, 2017\r\ntime : 18:30 open / 19:00 start\r\nticket : 1500 yen + 1drink order (500 yen) 13_height-13013-beacon-15-rmitsuo morooka (electronics)\r\ndaisueke yamamoto (dance)\r\nmuso miyasita (per,song)\r\nakira sanematsu (cable effects)",

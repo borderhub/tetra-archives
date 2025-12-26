@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会場：アートスぺ―ステトラ（福岡市）\r\n会期：2022年7月12日（火）～18日（月・祝）\r\n時間：11：00～19：00\r\n入場無料\n\n＊14日は、山笠に合わせてオープンレイト企画\r\n開場時間の延長を予定しています。\r\n詳しくは、会場又はＳＮＳでご確認ください。",

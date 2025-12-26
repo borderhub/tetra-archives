@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "オープニング・パーティー\r\n期日...2013年4月6日(土)\r\n時間...19:00〜22:00\r\nwith Linda Havenstein / Live performance by Hideaki Takahashi aka mjuc（入場無料）\n\n展示\r\n期日...2013年4月7日(日)〜2013年4月27日(土)\r\n回廊時間...平日16:00〜20:00, 土日12:00〜20:00\r\n休廊日...毎週月曜日\n\nCurated by onpa)))))",

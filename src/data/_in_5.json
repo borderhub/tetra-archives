@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "2020年10月11日（日）\r\n15時〜22時\n\nHe loved the world with its liveliness and humor. So we are going to see him off in a carnival way. There will be a space where people can pick up his books and texts, while video footage of his talks will be projected on the screen. Also, we prepare for a mini-workshop to make masks. Instead of bringing masks, we would like to spend time and chatting together while making masks in the venue. The masks are supposed to be displayed on the wall before people bring them back.",

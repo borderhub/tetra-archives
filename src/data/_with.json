@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日…03月25日（火） \r\n時間…19:00 open / 19:30 start\r\n料金…2,000円 + ドリンクオーダー",

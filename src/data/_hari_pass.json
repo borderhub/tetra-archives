@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2015年12月19日(土)、20日(日)、26日(土)、27日(日)　※土日のみ開催\r\n時間…16:00 - 20:00",

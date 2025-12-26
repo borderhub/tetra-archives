@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期…2010年10月26日（火）−11月7日（日）\r\n時間…13:00〜20:00\r\n月曜休廊\r\n協力：アートスペース・テトラ\n\n特別対談「彫刻・間合い・場所について」\r\n近藤祐史（彫刻家）× 安部貴住（美術作家）\r\n11月6日（土）19時半から\r\n料金：500円　※対談終了後のパーティー参加費も含む。\r\n企画・進行：尾中俊介（詩人／デザイナー）",

@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期：2016 4月2日(土)〜4月8日(金)\r\n時間：12:00〜17:00\r\n※オープニングパーティー\r\n日時：4月2日(土) 18:00〜22:00\r\n入場料：無料\r\nDJ：RYUYA,TACT,SCHU,FREE P\r\nPHOTO：yusukehata",

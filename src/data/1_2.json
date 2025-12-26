@@ -11,14 +11,19 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2011年 9月27日（火）\r\n時間…19時30分より\r\n料金…１ドリンクオーダー（500円）\r\n進行役…小山冴子\r\n助っ人…工藤見奈子",

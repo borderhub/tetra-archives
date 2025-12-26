@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "w/ 電磁卓上音楽団 / shayne bowden\n\n日付：2016年7月16日（土）\r\n時間：開場 19:00 / 開演 19:30\r\n料金：2000円+1ドリンク（500円）",

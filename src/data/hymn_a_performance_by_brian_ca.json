@@ -11,14 +11,19 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2006年11月23日（木・祝）\r\n開演…17:00 \r\n入場料…1,500円（1ドリンク付き）\n\n主催…rhythm　www.mhtyhr.com\r\n問合せ…rhythm@mhtyhr.com / 092-262-6560（遠藤）7-�\n\n5_height-2262-+ Catling “HYMN”2006.11.23\r\n17:00 start\r\n¥1,500 (1drink inc.)\n\nco-ordinated by rhythm　www.mhtyhr.com, rhythm@mhtyhr.com / 092-262-6560（endo） 13_height-13013-beacon-15-",

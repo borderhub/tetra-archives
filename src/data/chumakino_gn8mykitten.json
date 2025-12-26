@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "【日時】2023/6/1(木)19:00開場、19:30開演\r\n【場所】art space tetra\r\n福岡市博多区須崎町2-15 http://www.as-tetra.info/\r\n【チャージ】¥1,500＋要１オーダー\r\n予約不要です。当日直接会場にお越しください。",

@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "大友 良英、杉本 拓、山内 桂\n\n2004.11.13\r\n7-�\n\n5_height-1622-- commission” 54-BOtomo Yoshihide, Taku Sugimoto, Katsura Yamauchi\n\n2004.11.13\n\n Taku Sugimoto, Katsura Yamauchi and Otomo Yoshihide came and performed at tetra in november 2004.\n\nTaku Sugimoto http://www.japanimprov.com/tsugimoto/tsugimotoj/\r\nKatsura Yamauchi http://salmosax.com/\r\nOtomo Yoshihide http://d.hatena.ne.jp/otomojamjam/\n\n[organizer] rhythm http://www.mhtyhr.com/\r\n[director] Mizuki Endo (rhythm)\r\n[DM design] Keiji Tanaka (rhythm)\r\n[PA] Greg Sullivan (Escalator Audio)",

@@ -11,14 +11,20 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日…2012年6月26日（火）\r\n時間…19:00オープン、19:30スタート 終了予定21:30（場合によっては早く終了することもあります）\r\n料金…参加費500円／見学のみ1000円\r\n(なにもしないで見るだけの人です。サービスに１ドリンク付き）",

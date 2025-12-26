@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "019/10/11(fri)〜10/16(wed) \r\n14:00 - 21:00\r\nentrance free\n\nsupported by\r\nWAS HERE\r\nOIL MOUNT PRINTERS\n\n■Opening party：10/11 -19:00〜22:00\r\n■Opening Party Fee：¥1,000\n\nOpening party DJ&BEAT LIVE-\r\nNF ZESSHO\r\nlee（asano+ryuhei）\r\nGLUE\r\nJAPAN",

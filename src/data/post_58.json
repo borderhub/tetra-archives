@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2009年7月17日（金）\r\n時間…20:00 open / 21:00 start / 4:00過ぎ end\r\n講師…ワカナ・トクディーヌ\r\n料金…500円（軽食付き）7-�5_height-2262-, presents “Occultic☆All Night”4-%Wacana Tokudine\n\n2008.7.17 (fri) \r\n 13_height-13013-beacon-15-",

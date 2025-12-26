@@ -11,14 +11,19 @@
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": ["genre"]
+      "path": [
+        "genre"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時: 2018年4月27日 (Fri) 19:00 start\r\n参加費: 食材カンパ (Donation)",

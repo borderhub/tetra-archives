@@ -11,28 +11,39 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "期日…2016年3月27日（日）\r\n時間…13:00 - 22:00　　※途中入退場可\r\n料金…無料（要ワンドリンクオーダー）※一品持ち寄り歓迎！\r\n場所…art space tetra 2F\r\n登壇…岩本史緒、城野敬志、竹口浩司、牧園憲二\n\n※寺江圭一朗 個展「穴」のクロージングトークイベントです。",

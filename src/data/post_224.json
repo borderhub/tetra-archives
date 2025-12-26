@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期：2016年8月30日（火） - 9月4日（日）\r\n時間：30日 − 2日（火 - 金） 18:00 − 21:00 / 3日・4日（土・日） 13:00 − 20:00\n\n入場無料　※会期中作家在廊",

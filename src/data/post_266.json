@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "期間:令和2年3月20日(金)〜25(水)﻿\r\n時間:13時〜21時(25日は18時まで)",

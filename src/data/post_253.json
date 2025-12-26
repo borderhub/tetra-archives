@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日付：2019年1月20日（日）\r\n時間：13:00～19:00\r\n料金：￥800（お茶とお菓子付）\n\n展示を作って、お茶を出す人：mamimumemiiiiii（中村みさき）",

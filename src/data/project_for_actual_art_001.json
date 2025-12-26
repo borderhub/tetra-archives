@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "004.04.03-04.247->\n\n5_height-1622-. for actual art” 001 - Takasumi Abe4-2004.04.03-04.24 This exhibition was the first in an ongoing series produced by rhythm entitled \"project for actual art\". Takasumi Abe is a Fukuoka based conceptual artist and also a founding member of artspace tetra. For this exhibition Abe suspended plastic coat hangers at various lengths from the 1st floor tetra ceiling. The hangers were illuminated by small internal lights that were controlled by an inaudible MD soundtrack. The installation utilized the entire 1st floor space.\n\n[curator] Mizuki Endo (rhythm)\r\n[director] Keiji Tanaka (rhythm)\r\n[DM design] Takaaki Yano (rhythm)\n\nrhythm http://www.mhtyhr.com/",

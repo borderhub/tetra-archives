@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "①10月24日(金)　②11月６日(木)　③11月21日(金)　④12月12日(金)　⑤12月26日(金)\r\n時間...各回午後7時30分〜９時30分\r\n参加費...（申込制）1,500円（各回）\n\n申込み・問合せ...アートスペース・テトラ、またはcolorrecords@gmail.com、090-9686-8241 まで",

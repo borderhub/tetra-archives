@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期：2014年11月25日(火) - 30日(日)\r\n時間：25日 - 28日(火 - 金) : 16:00 - 20:00 / 29日(土) : 13:00 - 20:00 / 30日(日) : 11:00 - 18:00\r\n※26, 27, 30日は作家在廊",

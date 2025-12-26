@@ -11,28 +11,39 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 48,
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": ["genre", "broadcast"]
+      "path": [
+        "genre",
+        "broadcast"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期】8月28日（日）～　9月6日（火）\r\n【時間】15:00 - 20:00\n\n■オンラインイベント\r\n・日程\r\n9月3日（土）\r\n・時間\r\n21：00～23：00（日本）\r\n7：00～9：00（コロンビア）\n\n・視聴用URL\r\nhttps://youtu.be/V8wY9ulwhyk",

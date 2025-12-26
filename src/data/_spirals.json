@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2008年8月12日（火）〜8月17日（日）\r\n時間…13:00〜20:00（最終日は19:00まで）\r\n料金…入場無料\n\nレセプションパーティー…8月16日（土）17:00〜",

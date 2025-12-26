@@ -11,14 +11,19 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "日時...5月31日(土)18時30分〜\r\n参加費...500円　\r\n※屋久島の焼酎「三岳」と屋久島のちょっとしたおつまみを振る舞います。持ちより大歓迎。\n\n「ツギハギ雨漏り」展会場内にて開催します。",

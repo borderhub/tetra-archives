@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日...2011年9月23日（金・祝）～10月9日（日）\r\n時間...平日 16:00～20:00 / 土日祝 13:00～20:00\r\n月曜休廊\r\n企画...adanda／art space tetra\r\n協力...LABOLATRY／Social Kitchen\n\nオープニングパーティ... 9月23日 （金・祝）19:00~　無料（差し入れ歓迎）7-�\r\nadandaの入居するコーポ北加賀屋5_height-1622-; Nishimitsu: I forgot but I can see.I remember but I can't see.4-82011.9.23(fri) - 10.9(sun)\r\ntue- fri 16:00-20:00 / sat-sun-holiday13:00-20:00\r\nClosed on Monday\r\nOrganized by adanda／art space tetra\r\nWith the Cooperation of LABOLATRY／Social Kitchen 13_height-16213-beacon-15-",

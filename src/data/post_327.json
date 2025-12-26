@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日程 ：2025 7月 26日(土)\r\n時間 ：16:00-18:00\r\nゲスト ：川口あこ (現代美術作家)\r\n司会　 ：調 原作 (art space tetraメンバー)\r\n参加費　: ¥500 ※1drink order代",

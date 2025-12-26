@@ -11,28 +11,40 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "11月11日(金)12日(土)13日(日) art space tetra｜大名MKホール\r\nご予約はこちらから\n\n① SHIN SASAKUBO Screening（映画上映・映像展示）\r\n【日程】11月11日（金）～13日（日）\r\n【時間】下記詳細をご確認ください。\r\n【会場】art space tetra（福岡市博多区須崎町2-15）\r\n② SHIN SASAKUBO アーティストトーク\r\n【日程】11月12日（土）\r\n【時間】19:30ー（21:00終了予定）\r\n【会場】art space tetra（福岡市博多区須崎町2-15）\r\n③ SHIN SASAKUBO Live （ホールコンサート）\r\n【日程】11月13日（日）\r\n【時間】17：00開演（16：30開場）\r\n【会場】大名ＭＫホール（福岡市中央区大名1丁目3-40）\r\nhttp://www.daimyo-mk.com/\n\n◆お問合せ◆\r\n『SHIN SASAKUBO Live and Screening』事務局\r\nTEL：090-4351-9001（10：00～20：00）\r\nEmail：ss.livescreening@gmail.com \r\nFacebookイベントページ：\r\nhttps://fb.me/e/2k8dN7VnP\r\n企画：山内光枝　\r\n企画協力：西島浩一郎\r\n助成：（公財）福岡市文化芸術振興財団「FFACステップアップ助成プログラム」\r\n後援：福岡市、（公財）福岡市文化芸術振興財団、LOVE FM、福博ツナグ文藝社\r\nフライヤーデザイン: Shunsuke Onaka (Calamari Inc.)",

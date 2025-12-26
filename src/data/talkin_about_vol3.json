@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "日…2018年12月8日（土）\r\n時間…18:00〜23:00 ※途中入退場可\r\n料金…1,000円（ワンドリンク無料。軽食付き）\r\n登壇者…齋藤秀三郎・生島国宜・加茂昂・加藤笑平・土屋貴哉・趙純恵・正路佐知子",

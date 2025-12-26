@@ -11,21 +11,30 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "◇会期\r\n2021 09/17(金)~09/23(木)\r\nOpen11:00~Close20:00※最終日18:00まで\n\n◇参加作家\r\nOily / Sysu / Kyosuke Yamamoto\r\n \r\n※入場時に検温させて頂きます。検温実施の際37.0度以上の方、\r\nマスクを着用されていない方の来場はお断りする場合がございます\r\nのでご了承願います。",

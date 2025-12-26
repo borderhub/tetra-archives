@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "本山周平、田邉廣作、松井宏樹、錦戸俊康\n\n会期…2009年8月17日（月）〜23（日）\r\n時間…13:00-20:00\r\n協力…アートスペース・テトラ\r\n入場無料",

@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "■会期\r\n2024年11月16日(土曜日)〜2024年11月23日(土・勤労感謝の日)\r\n休廊:18日(月)\n\n■時間\r\n15:00〜19:007-�\n\n5_height-2262-8 13_height-13013-beacon-15-",

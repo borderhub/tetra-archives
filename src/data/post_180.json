@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期…2014年11月11日(火)〜16日(日)\r\n時間…13:00〜20:00\r\n 　　 ※12日(水)のみ16:00〜20:00\r\n会期中無休\r\n入場無料\n\n会期中、作家が在廊しています。\n\n最終日に、宮原一枝によるダンスライブを行います。\r\n牛島智子もアシスタント係でチョコット登場。\r\n「Miyahara Kazue & Tomoko Dance Live」\r\n期日...11月16日（日）　時間...15:00〜16:00　入場無料",

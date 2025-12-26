@@ -11,14 +11,18 @@
       "label": "事務情報",
       "basename": "info",
       "parentId": 0,
-      "path": ["info"]
+      "path": [
+        "info"
+      ]
     },
     {
       "id": 35,
       "label": "トップ掲載",
       "basename": "top",
       "parentId": 0,
-      "path": ["top"]
+      "path": [
+        "top"
+      ]
     }
   ],
   "customField": "サポートメンバー募集説明会：2022年10月20日（20時）",

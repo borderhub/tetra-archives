@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "会期：2020年1月30日（木）〜2月2日（日）\r\n時間：1月30日、31日...19:00〜22:00\r\n　　　2月1日、2日...14:00〜22:00\r\n料金：入場無料（1/31,2/1はイベントのため19時から別料金となります）\n\n＜Talk＆Liveイベント＞\r\n‐ 出張 BAR VIVID ‐\r\n1月31日(金)・2月1日(土) \r\n開場 19:00 / 開演 19:30\r\n料金：1,000円＋1drinkオーダー",

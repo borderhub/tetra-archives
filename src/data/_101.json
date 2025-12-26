@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日...2013年3月28日（木）\r\n時間...19:30開場／20:00開演\r\n料金...1500円（１ドリンク付き）\r\n出演...吉濱 翔／諸岡 光男／的場 寛／quelle",

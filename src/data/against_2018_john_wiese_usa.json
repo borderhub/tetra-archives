@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "出演：\r\nJohn Wiese (USA)\r\nShayne bowden\r\nDuenn\r\nDJ Speedfarmer\r\ninoise\n\n日時：2018年9月22日（土）\r\n　　　open - 19:00 / start - 19:30\n\n料金：2000円＋1ドリンクオーダー（500円）",

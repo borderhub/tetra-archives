@@ -11,7 +11,10 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会場：art space tetra 福岡県福岡市博多区須崎町2-15\r\n会期：12月4〜6日(11:00-20:00)\r\n　　　12月7〜9日(17:00-20:00)\r\n入場：カンパ制\n\nトークイベント：12月5日(土） (19:00~20:30)\r\nゲスト：児玉浩宜 ➕在日香港人\r\n聞き手：江上賢一郎 (文化研究)",

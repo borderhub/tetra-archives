@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "期日…2012年4月26日（木）\r\n時間…19:00オープン、19:30スタート 終了予定21:30（場合によっては早く終了することもあります）\r\n料金…参加費500円\r\n見学のみ1000円(なにもしないで見るだけの人です。サービスに１ドリンク付き）",

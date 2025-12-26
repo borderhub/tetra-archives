@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期Exhibition Period:：2025.11.8 (Sat) – 11.14 (Fri)\r\n時間Open：13:00 - 20:00　\r\n(＊11.14 (Fri)：13:00 - 8:30)\r\nオープニングイベント\r\nOpening Event：2025.11.8 (Sat) 18:00",

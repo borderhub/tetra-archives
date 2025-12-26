@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "rhythm commission” Giuseppe Ielasi, Thomas Ankersmit\n\n2006.02.11\n\norganised by rhythm http:www.mhtyhr.com\r\nsupported by Gaudeamus\n\ndirected by Mizuki Endo\r\nDM designed by Takaaki Yano 13_height-13013-beacon-15-xFringes Recordings http://www.fringesrecordings.com/",

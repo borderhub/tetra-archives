@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日...2012年12月16日（日）\r\n時間...17:30開場／18:00開演\r\n料金...1700円（ドリンク付き）\r\n出演...倉地久美夫、トリオラ、倉地久美夫＋トリオラ",

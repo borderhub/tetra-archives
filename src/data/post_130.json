@@ -11,7 +11,10 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     }
   ],
   "customField": "期日...2013年2月24日（日）\r\n時間...18:00くらいから\r\n料金...￥500(1drink)　＋　一人一品（酒でも具材でもスイーツでも！）　＋　鍋代人数でワリカン　（＋二木信にカンパも……）",

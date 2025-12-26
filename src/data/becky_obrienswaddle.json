@@ -11,21 +11,28 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 34,
       "label": "genre",
       "basename": "genre",
       "parentId": 0,
-      "path": ["genre"]
+      "path": [
+        "genre"
+      ]
     }
   ],
   "customField": "日程：2023年4月20日(木)\r\n時間：20：00開始（19：30開場）※60分程度\r\n入場：無料　※要1drink order\r\n出演：Becky O´Brien\r\n協力：studio kura",

@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…\r\n【第1期】2021年7月2日（金）〜7月9日（金）　\r\n【第2期】2021年7月15日（木）〜7月18日（日） \r\n ※第1期、第2期の展示内容は同じとなります。\r\n時間…13:00-20:00\r\n休館日…7月10日（土）〜7月14日（水）\r\n入場料…500円（学生無料）\n\n■アーティスト・トーク \r\n7月3日（土）18:00-19:00　※当日オンライン配信あり\r\n聞手：牧園憲二（アーティスト／art space tetraメンバー）、江上賢一郎（アート・アクティヴィズム研究／art space tetraメンバー）\r\nURL : https://youtu.be/0y_ebmZsl1I\r\n※来場希望の場合は要予約。人数制限がありますので、早めの事前申し込みをお願いします。\r\n【問い合わせ&来場予約】：art space tetra 連絡フォーム\r\nhttp://www.as-tetra.info/cgi-bin/mailform/contact.html",

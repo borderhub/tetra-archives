@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "cokiyu、kashiwa daisuke、WOOM\n\n期日…2007年7月14日 （土）\r\n開場…18:30 / 開演…19:00\r\n料金…前売：2,000円（学生 1,500円） / 当日：2,300円（学生 1,800円）\r\n※１ドリンクオーダー\r\n※入場者・限定40名\n\n主催…CRJ-Fukuoka　http://www.crjf.com/\r\n前売り予約はCRJ-Fukuoka (info@crjf.com)にて。お名前と枚数を併記願います。学生料金は当日身分証明書の提示をお願いいたします。",

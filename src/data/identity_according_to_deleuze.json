@@ -11,14 +11,19 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "日時...2012年8月17日（金）\r\n時間...19時から\r\n料金...1,000円（1ドリンク付）\r\n7-�5_height-1622-7 According to Deleuze and My History4-22012.8.17(fry)\r\n19:00 start\r\n￥1,000 with 1 drink 13_height-16213-beacon-15- Koosil-ja",

@@ -11,28 +11,39 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "◾️2025年8月22日(金)〜2025年8月31日(日)\r\n◾️12:00〜20:00 ※初日のみオープニングパーティのため22:00 まで\n\n◾️Reception Party \r\n　 2025年8月22日(金) 18:00〜22: Solo Exhibtion「Force of Distance」4-�◾️August 22 (Fri) to August 31 (Sun), 2025\r\n◾️12:00 p.m. to 8:00 p.m. \r\n *On the first day only, the event will be open until 10:00 p.m. due to the opening party.\n\n◾️Reception Party \r\n Friday, August 22, 2025 6:00 p.m. to 10:00 p.m. 13_height-16213-beacon-15-b■Profile\r\n Hakoda was born in 1998 and is a painter from Osaka Prefecture. He has loved manga illustrations since childhood, and in 2022, he began his career as a painter based in Fukuoka. From the start of his career, he has been creating works inspired by listening to music and dancing. By incorporating the sensation of dancing into his human-shaped characters, he expresses his “dance” through painting.\n\n■Artist's Comment\r\nHello, this is Hakoda. I am pleased to announce that I will be holding a solo exhibition after a long hiatus. In this exhibition, I will be showcasing works that incorporate new elements into the expression of bodily movement and “dance,” which I have been exploring in my art for some time. I am very excited to see how you will perceive these works. Thank you for your support.\n\nTranslated with DeepL.com (free version)",

@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "とき と じかん\r\n11月3日 (土) 前夜祭 20:00から\r\n11月4日 (日) テトラ市と文化祭 11:00〜17:00",

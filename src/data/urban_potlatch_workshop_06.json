@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日…2010年12月18日（土）\r\n時間…20:00start\r\n参加費…500円（実費込み）\r\n※参加希望の方は材料の準備がありますので、u.potlatch@gmail.com（江上）へ12月16日までにご連絡ください。\n\n講師…佐野陽子（植物療法師２級、infoshop「反転地」店主）\r\n企画…江上賢一郎（urban potlatch）\r\n協力…art space tetra",

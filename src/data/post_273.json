@@ -11,14 +11,20 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "期間...2020年11月06日 (金) -12 日(木)\r\n時間...16:30 - 20:00 (月〜金) 、13:00 - 19:00 (土・日)\r\nオープニング・トーク...11月6日(金) 19:00〜",

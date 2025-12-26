@@ -11,14 +11,20 @@
       "label": "90_配信イベント",
       "basename": "broadcast",
       "parentId": 34,
-      "path": ["genre", "broadcast"]
+      "path": [
+        "genre",
+        "broadcast"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時：2020年12月27日(日曜)\r\n時間：18:00開場／18:30開演\n\n※当日オンライン配信あり\r\nURL : https://youtu.be/V4lQuuo7Vuw\r\n※会場にて「国道3号線」の直売あります",

@@ -11,7 +11,10 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     }
   ],
   "customField": "日時…2018年3月18日（日）19:00〜\r\n入場料…無料（ご飯類、お菓子、お酒など一品持ち寄り大歓迎）",

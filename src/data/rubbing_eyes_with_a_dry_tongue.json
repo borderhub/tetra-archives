@@ -11,7 +11,10 @@
       "label": "04_上映イベント",
       "basename": "film_event",
       "parentId": 34,
-      "path": ["genre", "film_event"]
+      "path": [
+        "genre",
+        "film_event"
+      ]
     }
   ],
   "customField": "かさついたベロで目ん玉をこすれ!!!）\n\nロイック・ストゥラーニと鍋島幹夫による映像の夜\n\n期日…2007年04月27日（金）\r\n時間…19:00 スタート\r\n料金…500円（1ドリンクとロイックによる軽食付き）",

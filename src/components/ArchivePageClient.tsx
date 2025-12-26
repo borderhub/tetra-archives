@@ -11,6 +11,7 @@ import ViewToggle, { ViewMode } from '@/components/ViewToggle';
 import SidebarToggle from '@/components/SidebarToggle';
 import PostList from '@/components/PostList';
 import PostMasonry from '@/components/PostMasonry';
+import { useIsMounted } from '@/hooks';
 import { POSTS_PER_PAGE, MAX_PAGES_DISPLAY, HIDDEN_CATEGORIES } from '@/constants';
 
 type CategoryBaseInfo = {
@@ -42,7 +43,9 @@ export default function ArchivePageClient({
   year: string;
   page: string;
 }) {
-  const [sidebarOpen, setSidebarOpen] = useState(false); // モバイル用
+  const isMounted = useIsMounted();
+
+  const [sidebarOpen, setSidebarOpen] = useState(isMounted.current || false); // モバイル用
 
   // 初期値は常に同じ値を使用（Hydrationエラー対策）
   const [desktopSidebarOpen, setDesktopSidebarOpen] = useState(true);
@@ -236,7 +239,7 @@ export default function ArchivePageClient({
 
         {/* メインコンテンツ */}
         <main
-          className={`flex-1 p-4 lg:p-8 mx-auto w-full ${shouldAnimate ? 'transition-all duration-100' : ''} ${!isMobile && !desktopSidebarOpen
+          className={`flex-1 p-4 lg:p-8 mx-auto w-full ${isMounted.current && shouldAnimate ? 'transition-all duration-100' : ''} ${!isMobile && !desktopSidebarOpen
             ? 'max-w-full lg:px-16' // サイドバー閉: フルサイズ
             : 'max-w-6xl' // サイドバー開: 通常の最大幅
             }`}

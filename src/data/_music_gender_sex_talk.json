@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "開催日：2019年11月3日（日）\r\n時間：17:00 - 19:00\r\n料金：大人:2000円/学生:500円（1ドリンク込）\n\n出演：HOTAKA (music) / talk guest PANDA",

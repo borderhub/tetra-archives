@@ -11,14 +11,20 @@
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "日程：2025年9月9日(火)～23日(火・祝)\r\n時間：12:00－19:00\r\n入場：無料\n\n■作家在廊日\r\n13日、14日、20日、21日、23日",

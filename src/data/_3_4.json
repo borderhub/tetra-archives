@@ -11,35 +11,49 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     },
     {
       "id": 26,
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 28,
       "label": "03_アートイベント",
       "basename": "art_event",
       "parentId": 34,
-      "path": ["genre", "art_event"]
+      "path": [
+        "genre",
+        "art_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "Artist Cafe Fukuoka\r\n「事の葉」カフェスペースの壁面に絵画の展示\r\n2023年12月1日（金）〜12月24日（日）　11:00~19:00　月休館\r\n入場：無料\n\n➁art space tetra\r\n「実験する納屋」クニタケ 8pin（牛島智子のアトリエ）の再現インスタレーション\r\n2023年12月12日（火）〜12月25日（月）14:00~20:00　（会期中無休）\n\n③EUREKA\r\n「陽光のクマクジラ」絵画の展示とインスタレーション\r\n2023年12月12日（火）〜12月25日（月）12:00~19:00　（会期中無休）　\n\n※art space tetraとEUREKA会場は入場料あり\r\n２会場通し券：１，０００円(税込）（２会場共通／中学生以下無料）※チケットがポストカード仕様",

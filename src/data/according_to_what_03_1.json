@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2010年3月16日（火）〜28日（日）\r\n時間…平日16:00〜20:00／土日祝13:00〜20:00\r\n休館…23日（火）\r\nトーク＆パーティ…27日（土）19:00〜　参加費500円（軽食付）\r\n主催…A2Wシリーズ実行委員会\r\n協力…アートスペース・テトラ",

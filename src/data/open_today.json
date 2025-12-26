@@ -11,21 +11,29 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 23,
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会　期：2023年10月15日（日）～10月29日（日）\r\n※１７日休廊\r\n時　間：平　日　15：00～20：00　\r\n　　　　土日祝　13：00～20：00\r\n入場料：無料\n\n倉地久美夫個展「Open Today」クロージングパーティー\n\n日時：10月29日(日)19:00〜21:00頃\r\n会費：1,000円（軽食+1ドリンク付き）\r\n※観覧のみの方は20:00まで入場無料",

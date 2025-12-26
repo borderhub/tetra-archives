@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日...2012年2月22日（水）～3月4日（日）\r\n時間...平日15:00～20:00／土日13:00～20:00\r\n入場無料\r\nクロージングパーティー3月3日（土）18時より\n\n３人で一つの展示をします",

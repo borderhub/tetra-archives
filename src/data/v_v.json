@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 27,
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     }
   ],
   "customField": "会期…2009年9月19日（土）～10月4日（日）\r\n時間…平日 16:00-20:00／土日祝 13:00-20:00\r\n休廊日…9月28日（月）\r\n入場無料\n\n主催...art space tetra\r\n後援…(財)福岡市文化芸術振興財団　福岡市\r\n協力...AD&A gallery、好青年科学隊\n\nプレビュー＆ライブ\r\n期日…2009年9月18日（金）\r\n時間…open 19:00／start 20:00\r\n料金…1000円(1ドリンク付)\n\nワークショップ\r\n期日…2009年9月21日（祝）\r\n詳細はこちら。",

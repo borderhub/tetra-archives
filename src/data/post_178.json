@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "期間：7月12日(土)／13日(日)\r\n時間：12日(土)11時～22時\r\n　　　13日(日)11時～18時\n\n公開制作参加者：梅野知栄／eito／小林ナヲ／田熊沙織 など\r\n飛び入り参加OK",

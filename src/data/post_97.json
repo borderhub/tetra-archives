@@ -11,14 +11,19 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "時…2011年2月13日（日）\r\n時間…18時半開場／19時開演\r\n料金…2,200円（ドリンク付）\r\n主催…とんつーレコード　http://www.03150.net/\n\n出演…ふちがみとふなと／倉地久美夫",

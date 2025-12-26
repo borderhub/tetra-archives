@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "K NULL4-�w / Denshi Takujyo Ongakudan / shayne bowden\n\n2011.4.16(sat)\r\n19:00 open / 20:00 start\r\n￥2,000+1 drink order\r\norganized by deterra 13_height-16213-beacon-15-",

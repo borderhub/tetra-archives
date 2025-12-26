@@ -11,7 +11,10 @@
       "label": "02_音楽イベント",
       "basename": "music_event",
       "parentId": 34,
-      "path": ["genre", "music_event"]
+      "path": [
+        "genre",
+        "music_event"
+      ]
     }
   ],
   "customField": "2/3(土): 福岡 - art space TETRA\r\nOpen 19:00 - Start 19:30\r\nAnvance: ¥2,000-\r\nDoor: ¥2,500-",

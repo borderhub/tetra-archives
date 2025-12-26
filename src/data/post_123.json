@@ -11,14 +11,19 @@
       "label": "01_展覧会",
       "basename": "exhibition",
       "parentId": 34,
-      "path": ["genre", "exhibition"]
+      "path": [
+        "genre",
+        "exhibition"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "期日...2012年10月13日（土）～21日（日）\r\n時間...平日 16:00～20:00 / 土日 13:00～20:00\r\n入場無料\r\n※14日（日）19:00以降、19日（金）はライブイベントのため展示をお休みします。\n\n13日（土）19:00よりオープニングパーティを開催します。どなたでも気軽にお越し下さい。参加費無料。",

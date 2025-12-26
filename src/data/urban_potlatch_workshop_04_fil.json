@@ -11,14 +11,19 @@
       "label": "05_ワークショップ等",
       "basename": "workshop_lecture",
       "parentId": 34,
-      "path": ["genre", "workshop_lecture"]
+      "path": [
+        "genre",
+        "workshop_lecture"
+      ]
     },
     {
       "id": 25,
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     }
   ],
   "customField": "「人間ピラミッド」 (1961年、映像人類学者ジャン•ルーシュ）\r\nファシリテーター：江上賢一郎\n\n期日…2010年8月14日（土） \r\n時間…18:00 スタート\r\n料金…1ドリンクオーダー",

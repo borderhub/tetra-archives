@@ -11,14 +11,19 @@
       "label": "テトラ企画",
       "basename": "tetra",
       "parentId": 0,
-      "path": ["tetra"]
+      "path": [
+        "tetra"
+      ]
     },
     {
       "id": 37,
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "3_height-984_height-983-\n2004.04.035_height-2262-6_height-1301-art space tetra opening party4-\n2004.04.03beacon-15-<The artspace tetra opening party was held on April 3rd 2004.",

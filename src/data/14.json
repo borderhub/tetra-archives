@@ -11,7 +11,10 @@
       "label": "06_その他のイベント",
       "basename": "others",
       "parentId": 34,
-      "path": ["genre", "others"]
+      "path": [
+        "genre",
+        "others"
+      ]
     }
   ],
   "customField": "日時：2018年2月18日（日）\r\n時間：14:00 〜\r\n参加費：￥500（ハンドドリップコーヒー付き）\r\nテーマ『お茶』",
